@@ -5,8 +5,8 @@ next : [[004_Evaluating_Recommender_Systems]]
 1. Environments >> Create new environment >> RecSys
 2. Python Package >> Open Terminal >> `conda install -c conda-forge scikit-surprise`
 	- [Surprise' documentation](https://surprise.readthedocs.io/en/stable/index.html) 
-3. [link](https://sundog-education.com/RecSys)>> Get the Course Materials >> Movielen dataset
-4. Install Spyder >> Openup GettingStarted.py script file  == SVD
+1. [link](https://sundog-education.com/RecSys)>> Get the Course Materials >> Movielen dataset
+2. Install Spyder >> Openup GettingStarted.py script file  == SVD
 
 ## What is a recommender system
 A recommender system is Not a system that "recommends" arbitrary values.

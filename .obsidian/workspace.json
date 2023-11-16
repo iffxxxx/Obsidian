@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Matrix_Factorization_Method.md",
+                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Recommender_Systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Matrix_Factorization_Method.md",
+                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Recommender_Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Matrix_Factorization_Method.md",
+                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Recommender_Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Matrix_Factorization_Method.md"
+                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Recommender_Systems.md"
               }
             }
           },
@@ -189,9 +189,10 @@
   },
   "active": "939bdc888e60b9bb",
   "lastOpenFiles": [
+    "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_A_Recommender_Engine_Framework.md",
+    "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Matrix_Factorization_Method.md",
     "Book.md",
     "100 철학/100 철학.md",
-    "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Matrix_Factorization_Method.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Neighborhood-Based_Collaborative_Filtering.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Recommender_Systems.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/Deep learning with artificial neural networks.md",
@@ -202,7 +203,6 @@
     "Attached file/Pasted image 20231116033806.png",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Evaluating_Recommender_Systems.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Content-based_filtering.md",
-    "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_A_Recommender_Engine_Framework.md",
     "000 총류/004 컴퓨터과학/004_컴퓨터과학.md",
     "000 총류/000_총류.md",
     "000 총류/060 일반 학회, 단체, 협회, 기관/일반 학회, 단체, 협회, 기관.md",
