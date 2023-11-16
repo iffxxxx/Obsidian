@@ -1,0 +1,100 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:\"000 총류\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"100 철학\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:200_종교  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:300_사회과학  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "path:\"400 순수과학\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:\"500 기술 과학\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "path:600_예술  ",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "path:700_언어  ",
+      "color": {
+        "a": 1,
+        "rgb": 8340889
+      }
+    },
+    {
+      "query": "path:\"800 문학\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6888809
+      }
+    },
+    {
+      "query": "path:900_역사  ",
+      "color": {
+        "a": 1,
+        "rgb": 4267612
+      }
+    },
+    {
+      "query": "file:Book",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -2,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.512474012474013,
+  "repelStrength": 20,
+  "linkStrength": 0.5,
+  "linkDistance": 30,
+  "scale": 0.5334257528756691,
+  "close": false
+}
