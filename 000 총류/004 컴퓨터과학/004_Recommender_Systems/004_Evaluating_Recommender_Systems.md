@@ -212,6 +212,9 @@ $$\frac{\sum_{i=1}^n{\frac{1}{rank_i}}}{Users}$$
 
 ### Code
 #### RecomenderMetrics.py
+- ##### Introduce
+	Class 구현
+	
 ```run-python
     def GetTopN(predictions, n=10, minimumRating=4.0):
         topN = defaultdict(list)
@@ -283,7 +286,7 @@ $$\frac{\sum_{i=1}^n{\frac{1}{rank_i}}}{Users}$$
         # Compute overall precision
         return hits/total
 ```
-- 누적 적중률 (CHR)
+- ##### 누적 적중률 (CHR)
 	누적 적중률(CHR)도 이와 똑같은 방식으로 작동합니다. 평점 컷오프 값이 있다는 점을 제외하면요, 따라서 예측 등급이 없는 경우 예상 평점이 특정 임계값보다 예측 등급이 설정된 임계값보다 높지 않으면 히트를 계산하지 않습니다.  
 	  
 	57번 라인에서 이 컷오프 값을 테스트하는 위치를 확인할 수 있습니다.  
@@ -421,11 +424,57 @@ $$\frac{\sum_{i=1}^n{\frac{1}{rank_i}}}{Users}$$
 	  
 	또한 영화 제목을 빠르게 찾고 영화 제목을 빠르게 검색할 수 있는 그리고 나중에 사용할 다른 유틸리티 기능도 포함되어 있습니다.  
 	  
-	자, 이제 우리가 할 일은 추천 시스템을 만드는 것입니다. 추천 시스템을 만들고 그리고 우리가 설계한 평가하는 것입니다.  
-	  
-	지금은 SVD의 작동 방식이 중요하지 않습니다.  
-	  
-	메트릭이 제대로 작동하는지 확인하는 것뿐입니다.  
+	이 코드는 추천 시스템을 구축하고 그 성능을 평가하는 Python 코드입니다. 주로 `scikit-surprise` 패키지를 사용하여 협업 필터링(Collaborative Filtering)을 구현하고, 다양한 평가 메트릭을 사용하여 모델의 성능을 평가합니다.
+	1. **MovieLens 데이터셋 로딩:**
+    ```run-python
+    ml = MovieLens() data = ml.loadMovieLensLatestSmall()
+    ```
+    - `MovieLens` 클래스를 사용하여 MovieLens 데이터셋을 로드합니다.
+      
+	2. **영화 인기도 순위 계산:**
+    ```run-python
+    rankings = ml.getPopularityRanks()
+    ```
+    - 영화의 인기도 순위를 계산합니다. 이후 다양성을 측정하는 데 사용됩니다.
+      
+	3. **아이템 유사도 계산:**
+    ```run-python
+    fullTrainSet = data.build_full_trainset() 
+    sim_options = {'name': 'pearson_baseline', 'user_based': False} 
+    simsAlgo = KNNBaseline(sim_options=sim_options) 
+    simsAlgo.fit(fullTrainSet)
+    ```
+    - `KNNBaseline`을 사용하여 아이템 간 유사도를 계산합니다. 이것은 다양성을 측정하는 데 사용됩니다.
+    
+	4. **추천 모델 학습:**
+    ```run-python
+    trainSet, testSet = train_test_split(data, test_size=.25, random_state=1) 
+    algo = SVD(random_state=10) algo.fit(trainSet)
+    ```
+    - `SVD` 모델을 사용하여 추천 모델을 학습합니다.
+    
+	5. **모델 성능 평가:**
+    ```run-python
+    predictions = algo.test(testSet) 
+    print("RMSE: ", RecommenderMetrics.RMSE(predictions)) 
+    print("MAE: ", RecommenderMetrics.MAE(predictions))
+    ```
+    - 학습된 모델의 예측 성능을 RMSE 및 MAE로 평가합니다.
+      
+	6. **Top-N 추천 평가:**
+    ```
+    LOOCV = LeaveOneOut(n_splits=1, random_state=1) 
+    for trainSet, testSet in LOOCV.split(data):     # ...
+    ```
+    - Leave-One-Out 교차 검증을 사용하여 Top-N 추천의 다양한 메트릭을 계산합니다.
+      
+	1. **전체 추천 평가:**
+    ```algo.fit(fullTrainSet) 
+    bigTestSet = fullTrainSet.build_anti_testset() 
+    allPredictions = algo.test(bigTestSet) 
+    topNPredicted = RecommenderMetrics.GetTopN(allPredictions, n=10)
+    ```
+    - 전체 데이터셋에 대한 Top-N 추천 및 다양성, coverage, novelty 등의 메트릭을 계산합니다.
 	
 ```run-python
 ml = MovieLens()
@@ -458,7 +507,8 @@ print("MAE: ", RecommenderMetrics.MAE(predictions))
 print("\nEvaluating top-10 recommendations...")
 
 ```
--  먼저 앞서 살펴본 대로 무비렌즈 데이터와 인기 순위를 로드하여 나중에 Novelty을 계산
+- ##### RMSE, MAE 계산
+	먼저 앞서 살펴본 대로 무비렌즈 데이터와 인기 순위를 로드하여 나중에 Novelty을 계산
 	다음 블록에서는 다양성을 계산하는 데 필요한 항목 간 유사성 점수를 구축합니다. 
 	  
 	SVD는 이를 계산하지 않는 것으로 밝혀졌기 때문에 속임수를 쓰기 위해 KNN이라는 다른 종류의 추천자를 학습시킬 것입니다. 이라는 다른 종류의 추천자를 훈련시킬 것입니다.  
@@ -503,6 +553,51 @@ for trainSet, testSet in LOOCV.split(data):
     # Compute ARHR
     print("\nARHR (Average Reciprocal Hit Rank): ", RecommenderMetrics.AverageReciprocalHitRank(topNPredicted, leftOutPredictions))
 
+```
+- ##### Leave-one-out
+	런타임을 합리적으로 유지하기 위해 본격적인 K-배 교차 검증을 수행하지 않고 K-배 교차 검증을 하지 않겠습니다; 단일 훈련/테스트 분할만 수행하겠습니다.  
+	  
+	이 예제에서는 무작위로 테스트용 데이터의 데이터의 25%를 테스트용으로 나머지 75%를 사용하여 훈련하는 데 사용합니다.  
+	  
+	고정된 무작위 시드를 사용하여 새로운 SVD 추천 알고리즘을 고정된 무작위 시드를 사용하여 일관된 결과를 얻을 수 있도록 그런 다음 여기에 있는 75%를 사용하여 알고리즘을 훈련합니다.  
+	  
+	그런 다음 이 알고리즘에 대한 테스트 세트를 처리합니다, 알고리즘에 입력된 모든 테스트 평가에 대해 등급 예측 세트를 제공합니다.  
+	  
+	이제 우리가 할 일은 이러한 예측이 얼마나 좋은지 얼마나 좋은지 측정하는 것입니다.  
+	  
+	먼저 추천 지표 패키지의 RMSE 및 MAE 함수( 추천 지표 패키지의 를 사용하여 예측 정확도를 측정합니다.  
+	  
+	그런 다음 상위 N개의 추천에 상위 N개의 추천으로 관심을 돌리겠습니다.  
+	  
+	기억하세요, 상위 N개의 추천은 을 다르게 테스트해야 합니다. 교차 검증을 통해 다르게 테스트해야 합니다.  
+	  
+	여기서는 단 한 번의 트레인/테스트 분할만으로 을 설정해 보겠습니다, 다시 한 번 시간을 절약하기 위해서입니다.  
+	  
+	이렇게 하면 사용자당 하나의 등급을 따로 설정합니다, 사용자당 하나의 평가를 테스트 세트에 할당합니다.  
+	  
+	우리의 과제는 제외된 영화를 포함한 상위 N개의 추천을 예측하는 것입니다. 
+	  
+	Leave One Out은 사용자 단위로 작동하기 때문에 훈련 데이터 세트와 테스트 데이터 세트가 생성되는 방식이 다릅니다. 따라서 다시 분할 작업을 수행해야 합니다.  
+	
+	각 트레인/테스트 분할을 반복합니다. 를 반복합니다, 이 경우 단 한 번의 분할만 수행합니다.  
+	  
+	그런 다음 새로운 훈련 세트를 사용하여 새 훈련 세트로 다시 훈련하고 그리고 각 사용자에 대한 제외된 평점의 테스트 세트 로 다시 테스트합니다.  
+	  
+	이제 우리에게 필요한 또 다른 것은 각 사용자에 대한 상위 N개의 추천 목록 각 사용자에 대한 상위 N개의 추천 목록 실제 전체 추천 목록입니다.  
+	  
+	이를 위해서는 각 사용자가 아직 평가하지 않은 모든 영화에 대해 각 사용자가 아직 평가하지 않은 모든 영화에 대해, 그런 다음 예상 등급별로 순위를 매겨야 합니다.  
+	  
+	그런데 기억하실 수 있습니다. 이것은 두 가지 가능한 아키텍처 중 하나입니다. 두 가지 가능한 아키텍처 중 하나라는 것을 기억하실 겁니다, 두 가지 중 더 효율적인 것은 아닙니다.  
+	  
+	걱정하지 마세요, 곧 다른 방식으로 다른 방법도 곧 설명해드리겠습니다.  
+	  
+	하지만 조금 까다로운 점은 조금 까다로운 점은 안티 테스트 세트가 필요하다는 것입니다. 안티 테스트 세트가 필요하다는 것입니다. 안티 테스트 세트가 필요하다는 것입니다.  
+	  
+	즉, 우리는 사용자가 사용자가 아직 보지 않은 영화의 평점만 평점을 고려해야 합니다.  
+	  
+	따라서 가능한 모든 사용자/영화 쌍에 대한 가능한 모든 사용자/영화 쌍 테스트 세트를 구축합니다, 그리고 그것으로 제한합니다.  
+	
+```run-python
 print("\nComputing complete recommendations, no hold outs...")
 algo.fit(fullTrainSet)
 bigTestSet = fullTrainSet.build_anti_testset()
@@ -519,30 +614,25 @@ print("\nDiversity: ", RecommenderMetrics.Diversity(topNPredicted, simsAlgo))
 print("\nNovelty (average popularity rank): ", RecommenderMetrics.Novelty(topNPredicted, rankings))
 
 ```
-- ##### Leave-one-out
-	런타임을 합리적으로 유지하기 위해 본격적인 K-배 교차 검증을 수행하지 않고 K-배 교차 검증을 하지 않겠습니다; 단일 훈련/테스트 분할만 수행하겠습니다.  
+- 
+	예측 집합이 완성되면 앞서 작성한 Get Top-N 함수 함수를 호출하여 각 사용자에 대한 상위 N개의 목록을 생성할 수 있습니다, 이제 이 목록을 평가하기만 하면 됩니다.  
 	  
-	이 예제에서는 무작위로 테스트용 데이터의 데이터의 25%를 테스트용으로 나머지 75%를 사용하여 훈련하는 데 사용합니다.  
+	여기서는 적중률, 적중률, 등급 적중률 누적 적중률 그리고 평균 상호 적중률을 계산합니다, 그리고 결과를 인쇄합니다.  
 	  
-	그리고 바로 그렇게 합니다; 고정된 무작위 시드를 사용하여 새로운 SVD 추천 알고리즘을 고정된 무작위 시드를 사용하여 일관된 결과를 얻을 수 있도록 그런 다음 여기에 있는 을 사용하여 알고리즘을 훈련합니다.  
+	다음으로 커버리지를 측정하려고 합니다, 다양성 및 참신성.  
 	  
-	그런 다음 이 알고리즘에 대한 테스트 세트를 처리합니다, 알고리즘에 입력된 모든 테스트 평가에 대해 등급 예측 세트를 제공합니다.  
+	이 모든 속성은 상위 N 추천의 모든 속성입니다, 정확도를 측정하는 것과는 정확도를 측정하는 것은 아닙니다.  
 	  
-	이제 우리가 할 일은 이러한 예측이 얼마나 좋은지 얼마나 좋은지 측정하는 것입니다.  
+	따라서 원하는 값을 얻으려면 모델을 다시 한 번 훈련시켜야 합니다, 이번에는 세트 전체를 사용하여 그리고 테스트를 위해 아무것도 보류하지 않아야 합니다.  
 	  
-	먼저 추천 지표 패키지의 RMSE 및 MAE 함수( 추천 지표 패키지의 를 사용하여 예측 정확도를 측정합니다.  
+	하지만 이번에도 사용자가 이미 본 영화에서 추천을 제외해야 합니다.  
 	  
-	그런 다음 상위 N개의 추천에 상위 N개의 추천으로 관심을 돌리겠습니다.  
+	그래서 실제로 전체 훈련 세트에서 안티 테스트 세트 전체 훈련 세트에서 를 사용하여 각 사용자에 대한 상위 N을 파악합니다.  
 	  
-	기억하세요, 상위 N개의 추천은 을 다르게 테스트해야 합니다. 교차 검증을 통해 다르게 테스트해야 합니다.  
+	이를 확보하면 커버리지를 계산할 수 있습니다, 다양성 및 신규성을 계산할 수 있습니다.  
+	  
+	이제 이 코드의 기능을 이해했으니, 이제 코드를 실행하여 어떤 결과가 나오는지 살펴봅시다.  
+
   
-여기서는 단 한 번의 트레인/테스트 분할만으로 을 설정해 보겠습니다, 다시 한 번 시간을 절약하기 위해서입니다.  
-  
-이렇게 하면 사용자당 하나의 등급을 따로 설정합니다, 사용자당 하나의 평가를 테스트 세트에 할당합니다.  
-  
-우리의 과제는 제외된 영화를 포함한 상위 N개의 추천을 예측하는 것입니다. 추천을 예측하는 것입니다.  
-  
-Leave One Out은 사용자 단위로 작동하기 때문에 훈련 데이터 세트와 테스트 데이터 세트가 생성되는 방식이 다릅니다, 다시 분할 작업을 수행해야 합니다.  
-  
-[Translated with DeepL](https://www.deepl.com/translator?utm_source=windows&utm_medium=app&utm_campaign=windows-share)
+
 
