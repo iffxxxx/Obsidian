@@ -210,9 +210,9 @@ $$\frac{\sum_{i=1}^n{\frac{1}{rank_i}}}{Users}$$
 		and it seems like a good idea on paper, since, as you've learned,
 		defining what makes a "good" recommendation is by no means clear.
 
-### Code
-#### RecomenderMetrics.py
-- ##### Introduce
+## Code
+### RecomenderMetrics.py
+- #### Introduce
 	Class 구현
 	
 ```run-python
@@ -418,8 +418,8 @@ $$\frac{\sum_{i=1}^n{\frac{1}{rank_i}}}{Users}$$
 	  
 	이제 실제 추천자에서 사용해 보겠습니다.  
 	
-#### TestMetrics.py
-- ##### Introduce
+### TestMetrics.py
+- #### Introduce
 	이 모듈은 무비 렌즈가 포함된 영화에 대한 등급 및 정보가 포함된 영화에 대한 평점과 정보가 포함된 서프라이즈가 사용할 수 있는 데이터 세트로 데이터 세트로 변환하는 역할을 합니다.  
 	  
 	또한 영화 제목을 빠르게 찾고 영화 제목을 빠르게 검색할 수 있는 그리고 나중에 사용할 다른 유틸리티 기능도 포함되어 있습니다.  
@@ -507,7 +507,7 @@ print("MAE: ", RecommenderMetrics.MAE(predictions))
 print("\nEvaluating top-10 recommendations...")
 
 ```
-- ##### RMSE, MAE 계산
+- #### RMSE, MAE 계산
 	먼저 앞서 살펴본 대로 무비렌즈 데이터와 인기 순위를 로드하여 나중에 Novelty을 계산
 	다음 블록에서는 다양성을 계산하는 데 필요한 항목 간 유사성 점수를 구축합니다. 
 	  
@@ -554,7 +554,7 @@ for trainSet, testSet in LOOCV.split(data):
     print("\nARHR (Average Reciprocal Hit Rank): ", RecommenderMetrics.AverageReciprocalHitRank(topNPredicted, leftOutPredictions))
 
 ```
-- ##### Leave-one-out
+- #### Leave-one-out
 	런타임을 합리적으로 유지하기 위해 본격적인 K-배 교차 검증을 수행하지 않고 K-배 교차 검증을 하지 않겠습니다; 단일 훈련/테스트 분할만 수행하겠습니다.  
 	  
 	이 예제에서는 무작위로 테스트용 데이터의 데이터의 25%를 테스트용으로 나머지 75%를 사용하여 훈련하는 데 사용합니다.  
@@ -614,7 +614,7 @@ print("\nDiversity: ", RecommenderMetrics.Diversity(topNPredicted, simsAlgo))
 print("\nNovelty (average popularity rank): ", RecommenderMetrics.Novelty(topNPredicted, rankings))
 
 ```
-- 
+- ##### Diversity, Novelty
 	예측 집합이 완성되면 앞서 작성한 Get Top-N 함수 함수를 호출하여 각 사용자에 대한 상위 N개의 목록을 생성할 수 있습니다, 이제 이 목록을 평가하기만 하면 됩니다.  
 	  
 	여기서는 적중률, 적중률, 등급 적중률 누적 적중률 그리고 평균 상호 적중률을 계산합니다, 그리고 결과를 인쇄합니다.  
@@ -633,6 +633,13 @@ print("\nNovelty (average popularity rank): ", RecommenderMetrics.Novelty(topNPr
 	  
 	이제 이 코드의 기능을 이해했으니, 이제 코드를 실행하여 어떤 결과가 나오는지 살펴봅시다.  
 
-  
+## Results
+- Excute TestMetrics
+	![[Pasted image 20231117215755.png]]
+	RMSE 점수는 약 0.9, MAE는 약 0.7이었습니다.
+	
+	즉, 평균적으로 특정 사용자의 특정 영화에 대한 평점 추측이 약 0.7개의 별을 잘못 예측했다는 뜻입니다.
+	
+	RMSE가 더 높습니다, 이는 우리가 원하는 것보다 훨씬 더 자주 불이익을 받았다는 뜻입니다.
 
-
+저희의 적중률은 3% 정도였습니다, 사실 그렇게 나쁘지 않은 수치입니다. 각 사용자의 평가에서 제외된 영화가 영화 한 편만 테스트 대상에서 제외되었다는 점을 고려하면 나쁘지 않은 수치입니다.
