@@ -209,3 +209,6 @@ $$\frac{\sum_{i=1}^n{\frac{1}{rank_i}}}{Users}$$
 	This is called measuring the **"perceived quality"** of recommendations,
 		and it seems like a good idea on paper, since, as you've learned,
 		defining what makes a "good" recommendation is by no means clear.
+
+### Code
+##### 
