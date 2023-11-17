@@ -211,21 +211,8 @@ $$\frac{\sum_{i=1}^n{\frac{1}{rank_i}}}{Users}$$
 		defining what makes a "good" recommendation is by no means clear.
 
 ### Code
-##### RecomenderMetrics.py
+#### RecomenderMetrics.py
 ```run-python
-import itertools
-
-from surprise import accuracy
-from collections import defaultdict
-
-class RecommenderMetrics:
-
-    def MAE(predictions):
-        return accuracy.mae(predictions, verbose=False)
-
-    def RMSE(predictions):
-        return accuracy.rmse(predictions, verbose=False)
-
     def GetTopN(predictions, n=10, minimumRating=4.0):
         topN = defaultdict(list)
 
@@ -239,7 +226,19 @@ class RecommenderMetrics:
             topN[int(userID)] = ratings[:n]
 
         return topN
-
+```
+- ##### GetTopN() 함수  
+	이 함수는 추천인으로부터 받은 평점 예측의 전체 목록을 가져옵니다. 의 전체 목록을 가져옵니다, 그리고 사용자 ID를 상위 N개의 평점에 매핑하는 를 상위 N개의 평점에 매핑하는 사전을 반환합니다.  
+	
+	최소 평점 임계값을 전달할 수도 있습니다, 최소 평점 임계값을 전달하여 추천하지 못하도록 최소 평점 임계값을 전달할 수도 있습니다.  
+	
+	우리가 반환하는 딕셔너리는 사실 기본 딕셔너리 객체입니다, 일반적인 파이썬 딕셔너리와 비슷하지만 하지만 여기에는 기본 빈 값이라는 개념이 있습니다. 아직 사용되지 않은 키에 접근하려고 할 때 라는 개념이 있습니다.  
+	
+	적중률을 계산하려면, 상위 N개의 딕셔너리에서 를 전달해야 합니다, 그리고 훈련 데이터에서 제외된 테스트 영화 평점 세트 를 전달해야 합니다.  
+	
+	기억하실지 모르겠지만, 저희는 크로스 검증을 위해 교차 유효성 검사 제외 사용자당 하나의 평점을 보류하고 그리고 추천 능력을 테스트합니다. 추천하는 능력을 테스트합니다.  
+	
+```run-python
     def HitRate(topNPredicted, leftOutPredictions):
         hits = 0
         total = 0
@@ -283,7 +282,15 @@ class RecommenderMetrics:
 
         # Compute overall precision
         return hits/total
-
+```
+- 누적 적중률 (CHR)
+	누적 적중률(CHR)도 이와 똑같은 방식으로 작동합니다. 평점 컷오프 값이 있다는 점을 제외하면요, 따라서 예측 등급이 없는 경우 예상 평점이 특정 임계값보다 예측 등급이 설정된 임계값보다 높지 않으면 히트를 계산하지 않습니다.  
+	  
+	57번 라인에서 이 컷오프 값을 테스트하는 위치를 확인할 수 있습니다.  
+	  
+	그 외에는 히트율 함수와 동일합니다.  
+	
+```run-python
     def RatingHitRate(topNPredicted, leftOutPredictions):
         hits = defaultdict(float)
         total = defaultdict(float)
@@ -304,27 +311,21 @@ class RecommenderMetrics:
         # Compute overall precision
         for rating in sorted(hits.keys()):
             print (rating, hits[rating] / total[rating])
-
-    def AverageReciprocalHitRank(topNPredicted, leftOutPredictions):
-        summation = 0
-        total = 0
-        # For each left-out rating
-        for userID, leftOutMovieID, actualRating, estimatedRating, _ in leftOutPredictions:
-            # Is it in the predicted top N for this user?
-            hitRank = 0
-            rank = 0
-            for movieID, predictedRating in topNPredicted[int(userID)]:
-                rank = rank + 1
-                if (int(leftOutMovieID) == movieID):
-                    hitRank = rank
-                    break
-            if (hitRank > 0) :
-                summation += 1.0 / hitRank
-
-            total += 1
-
-        return summation / total
-
+```
+- ##### 평점 도달률 (RHR)
+	또한 평점 도달률 또는 RHR도 구현할 것입니다, 등급 적중률도 구현하겠습니다.  
+	  
+	이것은 적중률과 마찬가지로 작동합니다, 하지만 각각의 고유한 평점 값에 대한 적중률을 추적합니다.  
+	  
+	따라서 히트 수와 총 사용자 수를 추적하는 하나의 변수 대신 총 사용자 수 대신 다른 사전을 사용하여 를 사용하여 각 평점 유형에 대한 조회수와 총합을 추적합니다.  
+	  
+	그런 다음 마지막에 모두 인쇄합니다.  
+	  
+	히트율의 또 다른 변형은 평균 상호 히트 순위인데, 이 역시 히트율과 유사합니다.  
+	  
+	차이점은 각 히트 순위의 역수로 계산하여 상위 N 목록의 최상위 근처에서 발생하는 히트에 더 많은 점수를 부여한다는 것입니다.  
+	
+```run-python
     # What percentage of users have at least one "good" recommendation
     def UserCoverage(topNPredicted, numUsers, ratingThreshold=0):
         hits = 0
@@ -339,6 +340,17 @@ class RecommenderMetrics:
 
         return hits / numUsers
 
+```
+- ##### UserCoverage 
+	다음으로 커버리지를 측정할 수 있는데, 여기서는 커버리지를 특정 임계값 이상의 좋은 추천을 하나 이상 보유한 사용자의 비율로 정의합니다. 의 비율로 정의합니다.  
+	  
+	실제 환경에서는 아마도 카탈로그가 있을 것입니다. 항목 세트보다 더 큰 항목의 카탈로그가 있을 수 있습니다. 항목 카탈로그가 있을 수 있습니다, 그리고 대신 더 큰 집합을 기준으로 커버리지를 계산할 것입니다.  
+	  
+	하지만 무비렌즈에서 작업해야 하는 데이터의 경우, 제가 생각해낼 수 있는 가장 흥미로운 커버리지 측정 가장 흥미로운 측정치입니다.  
+	  
+	코드 자체는 간단합니다.  
+	  
+```run-python
     def Diversity(topNPredicted, simsAlgo):
         n = 0
         total = 0
@@ -357,60 +369,8 @@ class RecommenderMetrics:
         S = total / n
         return (1-S)
 
-    def Novelty(topNPredicted, rankings):
-        n = 0
-        total = 0
-        for userID in topNPredicted.keys():
-            for rating in topNPredicted[userID]:
-                movieID = rating[0]
-                rank = rankings[movieID]
-                total += rank
-                n += 1
-        return total / n
-
 ```
-- 이것이 바로 이 GetTopN() 함수가 하는 일입니다.  
-	
-	이 함수는 추천인으로부터 받은 평점 예측의 전체 목록을 가져옵니다. 의 전체 목록을 가져옵니다, 그리고 사용자 ID를 상위 N개의 평점에 매핑하는 를 상위 N개의 평점에 매핑하는 사전을 반환합니다.  
-	
-	최소 평점 임계값을 전달할 수도 있습니다, 최소 평점 임계값을 전달하여 추천하지 못하도록 최소 평점 임계값을 전달할 수도 있습니다.  
-	
-	우리가 반환하는 딕셔너리는 사실 기본 딕셔너리 객체입니다, 일반적인 파이썬 딕셔너리와 비슷하지만 하지만 여기에는 기본 빈 값이라는 개념이 있습니다. 아직 사용되지 않은 키에 접근하려고 할 때 라는 개념이 있습니다.  
-	
-	적중률을 계산하려면, 상위 N개의 딕셔너리에서 를 전달해야 합니다, 그리고 훈련 데이터에서 제외된 테스트 영화 평점 세트 를 전달해야 합니다.  
-	
-	기억하실지 모르겠지만, 저희는 크로스 검증을 위해 교차 유효성 검사 제외 사용자당 하나의 평점을 보류하고 그리고 추천 능력을 테스트합니다. 추천하는 능력을 테스트합니다.  
-	
-- 누적 적중률 (CHR)
-	누적 적중률(CHR)도 이와 똑같은 방식으로 작동합니다. 평점 컷오프 값이 있다는 점을 제외하면요, 따라서 예측 등급이 없는 경우 예상 평점이 특정 임계값보다 예측 등급이 설정된 임계값보다 높지 않으면 히트를 계산하지 않습니다.  
-	  
-	57번 라인에서 이 컷오프 값을 테스트하는 위치를 확인할 수 있습니다.  
-	  
-	그 외에는 히트율 함수와 동일합니다.  
-	
-- 평점 도달률 (RHR)
-	또한 평점 도달률 또는 RHR도 구현할 것입니다, 등급 적중률도 구현하겠습니다.  
-	  
-	이것은 적중률과 마찬가지로 작동합니다, 하지만 각각의 고유한 평점 값에 대한 적중률을 추적합니다.  
-	  
-	따라서 히트 수와 총 사용자 수를 추적하는 하나의 변수 대신 총 사용자 수 대신 다른 사전을 사용하여 를 사용하여 각 평점 유형에 대한 조회수와 총합을 추적합니다.  
-	  
-	그런 다음 마지막에 모두 인쇄합니다.  
-	  
-	히트율의 또 다른 변형은 평균 상호 히트 순위인데, 이 역시 히트율과 유사합니다.  
-	  
-	차이점은 각 히트 순위의 역수로 계산하여 상위 N 목록의 최상위 근처에서 발생하는 히트에 더 많은 점수를 부여한다는 것입니다.  
-	  
-- UserCoverage 
-	다음으로 커버리지를 측정할 수 있는데, 여기서는 커버리지를 특정 임계값 이상의 좋은 추천을 하나 이상 보유한 사용자의 비율로 정의합니다. 의 비율로 정의합니다.  
-	  
-	실제 환경에서는 아마도 카탈로그가 있을 것입니다. 항목 세트보다 더 큰 항목의 카탈로그가 있을 수 있습니다. 항목 카탈로그가 있을 수 있습니다, 그리고 대신 더 큰 집합을 기준으로 커버리지를 계산할 것입니다.  
-	  
-	하지만 무비렌즈에서 작업해야 하는 데이터의 경우, 제가 생각해낼 수 있는 가장 흥미로운 커버리지 측정 가장 흥미로운 측정치입니다.  
-	  
-	코드 자체는 간단합니다.  
-	  
-- Diversity 
+- ##### Diversity 
 	다양성을 측정하려면 우리 시스템의 모든 상위 N개의 추천이 필요할 뿐만 아니라, 데이터의 모든 항목 쌍 사이의 유사성 점수 매트릭스가 매트릭스가 필요합니다.  
 	  
 	다양성은 설명하기는 쉽지만, 코딩하는 것은 조금 까다롭습니다.  
@@ -433,7 +393,20 @@ class RecommenderMetrics:
 	  
 	대규모 데이터 세트의 실제 환경에서는 이를 계산할 때 데이터를 샘플링하는 것이 좋습니다.  
 	
-- Novelty
+```run-python
+    def Novelty(topNPredicted, rankings):
+        n = 0
+        total = 0
+        for userID in topNPredicted.keys():
+            for rating in topNPredicted[userID]:
+                movieID = rating[0]
+                rank = rankings[movieID]
+                total += rank
+                n += 1
+        return total / n
+
+```
+- ##### Novelty
 	마지막으로 훨씬 더 쉬운 '신규성'을 살펴보겠습니다.  
 	  
 	모든 항목의 인기 순위 사전을 매개변수로 사용하여 인기 순위 사전을 매개변수로 사용합니다, 그런 다음 모든 사용자의 상위 N개의 추천을 살펴보고 추천된 모든 아이템의 인기 순위 평균을 평균을 계산하면 됩니다.  
@@ -441,3 +414,135 @@ class RecommenderMetrics:
 	이제 추천 시스템을 평가하는 데 필요한 도구가 필요한 도구가 생겼습니다.  
 	  
 	이제 실제 추천자에서 사용해 보겠습니다.  
+	
+#### TestMetrics.py
+- ##### Introduce
+	이 모듈은 무비 렌즈가 포함된 영화에 대한 등급 및 정보가 포함된 영화에 대한 평점과 정보가 포함된 서프라이즈가 사용할 수 있는 데이터 세트로 데이터 세트로 변환하는 역할을 합니다.  
+	  
+	또한 영화 제목을 빠르게 찾고 영화 제목을 빠르게 검색할 수 있는 그리고 나중에 사용할 다른 유틸리티 기능도 포함되어 있습니다.  
+	  
+	자, 이제 우리가 할 일은 추천 시스템을 만드는 것입니다. 추천 시스템을 만들고 그리고 우리가 설계한 평가하는 것입니다.  
+	  
+	지금은 SVD의 작동 방식이 중요하지 않습니다.  
+	  
+	메트릭이 제대로 작동하는지 확인하는 것뿐입니다.  
+	
+```run-python
+ml = MovieLens()
+
+print("Loading movie ratings...")
+data = ml.loadMovieLensLatestSmall()
+
+print("\nComputing movie popularity ranks so we can measure novelty later...")
+rankings = ml.getPopularityRanks()
+
+print("\nComputing item similarities so we can measure diversity later...")
+fullTrainSet = data.build_full_trainset()
+sim_options = {'name': 'pearson_baseline', 'user_based': False}
+simsAlgo = KNNBaseline(sim_options=sim_options)
+simsAlgo.fit(fullTrainSet)
+
+print("\nBuilding recommendation model...")
+trainSet, testSet = train_test_split(data, test_size=.25, random_state=1)
+
+algo = SVD(random_state=10)
+algo.fit(trainSet)
+
+print("\nComputing recommendations...")
+predictions = algo.test(testSet)
+
+print("\nEvaluating accuracy of model...")
+print("RMSE: ", RecommenderMetrics.RMSE(predictions))
+print("MAE: ", RecommenderMetrics.MAE(predictions))
+
+print("\nEvaluating top-10 recommendations...")
+
+```
+-  먼저 앞서 살펴본 대로 무비렌즈 데이터와 인기 순위를 로드하여 나중에 Novelty을 계산
+	다음 블록에서는 다양성을 계산하는 데 필요한 항목 간 유사성 점수를 구축합니다. 
+	  
+	SVD는 이를 계산하지 않는 것으로 밝혀졌기 때문에 속임수를 쓰기 위해 KNN이라는 다른 종류의 추천자를 학습시킬 것입니다. 이라는 다른 종류의 추천자를 훈련시킬 것입니다.  
+	  
+	MovieLens에서 전체 데이터 세트를 가져옵니다, 유사도 점수를 계산하는 방법에 대한 몇 가지 매개변수를 설정합니다. 유사도 점수를 계산하는 방법에 대한 몇 가지 매개변수를 설정합니다, 그리고 서프라이즈립의 KNN 베이스라인 추천 알고리즘을 의 KNN 베이스라인 추천을 무비렌즈 데이터 세트에 적용합니다.  
+	  
+	결과 알고리즘은 나중에 2x2 행렬을 검색하는 데 사용할 수 있습니다. 2x2 행렬을 검색하는 데 사용할 수 있습니다.  
+	
+```run-python
+# Set aside one rating per user for testing
+LOOCV = LeaveOneOut(n_splits=1, random_state=1)
+
+for trainSet, testSet in LOOCV.split(data):
+    print("Computing recommendations with leave-one-out...")
+
+    # Train model without left-out ratings
+    algo.fit(trainSet)
+
+    # Predicts ratings for left-out ratings only
+    print("Predict ratings for left-out set...")
+    leftOutPredictions = algo.test(testSet)
+
+    # Build predictions for all ratings not in the training set
+    print("Predict all missing ratings...")
+    bigTestSet = trainSet.build_anti_testset()
+    allPredictions = algo.test(bigTestSet)
+
+    # Compute top 10 recs for each user
+    print("Compute top 10 recs per user...")
+    topNPredicted = RecommenderMetrics.GetTopN(allPredictions, n=10)
+
+    # See how often we recommended a movie the user actually rated
+    print("\nHit Rate: ", RecommenderMetrics.HitRate(topNPredicted, leftOutPredictions))
+
+    # Break down hit rate by rating value
+    print("\nrHR (Hit Rate by Rating value): ")
+    RecommenderMetrics.RatingHitRate(topNPredicted, leftOutPredictions)
+
+    # See how often we recommended a movie the user actually liked
+    print("\ncHR (Cumulative Hit Rate, rating >= 4): ", RecommenderMetrics.CumulativeHitRate(topNPredicted, leftOutPredictions, 4.0))
+
+    # Compute ARHR
+    print("\nARHR (Average Reciprocal Hit Rank): ", RecommenderMetrics.AverageReciprocalHitRank(topNPredicted, leftOutPredictions))
+
+print("\nComputing complete recommendations, no hold outs...")
+algo.fit(fullTrainSet)
+bigTestSet = fullTrainSet.build_anti_testset()
+allPredictions = algo.test(bigTestSet)
+topNPredicted = RecommenderMetrics.GetTopN(allPredictions, n=10)
+
+# Print user coverage with a minimum predicted rating of 4.0:
+print("\nUser coverage: ", RecommenderMetrics.UserCoverage(topNPredicted, fullTrainSet.n_users, ratingThreshold=4.0))
+
+# Measure diversity of recommendations:
+print("\nDiversity: ", RecommenderMetrics.Diversity(topNPredicted, simsAlgo))
+
+# Measure novelty (average popularity rank of recommendations):
+print("\nNovelty (average popularity rank): ", RecommenderMetrics.Novelty(topNPredicted, rankings))
+
+```
+- ##### Leave-one-out
+	런타임을 합리적으로 유지하기 위해 본격적인 K-배 교차 검증을 수행하지 않고 K-배 교차 검증을 하지 않겠습니다; 단일 훈련/테스트 분할만 수행하겠습니다.  
+	  
+	이 예제에서는 무작위로 테스트용 데이터의 데이터의 25%를 테스트용으로 나머지 75%를 사용하여 훈련하는 데 사용합니다.  
+	  
+	그리고 바로 그렇게 합니다; 고정된 무작위 시드를 사용하여 새로운 SVD 추천 알고리즘을 고정된 무작위 시드를 사용하여 일관된 결과를 얻을 수 있도록 그런 다음 여기에 있는 을 사용하여 알고리즘을 훈련합니다.  
+	  
+	그런 다음 이 알고리즘에 대한 테스트 세트를 처리합니다, 알고리즘에 입력된 모든 테스트 평가에 대해 등급 예측 세트를 제공합니다.  
+	  
+	이제 우리가 할 일은 이러한 예측이 얼마나 좋은지 얼마나 좋은지 측정하는 것입니다.  
+	  
+	먼저 추천 지표 패키지의 RMSE 및 MAE 함수( 추천 지표 패키지의 를 사용하여 예측 정확도를 측정합니다.  
+	  
+	그런 다음 상위 N개의 추천에 상위 N개의 추천으로 관심을 돌리겠습니다.  
+	  
+	기억하세요, 상위 N개의 추천은 을 다르게 테스트해야 합니다. 교차 검증을 통해 다르게 테스트해야 합니다.  
+  
+여기서는 단 한 번의 트레인/테스트 분할만으로 을 설정해 보겠습니다, 다시 한 번 시간을 절약하기 위해서입니다.  
+  
+이렇게 하면 사용자당 하나의 등급을 따로 설정합니다, 사용자당 하나의 평가를 테스트 세트에 할당합니다.  
+  
+우리의 과제는 제외된 영화를 포함한 상위 N개의 추천을 예측하는 것입니다. 추천을 예측하는 것입니다.  
+  
+Leave One Out은 사용자 단위로 작동하기 때문에 훈련 데이터 세트와 테스트 데이터 세트가 생성되는 방식이 다릅니다, 다시 분할 작업을 수행해야 합니다.  
+  
+[Translated with DeepL](https://www.deepl.com/translator?utm_source=windows&utm_medium=app&utm_campaign=windows-share)
+
