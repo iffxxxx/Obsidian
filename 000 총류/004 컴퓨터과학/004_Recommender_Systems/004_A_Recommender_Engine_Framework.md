@@ -83,3 +83,9 @@ next : [[004_Content-based_filtering]]
    evaluator.AddAlgorithm(Random,  "Random")
 5. Fight!
    evaluator.Evaluate(True)
+
+## Codes
+- ### RecsBakeOff.py
+	
+	
+	

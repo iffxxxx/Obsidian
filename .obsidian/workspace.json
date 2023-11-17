@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Evaluating_Recommender_Systems.md",
+                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_A_Recommender_Engine_Framework.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Evaluating_Recommender_Systems.md",
+                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_A_Recommender_Engine_Framework.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Evaluating_Recommender_Systems.md",
+                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_A_Recommender_Engine_Framework.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Evaluating_Recommender_Systems.md"
+                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_A_Recommender_Engine_Framework.md"
               }
             }
           },
@@ -200,11 +200,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ad2b617b9d7a92ac",
+  "active": "6480f4013c936c3d",
   "lastOpenFiles": [
+    "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Evaluating_Recommender_Systems.md",
+    "Attached file/Pasted image 20231117220904.png",
+    "Attached file/Pasted image 20231117220605.png",
+    "Attached file/Pasted image 20231117220414.png",
     "Attached file/Pasted image 20231117215755.png",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Matrix_Factorization_Method.md",
-    "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Evaluating_Recommender_Systems.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/MovieLens.py",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Recommender_Systems.md",
     "Book.md",
@@ -236,10 +239,6 @@
     "Attached file/Pasted image 20231115012317.png",
     "Attached file/Pasted image 20231115011448.png",
     "Attached file/Pasted image 20231115011425.png",
-    "Attached file/Pasted image 20231115010815.png",
-    "Attached file/Pasted image 20231115010740.png",
-    "Attached file/Pasted image 20231115010644.png",
-    "Attached file/Pasted image 20231115010517.png",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/[412_Orthogonal_Functions].md",
     "000 총류/004 컴퓨터과학/004_Linear_classifcation.md",
     "000 총류/004 컴퓨터과학/Stable_Diffusion_Image/Various_Models.md",
