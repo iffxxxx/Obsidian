@@ -505,7 +505,7 @@ for itemID, ratingSum in sorted(candidates.items(), key=itemgetter(1), reverse=T
     
     - 특정 사용자(`testSubject`)의 내부 사용자 ID를 가져온 후, 해당 사용자가 평가한 아이템 중 상위 `k`개를 선정합니다.
 	
-1. **유사한 아이템 찾기 및 가중치 적용:**
+3. **유사한 아이템 찾기 및 가중치 적용:**
     
     ```run-python
     candidates = defaultdict(float) 
@@ -697,7 +697,121 @@ for uiid in range(trainSet.n_users):
 ```
 
 ### KNNBakeOff.py
+#### Introduce
+- 이 코드는 Surprise 라이브러리를 사용하여 User-based KNN, Item-based KNN, 그리고 Random 모델을 비교하는 예제입니다. 코드의 주요 내용은 다음과 같습니다:
+```run-python
+from MovieLens import MovieLens
+from surprise import KNNBasic
+from surprise import NormalPredictor
+from Evaluator import Evaluator
 
+import random
+import numpy as np
+
+def LoadMovieLensData():
+    ml = MovieLens()
+    print("Loading movie ratings...")
+    data = ml.loadMovieLensLatestSmall()
+    print("\nComputing movie popularity ranks so we can measure novelty later...")
+    rankings = ml.getPopularityRanks()
+    return (ml, data, rankings)
+
+np.random.seed(0)
+random.seed(0)
+
+# Load up common data set for the recommender algorithms
+(ml, evaluationData, rankings) = LoadMovieLensData()
+
+# Construct an Evaluator to, you know, evaluate them
+evaluator = Evaluator(evaluationData, rankings)
+
+# User-based KNN
+UserKNN = KNNBasic(sim_options = {'name': 'cosine', 'user_based': True})
+evaluator.AddAlgorithm(UserKNN, "User KNN")
+
+# Item-based KNN
+ItemKNN = KNNBasic(sim_options = {'name': 'cosine', 'user_based': False})
+evaluator.AddAlgorithm(ItemKNN, "Item KNN")
+
+# Just make random recommendations
+Random = NormalPredictor()
+evaluator.AddAlgorithm(Random, "Random")
+
+# Fight!
+evaluator.Evaluate(False)
+
+evaluator.SampleTopNRecs(ml)
+```
+
+1. **데이터 로딩:**
+    
+    ```run-python
+    (ml, evaluationData, rankings) = LoadMovieLensData()
+    ```
+    
+    - `LoadMovieLensData` 함수를 사용하여 MovieLens 데이터를 로드하고, 평가 및 순위 정보를 가져옵니다.
+2. **Evaluator 생성:**
+    
+    ```run-python
+    evaluator = Evaluator(evaluationData, rankings)
+    ```
+    
+    - `Evaluator` 클래스를 사용하여 추천 알고리즘을 평가하는 객체를 생성합니다.
+3. **추천 알고리즘 추가:**
+    
+    ```run-python
+    UserKNN = KNNBasic(sim_options = {'name': 'cosine', 'user_based': True}) 
+    ItemKNN = KNNBasic(sim_options = {'name': 'cosine', 'user_based': False}) 
+    Random = NormalPredictor()  
+    
+    evaluator.AddAlgorithm(UserKNN, "User KNN") 
+    evaluator.AddAlgorithm(ItemKNN, "Item KNN") 
+    evaluator.AddAlgorithm(Random, "Random")
+    ```
+    
+    - Surprise의 `KNNBasic` 모델을 사용하여 User-based KNN 및 Item-based KNN 모델을 생성하고, Random 모델도 추가합니다.
+4. **Evaluate 메소드 호출:**
+    
+    ```run-python
+    evaluator.Evaluate(False)
+    ```
+    
+    - `Evaluate` 메소드를 호출하여 추가한 모든 추천 알고리즘을 평가합니다. 인자 `False`는 상세한 결과를 출력할지 여부를 나타냅니다.
+5. **상위 N 추천 샘플링:**
+    
+    ```run-python
+    evaluator.SampleTopNRecs(ml)
+    ```
+    
+    - `SampleTopNRecs` 메소드를 호출하여 상위 N개의 추천을 샘플링하고 출력합니다.
+
+이 코드는 서로 다른 추천 알고리즘들을 사용하여 MovieLens 데이터를 평가하고, 각 알고리즘의 성능 및 상위 N 추천을 살펴보는 예제입니다.
+
+다음은 세부 내용입니다:
+
+1. **KNNBakeOff 파일:**
+    
+    - CollaborativeFiltering 폴더에 있는 이 파일은 SurpriseLib을 사용하여 사용자 기반 및 항목 기반 KNN 추천의 성능을 평가합니다.
+2. **평가 설정:**
+    
+    - 코드는 `KNNBasic` 패키지를 가져옵니다. 이 패키지는 사용자 기반 및 항목 기반 KNN 추천을 구현합니다.
+    - `KNNBasic`의 두 인스턴스를 생성합니다. 하나는 사용자 기반을 True로 설정하고 다른 하나는 False로 설정합니다.
+    - 이러한 인스턴스는 서로 비교되며 무작위 추천자와 비교됩니다.
+3. **정확도 지표:**
+    
+    - 정확도 메트릭을 출력합니다. User-based와 Item-based의 정확도 점수가 거의 비슷합니다. 사용자 기반이 약간 더 나아졌지만 매우 미세하여 큰 의미는 없을 것으로 보입니다.
+    - 두 추천 방식 모두 무작위 추천에 비해 상당히 우수한 성능을 보입니다. 어떤 유용한 작업을 수행하고 있음을 나타냅니다.
+    - 정확도 점수만으로 볼 때 KNN 추천이 제법 좋은 아이디어라고 결론 지을 수 있습니다.
+4. **추천 결과 확인:**
+    
+    - 테스트 사용자(번호 85)에 대한 실제 추천 결과를 살펴봅니다.
+    - 사용자 기반 결과에서 나온 영화 중 하나도 들어보지 못했다는 의문을 제기합니다.
+    - 항목 기반 결과도 유명하지 않은 영화로 가득 차 있습니다.
+    - 무작위 추천의 결과가 상대적으로 더 나아보입니다.
+5. **결론:**
+    
+    - 시각적으로 보면 모델이 이미 본 영화의 등급을 예측하는 데 꽤 효과적일 수 있지만, 상위 N 추천을 생성하는 데는 그렇게 효과적이지 않은 것처럼 보입니다.
+    - 이는 오프라인 정확도 메트릭에 중점을 두면 잘못된 결론에 이를 수 있는 또 다른 예시입니다.
 ## 단점
 앞에서 살펴본 바와 같이, 협업 필터링은 실제 대규모 상황에서 매우 효과적으로 작동하는 것으로 입증된 훌륭한 결과를 제공할 수 있습니다.  
   
