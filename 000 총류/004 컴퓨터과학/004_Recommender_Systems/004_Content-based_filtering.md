@@ -140,9 +140,11 @@ next : [[004_Neighborhood-Based_Collaborative_Filtering]]
 	   
 ## Codes
 ### ContentRecs.py
+### Conte
 - 이 파일은 앞서 테스트할 때 작성한 RecsBakeoff 파일 추천 평가 프레임워크를 테스트하면서 작성한 파일과 매우 유사합니다.
 	
 	유일한 차이점은 무작위 데이터에 대해 무작위 알고리즘과 비교한다는 점입니다, 무작위 추천에 대해 새로운 ContentKNNAlgorithm 을 무작위 추천과 비교한다는 것입니다.
+	
 ```run-python
 from surprise import AlgoBase
 from surprise import PredictionImpossible
