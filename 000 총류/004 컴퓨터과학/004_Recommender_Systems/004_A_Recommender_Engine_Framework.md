@@ -86,5 +86,73 @@ next : [[004_Content-based_filtering]]
 
 ## Codes
 - ### RecsBakeOff.py
-	
-	
+```run-python
+from MovieLens import MovieLens
+from surprise import SVD
+from surprise import NormalPredictor
+from Evaluator import Evaluator
+
+import random
+import numpy as np
+
+def LoadMovieLensData():
+    ml = MovieLens()
+    print("Loading movie ratings...")
+    data = ml.loadMovieLensLatestSmall()
+    print("\nComputing movie popularity ranks so we can measure novelty later...")
+    rankings = ml.getPopularityRanks()
+    return (data, rankings)
+
+np.random.seed(0)
+random.seed(0)
+
+# Load up common data set for the recommender algorithms
+(evaluationData, rankings) = LoadMovieLensData()
+
+# Construct an Evaluator to, you know, evaluate them
+evaluator = Evaluator(evaluationData, rankings)
+
+# Throw in an SVD recommender
+SVDAlgorithm = SVD(random_state=10)
+evaluator.AddAlgorithm(SVDAlgorithm, "SVD")
+
+# Just make random recommendations
+Random = NormalPredictor()
+evaluator.AddAlgorithm(Random, "Random")
+
+
+# Fight!
+evaluator.Evaluate(True)
+```
+- 이 코드는 영화 추천 시스템을 평가하기 위한 Python 스크립트입니다.
+
+1. **데이터 로딩 및 초기화:**
+    
+    pythonCopy code
+    
+    `(evaluationData, rankings) = LoadMovieLensData()`
+    
+    - `MovieLens` 클래스를 사용하여 MovieLens 데이터셋을 로드하고, 영화의 인기도 순위를 계산합니다.
+2. **평가자(Evaluator) 생성:**
+    
+    pythonCopy code
+    
+    `evaluator = Evaluator(evaluationData, rankings)`
+    
+    - `Evaluator` 클래스를 사용하여 추천 알고리즘을 평가할 수 있는 환경을 설정합니다. 이 클래스는 모델의 성능을 측정하고 비교하는 데 사용됩니다.
+3. **추천 알고리즘 추가:**
+    
+    pythonCopy code
+    
+    `SVDAlgorithm = SVD(random_state=10) evaluator.AddAlgorithm(SVDAlgorithm, "SVD")`
+    
+    - `SVD` 알고리즘을 생성하고, `Evaluator`에 추가합니다. 여기서는 또 다른 알고리즘으로 `NormalPredictor`를 랜덤 추천 알고리즘과 함께 추가하였습니다.
+4. **평가 수행:**
+    
+    pythonCopy code
+    
+    `evaluator.Evaluate(True)`
+    
+    - `Evaluator`를 사용하여 추가한 추천 알고리즘들을 평가합니다. `True`는 추천 알고리즘 간의 통계적 유의성을 검증하는데 사용되는 부분 샘플을 생성할지 여부를 나타냅니다.
+      
+이 코드는 주어진 데이터셋에 대해 `SVD`와 `NormalPredictor`라는 두 가지 추천 알고리즘을 평가하고 비교합니다. 

@@ -137,7 +137,180 @@ next : [[004_Neighborhood-Based_Collaborative_Filtering]]
 		
 	- Not all implicit ratings are created equal purchases where people are actually opening their wallet and speaking with their money tend to be very high quality implicit ratings.
 	 - But if there's no money on the line and nobody has anything to lose then you should question how high quality that data really is.
+	   
+## Codes
+### ContentRecs.py
+- 이 파일은 앞서 테스트할 때 작성한 RecsBakeoff 파일 추천 평가 프레임워크를 테스트하면서 작성한 파일과 매우 유사합니다.
+	
+	유일한 차이점은 무작위 데이터에 대해 무작위 알고리즘과 비교한다는 점입니다, 무작위 추천에 대해 새로운 ContentKNNAlgorithm 을 무작위 추천과 비교한다는 것입니다.
+```run-python
+from surprise import AlgoBase
+from surprise import PredictionImpossible
+from MovieLens import MovieLens
+import math
+import numpy as np
+import heapq
 
+class ContentKNNAlgorithm(AlgoBase):
+
+    def __init__(self, k=40, sim_options={}):
+        AlgoBase.__init__(self)
+        self.k = k
+
+    def fit(self, trainset):
+        AlgoBase.fit(self, trainset)
+
+        # Compute item similarity matrix based on content attributes
+
+        # Load up genre vectors for every movie
+        ml = MovieLens()
+        genres = ml.getGenres()
+        years = ml.getYears()
+        mes = ml.getMiseEnScene()
+        
+        print("Computing content-based similarity matrix...")
+            
+        # Compute genre distance for every movie combination as a 2x2 matrix
+        self.similarities = np.zeros((self.trainset.n_items, self.trainset.n_items))
+        
+        for thisRating in range(self.trainset.n_items):
+            if (thisRating % 100 == 0):
+                print(thisRating, " of ", self.trainset.n_items)
+            for otherRating in range(thisRating+1, self.trainset.n_items):
+                thisMovieID = int(self.trainset.to_raw_iid(thisRating))
+                otherMovieID = int(self.trainset.to_raw_iid(otherRating))
+                genreSimilarity = self.computeGenreSimilarity(thisMovieID, otherMovieID, genres)
+                yearSimilarity = self.computeYearSimilarity(thisMovieID, otherMovieID, years)
+                #mesSimilarity = self.computeMiseEnSceneSimilarity(thisMovieID, otherMovieID, mes)
+                self.similarities[thisRating, otherRating] = genreSimilarity * yearSimilarity
+                self.similarities[otherRating, thisRating] = self.similarities[thisRating, otherRating]
+                
+        print("...done.")
+                
+        return self
+    
+    def computeGenreSimilarity(self, movie1, movie2, genres):
+        genres1 = genres[movie1]
+        genres2 = genres[movie2]
+        sumxx, sumxy, sumyy = 0, 0, 0
+        for i in range(len(genres1)):
+            x = genres1[i]
+            y = genres2[i]
+            sumxx += x * x
+            sumyy += y * y
+            sumxy += x * y
+        
+        return sumxy/math.sqrt(sumxx*sumyy)
+    
+    def computeYearSimilarity(self, movie1, movie2, years):
+        diff = abs(years[movie1] - years[movie2])
+        sim = math.exp(-diff / 10.0)
+        return sim
+    
+    def computeMiseEnSceneSimilarity(self, movie1, movie2, mes):
+        mes1 = mes[movie1]
+        mes2 = mes[movie2]
+        if (mes1 and mes2):
+            shotLengthDiff = math.fabs(mes1[0] - mes2[0])
+            colorVarianceDiff = math.fabs(mes1[1] - mes2[1])
+            motionDiff = math.fabs(mes1[3] - mes2[3])
+            lightingDiff = math.fabs(mes1[5] - mes2[5])
+            numShotsDiff = math.fabs(mes1[6] - mes2[6])
+            return shotLengthDiff * colorVarianceDiff * motionDiff * lightingDiff * numShotsDiff
+        else:
+            return 0
+
+    def estimate(self, u, i):
+
+        if not (self.trainset.knows_user(u) and self.trainset.knows_item(i)):
+            raise PredictionImpossible('User and/or item is unkown.')
+        
+        # Build up similarity scores between this item and everything the user rated
+        neighbors = []
+        for rating in self.trainset.ur[u]:
+            genreSimilarity = self.similarities[i,rating[0]]
+            neighbors.append( (genreSimilarity, rating[1]) )
+        
+        # Extract the top-K most-similar ratings
+        k_neighbors = heapq.nlargest(self.k, neighbors, key=lambda t: t[0])
+        
+        # Compute average sim score of K neighbors weighted by user ratings
+        simTotal = weightedSum = 0
+        for (simScore, rating) in k_neighbors:
+            if (simScore > 0):
+                simTotal += simScore
+                weightedSum += simScore * rating
+            
+        if (simTotal == 0):
+            raise PredictionImpossible('No neighbors')
+
+        predictedRating = weightedSum / simTotal
+
+        return predictedRating
+```
+- 이 코드는 Surprise 라이브러리를 사용하여 Content-Based 추천 알고리즘인 ContentKNN을 구현했습니다.
+
+1. **클래스 초기화:**
+    
+    ```run-python
+    def __init__(self, k=40, sim_options={}):     
+	    AlgoBase.__init__(self)     
+	    self.k = k
+	```
+    
+    - `ContentKNNAlgorithm` 클래스를 초기화합니다. `k`는 이웃의 수를 나타내며, `sim_options`은 유사도 계산 옵션을 나타냅니다.
+2. **모델 학습 (`fit` 메서드):**
+    
+    ```run-python
+	def fit(self, trainset):     
+		# ...
+	```
+    
+    - Surprise의 `AlgoBase`를 상속받아 모델을 학습하는 메서드입니다. 주어진 학습 데이터셋을 기반으로 아이템 간의 유사도 행렬을 계산합니다.
+3. **아이템 간 유사도 계산:**
+    
+    ```run-python
+    self.similarities = np.zeros((self.trainset.n_items, self.trainset.n_items))
+    ```
+    
+    - 아이템 간의 유사도를 계산하기 위한 행렬을 초기화합니다.
+    
+    ```run-python
+	for thisRating in range(self.trainset.n_items):     
+		# ...
+	```
+    
+    - 모든 아이템 조합에 대해 장르 유사도와 연도 유사도를 계산하여 유사도 행렬을 채웁니다.
+4. **유사도 계산 함수들:**
+    
+    - `computeGenreSimilarity`, `computeYearSimilarity`, `computeMiseEnSceneSimilarity`는 아이템 간의 각각의 유사도를 계산하는 함수입니다.
+5. **평점 예측 (`estimate` 메서드):**
+    
+    ```run-python
+    def estimate(self, u, i):     
+	    # ...
+	```
+    
+    - 사용자 `u`가 아이템 `i`에 대한 평점을 예측하는 메서드입니다.
+    
+    ```run-python
+    for rating in self.trainset.ur[u]:     
+	    # ...
+	```
+    
+    - 사용자가 평가한 아이템에 대한 유사도를 계산하여 이웃을 찾습니다.
+    
+    ```run-python
+    k_neighbors = heapq.nlargest(self.k, neighbors, key=lambda t: t[0])
+    ```
+    
+    - 가장 유사한 이웃들을 찾습니다.
+    
+    `predictedRating = weightedSum / simTotal`
+    
+    - 이웃들의 가중 평점을 사용하여 예측 평점을 계산합니다.
+
+이 알고리즘은 아이템 간의 콘텐츠 유사도를 계산하여, 사용자의 이전 평점을 기반으로 아이템을 예측합니다. `computeGenreSimilarity`, `computeYearSimilarity`, `computeMiseEnSceneSimilarity` 함수들은 아이템 간의 특징 유사도를 계산하는데 사용됩니다.
 ## Bleeding Edge Alert! Mise en Scene Recommendations
 [link](https://ceur-ws.org/Vol-1673/paper3.pdf)
 - Some recent research and content based filtering has surrounded the use of mise en scene data.
