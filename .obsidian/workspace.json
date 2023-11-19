@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Neighborhood-Based_Collaborative_Filtering.md",
+                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Matrix_Factorization_Method.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Neighborhood-Based_Collaborative_Filtering.md",
+                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Matrix_Factorization_Method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Neighborhood-Based_Collaborative_Filtering.md",
+                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Matrix_Factorization_Method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Neighborhood-Based_Collaborative_Filtering.md"
+                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Matrix_Factorization_Method.md"
               }
             }
           },
@@ -201,13 +201,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ad2b617b9d7a92ac",
+  "active": "6480f4013c936c3d",
   "lastOpenFiles": [
+    "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Neighborhood-Based_Collaborative_Filtering.md",
     "Attached file/Pasted image 20231119232326.png",
     "Attached file/Pasted image 20231119231833.png",
     "Attached file/Pasted image 20231119231829.png",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Content-based_filtering.md",
-    "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Neighborhood-Based_Collaborative_Filtering.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_A_Recommender_Engine_Framework.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Evaluating_Recommender_Systems.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Matrix_Factorization_Method.md",
@@ -240,7 +240,6 @@
     "400 순수과학/410 수학/412_Orthogonal_Functions.md",
     "500 기술 과학/550 기계공학/567_Video_Compression.md",
     "Attached file/Pasted image 20231115012548.png",
-    "Attached file/Pasted image 20231115012317.png",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/[412_Orthogonal_Functions].md",
     "000 총류/004 컴퓨터과학/004_Linear_classifcation.md",
     "000 총류/004 컴퓨터과학/Stable_Diffusion_Image/Various_Models.md",

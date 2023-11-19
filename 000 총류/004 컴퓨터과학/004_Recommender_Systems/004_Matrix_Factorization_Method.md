@@ -240,7 +240,52 @@ next : [[]]
 		그 행렬들을 얻는 빠른 방법은 SVD, 단수 값 분해라고 불리는 기술입니다. 일단 그 행렬들을 가지고 나면, 각 행렬로부터 점 곱을 얻는 것만으로 어떤 사용자에 의한 어떤 항목의 등급을 예측할 수 있습니다.  
 		  
 		SGD, 확률적 경사 하강법, 최소 제곱 교대인 ALS와 같은 기법은 결측 데이터가 있을 때 요인 행렬의 최상의 값을 학습하는 데 사용할 수 있습니다.
+## Codes
+- ### SVDBakeOff.py
 	
+```run-python
+from MovieLens import MovieLens
+from surprise import SVD, SVDpp
+from surprise import NormalPredictor
+from Evaluator import Evaluator
+
+import random
+import numpy as np
+
+def LoadMovieLensData():
+    ml = MovieLens()
+    print("Loading movie ratings...")
+    data = ml.loadMovieLensLatestSmall()
+    print("\nComputing movie popularity ranks so we can measure novelty later...")
+    rankings = ml.getPopularityRanks()
+    return (ml, data, rankings)
+
+np.random.seed(0)
+random.seed(0)
+
+# Load up common data set for the recommender algorithms
+(ml, evaluationData, rankings) = LoadMovieLensData()
+
+# Construct an Evaluator to, you know, evaluate them
+evaluator = Evaluator(evaluationData, rankings)
+
+# SVD
+SVD = SVD()
+evaluator.AddAlgorithm(SVD, "SVD")
+
+# SVD++
+SVDPlusPlus = SVDpp()
+evaluator.AddAlgorithm(SVDPlusPlus, "SVD++")
+
+# Just make random recommendations
+Random = NormalPredictor()
+evaluator.AddAlgorithm(Random, "Random")
+
+# Fight!
+evaluator.Evaluate(False)
+
+evaluator.SampleTopNRecs(ml)
+```
 - ### Improving on SVD
 	![[Pasted image 20231115021822.png]]
 	
