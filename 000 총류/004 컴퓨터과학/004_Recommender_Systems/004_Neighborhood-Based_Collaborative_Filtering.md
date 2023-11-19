@@ -367,6 +367,19 @@ for itemID, ratingSum in sorted(candidates.items(), key=itemgetter(1), reverse=T
     
     - 특정 사용자(`testSubject`)에 대한 유사한 사용자를 찾습니다.
     - `simsMatrix`에서 해당 사용자의 유사도 행을 추출하고, 가장 유사한 상위 `k`명의 사용자를 선택합니다.
+      
+	
+    - **Exercise Solution**
+		```run-python
+		#kNeighbors = heapq.nlargest(k, testUserRatings, key=lambda t: t[1])
+		kNeighbors = []
+		for rating in testUserRatings:
+			if rating[1] > 4.0:
+				kNeighbors.append(rating)
+		```
+		- Results
+			![[Pasted image 20231119231833.png]]
+			
 3. **아이템 추천 생성:**
     
     ```run-python
@@ -491,15 +504,7 @@ for itemID, ratingSum in sorted(candidates.items(), key=itemgetter(1), reverse=T
     ```
     
     - 특정 사용자(`testSubject`)의 내부 사용자 ID를 가져온 후, 해당 사용자가 평가한 아이템 중 상위 `k`개를 선정합니다.
-    
-    - Exercise Solution
-		```run-python
-		#kNeighbors = heapq.nlargest(k, testUserRatings, key=lambda t: t[1])
-		kNeighbors = []
-		for rating in testUserRatings:
-			if rating[1] > 4.0:
-				kNeighbors.append(ra)
-		```
+	
 1. **유사한 아이템 찾기 및 가중치 적용:**
     
     ```run-python
@@ -512,6 +517,22 @@ for itemID, ratingSum in sorted(candidates.items(), key=itemgetter(1), reverse=T
     
     - 이웃 아이템에 대해 유사한 아이템을 찾고, 해당 아이템과의 유사도를 가중치로 사용하여 예상 평점을 계산합니다.
     - `candidates` 딕셔너리에 각 아이템의 누적 가중치를 저장합니다.
+    
+    - **Exercise Solution**
+		```run-python
+		#kNeighbors = heapq.nlargest(k, testUserRatings, key=lambda t: t[1])
+		kNeighbors = []
+		for rating in testUserRatings:
+			if rating[1] > 0.95:
+				kNeighbors.append(rating)
+		```
+		 여기서 `testUserRatings`는 특정 사용자가 평가한 아이템의 목록이며, 각 아이템은 (아이템 ID, 평점)의 튜플로 구성되어 있습니다. `kNeighbors`는 사용자가 높은 평점을 준 아이템 중에서만 선택된 아이템들의 목록이 됩니다.
+		 
+		 기존의 코드에서는 `heapq.nlargest` 함수를 사용하여 상위 `k`개의 아이템을 선택했지만, 여기서는 `for` 루프를 사용하여 평점이 0.95보다 높은 아이템을 선택하고 있습니다. 즉, 이 부분은 특정 기준을 충족하는 아이템을 선택하는 역할을 합니다.
+		 
+		- Results
+			![[Pasted image 20231119232326.png]]
+			
 4. **이미 시청한 아이템 필터링 및 상위 추천 출력:**
 	
     ```run-python
@@ -533,6 +554,150 @@ for itemID, ratingSum in sorted(candidates.items(), key=itemgetter(1), reverse=T
     - `MovieLens` 객체를 사용하여 아이템의 실제 이름을 가져와 출력합니다.
 
 이 코드는 특정 사용자에게 아이템을 추천하는 아이템 기반 협업 필터링 알고리즘을 구현한 예제입니다.
+
+### EvaluateUserCF.py
+#### Introduce
+- 이 코드는 Surprise 라이브러리를 사용하여 Leave-One-Out 교차 검증(LOOCV)을 수행하며, 아이템 기반 협업 필터링을 이용한 추천 모델을 구현하는 예제입니다. 코드의 주요 내용은 다음과 같습니다:
+```run-python
+from MovieLens import MovieLens
+from surprise import KNNBasic
+import heapq
+from collections import defaultdict
+from operator import itemgetter
+from surprise.model_selection import LeaveOneOut
+from RecommenderMetrics import RecommenderMetrics
+from EvaluationData import EvaluationData
+
+def LoadMovieLensData():
+    ml = MovieLens()
+    print("Loading movie ratings...")
+    data = ml.loadMovieLensLatestSmall()
+    print("\nComputing movie popularity ranks so we can measure novelty later...")
+    rankings = ml.getPopularityRanks()
+    return (ml, data, rankings)
+
+ml, data, rankings = LoadMovieLensData()
+
+evalData = EvaluationData(data, rankings)
+
+# Train on leave-One-Out train set
+trainSet = evalData.GetLOOCVTrainSet()
+sim_options = {'name': 'cosine',
+               'user_based': True
+               }
+
+model = KNNBasic(sim_options=sim_options)
+model.fit(trainSet)
+simsMatrix = model.compute_similarities()
+
+leftOutTestSet = evalData.GetLOOCVTestSet()
+
+# Build up dict to lists of (int(movieID), predictedrating) pairs
+topN = defaultdict(list)
+k = 10
+for uiid in range(trainSet.n_users):
+    # Get top N similar users to this one
+    similarityRow = simsMatrix[uiid]
+    
+    similarUsers = []
+    for innerID, score in enumerate(similarityRow):
+        if (innerID != uiid):
+            similarUsers.append( (innerID, score) )
+    
+    kNeighbors = heapq.nlargest(k, similarUsers, key=lambda t: t[1])
+    
+    # Get the stuff they rated, and add up ratings for each item, weighted by user similarity
+    candidates = defaultdict(float)
+    for similarUser in kNeighbors:
+        innerID = similarUser[0]
+        userSimilarityScore = similarUser[1]
+        theirRatings = trainSet.ur[innerID]
+        for rating in theirRatings:
+            candidates[rating[0]] += (rating[1] / 5.0) * userSimilarityScore
+        
+    # Build a dictionary of stuff the user has already seen
+    watched = {}
+    for itemID, rating in trainSet.ur[uiid]:
+        watched[itemID] = 1
+        
+    # Get top-rated items from similar users:
+    pos = 0
+    for itemID, ratingSum in sorted(candidates.items(), key=itemgetter(1), reverse=True):
+        if not itemID in watched:
+            movieID = trainSet.to_raw_iid(itemID)
+            topN[int(trainSet.to_raw_uid(uiid))].append( (int(movieID), 0.0) )
+            pos += 1
+            if (pos > 40):
+                break
+    
+# Measure
+print("HR", RecommenderMetrics.HitRate(topN, leftOutTestSet))
+```
+- 결과를 인쇄하는 대신 측정할 수 있도록 저장하고 또한 사용자당 최대 40개의 추천을 생성합니다.
+
+1. **데이터 로딩 및 Leave-One-Out 교차 검증 설정:**
+    
+    ```run-python
+    ml, data, rankings = LoadMovieLensData() 
+    evalData = EvaluationData(data, rankings) 
+    trainSet = evalData.GetLOOCVTrainSet() 
+    leftOutTestSet = evalData.GetLOOCVTestSet()
+    ```
+    
+    - `LoadMovieLensData` 함수를 사용하여 MovieLens 데이터를 로드하고, `EvaluationData` 객체를 생성합니다.
+    - `GetLOOCVTrainSet` 및 `GetLOOCVTestSet` 함수를 사용하여 Leave-One-Out 교차 검증에 필요한 훈련 및 테스트 세트를 설정합니다.
+2. **아이템 기반 협업 필터링 모델 훈련:**
+    
+    ```run-python
+    model = KNNBasic(sim_options=sim_options) 
+    model.fit(trainSet) 
+    simsMatrix = model.compute_similarities()
+    ```
+    
+    - Surprise에서 제공하는 KNNBasic 모델을 사용하여 아이템 기반 협업 필터링 모델을 훈련합니다.
+    - 유사도 행렬(`simsMatrix`)을 계산합니다.
+3. **유사한 사용자를 기반으로 추천 생성 및 평가:**
+    
+    ```run-python
+    topN = defaultdict(list) k = 10 
+    for uiid in range(trainSet.n_users):     
+	    # 각 사용자에 대해 유사한 사용자를 찾고, 그들의 평점을 기반으로 아이템을 추천합니다.     
+	    # 이 추천 결과를 topN 딕셔너리에 저장합니다.
+	```
+    
+    - 각 사용자에 대해 유사한 사용자를 찾고, 그들의 평점을 기반으로 아이템을 추천합니다.
+    - `topN` 딕셔너리에는 각 사용자에게 추천된 상위 N개의 아이템이 저장됩니다.
+4. **평가 메트릭 측정:**
+    
+    ```run-python
+    print("HR", RecommenderMetrics.HitRate(topN, leftOutTestSet))
+    ```
+    
+    - `RecommenderMetrics` 모듈을 사용하여 Hit Rate(HR)를 계산하고 출력합니다.
+	
+	이 코드는 Leave-One-Out 교차 검증을 통해 아이템 기반 협업 필터링 모델의 성능을 평가하고, Hit Rate를 출력하는 예제입니다. Hit Rate는 모델이 사용자에게 추천한 아이템 중에서 실제로 사용자가 선호하는 아이템이 있는 비율을 측정하는 메트릭 중 하나입니다.
+	
+#### Make Evaluating Item-based
+```run-python
+#sim_options = {'name': 'cosine', 'user_based': True }
+sim_options = {'name': 'cosine', 'user_based': False }
+```
+
+```run-python
+for uiid in range(trainSet.n_users):
+    
+    userRatings = trainSet.ur[uild]
+    kNeighbors = heapq.nlargest(k, userRatings, key-lambda t: t[1])
+    
+    candidates = defaultdict(float)
+    for itemID, rating in kNeighbors:
+        similarityRow = simsMatrix[itemID]
+        for innerID, score in enumerate(similarityRow):
+            candidates[innerID] += (rating / 5.0) * score
+```
+
+### KNNBakeOff.py
+
 ## 단점
 앞에서 살펴본 바와 같이, 협업 필터링은 실제 대규모 상황에서 매우 효과적으로 작동하는 것으로 입증된 훌륭한 결과를 제공할 수 있습니다.  
   
