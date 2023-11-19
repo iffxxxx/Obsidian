@@ -127,6 +127,8 @@ next : [[004_Matrix_Factorization_Method]]
 		![[Pasted image 20231113164336.png]]
 		Bob이 이미 봤던 영화는 제외한다
 		
+## Codes
+
 ## Item-based Collaborative Filtering
 - 문제를 뒤집어서 비슷한 다른 사람을 찾기보다는 그들이 좋아하는 것을 추천
 	- 사용자 사이의 유사성보다 나을 수 있고,
