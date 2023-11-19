@@ -140,10 +140,105 @@ next : [[004_Neighborhood-Based_Collaborative_Filtering]]
 	   
 ## Codes
 ### ContentRecs.py
-### Conte
-- 이 파일은 앞서 테스트할 때 작성한 RecsBakeoff 파일 추천 평가 프레임워크를 테스트하면서 작성한 파일과 매우 유사합니다.
+- 이 파일은  RecsBakeoff 파일 추천 평가 프레임워크를 테스트하면서 작성한 파일과 매우 유사합니다.
 	
 	유일한 차이점은 무작위 데이터에 대해 무작위 알고리즘과 비교한다는 점입니다, 무작위 추천에 대해 새로운 ContentKNNAlgorithm 을 무작위 추천과 비교한다는 것입니다.
+	
+	Surprise 라이브러리를 사용하여 Content-Based 추천 알고리즘을 평가하는 Python 스크립트
+	
+```run-python
+from MovieLens import MovieLens
+from ContentKNNAlgorithm import ContentKNNAlgorithm
+from Evaluator import Evaluator
+from surprise import NormalPredictor
+
+import random
+import numpy as np
+
+def LoadMovieLensData():
+    ml = MovieLens()
+    print("Loading movie ratings...")
+    data = ml.loadMovieLensLatestSmall()
+    print("\nComputing movie popularity ranks so we can measure novelty later...")
+    rankings = ml.getPopularityRanks()
+    return (ml, data, rankings)
+
+np.random.seed(0)
+random.seed(0)
+
+# Load up common data set for the recommender algorithms
+(ml, evaluationData, rankings) = LoadMovieLensData()
+
+# Construct an Evaluator to, you know, evaluate them
+evaluator = Evaluator(evaluationData, rankings)
+
+contentKNN = ContentKNNAlgorithm()
+evaluator.AddAlgorithm(contentKNN, "ContentKNN")
+
+# Just make random recommendations
+Random = NormalPredictor()
+evaluator.AddAlgorithm(Random, "Random")
+
+evaluator.Evaluate(False)
+
+evaluator.SampleTopNRecs(ml)
+
+```
+- 이 파일은 추천 시스템을 평가하는데 사용되는 것으로 보입니다. `SVD` 알고리즘과 `ContentKNNAlgorithm`을 비교하여 성능을 확인합니다.
+- 추천 메트릭스 중에서 정확도(accuracy)만을 고려하며, `ContentKNNAlgorithm`에서 생성된 top-N 추천 중 일부를 사용자 85를 기준으로 샘플링하여 결과를 확인합니다.
+
+1. **`LoadMovieLensData` 함수:**
+    
+    - `MovieLens` 클래스를 사용하여 MovieLens 데이터셋을 로드하고, 영화의 인기도 순위를 계산합니다.
+    - 반환값은 `MovieLens` 객체, Surprise 라이브러리에서 사용되는 데이터셋, 그리고 영화의 인기도 순위입니다.
+2. **데이터 로딩 및 초기화:**
+    
+    ```run-python
+    (ml, evaluationData, rankings) = LoadMovieLensData()
+    ```
+    
+    - `LoadMovieLensData` 함수를 사용하여 MovieLens 데이터를 로드하고 초기화합니다.
+3. **평가자(Evaluator) 및 알고리즘 추가:**
+    
+    ```run-python
+    evaluator = Evaluator(evaluationData, rankings)
+    ```
+    
+    - `Evaluator` 클래스를 초기화하고, 평가를 위한 데이터셋과 영화 인기도 순위를 전달합니다.
+    
+    ```run=python
+    contentKNN = ContentKNNAlgorithm() 
+    evaluator.AddAlgorithm(contentKNN, "ContentKNN")
+    ```
+    
+    - `ContentKNNAlgorithm` 클래스를 사용하여 Content-Based 추천 알고리즘을 초기화하고, 이를 `Evaluator`에 추가합니다.
+    
+    ```run-python
+    Random = NormalPredictor() 
+    evaluator.AddAlgorithm(Random, "Random")
+    ```
+    
+    - `NormalPredictor`를 사용하여 무작위 추천 알고리즘을 초기화하고, 이를 `Evaluator`에 추가합니다.
+4. **평가 수행:**
+    
+    ```run-python
+    evaluator.Evaluate(False)
+    ```
+    
+    - `Evaluator`를 사용하여 추가한 추천 알고리즘들을 평가합니다. `False`는 추천 알고리즘 간의 통계적 유의성을 검증하는데 사용되는 부분 샘플을 생성하지 않도록 설정합니다.
+5. **Top-N 추천 샘플링:**
+    
+    ```run-python
+    evaluator.SampleTopNRecs(ml)
+    ```
+    
+    - `Evaluator`를 사용하여 사용자에게 생성된 Top-N 추천을 샘플링하고 출력합니다.
+
+이 코드는 Content-Based 추천 알고리즘(`ContentKNNAlgorithm`)과 무작위 추천 알고리즘(`NormalPredictor`)을 평가하고 결과를 출력하는 것으로 보입니다. 결과에는 RMSE, MAE 등의 평가 메트릭과 사용자에게 제공된 상위 추천이 포함될 것입니다.
+### ContentKNNAlgorithm.py
+- `ContentKNNAlgorithm`은 Surprise 라이브러리의 `AlgoBase` 클래스를 기반으로 하는 사용자 정의 추천 알고리즘입니다.
+- `fit` 메서드에서는 학습 데이터셋을 기반으로 아이템 간의 콘텐츠 유사도 행렬을 계산합니다. 이는 장르, 출시 연도 등을 기반으로 계산됩니다.
+- `estimate` 메서드에서는 사용자의 이전 평가를 바탕으로 해당 사용자에 대한 아이템 평점을 예측합니다. 이는 k-최근접 이웃 알고리즘을 사용하여 이웃 아이템의 유사도를 고려합니다.
 	
 ```run-python
 from surprise import AlgoBase
@@ -285,6 +380,10 @@ class ContentKNNAlgorithm(AlgoBase):
     - 모든 아이템 조합에 대해 장르 유사도와 연도 유사도를 계산하여 유사도 행렬을 채웁니다.
 4. **유사도 계산 함수들:**
     
+    - `ContentKNNAlgorithm`은 장르와 출시 연도를 기반으로한 아이템 간의 유사도를 계산합니다. 이를 통해 사용자의 이전 평가를 바탕으로 아이템을 예측합니다.
+    
+    - 콘텐츠 유사도는 장르 유사도와 출시 연도 유사도를 조합하여 계산됩니다.
+    
     - `computeGenreSimilarity`, `computeYearSimilarity`, `computeMiseEnSceneSimilarity`는 아이템 간의 각각의 유사도를 계산하는 함수입니다.
 5. **평점 예측 (`estimate` 메서드):**
     
@@ -361,5 +460,3 @@ class ContentKNNAlgorithm(AlgoBase):
 	3. Then to do the secondary sort, we first sort the list by popularity, so the most popular items are at the top of the list. This happens to be in element number two of our recommendation tuples.
 		
 	4. Then we can sort by element one, which is the estimated rating. If we have a tie when ranking based on estimated ratings, the original sort by popularity will still be in place from before.
-
-### Code
