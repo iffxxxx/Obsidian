@@ -127,7 +127,6 @@ next : [[004_Matrix_Factorization_Method]]
 		![[Pasted image 20231113164336.png]]
 		Bob이 이미 봤던 영화는 제외한다
 		
-## Codes
 
 ## Item-based Collaborative Filtering
 - 문제를 뒤집어서 비슷한 다른 사람을 찾기보다는 그들이 좋아하는 것을 추천
@@ -276,7 +275,264 @@ next : [[004_Matrix_Factorization_Method]]
 	따라서 과거 이력으로 볼 때 다음에 어떤 영화나 비디오를 볼 가능성이 있는지와 같은 일련의 사건을 예측해야 하는 상황에 처하게 된다면 번역 기반의 추천을 검색하여 실제 세계에서 어떻게 진행되고 있는지 확인해 보는 것이 좋을 것입니다.  
 	  
 	주로 번역 기반의 추천이라는 용어를 기억해 두었으면 해서, 언젠가 시퀀스를 추천할 필요가 있다면 확인하는 것을 기억하면 됩니다.
+## Codes
+### SimpleUserCF.py
+#### Introduce
+- 이 코드는 Surprise 라이브러리를 사용하여 KNN 기반의 협업 필터링 알고리즘을 구현하고, 특정 사용자에게 아이템을 추천하는 과정을 나타냅니다. 코드를 간략히 설명하겠습니다.
 
+```run-python
+from MovieLens import MovieLens
+from surprise import KNNBasic
+import heapq
+from collections import defaultdict
+from operator import itemgetter
+        
+testSubject = '85'
+k = 10
+
+# Load our data set and compute the user similarity matrix
+ml = MovieLens()
+data = ml.loadMovieLensLatestSmall()
+
+trainSet = data.build_full_trainset()
+
+sim_options = {'name': 'cosine',
+               'user_based': True
+               }
+
+model = KNNBasic(sim_options=sim_options)
+model.fit(trainSet)
+simsMatrix = model.compute_similarities()
+
+# Get top N similar users to our test subject
+# (Alternate approach would be to select users up to some similarity threshold - try it!)
+testUserInnerID = trainSet.to_inner_uid(testSubject)
+similarityRow = simsMatrix[testUserInnerID]
+
+similarUsers = []
+for innerID, score in enumerate(similarityRow):
+    if (innerID != testUserInnerID):
+        similarUsers.append( (innerID, score) )
+
+kNeighbors = heapq.nlargest(k, similarUsers, key=lambda t: t[1])
+
+# Get the stuff they rated, and add up ratings for each item, weighted by user similarity
+candidates = defaultdict(float)
+for similarUser in kNeighbors:
+    innerID = similarUser[0]
+    userSimilarityScore = similarUser[1]
+    theirRatings = trainSet.ur[innerID]
+    for rating in theirRatings:
+        candidates[rating[0]] += (rating[1] / 5.0) * userSimilarityScore
+    
+# Build a dictionary of stuff the user has already seen
+watched = {}
+for itemID, rating in trainSet.ur[testUserInnerID]:
+    watched[itemID] = 1
+    
+# Get top-rated items from similar users:
+pos = 0
+for itemID, ratingSum in sorted(candidates.items(), key=itemgetter(1), reverse=True):
+    if not itemID in watched:
+        movieID = trainSet.to_raw_iid(itemID)
+        print(ml.getMovieName(int(movieID)), ratingSum)
+        pos += 1
+        if (pos > 10):
+            break
+```
+
+1. **데이터 로딩 및 모델 초기화:**
+    
+    ```run-python
+    ml = MovieLens() 
+    data = ml.loadMovieLensLatestSmall() 
+    trainSet = data.build_full_trainset()  
+    
+    sim_options = {'name': 'cosine', 'user_based': True} 
+    model = KNNBasic(sim_options=sim_options) 
+    model.fit(trainSet) 
+    simsMatrix = model.compute_similarities()
+    ```
+    
+    - MovieLens 데이터를 로드하고, Surprise에서 제공하는 KNN 기반 협업 필터링 모델을 초기화하고 학습시킵니다.
+    - 코사인 유사도를 사용하며, 사용자 기반 협업 필터링을 수행합니다.
+2. **유사한 사용자 찾기:**
+    
+    ```run-python
+    testUserInnerID = trainSet.to_inner_uid(testSubject) 
+    similarityRow = simsMatrix[testUserInnerID] 
+    similarUsers = [(innerID, score) for innerID, score in enumerate(similarityRow) if innerID != testUserInnerID] 
+    kNeighbors = heapq.nlargest(k, similarUsers, key=lambda t: t[1])
+    ```
+    
+    - 특정 사용자(`testSubject`)에 대한 유사한 사용자를 찾습니다.
+    - `simsMatrix`에서 해당 사용자의 유사도 행을 추출하고, 가장 유사한 상위 `k`명의 사용자를 선택합니다.
+3. **아이템 추천 생성:**
+    
+    ```run-python
+    candidates = defaultdict(float) for similarUser in kNeighbors:     
+	    innerID = similarUser[0]     
+	    userSimilarityScore = similarUser[1]     
+	    theirRatings = trainSet.ur[innerID]     
+	    for rating in theirRatings:         
+		    candidates[rating[0]] += (rating[1] / 5.0) * userSimilarityScore
+	```
+    
+    - 유사한 사용자들이 평가한 아이템을 기반으로 추천 후보군을 생성합니다.
+    - 사용자 유사도를 가중치로 사용하여 각 아이템에 대한 예상 평점을 계산하고, 이를 `candidates` 딕셔너리에 누적합니다.
+4. **이미 시청한 아이템 필터링 및 상위 추천 출력:**
+    
+    ```run-python
+    watched = {} 
+    for itemID, rating in trainSet.ur[testUserInnerID]:     
+	    watched[itemID] = 1  
+	
+	pos = 0 
+	for itemID, ratingSum in sorted(candidates.items(), key=itemgetter(1), reverse=True):     
+		if itemID not in watched:         
+			movieID = trainSet.to_raw_iid(itemID)         
+			print(ml.getMovieName(int(movieID)), ratingSum)         
+			pos += 1         
+			if pos > 10:             
+				break
+	```
+    
+    - 이미 시청한 아이템은 필터링하고, 추천 후보군을 기반으로 상위 10개의 추천을 출력합니다.
+    - `MovieLens` 객체를 사용하여 아이템의 실제 이름을 가져와 출력합니다.
+
+- 이 코드는 KNN 알고리즘을 사용하여 협업 필터링을 구현하고, 특정 사용자에게 아이템을 추천하는 과정을 단계별로 수행하는 예제입니다.
+	  
+	가능한 모든 사용자의 모든 항목에 대해 등급을 예측할 필요가 없었기 때문입니다. 모든 가능한 사용자의 모든 항목에 대해 예측할 필요가 없었기 때문입니다.
+	
+	여기서 유일하게 시간이 걸리는 부분은 사용자 간 유사성 매트릭스를 구축하는 것입니다, 그 후에는 개인에 대한 추천을 추천을 만드는 것은 정말 정말 빠릅니다.
+	
+	그렇기 때문에 협업 필터링은 아마존과 같은 대기업이 Amazon과 같은 대기업이 쉽게 사용할 수 있는 협업 필터링은 방대한 데이터 세트와 엄청난 트랜잭션 속도를 가진 Amazon과 같은 대기업이 쉽게 사용할 수 있는 기능입니다.
+	
+	효율성은 무엇보다 중요합니다.
+	
+### SimpleUserCF.py
+#### Introduce
+- 이 코드는 Surprise 라이브러리를 사용하여 아이템 기반 협업 필터링 알고리즘을 구현하고, 특정 사용자에게 아이템을 추천하는 과정을 나타냅니다
+
+```run-python
+from MovieLens import MovieLens
+from surprise import KNNBasic
+import heapq
+from collections import defaultdict
+from operator import itemgetter
+        
+testSubject = '85'
+k = 10
+
+ml = MovieLens()
+data = ml.loadMovieLensLatestSmall()
+
+trainSet = data.build_full_trainset()
+
+sim_options = {'name': 'cosine',
+               'user_based': False
+               }
+
+model = KNNBasic(sim_options=sim_options)
+model.fit(trainSet)
+simsMatrix = model.compute_similarities()
+
+testUserInnerID = trainSet.to_inner_uid(testSubject)
+
+# Get the top K items we rated
+testUserRatings = trainSet.ur[testUserInnerID]
+kNeighbors = heapq.nlargest(k, testUserRatings, key=lambda t: t[1])
+
+# Get similar items to stuff we liked (weighted by rating)
+candidates = defaultdict(float)
+for itemID, rating in kNeighbors:
+    similarityRow = simsMatrix[itemID]
+    for innerID, score in enumerate(similarityRow):
+        candidates[innerID] += score * (rating / 5.0)
+    
+# Build a dictionary of stuff the user has already seen
+watched = {}
+for itemID, rating in trainSet.ur[testUserInnerID]:
+    watched[itemID] = 1
+    
+# Get top-rated items from similar users:
+pos = 0
+for itemID, ratingSum in sorted(candidates.items(), key=itemgetter(1), reverse=True):
+    if not itemID in watched:
+        movieID = trainSet.to_raw_iid(itemID)
+        print(ml.getMovieName(int(movieID)), ratingSum)
+        pos += 1
+        if (pos > 10):
+            break
+```
+
+1. **데이터 로딩 및 모델 초기화:**
+    
+    ```run-python
+    ml = MovieLens() 
+    data = ml.loadMovieLensLatestSmall() 
+    trainSet = data.build_full_trainset()  
+    
+    sim_options = {'name': 'cosine', 'user_based': False} 
+    model = KNNBasic(sim_options=sim_options) 
+    model.fit(trainSet) 
+    simsMatrix = model.compute_similarities()
+    ```
+    
+    - MovieLens 데이터를 로드하고, Surprise에서 제공하는 KNN 기반 협업 필터링 모델을 초기화하고 학습시킵니다.
+    - 코사인 유사도를 사용하며, 아이템 기반 협업 필터링을 수행합니다.
+    -  눈에 띄는 차이점은 첫 번째 차이점은 sim_options를 설정할 때, 'user_based'에 대해 False을 전달
+2. **사용자의 평가 정보 및 이웃 아이템 선정:**
+    
+    ```run-python
+    testUserInnerID = trainSet.to_inner_uid(testSubject) 
+    testUserRatings = trainSet.ur[testUserInnerID] 
+    kNeighbors = heapq.nlargest(k, testUserRatings, key=lambda t: t[1])
+    ```
+    
+    - 특정 사용자(`testSubject`)의 내부 사용자 ID를 가져온 후, 해당 사용자가 평가한 아이템 중 상위 `k`개를 선정합니다.
+    
+    - Exercise Solution
+		```run-python
+		#kNeighbors = heapq.nlargest(k, testUserRatings, key=lambda t: t[1])
+		kNeighbors = []
+		for rating in testUserRatings:
+			if rating[1] > 4.0:
+				kNeighbors.append(ra)
+		```
+1. **유사한 아이템 찾기 및 가중치 적용:**
+    
+    ```run-python
+    candidates = defaultdict(float) 
+    for itemID, rating in kNeighbors:     
+	    similarityRow = simsMatrix[itemID]     
+		    for innerID, score in enumerate(similarityRow):         
+			    candidates[innerID] += score * (rating / 5.0)
+	```
+    
+    - 이웃 아이템에 대해 유사한 아이템을 찾고, 해당 아이템과의 유사도를 가중치로 사용하여 예상 평점을 계산합니다.
+    - `candidates` 딕셔너리에 각 아이템의 누적 가중치를 저장합니다.
+4. **이미 시청한 아이템 필터링 및 상위 추천 출력:**
+	
+    ```run-python
+    watched = {} 
+    for itemID, rating in trainSet.ur[testUserInnerID]:     
+	    watched[itemID] = 1  
+	    
+	pos = 0 
+	for itemID, ratingSum in sorted(candidates.items(), key=itemgetter(1), reverse=True):     
+		if itemID not in watched:         
+				movieID = trainSet.to_raw_iid(itemID)         
+				print(ml.getMovieName(int(movieID)), ratingSum)         
+				pos += 1         
+				if pos > 10:             
+					break
+	```
+    
+    - 이미 시청한 아이템은 필터링하고, 추천 후보군을 기반으로 상위 10개의 추천을 출력합니다.
+    - `MovieLens` 객체를 사용하여 아이템의 실제 이름을 가져와 출력합니다.
+
+이 코드는 특정 사용자에게 아이템을 추천하는 아이템 기반 협업 필터링 알고리즘을 구현한 예제입니다.
 ## 단점
 앞에서 살펴본 바와 같이, 협업 필터링은 실제 대규모 상황에서 매우 효과적으로 작동하는 것으로 입증된 훌륭한 결과를 제공할 수 있습니다.  
   
