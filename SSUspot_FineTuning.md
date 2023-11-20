@@ -35,3 +35,27 @@ American Tail, An (1986) 5
 	- 하지만 4점대를 필터링할 경우 불호를 체크하지 못하고 선호하는 것들에서만 평가가 이뤄지기에 완전히 다른 결과가 나오게 된다.
 
 ![[Pasted image 20231120181104.png]]
+
+We recommend:
+Mary Shelley's Frankenstein (Frankenstein) (1994) 5
+Sirens (1994) 5
+Terminator 2: Judgment Day (1991) 5
+Shawshank Redemption, The (1994) 5
+Trainspotting (1996) 5
+Bedknobs and Broomsticks (1971) 5
+Lady and the Tramp (1955) 5
+Little Mermaid, The (1989) 5
+Return from Witch Mountain (1978) 5
+Steamboat Willie (1928) 5
+
+We recommend:
+Ben-Hur (1959) 5
+GoldenEye (1995) 5
+Clueless (1995) 5
+Batman Forever (1995) 5
+Circle of Friends (1995) 5
+Houseguest (1994) 5
+Shallow Grave (1994) 5
+While You Were Sleeping (1995) 5
+Fugitive, The (1993) 5
+Three Musketeers, The (1993) 5
