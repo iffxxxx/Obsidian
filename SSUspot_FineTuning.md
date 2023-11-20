@@ -13,6 +13,10 @@ Fight Club (1999) 5
 Encino Man (1992) 5
 
 ## 4점대 필터링 (코드에서 수정)
+```run-python
+ratingsDataset.raw_ratings = [r for r in ratingsDataset.raw_ratings if r[2] >= 4.0]
+```
+
 ![[Pasted image 20231120171719.png]]
 
 Tron (1982) 5
@@ -30,3 +34,4 @@ American Tail, An (1986) 5
 - 평점기반 시스템은 영화에 대한 구체적인 평가를 내릴 수 있다.
 	- 하지만 4점대를 필터링할 경우 불호를 체크하지 못하고 선호하는 것들에서만 평가가 이뤄지기에 완전히 다른 결과가 나오게 된다.
 
+![[Pasted image 20231120181104.png]]

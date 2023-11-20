@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "4.0",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -215,9 +215,10 @@
   },
   "active": "ad2b617b9d7a92ac",
   "lastOpenFiles": [
-    "Attached file/Pasted image 20231120171719.png",
+    "Attached file/Pasted image 20231120181104.png",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Neighborhood-Based_Collaborative_Filtering.md",
     "SSUspot_FineTuning.md",
+    "Attached file/Pasted image 20231120171719.png",
     "Attached file/Pasted image 20231120171125.png",
     "Book.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Matrix_Factorization_Method.md",
@@ -250,7 +251,6 @@
     "000 총류/004 컴퓨터과학/004_컴퓨터과학.md",
     "000 총류/000_총류.md",
     "000 총류/060 일반 학회, 단체, 협회, 기관/일반 학회, 단체, 협회, 기관.md",
-    "Attached file/Pasted image 20231115021822.png",
     "400 순수과학/410 수학/412_Orthogonal_Functions.md",
     "500 기술 과학/550 기계공학/567_Video_Compression.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/[412_Orthogonal_Functions].md",
