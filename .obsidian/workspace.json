@@ -20,12 +20,24 @@
             }
           },
           {
+            "id": "dc90ff6a0678a343",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SSUspot_FineTuning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ad2b617b9d7a92ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Content-based_filtering.md",
+                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Neighborhood-Based_Collaborative_Filtering.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Deep_Learning",
+                "query": "4.0",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Content-based_filtering.md",
+                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Neighborhood-Based_Collaborative_Filtering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Content-based_filtering.md",
+                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Neighborhood-Based_Collaborative_Filtering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Content-based_filtering.md"
+                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Neighborhood-Based_Collaborative_Filtering.md"
               }
             }
           },
@@ -203,16 +215,18 @@
   },
   "active": "ad2b617b9d7a92ac",
   "lastOpenFiles": [
-    "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_A_Recommender_Engine_Framework.md",
+    "SSUspot_FineTuning.md",
+    "Attached file/Pasted image 20231120171125.png",
     "Book.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Neighborhood-Based_Collaborative_Filtering.md",
+    "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Matrix_Factorization_Method.md",
+    "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Recommender_Systems.md",
+    "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Content-based_filtering.md",
+    "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_A_Recommender_Engine_Framework.md",
     "Attached file/Pasted image 20231119232326.png",
     "Attached file/Pasted image 20231119231833.png",
     "Attached file/Pasted image 20231119231829.png",
-    "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Content-based_filtering.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Evaluating_Recommender_Systems.md",
-    "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Matrix_Factorization_Method.md",
-    "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Recommender_Systems.md",
     "Attached file/Pasted image 20231117220904.png",
     "Attached file/Pasted image 20231117220605.png",
     "Attached file/Pasted image 20231117220414.png",
@@ -224,7 +238,6 @@
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/ml-latest-small/links.csv",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/ml-latest-small/movies.csv",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/ml-latest-small",
-    "무제 파일.md",
     "Python.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/무제 파일.md",
     "100 철학/100 철학.md",
@@ -239,7 +252,6 @@
     "Attached file/Pasted image 20231115021822.png",
     "400 순수과학/410 수학/412_Orthogonal_Functions.md",
     "500 기술 과학/550 기계공학/567_Video_Compression.md",
-    "Attached file/Pasted image 20231115012548.png",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/[412_Orthogonal_Functions].md",
     "000 총류/004 컴퓨터과학/004_Linear_classifcation.md",
     "000 총류/004 컴퓨터과학/Stable_Diffusion_Image/Various_Models.md",
