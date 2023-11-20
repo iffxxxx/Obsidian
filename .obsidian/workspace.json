@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Neighborhood-Based_Collaborative_Filtering.md",
+                "file": "SSUspot_FineTuning.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Neighborhood-Based_Collaborative_Filtering.md",
+                "file": "SSUspot_FineTuning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Neighborhood-Based_Collaborative_Filtering.md",
+                "file": "SSUspot_FineTuning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Neighborhood-Based_Collaborative_Filtering.md"
+                "file": "SSUspot_FineTuning.md"
               }
             }
           },
@@ -215,10 +215,11 @@
   },
   "active": "ad2b617b9d7a92ac",
   "lastOpenFiles": [
+    "Attached file/Pasted image 20231120171719.png",
+    "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Neighborhood-Based_Collaborative_Filtering.md",
     "SSUspot_FineTuning.md",
     "Attached file/Pasted image 20231120171125.png",
     "Book.md",
-    "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Neighborhood-Based_Collaborative_Filtering.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Matrix_Factorization_Method.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Recommender_Systems.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Content-based_filtering.md",
