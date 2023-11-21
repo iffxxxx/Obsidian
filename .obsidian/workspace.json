@@ -47,8 +47,12 @@
             "id": "103c9a1c8197daa3",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Introduce.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -142,6 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Introduce.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,6 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Introduce.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +185,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Introduce.md"
+              }
             }
           },
           {
@@ -219,6 +227,7 @@
   },
   "active": "103c9a1c8197daa3",
   "lastOpenFiles": [
+    "Attached file/Pasted image 20231122000858.png",
     "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Introduce.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/Neighborhood-based collaborative filtering.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/Model-based methods.md",
@@ -263,7 +272,6 @@
     "000 총류/004 컴퓨터과학/004_Linear_classifcation.md",
     "000 총류/004 컴퓨터과학/Stable_Diffusion_Image/Various_Models.md",
     "000 총류/004 컴퓨터과학/Stable_Diffusion_Image/Stable_Diffusion_uses.md",
-    "Study/MediaGAN/Media GAN (7).md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems",
     "무제 파일.canvas",
     "300_사회과학/무제 파일.canvas"
