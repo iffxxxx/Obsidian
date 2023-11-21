@@ -468,7 +468,7 @@ $$\frac{\sum_{i=1}^n{\frac{1}{rank_i}}}{Users}$$
     ```
     - Leave-One-Out 교차 검증을 사용하여 Top-N 추천의 다양한 메트릭을 계산합니다.
       
-	1. **전체 추천 평가:**
+	7. **전체 추천 평가:**
     ```algo.fit(fullTrainSet) 
     bigTestSet = fullTrainSet.build_anti_testset() 
     allPredictions = algo.test(bigTestSet) 
