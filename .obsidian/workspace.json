@@ -37,10 +37,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SSUspot_FineTuning.md",
+                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/Neighborhood-based collaborative filtering.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "103c9a1c8197daa3",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -68,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,7 +142,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SSUspot_FineTuning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +158,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SSUspot_FineTuning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,9 +179,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "SSUspot_FineTuning.md"
-              }
+              "state": {}
             }
           },
           {
@@ -213,11 +217,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ad2b617b9d7a92ac",
+  "active": "103c9a1c8197daa3",
   "lastOpenFiles": [
+    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Introduce.md",
+    "000 총류/004 컴퓨터과학/004_Recommender_Systems/Neighborhood-based collaborative filtering.md",
+    "000 총류/004 컴퓨터과학/004_Recommender_Systems/Model-based methods.md",
+    "000 총류/004 컴퓨터과학/004_Recommender_Systems/Deep learning with artificial neural networks.md",
+    "SSUspot_FineTuning.md",
+    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model",
     "Attached file/Pasted image 20231120181104.png",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Neighborhood-Based_Collaborative_Filtering.md",
-    "SSUspot_FineTuning.md",
     "Attached file/Pasted image 20231120171719.png",
     "Attached file/Pasted image 20231120171125.png",
     "Book.md",
@@ -241,13 +250,10 @@
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/ml-latest-small/movies.csv",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/ml-latest-small",
     "Python.md",
-    "000 총류/004 컴퓨터과학/004_Recommender_Systems/무제 파일.md",
     "100 철학/100 철학.md",
-    "000 총류/004 컴퓨터과학/004_Recommender_Systems/Deep learning with artificial neural networks.md",
     "Attached file/SVDTuning.py",
     "800 문학/840 영미문학/840 영미문학.md",
     "000 총류/060 일반 학회, 단체, 협회, 기관/Znet_ Deep Learning Approach for 2D MRI Brain Tumor Segmentation.md",
-    "Attached file/Pasted image 20231116033806.png",
     "000 총류/004 컴퓨터과학/004_컴퓨터과학.md",
     "000 총류/000_총류.md",
     "000 총류/060 일반 학회, 단체, 협회, 기관/일반 학회, 단체, 협회, 기관.md",
@@ -257,10 +263,8 @@
     "000 총류/004 컴퓨터과학/004_Linear_classifcation.md",
     "000 총류/004 컴퓨터과학/Stable_Diffusion_Image/Various_Models.md",
     "000 총류/004 컴퓨터과학/Stable_Diffusion_Image/Stable_Diffusion_uses.md",
-    "000 총류/004 컴퓨터과학/004_Recommender_Systems/Neighborhood-based collaborative filtering.md",
     "Study/MediaGAN/Media GAN (7).md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems",
-    "Attached file/plain.ipynb",
     "무제 파일.canvas",
     "300_사회과학/무제 파일.canvas"
   ]
