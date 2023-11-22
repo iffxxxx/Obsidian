@@ -1,8 +1,21 @@
-- ##
-	![[02_03_Research_Production_Environments_2.png]]
-	![[02_03_Research_Production_Environments_3.png]]
-	![[02_03_Research_Production_Environments_4.png]]
-	![[02_03_Research_Production_Environments_5.png]]
+- ## Research and Production Environment
+	![[02_03_Research_Production_Environments_2.png|600]]
+	우리는 기계 학습 모델의 배포가 모델을 프로덕션 환경에 통합하는 프로세스라고 언급했습니다.
 	
+	또한 모델이 연구 환경에서 개발되며 동일한 데이터를 사용하면 연구 및 프로덕션 환경에서 동일한 결과를 생성하는 재현 가능한 모델을 얻기 위한 목표라고 언급했습니다.
 	
+	그래서 이 비디오에서는 연구 및 프로덕션 환경의 정의를 형식화하고자 합니다.
 	
+	- ### Environment
+		![[02_03_Research_Production_Environments_3.png|600]]
+		**환경**이라는 용어는 **소프트웨어 또는 다른 제품이 개발되거나 운영되는 컴퓨터의 설정 또는 상태**를 나타냅니다. 이 설정은 일반적으로 소프트웨어, 하드웨어 프로그램 및 운영 체제를 포함합니다.
+		
+	- ### Research Environment
+		  ![[02_03_Research_Production_Environments_4.png|600]]
+		  **연구 환경**은 **데이터 분석, 전처리 및 기계 학습 모델 개발에 적합한 도구, 프로그램 및 소프트웨어를 포함하는 설정**입니다. 여기에서 데이터 과학자들은 일반적으로 기계 학습 모델을 개발하고 조직에 대한 잠재적 가치를 식별합니다.
+		
+	  - ### Production Environment
+		![[02_03_Research_Production_Environments_5.png]]
+		**프로덕션 환경**은 **실시간 설정으로 실행 중인 프로그램과 기계 학습 모델이 실제로 비즈니스 사용을 위해 사용 가능한 하드웨어 설정이 포함**되어 있습니다. 프로덕션 환경에서는 기계 학습 모델을 비즈니스 사용을 위해 실제로 사용할 수 있습니다. 예를 들어, 프로덕션 환경을 통해 기계 학습 모델을 사용하여 고객 생애 가치 서비스를 제공할 수 있습니다.
+		
+		따라서 연구 및 프로덕션 환경에서 사용하는 도구, 소프트웨어 및 하드웨어는 서로 다르기 때문에 서로 다른 목적을 제공합니다.
