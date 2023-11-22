@@ -1,4 +1,7 @@
+next : [[004_Overview_of_Model_Deployment]]
 ## Course
+- [Deploying-machine-learning-models_github](https://github.com/trainindata/deploying-machine-learning-models)
+
 ![[Pasted image 20231122000858.png|600]]
 
 - ### System Architecture
@@ -31,5 +34,4 @@
 	
 - ### Assessing Reproducibillity
 	![[Pasted image 20231122005508.png|600]]
-	강의를 마무리하면 연구 및 프로덕션 모델 간의 재현 가능성을 평가할 것입니다. 결과를 비교하고 결과가 동일하지 않은 경우에 대해 논의할 것입니다. 지원이 필요한 경우 강의 전체에 걸쳐 추가 리소스에 대한 링크가 풍부하게 제공됩니다. 여기서 다루는 주제에 대해 더 자세히 알고 싶다면 추가 리소스에 대한 링크가 많이 제공됩니다. 또한 질문을 할 수 있는 Q&A 섹션이 있습니다. 질문을 하시면 빠르게 답변해 드릴 것입니다. 그럼 여러분을 강의에서 만나겠습니다!
-
+	강의를 마무리하면 연구 및 프로덕션 모델 간의 재현 가능성을 평가할 것입니다. 결과를 비교하고 결과가 동일하지 않은 경우에 대해 논의할 것입니다. 지원이 필요한 경우 강의 전체에 걸쳐 추가 리소스에 대한 링크가 풍부하게 제공됩니다. 여기서 다루는 주제에 대해 더 자세히 알고 싶다면 추가 리소스에 대한 링크가 많이 제공됩니다. 
