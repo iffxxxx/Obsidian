@@ -1,6 +1,8 @@
 next : [[004_Overview_of_Model_Deployment]]
 ## Course
 - [Deploying-machine-learning-models_github](https://github.com/trainindata/deploying-machine-learning-models)
+- [Presentations](https://www.dropbox.com/sh/effzx0nmstqcr2e/AAB4sB33hv5jULKj-6cj3XqQa?dl=0)
+- [Dataset](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
 
 ![[Pasted image 20231122000858.png|600]]
 

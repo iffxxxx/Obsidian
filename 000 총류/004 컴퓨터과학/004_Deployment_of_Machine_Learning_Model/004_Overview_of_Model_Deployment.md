@@ -1,7 +1,0 @@
-next : [[004_Machine_Learning_System_Architecture]]
-## 1 [[004_Model_Deployment]]
-## 2 [[004_Deployment_of_Pipelines]]
-## 3 [[004_Research_Production_Environment]]
-## 4 [[004_Building_Reproducible_Machine_Learning_Pipelines]]
-## 5 [[004_Challenges_to_reproducibility]]
-## 6 [[Streamlining_Deployment_with_OpenSource]]
