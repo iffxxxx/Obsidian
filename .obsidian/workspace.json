@@ -68,6 +68,14 @@
             }
           },
           {
+            "id": "8066dd0d65ab9211",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
             "id": "1d08f39a5ab8d0d7",
             "type": "leaf",
             "state": {
@@ -92,7 +100,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -121,7 +129,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -158,7 +166,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +182,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,9 +203,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment.md"
-              }
+              "state": {}
             }
           },
           {
@@ -237,27 +241,33 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7b3262ea17fc497c",
+  "active": "8066dd0d65ab9211",
   "lastOpenFiles": [
-    "Attached file/02_01_Model_Deployment_2.png",
-    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Model_Deployment.md",
+    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Challenges_to_reproducibility.md",
     "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment.md",
+    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Building_Reproducible_Machine_Learning_Pipelines.md",
+    "Attached file/02_04_Reproducible_ML_Pipelines_6.png",
+    "Attached file/02_04_Reproducible_ML_Pipelines_5.png",
+    "Attached file/02_04_Reproducible_ML_Pipelines_4.png",
+    "Attached file/02_04_Reproducible_ML_Pipelines_3.png",
+    "Attached file/02_04_Reproducible_ML_Pipelines_2.png",
+    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Research_Production_Environment.md",
+    "Attached file/02_03_Research_Production_Environments_5.png",
+    "Attached file/02_03_Research_Production_Environments_4.png",
+    "Attached file/02_03_Research_Production_Environments_3.png",
+    "Attached file/02_03_Research_Production_Environments_2.png",
     "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Deployment_of_Machine_Learning_Models.md",
+    "000 총류/004 컴퓨터과학/004_Machine_Learning.md",
+    "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Recommender_Systems.md",
+    "000 총류/004 컴퓨터과학/004_컴퓨터과학.md",
+    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Deployment_of_Pipelines.md",
+    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Model_Deployment.md",
+    "Attached file/02_02_Deployment_of_Pipelines_7.png",
     "Attached file/02_01_Model_Deployment.pdf",
-    "Attached file/Pasted image 20231122005909.png",
-    "Attached file/Pasted image 20231122005508.png",
-    "Attached file/Pasted image 20231122005417.png",
-    "Attached file/Pasted image 20231122005313.png",
-    "Attached file/Pasted image 20231122005125.png",
-    "Attached file/Pasted image 20231122005115.png",
-    "Attached file/Pasted image 20231122004945.png",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Evaluating_Recommender_Systems.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Matrix_Factorization_Method.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Content-based_filtering.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_A_Recommender_Engine_Framework.md",
-    "Attached file/Pasted image 20231122004013.png",
-    "Attached file/Pasted image 20231122004002.png",
-    "Attached file/Pasted image 20231122003748.png",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/Neighborhood-based collaborative filtering.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/Model-based methods.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/Deep learning with artificial neural networks.md",
@@ -265,7 +275,6 @@
     "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Neighborhood-Based_Collaborative_Filtering.md",
     "Book.md",
-    "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Recommender_Systems.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/MovieLens.py",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/ml-latest-small/tags.csv",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/ml-latest-small/README.txt",
@@ -278,13 +287,8 @@
     "Attached file/SVDTuning.py",
     "800 문학/840 영미문학/840 영미문학.md",
     "000 총류/060 일반 학회, 단체, 협회, 기관/Znet_ Deep Learning Approach for 2D MRI Brain Tumor Segmentation.md",
-    "000 총류/004 컴퓨터과학/004_컴퓨터과학.md",
     "000 총류/000_총류.md",
     "000 총류/060 일반 학회, 단체, 협회, 기관/일반 학회, 단체, 협회, 기관.md",
-    "400 순수과학/410 수학/412_Orthogonal_Functions.md",
-    "500 기술 과학/550 기계공학/567_Video_Compression.md",
-    "000 총류/004 컴퓨터과학/004_Recommender_Systems/[412_Orthogonal_Functions].md",
-    "000 총류/004 컴퓨터과학/004_Linear_classifcation.md",
     "무제 파일.canvas",
     "300_사회과학/무제 파일.canvas"
   ]

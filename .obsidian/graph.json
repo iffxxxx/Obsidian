@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "file:004",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -91,10 +91,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.512474012474013,
+  "centerStrength": 0.175675675675676,
   "repelStrength": 20,
   "linkStrength": 0.5,
   "linkDistance": 30,
-  "scale": 0.5334257528756716,
+  "scale": 0.34965970272167063,
   "close": false
 }
