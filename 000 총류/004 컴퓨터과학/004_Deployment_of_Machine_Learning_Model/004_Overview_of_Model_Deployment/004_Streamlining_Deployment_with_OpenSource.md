@@ -1,4 +1,4 @@
-- ## 
+- ## Reproducible ML Pipelines
 	![[02_06_Streamlining_Deployment_with_OpenSource_2.png]]
 	![[02_06_Streamlining_Deployment_with_OpenSource_3.png]]
 	![[02_06_Streamlining_Deployment_with_OpenSource_4.png]]
