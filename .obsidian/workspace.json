@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Challenges_to_reproducibility.md",
+                "file": "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Streamlining_Deployment_with_OpenSource.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Challenges_to_reproducibility.md",
+                "file": "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Streamlining_Deployment_with_OpenSource.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Challenges_to_reproducibility.md",
+                "file": "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Streamlining_Deployment_with_OpenSource.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Challenges_to_reproducibility.md"
+                "file": "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Streamlining_Deployment_with_OpenSource.md"
               }
             }
           },
@@ -179,10 +179,11 @@
   },
   "active": "7b3262ea17fc497c",
   "lastOpenFiles": [
+    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Research_Production_Environment.md",
+    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Streamlining_Deployment_with_OpenSource.md",
     "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Overview_of_Model_Deployment.md",
     "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Challenges_to_reproducibility.md",
     "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Building_Reproducible_Machine_Learning_Pipelines.md",
-    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Research_Production_Environment.md",
     "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Deployment_of_Pipelines.md",
     "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Model_Deployment.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Matrix_Factorization_Method.md",
@@ -192,7 +193,6 @@
     "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Research_Environment-Developing_a_Machine_Learning_Model.md",
     "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture.md",
     "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Deployment_of_Machine_Learning_Models.md",
-    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Streamlining_Deployment_with_OpenSource.md",
     "Attached file/02_06_Streamlining_Deployment_with_OpenSource_13.png",
     "Attached file/02_06_Streamlining_Deployment_with_OpenSource_12.png",
     "Attached file/02_06_Streamlining_Deployment_with_OpenSource_11.png",
