@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture/004_Machine_Learning_System_Architecture_Approaches.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/05_Machine_Learning_System_Component_Breakdown.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture/004_Machine_Learning_System_Architecture_Approaches.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/05_Machine_Learning_System_Component_Breakdown.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture/004_Machine_Learning_System_Architecture_Approaches.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/05_Machine_Learning_System_Component_Breakdown.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture/004_Machine_Learning_System_Architecture_Approaches.md"
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/05_Machine_Learning_System_Component_Breakdown.md"
               }
             }
           },
@@ -166,11 +166,25 @@
   },
   "active": "939bdc888e60b9bb",
   "lastOpenFiles": [
-    "000_총류/004_컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture/004_Machine_Learning_System_Architecture.md",
-    "000_총류/004_컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture/004_Machine_Learning_System_Component_Breakdown.md",
-    "000_총류/004_컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture/004_Machine_Learning_System_Architecture_and_Why it Matters.md",
-    "000_총류/004_컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture/004_Principles_for_Machine_Learning_Systems.md",
-    "000_총류/004_컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture/004_Specific_Challenges_of_Machine_Learning_Systems.md",
+    "Attached file/03_05_Architecture_Component_Breakdown_6.png",
+    "Attached file/03_05_Architecture_Component_Breakdown_5.png",
+    "Attached file/03_05_Architecture_Component_Breakdown_4.png",
+    "Attached file/03_05_Architecture_Component_Breakdown_3.png",
+    "Attached file/03_05_Architecture_Component_Breakdown_2.png",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/004_Deployment_of_Machine_Learning_Models.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/00_Overview_of_Model_Deployment.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/06_Streamlining_Deployment_with_OpenSource.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/05_Challenges_to_reproducibility.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/04_Building_Reproducible_Machine_Learning_Pipelines.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/03_Research_Production_Environment.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/02_Deployment_of_Pipelines.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/01_Model_Deployment.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/00_Machine_Learning_System_Architecture.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/05_Machine_Learning_System_Component_Breakdown.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/04_Machine_Learning_System_Architecture_Approaches.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/03_Principles_for_Machine_Learning_Systems.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/02_Specific_Challenges_of_Machine_Learning_Systems.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/01_Machine_Learning_System_Architecture_and_Why it Matters.md",
     "000_총류/004_컴퓨터과학/004_컴퓨터과학.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning",
     "000_총류/004_컴퓨터과학/004_Stable_Diffusion.md",
@@ -184,31 +198,17 @@
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/004_Evaluating_Recommender_Systems.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/004_A_Recommender_Engine_Framework.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning",
-    "MG_231124.md",
-    "Book.md",
     "무제 파일.canvas",
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/Stable_Diffusion_Image/Various_Models.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/004_Content-based_filtering.md",
-    "000_총류/004 컴퓨터과학/Stable_Diffusion_Image/Stable_Diffusion_uses.md",
-    "100_철학/100_철학.md",
-    "000_총류/004_컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture/004_Machine_Learning_System_Architecture_Approaches.md",
-    "000_총류/004_컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Overview_of_Model_Deployment.md",
-    "000_총류/004_컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Deployment_of_Machine_Learning_Models.md",
-    "SSUspot_FineTuning.md",
     "Attached file/03_04_Machine_Learning_system_architecture_approaches_8.png",
     "Attached file/03_04_Machine_Learning_system_architecture_approaches_7.png",
     "Attached file/03_04_Machine_Learning_system_architecture_approaches_6.png",
     "Attached file/03_04_Machine_Learning_system_architecture_approaches_5.png",
     "Attached file/03_04_Machine_Learning_system_architecture_approaches_4.png",
     "Attached file/03_04_Machine_Learning_system_architecture_approaches_3.png",
-    "Attached file/03_04_Machine_Learning_system_architecture_approaches_2.png",
-    "Attached file/03_03_ML_System_Principles_8.png",
-    "Attached file/03_03_ML_System_Principles_7.png",
-    "Attached file/03_03_ML_System_Principles_6.png",
-    "000_총류/004_컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture",
-    "000_총류/004_컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment",
     "Attached file/02_01_Model_Deployment.pdf",
-    "000_총류/004_컴퓨터과학/004_Deployment_of_Machine_Learning_Model",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/MovieLens.py",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/ml-latest-small/tags.csv",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/ml-latest-small/README.txt",
