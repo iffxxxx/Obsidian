@@ -65,7 +65,7 @@ next : [[]]
 	- #### Eigenvectors
 		그 검은 화살표들은 이 데이터의 고유 벡터 **(Eigenvectors)** 라고 불리는 것입니다.  
 		
-		기본적으로 데이터의 분산과 그에 [직교하는 벡터](412_Orthogonal_Functions#Orthogonal_Functions)를 가장 잘 설명할 수 있는 벡터입니다. 
+		기본적으로 데이터의 분산과 그에 [직교하는 벡터](412_Orthogonal_Functions.md#Orthogonal_Functions)를 가장 잘 설명할 수 있는 벡터입니다. 
 		  
 		함께 데이터에 더 적합한 새로운 벡터 공간 또는 기저를 정의할 수 있습니다.  
 		  
