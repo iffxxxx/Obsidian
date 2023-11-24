@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture/004_Specific_Challenges_of_Machine_Learning_Systems.md",
+                "file": "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture/004_Principles_for_Machine_Learning_Systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture/004_Specific_Challenges_of_Machine_Learning_Systems.md",
+                "file": "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture/004_Principles_for_Machine_Learning_Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture/004_Specific_Challenges_of_Machine_Learning_Systems.md",
+                "file": "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture/004_Principles_for_Machine_Learning_Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture/004_Specific_Challenges_of_Machine_Learning_Systems.md"
+                "file": "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture/004_Principles_for_Machine_Learning_Systems.md"
               }
             }
           },
@@ -179,21 +179,21 @@
   },
   "active": "7b3262ea17fc497c",
   "lastOpenFiles": [
+    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture/004_Machine_Learning_System_Architecture.md",
+    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture/004_Specific_Challenges_of_Machine_Learning_Systems.md",
+    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture/004_Principles_for_Machine_Learning_Systems.md",
+    "Attached file/03_03_ML_System_Principles_8.png",
+    "Attached file/03_03_ML_System_Principles_7.png",
+    "Attached file/03_03_ML_System_Principles_6.png",
+    "Attached file/03_03_ML_System_Principles_5.png",
+    "Attached file/03_03_ML_System_Principles_4.png",
+    "Attached file/03_03_ML_System_Principles_3.png",
+    "Attached file/03_03_ML_System_Principles_2.png",
     "Attached file/03_02_Specific_Challenges_of_ML_Systems_9.png",
     "Attached file/03_02_Specific_Challenges_of_ML_Systems_8.png",
     "Attached file/03_02_Specific_Challenges_of_ML_Systems_7.png",
-    "Attached file/03_02_Specific_Challenges_of_ML_Systems_6.png",
-    "Attached file/03_02_Specific_Challenges_of_ML_Systems_5.png",
-    "Attached file/03_02_Specific_Challenges_of_ML_Systems_4.png",
-    "Attached file/03_02_Specific_Challenges_of_ML_Systems_3.png",
-    "Attached file/03_02_Specific_Challenges_of_ML_Systems_2.png",
-    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture/004_Machine_Learning_System_Architecture.md",
     "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture/004_Machine_Learning_System_Architecture_and_Why it Matters.md",
-    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture/004_Specific_Challenges_of_Machine_Learning_Systems.md",
     "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture",
-    "Attached file/03_01_ML_System_Architecture_Introduction_6.png",
-    "Attached file/03_01_ML_System_Architecture_Introduction_5.png",
-    "Attached file/03_01_ML_System_Architecture_Introduction_4.png",
     "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Overview_of_Model_Deployment.md",
     "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Deployment_of_Machine_Learning_Models.md",
     "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Research_Environment-Developing_a_Machine_Learning_Model.md",
@@ -216,7 +216,6 @@
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Content-based_filtering.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_A_Recommender_Engine_Framework.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Evaluating_Recommender_Systems.md",
-    "000 총류/004 컴퓨터과학/004_Machine_Learning.md",
     "Attached file/02_01_Model_Deployment.pdf",
     "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/MovieLens.py",

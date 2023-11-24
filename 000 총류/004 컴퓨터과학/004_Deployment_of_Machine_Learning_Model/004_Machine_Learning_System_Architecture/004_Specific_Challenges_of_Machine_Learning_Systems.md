@@ -14,5 +14,29 @@
 	![[03_02_Specific_Challenges_of_ML_Systems_7.png]]
 	머신러닝 시스템에 대한 테스트는 고려해야 할 또 다른 거대한 도전과제입니다. 이는 전통적인 소프트웨어 테스트가 코드에서 예외를 찾기 때문입니다. 그러나 모델이 단순히 성능이 낮아지거나 잘못된 예측을 반환하는 경우에는 예외가 발생하지 않습니다. 따라서 모델의 이러한 실수를 포착하고 감지하기 위한 대체 방법을 설계해야 합니다.
 	![[03_02_Specific_Challenges_of_ML_Systems_8.png]]
+	마지막으로 머신러닝 파이프라인 배포에 대한 팀의 구성도 고려해야 할 중요한 도전과제입니다. 데이터 과학자, 소프트웨어 엔지니어, 데브옵스 엔지니어, 제품 소유자 또는 비즈니스는 시스템에 대한 요구 사항을 가장 잘 이해하는 직군입니다. 회사의 크기에 따라 이 네 부서 간의 경계가 흐릴 수 있습니다. 각 팀이 효과적인 배포를 보장하기 위해 서로 의사 소통해야 하는 다양한 분야가 있습니다.
+	![[03_02_Specific_Challenges_of_ML_Systems_9.png]]
+	이제까지 표의 간략한 요약을 통해 연구 환경과 프로덕션 간의 몇 가지 차이점을 살펴보았습니다. 우리는 기계 학습 시스템을 배포할 때 연구 환경에서의 여러 혜택이 사라진다는 것을 볼 수 있습니다. 고객을 대면한 코드와의 얽힘, 재현성의 필요성, 종종 규제적인 이유로 확장 기반 구성 계획 등 이러한 도전과제를 직면하게 됩니다. 따라서 이 시점에서 여러분에게 기계 학습 시스템 배포에 대해 전략적으로 생각하고 시스템 아키텍처에 대해 신중히 생각할 가치가 있다고 확신합니다. 다음 강의에서는 이러한 도전과제에 대한 대안 옵션을 탐색할 것입니다.
 	
-![[03_02_Specific_Challenges_of_ML_Systems_9.png]]
+- ## Notes
+	Links
+	Paper referenced in the lecture:
+	1. " Hidden Technical Debt in Machine Learning Systems”
+		Download URL:
+		https://papers.nips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf
+		
+		Monitoring ML models:
+		https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machinelearning-models/
+	
+	The below resources are on more advanced topics that we will not be covering in the course
+	- Google’s Site Reliability Engineering is one of the best references out there, it’s
+		available for free here: https://landing.google.com/sre/sre-book/toc/index.html
+		
+	- Martin Fowler’s testing guide is pretty comprehensive. If you are new to testing this
+		may be overwhelming:: https://www.martinfowler.com/testing/
+		
+	- Obey the Testing Goat by Harry Percival is a good applied introduction to Test Driven
+		Development (TDD): https://www.obeythetestinggoat.com/
+	
+	Advanced, narrow vs. broad integration tests:
+	https://martinfowler.com/bliki/IntegrationTest.html
