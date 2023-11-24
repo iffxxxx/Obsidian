@@ -16,7 +16,47 @@
 	![[03_03_ML_System_Principles_6.png]]
 	기계 학습 모델의 테스트는 전용 강좌가 있는 거대한 주제이지만 여기서 몇 가지 좋은 지침이 있습니다. 
 	- 첫 번째로 전체 기계 학습 파이프라인이 통합 테스트되어야 합니다. 즉, 우리는 전체 파이프라인을 사용하여 테스트해야 합니다. 왜냐하면 한 구성 요소의 변경이 파이프라인 아래로 더 내려가면 다른 구성 요소에서 오류를 발생시킬 수 있기 때문입니다. 따라서 모델을 교육하고 통합 테스트 내에서 모든 예측을 실행함으로써 이를 제거하고자 합니다. 이 테스트를 실행하는 전체 파이프라인의 속도가 느릴 수 있습니다. 전체 데이터 세트에서 교육하는 데 많은 시간이 걸릴 수 있으므로 여기에는 몇 가지 옵션이 있습니다. 데이터의 하위 집합으로 교육하거나 교육 목적으로 더 간단한 모델을 사용할 수 있습니다. 연속 커버리지를 얻기 위해 더 빠른 테스트가 새로운 모델 또는 소프트웨어 버전마다 실행되도록 조정할 수 있습니다. 한편, 배경에서 계속 실행되는 느린 테스트를 가질 수도 있습니다. 
-	- 슬라이드의 두 번째 항목으로 넘어가면 모든 입력 피처 코드가 테스트되어야 합니다. 피처 엔지니어링 및 전처리 단계에 대한 단위 테스트가 있어야 합니다. 이 코드는 종종 복잡하고 잘 이해되지 않기 때문에 모델 오류의 일반적인 원인입니다. 슬라이드의 세 번째 항목은 모델 사양 코드입니다. 이는 모델 구성이 테스트되어야 함을 의미하며, 이는 하이퍼파라미터의 예상 값 범위 및 열거형을 찾는 것과 관련이 있습니다. 기본적으로 잘못된 구성에서 보호되도록 해야 합니다. 마지막으로 모델 품질이 제공되기 전에 확인되어야 합니다. 확인해야 할 몇 가지 품질 문제가 있습니다. 보통은 새 버전의 버그로 인한 급격한 저하로 인한 것이며, 이 경우 이전 모델 버전과의 품질을 테스트하여 자신이 변경한 것을 테스트할 수 있습니다. 두 번째는 모델 품질의 느린 저하로, 새로운 모델 버전을 릴리스할 때마다 특정 임계 값이나 벤치마크에 대해 테스트 데이터 세트로 테스트할 수 있도록 하는 고정된 전용 테스트 데이터 세트를 갖는 것으로 대비할 수 있습니다.
-![[03_03_ML_System_Principles_7.png]]
-
-![[03_03_ML_System_Principles_8.png]]
+	  
+	- 슬라이드의 두 번째 항목으로 넘어가면 모든 입력 피처 코드가 테스트되어야 합니다. 피처 엔지니어링 및 전처리 단계에 대한 단위 테스트가 있어야 합니다. 이 코드는 종종 복잡하고 잘 이해되지 않기 때문에 모델 오류의 일반적인 원인입니다. 
+	  
+	- 슬라이드의 세 번째 항목은 모델 사양 코드입니다. 이는 모델 구성이 테스트되어야 함을 의미하며, 이는 하이퍼파라미터의 예상 값 범위 및 열거형을 찾는 것과 관련이 있습니다. 기본적으로 잘못된 구성에서 보호되도록 해야 합니다. 
+	  
+	- 마지막으로 모델 품질이 제공되기 전에 확인되어야 합니다. 확인해야 할 몇 가지 품질 문제가 있습니다. 보통은 새 버전의 버그로 인한 급격한 저하로 인한 것이며, 이 경우 이전 모델 버전과의 품질을 테스트하여 자신이 변경한 것을 테스트할 수 있습니다. 두 번째는 모델 품질의 느린 저하로, 새로운 모델 버전을 릴리스할 때마다 특정 임계 값이나 벤치마크에 대해 테스트 데이터 세트로 테스트할 수 있도록 하는 고정된 전용 테스트 데이터 세트를 갖는 것으로 대비할 수 있습니다.
+	  
+	![[03_03_ML_System_Principles_7.png]]
+	마지막으로, 여러분이 모델을 릴리스할 때 그림자 배포 및 캐너리 프로세스를 사용하여 전체 시스템 아키텍처에 대한 몇 가지 원칙을 논의했습니다. 그림자 배포는 프로덕션에서 모델 예측을 수집하지만 모델이 예상대로 작동하는지 확인할 때까지 이 예측을 고객에게 제공하지 않는 것입니다. 캐너리 릴리스는 새 모델 예측을 제한된 고객 그룹에 제공하는 것입니다. 다음에는 기계 학습 시스템에 대한 아키텍처 옵션을 살펴볼 것입니다.
+	
+	![[03_03_ML_System_Principles_8.png]]
+	
+- ## Notes
+	The Google + Microsoft papers referenced in the lecture:
+	1. "The ML Test Score: A Rubric for ML Production Readiness and Technical Debt
+	Reduction" (2017) Breck et al. IEEE International Conference on Big Data (Google)
+	
+	Download URL: https://research.google/pubs/pub46555/
+	
+	2. "Software Engineering for Machine Learning: A Case Study" (2019) Amershi et al.
+		(Microsoft)
+		
+		Download URL:
+		https://www.microsoft.com/en-us/research/uploads/prod/2019/03/amershi-icse-2019_Software_Engineering_for_Machine_Learning.pdf
+		
+		Shadow Deployments:
+		https://christophergs.com/machine%20learning/2019/03/30/deploying-machine-learning-applications-in-shadow-mode/
+		
+		Monitoring ML models:
+		https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machinelearning-models/
+	
+	The below resources are on more advanced topics that we will not be covering in the course
+	- Google’s Site Reliability Engineering is one of the best references out there, it’s available for free here: 
+		https://landing.google.com/sre/sre-book/toc/index.html
+		
+	Deployment of Machine Learning Models
+	- Martin Fowler’s testing guide is pretty comprehensive. 
+		If you are new to testing this may be overwhelming:: https://www.martinfowler.com/testing/
+		
+	- Obey the Testing Goat by Harry Percival is a good applied introduction to Test Driven Development (TDD):
+		https://www.obeythetestinggoat.com/
+		
+	Advanced, narrow vs. broad integration tests:
+	https://martinfowler.com/bliki/IntegrationTest.html
