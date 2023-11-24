@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Gradient_Descent.md",
+                "file": "MG_231124.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Gradient_Descent.md",
+                "file": "MG_231124.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Gradient_Descent.md",
+                "file": "MG_231124.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Gradient_Descent.md"
+                "file": "MG_231124.md"
               }
             }
           },
@@ -202,6 +202,7 @@
   },
   "active": "9c22f3825bcea186",
   "lastOpenFiles": [
+    "000 총류/004 컴퓨터과학/004_Gradient_Descent.md",
     "000 총류/004 컴퓨터과학/004_Linear_classifcation.md",
     "000 총류/004 컴퓨터과학/004_Machine_Learning.md",
     "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Deployment_of_Machine_Learning_Models.md",
@@ -240,7 +241,6 @@
     "Python.md",
     "Attached file/SVDTuning.py",
     "800 문학/840 영미문학/840 영미문학.md",
-    "000 총류/060 일반 학회, 단체, 협회, 기관/Znet_ Deep Learning Approach for 2D MRI Brain Tumor Segmentation.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems",
     "Attached file/plain.ipynb",
     "무제 파일.canvas",
