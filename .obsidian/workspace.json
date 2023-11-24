@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SSUspot_FineTuning.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/05_Machine_Learning_System_Component_Breakdown.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SSUspot_FineTuning.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/05_Machine_Learning_System_Component_Breakdown.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SSUspot_FineTuning.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/05_Machine_Learning_System_Component_Breakdown.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SSUspot_FineTuning.md"
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/05_Machine_Learning_System_Component_Breakdown.md"
               }
             }
           },
@@ -166,6 +166,7 @@
   },
   "active": "939bdc888e60b9bb",
   "lastOpenFiles": [
+    "SSUspot_FineTuning.md",
     "Book.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/004_Deployment_of_Machine_Learning_Models.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/05_Machine_Learning_System_Component_Breakdown.md",
@@ -197,7 +198,6 @@
     "000_총류/004_컴퓨터과학/004_Neural_Networks.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/004_Recommender_Systems.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/004_Evaluating_Recommender_Systems.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/004_A_Recommender_Engine_Framework.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning",
     "무제 파일.canvas",
     "Attached file/03_04_Machine_Learning_system_architecture_approaches_8.png",
