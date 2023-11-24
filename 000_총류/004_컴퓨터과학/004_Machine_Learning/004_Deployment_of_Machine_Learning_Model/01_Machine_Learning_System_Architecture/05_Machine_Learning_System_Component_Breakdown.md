@@ -1,4 +1,5 @@
-![[03_05_Architecture_Component_Breakdown_2.png]]
+- ## High Level Architecture
+	![[03_05_Architecture_Component_Breakdown_2.png]]
 
 ![[03_05_Architecture_Component_Breakdown_3.png]]
 
