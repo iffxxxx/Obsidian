@@ -23,8 +23,12 @@
             "id": "9c22f3825bcea186",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Study/MediaGAN/시험대비.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -118,6 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Study/MediaGAN/시험대비.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,6 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Study/MediaGAN/시험대비.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +161,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Study/MediaGAN/시험대비.md"
+              }
             }
           },
           {
@@ -194,6 +202,9 @@
   },
   "active": "9c22f3825bcea186",
   "lastOpenFiles": [
+    "Study/MediaGAN/피드백.md",
+    "Study/MediaGAN/시험대비.md",
+    "000 총류/060 일반 학회, 단체, 협회, 기관/일반 학회, 단체, 협회, 기관.md",
     "Book.md",
     "MG_231124.md",
     "000 총류/004 컴퓨터과학/004_Gradient_Descent.md",
@@ -229,10 +240,7 @@
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Matrix_Factorization_Method.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Neighborhood-Based_Collaborative_Filtering.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Recommender_Systems.md",
-    "000 총류/004 컴퓨터과학/004_Recommender_Systems/Deep learning with artificial neural networks.md",
-    "Python.md",
     "Attached file/SVDTuning.py",
-    "800 문학/840 영미문학/840 영미문학.md",
     "000 총류/004 컴퓨터과학/004_Recommender_Systems",
     "Attached file/plain.ipynb",
     "무제 파일.canvas",
