@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/05_Machine_Learning_System_Component_Breakdown.md",
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/Various_Models.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "082718dd215a89d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/WebUi_Setting.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/05_Machine_Learning_System_Component_Breakdown.md",
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/WebUi_Setting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/05_Machine_Learning_System_Component_Breakdown.md",
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/WebUi_Setting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/05_Machine_Learning_System_Component_Breakdown.md"
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/WebUi_Setting.md"
               }
             }
           },
@@ -164,12 +177,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "939bdc888e60b9bb",
+  "active": "082718dd215a89d1",
   "lastOpenFiles": [
+    "Attached file/(외부용)P01_C05. Webui 운용 #1 3.pdf",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/Various_Models.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/WebUi_Setting.md",
+    "Attached file/(외부용)P01_C05. Webui 운용 #1 2.pdf",
+    "Attached file/(외부용)P01_C05. Webui 운용.md",
+    "Attached file/(외부용)P01_C05. Webui 운용 #1 1.pdf",
+    "Attached file/(외부용)P01_C05. Webui 운용 #1.pdf",
+    "Attached file/(외부용)P01_C04. Extension 소개 및 설치.pdf",
+    "Attached file/(외부용)P01_C03. Stable Diffusion Model의 이해_v002.pdf",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1",
+    "Attached file/(외부용)P01_C01. 생성형 AI.pdf",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/05_Machine_Learning_System_Component_Breakdown.md",
     "SSUspot_FineTuning.md",
     "Book.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/004_Deployment_of_Machine_Learning_Models.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/05_Machine_Learning_System_Component_Breakdown.md",
     "Attached file/03_05_Architecture_Component_Breakdown_6.png",
     "Attached file/03_05_Architecture_Component_Breakdown_5.png",
     "Attached file/03_05_Architecture_Component_Breakdown_4.png",
@@ -191,13 +216,8 @@
     "000_총류/004_컴퓨터과학/004_Deep_Learning",
     "000_총류/004_컴퓨터과학/004_Stable_Diffusion.md",
     "000_총류/004_컴퓨터과학/004_Deep Learning.md",
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/Stable_Diffusion_Image/004_Generative_AI.md",
     "000_총류/004_컴퓨터과학/004_Gradient_Descent.md",
     "000_총류/004_컴퓨터과학/004_Generative_AI.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Machine_Learning.md",
-    "000_총류/004_컴퓨터과학/004_Neural_Networks.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/004_Recommender_Systems.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/004_Evaluating_Recommender_Systems.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning",
     "무제 파일.canvas",
     "Attached file/03_04_Machine_Learning_system_architecture_approaches_8.png",
@@ -206,13 +226,6 @@
     "Attached file/03_04_Machine_Learning_system_architecture_approaches_5.png",
     "Attached file/03_04_Machine_Learning_system_architecture_approaches_4.png",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment",
-    "Attached file/02_01_Model_Deployment.pdf",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model",
-    "000 총류/004 컴퓨터과학/004_Recommender_Systems/MovieLens.py",
-    "000 총류/004 컴퓨터과학/004_Recommender_Systems/ml-latest-small/tags.csv",
-    "000 총류/004 컴퓨터과학/004_Recommender_Systems/ml-latest-small/README.txt",
-    "000 총류/004 컴퓨터과학/004_Recommender_Systems/ml-latest-small/ratings.csv",
     "300_사회과학/무제 파일.canvas"
   ]
 }
