@@ -17,7 +17,8 @@
 	  Clip skip을 2로 설정 - **이미지를 생성할 때 CLIP 모델 의 일부 레이어를 건너뛸 수 있는 기능**
 	
 - ### User Commandline Setting
-	[link](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Command-Line-Arguments-and-Settings)
+	- [link](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Command-Line-Arguments-and-Settings)
+	- User-webui.bat에서 사용
 	- #### 유용한 Command
 		- --no-half-vae : Vae 모델을 16bit로 변환하지 않습니다.
 			용량과 계산 속도를 조정하기 위해서 풀플롯이라고 불리는 16비트 플롯으로 계산
@@ -29,3 +30,4 @@
 		- **--medvram** : 낮은 GPU 메모리 사용시 안정적인 사용을 위한 부분적 최적화를 진행합니다. 
 			(생성속도 저하)
 			
+- ### xformers
