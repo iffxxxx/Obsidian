@@ -40,6 +40,8 @@ Webui 안에 작은 갤러리
 
 # Version_Management
 ![[(외부용)P01_C04. Extension 소개 및 설치.pdf]]
+## Extention 설치
+- webui.bat에서 설치해야함
 ## mkLink
 - 상황 : 필요 버전 단위로 폴더를 관리할 경우 **모델 폴더 용량**이 매우 많아짐
 - 각 세팅 별 결과를 한 곳에서 관리 >> 각 Pipeline **환경 셋팅 값을 유지**
