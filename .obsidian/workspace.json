@@ -23,28 +23,12 @@
             "id": "082718dd215a89d1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "17d773149f4fc523",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300_사회과학/330_사회학/331_오리엔탈리즘.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#포스트콜로니즘",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300_사회과학/330_사회학/331_오리엔탈리즘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300_사회과학/330_사회학/331_오리엔탈리즘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "300_사회과학/330_사회학/331_오리엔탈리즘.md"
-              }
+              "state": {}
             }
           },
           {
@@ -190,15 +169,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0a4ba88712564a96",
+  "active": "082718dd215a89d1",
   "lastOpenFiles": [
-    "800_문학/800 문학.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md",
+    "100_철학/130_철학의_세계/역사와_계급의식.md",
     "300_사회과학/330_사회학/331_오리엔탈리즘.md",
+    "800_문학/840 영미문학/843 천로역정.md",
+    "800_문학/840 영미문학/840 영미문학.md",
+    "800_문학/800 문학.md",
     "100_철학/100_철학.md",
     "300_사회과학/330_사회학/330 사회학.md",
     "300_사회과학/300_사회과학.md",
     "100_철학/130_철학의_세계/130_철학의 세계.md",
-    "100_철학/130_철학의_세계/역사와_계급의식.md",
     "300_사회과학/330_사회학",
     "100_철학/180_심리학/180 심리학.md",
     "Book.md",
@@ -211,7 +193,6 @@
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part2",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/WebUi_Setting.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/Install.md",
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md",
     "Attached file/Pasted image 20231125162422.png",
     "Attached file/Pasted image 20231125162008.png",
     "Attached file/Pasted image 20231125161254.png",
@@ -235,8 +216,6 @@
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/06_Streamlining_Deployment_with_OpenSource.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/05_Challenges_to_reproducibility.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/04_Building_Reproducible_Machine_Learning_Pipelines.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/03_Research_Production_Environment.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/02_Deployment_of_Pipelines.md",
     "무제 파일.canvas",
     "Attached file/03_04_Machine_Learning_system_architecture_approaches_8.png",
     "Attached file/03_04_Machine_Learning_system_architecture_approaches_7.png"

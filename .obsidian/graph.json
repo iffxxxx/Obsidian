@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:000_총류  ",
@@ -95,6 +95,6 @@
   "repelStrength": 20,
   "linkStrength": 0.5,
   "linkDistance": 30,
-  "scale": 0.15024111371691234,
-  "close": true
+  "scale": 0.09848280266864538,
+  "close": false
 }
