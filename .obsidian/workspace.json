@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/WebUi_Setting.md",
+                "file": "100_철학/130_철학의_세계/137_역사와_계급의식.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/WebUi_Setting.md",
+                "file": "100_철학/130_철학의_세계/137_역사와_계급의식.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/WebUi_Setting.md",
+                "file": "100_철학/130_철학의_세계/137_역사와_계급의식.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/WebUi_Setting.md"
+                "file": "100_철학/130_철학의_세계/137_역사와_계급의식.md"
               }
             }
           },
@@ -191,8 +191,17 @@
   },
   "active": "6480f4013c936c3d",
   "lastOpenFiles": [
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part2",
+    "100_철학/180_심리학/184 심리 조작의 비밀.md",
+    "100_철학/130_철학의_세계/137_역사와_계급의식.md",
+    "100_철학/130_철학의_세계",
+    "100_철학/130_철학의_세계/130_철학의 세계.md",
+    "100_철학/100_철학.md",
+    "100_철학/180_심리학/180 심리학.md",
+    "Book.md",
+    "MG_231124.md",
+    "Read me.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/Various_Models.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part2",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/WebUi_Setting.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/Install.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md",
@@ -208,10 +217,8 @@
     "Attached file/(외부용)P01_C04. Extension 소개 및 설치.pdf",
     "Attached file/(외부용)P01_C03. Stable Diffusion Model의 이해_v002.pdf",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1",
-    "Attached file/(외부용)P01_C01. 생성형 AI.pdf",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/05_Machine_Learning_System_Component_Breakdown.md",
     "SSUspot_FineTuning.md",
-    "Book.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/004_Deployment_of_Machine_Learning_Models.md",
     "Attached file/03_05_Architecture_Component_Breakdown_6.png",
     "Attached file/03_05_Architecture_Component_Breakdown_5.png",
@@ -227,14 +234,6 @@
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/01_Model_Deployment.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/00_Machine_Learning_System_Architecture.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/04_Machine_Learning_System_Architecture_Approaches.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/03_Principles_for_Machine_Learning_Systems.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/02_Specific_Challenges_of_Machine_Learning_Systems.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/01_Machine_Learning_System_Architecture_and_Why it Matters.md",
-    "000_총류/004_컴퓨터과학/004_컴퓨터과학.md",
-    "000_총류/004_컴퓨터과학/004_Deep_Learning",
-    "000_총류/004_컴퓨터과학/004_Stable_Diffusion.md",
-    "000_총류/004_컴퓨터과학/004_Deep Learning.md",
-    "000_총류/004_컴퓨터과학/004_Gradient_Descent.md",
     "무제 파일.canvas",
     "Attached file/03_04_Machine_Learning_system_architecture_approaches_8.png",
     "Attached file/03_04_Machine_Learning_system_architecture_approaches_7.png",
