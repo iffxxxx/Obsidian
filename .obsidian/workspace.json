@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100_철학/130_철학의_세계/137_역사와_계급의식.md",
+                "file": "Book.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100_철학/130_철학의_세계/137_역사와_계급의식.md",
+                "file": "Book.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100_철학/130_철학의_세계/137_역사와_계급의식.md",
+                "file": "Book.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100_철학/130_철학의_세계/137_역사와_계급의식.md"
+                "file": "Book.md"
               }
             }
           },
@@ -189,15 +189,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6480f4013c936c3d",
+  "active": "17d773149f4fc523",
   "lastOpenFiles": [
-    "100_철학/180_심리학/184 심리 조작의 비밀.md",
+    "300_사회과학/300_사회과학.md",
+    "Book.md",
     "100_철학/130_철학의_세계/137_역사와_계급의식.md",
+    "300_사회과학/무제 파일.canvas",
+    "100_철학/180_심리학/184 심리 조작의 비밀.md",
     "100_철학/130_철학의_세계",
     "100_철학/130_철학의_세계/130_철학의 세계.md",
     "100_철학/100_철학.md",
     "100_철학/180_심리학/180 심리학.md",
-    "Book.md",
     "MG_231124.md",
     "Read me.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/Various_Models.md",
@@ -236,7 +238,6 @@
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/04_Machine_Learning_System_Architecture_Approaches.md",
     "무제 파일.canvas",
     "Attached file/03_04_Machine_Learning_system_architecture_approaches_8.png",
-    "Attached file/03_04_Machine_Learning_system_architecture_approaches_7.png",
-    "300_사회과학/무제 파일.canvas"
+    "Attached file/03_04_Machine_Learning_system_architecture_approaches_7.png"
   ]
 }
