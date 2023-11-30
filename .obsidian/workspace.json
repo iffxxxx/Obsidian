@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/Various_Models.md",
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "783fe5a6ced57868",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/Various_Models.md",
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/Various_Models.md",
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/Various_Models.md"
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/무제 파일.md"
               }
             }
           },
@@ -150,8 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5,
-    "collapsed": true
+    "width": 321.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,10 +177,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "939bdc888e60b9bb",
+  "active": "783fe5a6ced57868",
   "lastOpenFiles": [
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/무제 파일.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/01_Install.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/03_WebUi_Setting.md",
     "100_철학/130_철학의_세계/역사와_계급의식.md",
+    "000_총류/060 일반 학회, 단체, 협회, 기관/Znet_ Deep Learning Approach for 2D MRI Brain Tumor Segmentation.md",
+    "100_철학/130_철학의_세계/130_철학의 세계.md",
     "300_사회과학/330_사회학/331_오리엔탈리즘.md",
     "800_문학/840 영미문학/843 천로역정.md",
     "800_문학/840 영미문학/840 영미문학.md",
@@ -176,7 +194,6 @@
     "100_철학/100_철학.md",
     "300_사회과학/330_사회학/330 사회학.md",
     "300_사회과학/300_사회과학.md",
-    "100_철학/130_철학의_세계/130_철학의 세계.md",
     "300_사회과학/330_사회학",
     "100_철학/180_심리학/180 심리학.md",
     "Book.md",
@@ -185,10 +202,7 @@
     "100_철학/130_철학의_세계",
     "MG_231124.md",
     "Read me.md",
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/Various_Models.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part2",
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/WebUi_Setting.md",
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/Install.md",
     "Attached file/Pasted image 20231125162422.png",
     "Attached file/Pasted image 20231125162008.png",
     "Attached file/Pasted image 20231125161254.png",
@@ -210,8 +224,6 @@
     "Attached file/03_05_Architecture_Component_Breakdown_2.png",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/00_Overview_of_Model_Deployment.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/06_Streamlining_Deployment_with_OpenSource.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/05_Challenges_to_reproducibility.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/04_Building_Reproducible_Machine_Learning_Pipelines.md",
     "무제 파일.canvas",
     "Attached file/03_04_Machine_Learning_system_architecture_approaches_8.png",
     "Attached file/03_04_Machine_Learning_system_architecture_approaches_7.png"

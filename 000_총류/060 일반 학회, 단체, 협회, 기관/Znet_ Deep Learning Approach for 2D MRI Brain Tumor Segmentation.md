@@ -1,7 +1,7 @@
 ![[Znet_ Deep Learning Approach for 2D MRI Brain.pdf]]
 
 ## Keyword 
-#Deep_Learning
+#004_Deep_Learning
 ## ABSTRACT
 Deep learning approaches have attracted researchers in medical imaging due to their capacity, performance, and potential to assist in accurate diagnosis, prognosis, and medical treatment technologies.
 

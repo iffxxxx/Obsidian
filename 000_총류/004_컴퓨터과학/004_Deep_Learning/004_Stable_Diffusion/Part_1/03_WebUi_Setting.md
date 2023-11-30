@@ -1,3 +1,6 @@
+#004_컴퓨터과학 #004_Deep_Learning #004_Generative_AI 
+
+
 ![[(외부용)P01_C05. Webui 운용1.pdf]]
 
 ## ENSD
