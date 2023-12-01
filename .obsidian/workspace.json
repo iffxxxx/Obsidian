@@ -13,10 +13,10 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "무제 파일.canvas",
+                "file": "무제 파일 1.canvas",
                 "viewState": {
                   "x": 0,
-                  "y": 0,
+                  "y": 249.7050000000001,
                   "zoom": 0
                 }
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "무제 파일.canvas",
+                "file": "무제 파일 1.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "무제 파일.canvas",
+                "file": "무제 파일 1.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "무제 파일.canvas"
+                "file": "무제 파일 1.canvas"
               }
             }
           }
@@ -153,6 +153,8 @@
   },
   "active": "d9e6ad24700a5330",
   "lastOpenFiles": [
+    "무제 파일.canvas",
+    "무제 파일 1.canvas",
     "800_문학/840 영미문학/843 천로역정.md",
     "800_문학/800 문학.md"
   ]
