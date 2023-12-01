@@ -20,43 +20,55 @@
             }
           },
           {
-            "id": "9c22f3825bcea186",
+            "id": "67faad3588b3f6a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "400 순수과학/410 수학/412 Periodic Functions.md",
+                "file": "500_기술과학/550 기계공학/567_Video_Compression.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1d08f39a5ab8d0d7",
+            "id": "769b80d1152b9cd4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Matrix_Factorization_Method.md",
+                "file": "100_철학/180_심리학/184 심리 조작의 비밀.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bd2869bac5ca0c72",
+            "id": "0133106b99d39af5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 총류/004 컴퓨터과학/004_Recommender_Systems/004_Neighborhood-Based_Collaborative_Filtering.md",
+                "file": "100_철학/180_심리학/184 심리 조작의 비밀.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6aefff71cb1d55a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "400 순수과학/410 수학/412 Periodic Functions.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "400 순수과학/410 수학/412 Periodic Functions.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "400 순수과학/410 수학/412 Periodic Functions.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -200,55 +212,55 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9c22f3825bcea186",
+  "active": "6aefff71cb1d55a2",
   "lastOpenFiles": [
-    "400 순수과학/410 수학/412_Orthogonal_Functions.md",
-    "400 순수과학/410 수학/413 Euler's formula.md",
-    "400 순수과학/410 수학/412 Periodic Functions.md",
-    "400 순수과학/410 수학/410 수학.md",
-    "Study/MediaGAN/시험대비.md",
-    "Study/MediaGAN/피드백.md",
-    "000 총류/060 일반 학회, 단체, 협회, 기관/일반 학회, 단체, 협회, 기관.md",
+    "100_철학/180_심리학/184 심리 조작의 비밀.md",
+    "conflict-files-obsidian-git.md",
+    "500_기술과학/550 기계공학/567_Video_Compression.md",
+    "500_기술과학/550 기계공학/567_Nyquist's_Sampling Theorem.md",
+    "500_기술과학/550 기계공학/567_Multimedia.md",
+    "500_기술과학/550 기계공학/567_Internet_Protocol.md",
+    "500_기술과학/550 기계공학/567_Image_Compression.md",
+    "500_기술과학/550 기계공학/567_Audio_Compression.md",
     "Book.md",
-    "MG_231124.md",
-    "000 총류/004 컴퓨터과학/004_Gradient_Descent.md",
-    "000 총류/004 컴퓨터과학/004_Linear_classifcation.md",
-    "000 총류/004 컴퓨터과학/004_Machine_Learning.md",
-    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Deployment_of_Machine_Learning_Models.md",
-    "000 총류/004 컴퓨터과학/004_컴퓨터과학.md",
-    "Study/Computer Vision/Detection.md",
-    "SSUspot_FineTuning.md",
-    "Attached file/Pasted image 20231122005909.png",
-    "Attached file/Pasted image 20231122005508.png",
-    "Attached file/Pasted image 20231122005417.png",
-    "Attached file/Pasted image 20231122005313.png",
-    "Attached file/Pasted image 20231122005125.png",
-    "Attached file/Pasted image 20231122005115.png",
-    "Attached file/Pasted image 20231122004945.png",
-    "Attached file/Pasted image 20231122004013.png",
-    "Attached file/Pasted image 20231122004002.png",
-    "Attached file/Pasted image 20231122003748.png",
-    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Streamlining_Deployment_with_OpenSource.md",
-    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Research_Production_Environment.md",
-    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Overview_of_Model_Deployment.md",
-    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Model_Deployment.md",
-    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Deployment_of_Pipelines.md",
-    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Challenges_to_reproducibility.md",
-    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment/004_Building_Reproducible_Machine_Learning_Pipelines.md",
-    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Research_Environment-Developing_a_Machine_Learning_Model.md",
-    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Packaging_The_Model_for_Production.md",
-    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Overview_of_Model_Deployment",
-    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model/004_Machine_Learning_System_Architecture.md",
-    "000 총류/004 컴퓨터과학/004_Deployment_of_Machine_Learning_Model",
-    "Attached file/SVDTuning.py",
-    "000 총류/004 컴퓨터과학/004_Recommender_Systems",
-    "Attached file/plain.ipynb",
+    "400 순수과학/410 수학/412 Periodic Functions.md",
+    "800_문학/840 영미문학/843 천로역정.md",
+    "800_문학/840 영미문학/840 영미문학.md",
+    "800_문학/840 영미문학",
+    "800_문학/800 문학.md",
+    "800_문학",
+    "500_기술과학/550 기계공학/550 기계공학.md",
+    "500_기술과학/500 기술 과학.md",
+    "500_기술과학/550 기계공학",
+    "500_기술과학",
+    "400_순수과학/410 수학/415 Polar Coordinates.md",
+    "400_순수과학/410 수학/414 Fourier Analysis.md",
+    "400_순수과학/410 수학/413 Euler's formula.md",
+    "400_순수과학/410 수학/412_Orthogonal_Functions.md",
+    "400_순수과학/410 수학/412 Periodic Functions.md",
+    "400_순수과학/410 수학/410 수학.md",
+    "400_순수과학/410 수학",
+    "400_순수과학/400 자연 과학.md",
+    "400_순수과학",
+    "100_철학/180_심리학/180 심리학.md",
+    "100_철학/180_심리학",
+    "100_철학/100_철학.md",
+    "100_철학",
+    "Attached file/Pasted image 20231125162422.png",
+    "Attached file/Pasted image 20231125162008.png",
+    "Attached file/Pasted image 20231125161254.png",
+    "Attached file/03_05_Architecture_Component_Breakdown_6.png",
+    "Attached file/03_05_Architecture_Component_Breakdown_5.png",
+    "Attached file/03_05_Architecture_Component_Breakdown_4.png",
+    "Attached file/03_05_Architecture_Component_Breakdown_3.png",
+    "Attached file/03_05_Architecture_Component_Breakdown_2.png",
+    "Attached file/03_04_Machine_Learning_system_architecture_approaches_8.png",
+    "Attached file/03_04_Machine_Learning_system_architecture_approaches_7.png",
+    "Attached file/(외부용)P01_C05. Webui 운용1.pdf",
+    "Attached file/(외부용)P01_C04. Extension 소개 및 설치.pdf",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/05_Machine_Learning_System_Component_Breakdown.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/04_Machine_Learning_System_Architecture_Approaches.md",
     "무제 파일.canvas",
-    "000 총류/004 컴퓨터과학/Stable_Diffusion_Image",
-    "Attached file/Image_Segmentation_Using_Deep_Learning_A_Survey.pdf",
-    "Attached file/미확인 767531.crdownload",
-    "900_역사",
-    "700_언어",
     "300_사회과학/무제 파일.canvas"
   ]
 }
