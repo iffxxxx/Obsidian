@@ -1,104 +1,35 @@
 {
   "main": {
-    "id": "177f58e34eea9bd4",
+    "id": "d811f4c8beb3ae23",
     "type": "split",
     "children": [
       {
-        "id": "7e483816ca467425",
+        "id": "5d4ac621f214b5f4",
         "type": "tabs",
         "children": [
           {
-            "id": "939bdc888e60b9bb",
+            "id": "594fd988df8eb2a7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-<<<<<<< HEAD
-                "file": "Book.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67faad3588b3f6a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "500_기술과학/550 기계공학/567_Video_Compression.md",
-=======
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md",
->>>>>>> 638fa67ebd49faba2e13d597214851e67f3325d0
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-<<<<<<< HEAD
-            "id": "769b80d1152b9cd4",
-=======
-            "id": "783fe5a6ced57868",
->>>>>>> 638fa67ebd49faba2e13d597214851e67f3325d0
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-<<<<<<< HEAD
-                "file": "100_철학/180_심리학/184 심리 조작의 비밀.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0133106b99d39af5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100_철학/180_심리학/184 심리 조작의 비밀.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6aefff71cb1d55a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-=======
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/무제 파일.md",
->>>>>>> 638fa67ebd49faba2e13d597214851e67f3325d0
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-<<<<<<< HEAD
-        "currentTab": 4
-=======
-        "currentTab": 1
->>>>>>> 638fa67ebd49faba2e13d597214851e67f3325d0
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "409ce0584145dcf1",
+    "id": "1fd57d0e6602e3a0",
     "type": "split",
     "children": [
       {
-        "id": "8a0dcbd1c0f9862a",
+        "id": "a92911620996abc6",
         "type": "tabs",
         "children": [
           {
-            "id": "6480f4013c936c3d",
+            "id": "a8412368fade7c20",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -108,12 +39,12 @@
             }
           },
           {
-            "id": "0a4ba88712564a96",
+            "id": "9dcab7543462d7f3",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Deep_Learning",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -123,7 +54,7 @@
             }
           },
           {
-            "id": "895866d468360115",
+            "id": "5089396807cbff9d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -137,24 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "f6878ac96d36097f",
+    "id": "d6fcffc1ef5a2d78",
     "type": "split",
     "children": [
       {
-        "id": "10b80d1a00787b7a",
+        "id": "43aa4e0b7b79b28e",
         "type": "tabs",
         "children": [
           {
-            "id": "3295a5406aa6d18e",
+            "id": "f564bb6f13544a51",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "conflict-files-obsidian-git.md",
-=======
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/무제 파일.md",
->>>>>>> 638fa67ebd49faba2e13d597214851e67f3325d0
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,23 +92,18 @@
             }
           },
           {
-            "id": "814fca3b99a514f6",
+            "id": "3b561577ec0b3d47",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "conflict-files-obsidian-git.md",
-=======
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/무제 파일.md",
->>>>>>> 638fa67ebd49faba2e13d597214851e67f3325d0
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "ff5ba7cf0394e8d3",
+            "id": "bd92bb323eb05b96",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -193,154 +114,35 @@
             }
           },
           {
-            "id": "34778d2b844a3ec3",
+            "id": "5d5b2a08f1e4f691",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-<<<<<<< HEAD
-                "file": "conflict-files-obsidian-git.md"
-=======
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/무제 파일.md"
->>>>>>> 638fa67ebd49faba2e13d597214851e67f3325d0
-              }
-            }
-          },
-          {
-            "id": "8611f6fc4968d40c",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "ab9918bd6f4fa3d6",
-            "type": "leaf",
-            "state": {
-              "type": "code-execute-manage-executors",
               "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "3d-graph:3D Graph": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "3d-graph:3D Graph": false
+      "command-palette:명령어 팔레트 열기": false
     }
   },
-<<<<<<< HEAD
-  "active": "6aefff71cb1d55a2",
+  "active": "594fd988df8eb2a7",
   "lastOpenFiles": [
-    "100_철학/180_심리학/184 심리 조작의 비밀.md",
-    "conflict-files-obsidian-git.md",
-    "500_기술과학/550 기계공학/567_Video_Compression.md",
-    "500_기술과학/550 기계공학/567_Nyquist's_Sampling Theorem.md",
-    "500_기술과학/550 기계공학/567_Multimedia.md",
-    "500_기술과학/550 기계공학/567_Internet_Protocol.md",
-    "500_기술과학/550 기계공학/567_Image_Compression.md",
-    "500_기술과학/550 기계공학/567_Audio_Compression.md",
-    "Book.md",
-    "400 순수과학/410 수학/412 Periodic Functions.md",
     "800_문학/840 영미문학/843 천로역정.md",
-    "800_문학/840 영미문학/840 영미문학.md",
-    "800_문학/840 영미문학",
-    "800_문학/800 문학.md",
-    "800_문학",
-    "500_기술과학/550 기계공학/550 기계공학.md",
-    "500_기술과학/500 기술 과학.md",
-    "500_기술과학/550 기계공학",
-    "500_기술과학",
-    "400_순수과학/410 수학/415 Polar Coordinates.md",
-    "400_순수과학/410 수학/414 Fourier Analysis.md",
-    "400_순수과학/410 수학/413 Euler's formula.md",
-    "400_순수과학/410 수학/412_Orthogonal_Functions.md",
-    "400_순수과학/410 수학/412 Periodic Functions.md",
-    "400_순수과학/410 수학/410 수학.md",
-    "400_순수과학/410 수학",
-    "400_순수과학/400 자연 과학.md",
-    "400_순수과학",
-    "100_철학/180_심리학/180 심리학.md",
-    "100_철학/180_심리학",
-    "100_철학/100_철학.md",
-    "100_철학",
-    "Attached file/Pasted image 20231125162422.png",
-    "Attached file/Pasted image 20231125162008.png",
-    "Attached file/Pasted image 20231125161254.png",
-=======
-  "active": "783fe5a6ced57868",
-  "lastOpenFiles": [
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/무제 파일.md",
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md",
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/01_Install.md",
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/03_WebUi_Setting.md",
-    "100_철학/130_철학의_세계/역사와_계급의식.md",
-    "000_총류/060 일반 학회, 단체, 협회, 기관/Znet_ Deep Learning Approach for 2D MRI Brain Tumor Segmentation.md",
-    "100_철학/130_철학의_세계/130_철학의 세계.md",
-    "300_사회과학/330_사회학/331_오리엔탈리즘.md",
-    "800_문학/840 영미문학/843 천로역정.md",
-    "800_문학/840 영미문학/840 영미문학.md",
-    "800_문학/800 문학.md",
-    "100_철학/100_철학.md",
-    "300_사회과학/330_사회학/330 사회학.md",
-    "300_사회과학/300_사회과학.md",
-    "300_사회과학/330_사회학",
-    "100_철학/180_심리학/180 심리학.md",
-    "Book.md",
-    "300_사회과학/무제 파일.canvas",
-    "100_철학/180_심리학/184 심리 조작의 비밀.md",
-    "100_철학/130_철학의_세계",
-    "MG_231124.md",
-    "Read me.md",
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part2",
-    "Attached file/Pasted image 20231125162422.png",
-    "Attached file/Pasted image 20231125162008.png",
-    "Attached file/Pasted image 20231125161254.png",
-    "Attached file/(외부용)P01_C05. Webui 운용1.pdf",
-    "Attached file/(외부용)P01_C05. Webui 운용 #1.pdf",
-    "Attached file/(외부용)P01_C05. Webui 운용 #1 3.pdf",
-    "Attached file/(외부용)P01_C05. Webui 운용 #1 2.pdf",
-    "Attached file/(외부용)P01_C05. Webui 운용.md",
-    "Attached file/(외부용)P01_C05. Webui 운용 #1 1.pdf",
-    "Attached file/(외부용)P01_C04. Extension 소개 및 설치.pdf",
-    "Attached file/(외부용)P01_C03. Stable Diffusion Model의 이해_v002.pdf",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/05_Machine_Learning_System_Component_Breakdown.md",
-    "SSUspot_FineTuning.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/004_Deployment_of_Machine_Learning_Models.md",
->>>>>>> 638fa67ebd49faba2e13d597214851e67f3325d0
-    "Attached file/03_05_Architecture_Component_Breakdown_6.png",
-    "Attached file/03_05_Architecture_Component_Breakdown_5.png",
-    "Attached file/03_05_Architecture_Component_Breakdown_4.png",
-    "Attached file/03_05_Architecture_Component_Breakdown_3.png",
-    "Attached file/03_05_Architecture_Component_Breakdown_2.png",
-<<<<<<< HEAD
-    "Attached file/03_04_Machine_Learning_system_architecture_approaches_8.png",
-    "Attached file/03_04_Machine_Learning_system_architecture_approaches_7.png",
-    "Attached file/(외부용)P01_C05. Webui 운용1.pdf",
-    "Attached file/(외부용)P01_C04. Extension 소개 및 설치.pdf",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/05_Machine_Learning_System_Component_Breakdown.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/04_Machine_Learning_System_Architecture_Approaches.md",
-    "무제 파일.canvas",
-    "300_사회과학/무제 파일.canvas"
-=======
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/00_Overview_of_Model_Deployment.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/06_Streamlining_Deployment_with_OpenSource.md",
-    "무제 파일.canvas",
-    "Attached file/03_04_Machine_Learning_system_architecture_approaches_8.png",
-    "Attached file/03_04_Machine_Learning_system_architecture_approaches_7.png"
->>>>>>> 638fa67ebd49faba2e13d597214851e67f3325d0
+    "800_문학/800 문학.md"
   ]
 }
