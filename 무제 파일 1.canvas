@@ -1,7 +1,8 @@
 {
 	"nodes":[
-		{"id":"c8b61df6c1b007ee","x":-125,"y":-30,"width":250,"height":60,"type":"text","text":"gkdl\n"},
-		{"id":"16d1b8df6735e689","x":0,"y":250,"width":400,"height":710,"type":"file","file":"800_문학/840 영미문학/843 천로역정.md"}
+		{"id":"c8b61df6c1b007ee","type":"text","text":"gkdl\n","x":-125,"y":-30,"width":250,"height":60},
+		{"id":"16d1b8df6735e689","type":"file","file":"800_문학/840 영미문학/843 천로역정.md","x":0,"y":250,"width":400,"height":710},
+		{"id":"e8914098800ccc9d","x":-1060,"y":160,"width":1065,"height":795,"type":"link","url":"http://www.google.com"}
 	],
 	"edges":[
 		{"id":"171a55b51f094dc3","fromNode":"c8b61df6c1b007ee","fromSide":"bottom","toNode":"16d1b8df6735e689","toSide":"top"}

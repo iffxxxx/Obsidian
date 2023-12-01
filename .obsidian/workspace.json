@@ -11,11 +11,14 @@
             "id": "d9e6ad24700a5330",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "800_문학/840 영미문학/843 천로역정.md",
-                "mode": "source",
-                "source": false
+                "file": "무제 파일 1.canvas",
+                "viewState": {
+                  "x": -461.81606024748146,
+                  "y": 465,
+                  "zoom": -0.21073732598837006
+                }
               }
             }
           }
@@ -85,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "800_문학/840 영미문학/843 천로역정.md",
+                "file": "무제 파일 1.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "800_문학/840 영미문학/843 천로역정.md",
+                "file": "무제 파일 1.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "800_문학/840 영미문학/843 천로역정.md"
+                "file": "무제 파일 1.canvas"
               }
             }
           }
@@ -148,11 +151,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a8412368fade7c20",
+  "active": "d9e6ad24700a5330",
   "lastOpenFiles": [
-    "무제 파일 1.canvas",
     "무제 파일.canvas",
     "800_문학/840 영미문학/843 천로역정.md",
+    "무제 파일 1.canvas",
     "800_문학/800 문학.md"
   ]
 }
