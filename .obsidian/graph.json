@@ -4,18 +4,18 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": true,
+  "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"000 총류\"  ",
+      "query": "path:000_총류",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "path:\"100 철학\"  ",
+      "query": "path:100_철학 ",
       "color": {
         "a": 1,
         "rgb": 14725458
@@ -36,14 +36,14 @@
       }
     },
     {
-      "query": "path:\"400 순수과학\"  ",
+      "query": "path:400_순수과학 ",
       "color": {
         "a": 1,
         "rgb": 5431473
       }
     },
     {
-      "query": "path:\"500 기술 과학\"  ",
+      "query": "path:500_기술과학  ",
       "color": {
         "a": 1,
         "rgb": 5419488
@@ -64,7 +64,7 @@
       }
     },
     {
-      "query": "path:\"800 문학\"  ",
+      "query": "path:800 문학",
       "color": {
         "a": 1,
         "rgb": 6888809
@@ -95,6 +95,6 @@
   "repelStrength": 20,
   "linkStrength": 0,
   "linkDistance": 30,
-  "scale": 0.15532846087943455,
+  "scale": 0.12117812151357013,
   "close": false
 }
