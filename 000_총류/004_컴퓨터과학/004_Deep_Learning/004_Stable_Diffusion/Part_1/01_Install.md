@@ -1,3 +1,4 @@
+#004_컴퓨터과학 #004_Deep_Learning #004_Generative_AI
 ## AUTOMATIC1111 Download
 - `git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git sd/webui`
 - webui.bat 실행 -> localhost:7890

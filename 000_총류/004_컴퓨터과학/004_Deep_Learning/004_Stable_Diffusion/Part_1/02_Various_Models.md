@@ -1,3 +1,4 @@
+#004_컴퓨터과학 #004_Deep_Learning #004_Generative_AI
 # Various_Models
 ## Model Type
 ![[(외부용)P01_C03. Stable Diffusion Model의 이해_v002.pdf]]
