@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300_사회과학/320_경제학/320_경제학.md",
+                "file": "300_사회과학/320_경제학/321_Nudge.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#340_정치학",
+                "query": "tag:#300_사회과학",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +122,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -142,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300_사회과학/320_경제학/320_경제학.md",
+                "file": "300_사회과학/320_경제학/321_Nudge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300_사회과학/320_경제학/320_경제학.md",
+                "file": "300_사회과학/320_경제학/321_Nudge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300_사회과학/320_경제학/320_경제학.md"
+                "file": "300_사회과학/320_경제학/321_Nudge.md"
               }
             }
           },
@@ -221,16 +222,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a41cc43e9af7cc63",
+  "active": "0a4ba88712564a96",
   "lastOpenFiles": [
+    "300_사회과학/320_경제학/320_경제학.md",
+    "300_사회과학/320_경제학/321_Nudge.md",
+    "300_사회과학/330_사회학/330 사회학.md",
+    "Book.md",
+    "Read me.md",
     "conflict-files-obsidian-git.md",
     "gitignore",
     "300_사회과학/340_정치학/340_A Preface to Democratic Theory.md",
     "300_사회과학/330_사회학/331_오리엔탈리즘.md",
     "300_사회과학/340_정치학/340_정치학.md",
-    "300_사회과학/330_사회학/330 사회학.md",
-    "Book.md",
-    "300_사회과학/320_경제학/320_경제학.md",
     "300_사회과학/340_정치학",
     "300_사회과학/320_경제학",
     "300_사회과학/300_사회과학.md",
@@ -253,7 +256,6 @@
     "300_사회과학/무제 파일.canvas",
     "100_철학/180_심리학/184 심리 조작의 비밀.md",
     "100_철학/130_철학의_세계",
-    "MG_231124.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part2",
     "Attached file/Pasted image 20231125162422.png",
     "Attached file/Pasted image 20231125162008.png",
