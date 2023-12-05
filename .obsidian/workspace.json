@@ -8,29 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d9e6ad24700a5330",
+            "id": "3fd0286ae5f36ba5",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "무제 파일.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
+                  "x": 882.6310320414648,
+                  "y": 56,
+                  "zoom": -1.083035384385573
                 }
-              }
-            }
-          },
-          {
-            "id": "3fd0286ae5f36ba5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test1.md",
-                "mode": "source",
-                "source": false
               }
             }
           },
@@ -171,12 +159,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d9e6ad24700a5330",
+  "active": "3fd0286ae5f36ba5",
   "lastOpenFiles": [
-    "무제 파일 1.canvas",
-    "test2.md",
     "test1.md",
     "무제 파일.canvas",
+    "000_총류/060 일반 학회, 단체, 협회, 기관/Attention Res-UNet with Guided Decoder for semantic segmentation of brain tumors.md",
+    "000_총류/060 일반 학회, 단체, 협회, 기관/일반 학회, 단체, 협회, 기관.md",
+    "무제 파일 1.canvas",
+    "test2.md",
     "800_문학/840 영미문학/843 천로역정.md",
     "800_문학/800 문학.md"
   ]
