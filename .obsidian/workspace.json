@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300_사회과학/320_경제학/321_Nudge.md",
+                "file": "SSUspot_FineTuning.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,8 +122,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -143,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md",
+                "file": "SSUspot_FineTuning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md",
+                "file": "SSUspot_FineTuning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md"
+                "file": "SSUspot_FineTuning.md"
               }
             }
           },
@@ -222,8 +221,9 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0a4ba88712564a96",
+  "active": "a41cc43e9af7cc63",
   "lastOpenFiles": [
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md",
     "300_사회과학/320_경제학/320_경제학.md",
     "300_사회과학/320_경제학/321_Nudge.md",
     "300_사회과학/330_사회학/330 사회학.md",
@@ -238,7 +238,6 @@
     "300_사회과학/320_경제학",
     "300_사회과학/300_사회과학.md",
     "test2.md",
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md",
     "test1.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/무제 파일.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/01_Install.md",
