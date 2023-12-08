@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MG_231124.md",
+                "file": "Study/MediaGAN/시험대비.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "max pooling",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +81,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -101,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MG_231124.md",
+                "file": "Study/MediaGAN/시험대비.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MG_231124.md",
+                "file": "Study/MediaGAN/시험대비.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MG_231124.md"
+                "file": "Study/MediaGAN/시험대비.md"
               }
             }
           }
@@ -166,9 +167,9 @@
   },
   "active": "1c6d56b60802f4d6",
   "lastOpenFiles": [
+    "MG_231124.md",
     "무제 파일.canvas",
     "Attached file/Woman_Angry_Read01.m",
-    "MG_231124.md",
     "Study/MediaGAN/Media GAN (7).md",
     "500_기술과학/550 기계공학/567_Video_Compression.md",
     "100_철학/180_심리학/180 심리학.md",
