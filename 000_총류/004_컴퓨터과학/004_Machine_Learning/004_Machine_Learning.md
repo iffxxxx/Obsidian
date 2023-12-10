@@ -5,7 +5,7 @@
 ### [[004_Linear_classifcation]]
 
 ## Recommendation
-### [[004_Recommender_Systems]]
+### [[00_Recommender_Systems]]
 
 ## Deployments
 ### [[004_Deployment_of_Machine_Learning_Models]]

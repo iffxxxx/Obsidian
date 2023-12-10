@@ -1,4 +1,4 @@
-next : [[004_Content-based_filtering]]
+next : [[04_Content-based_filtering]]
 ## Surpriselib algorithm base class
 ![[Pasted image 20231111170136.png|500]]
 - Surpriselib has a Python base class called AlgoBase.
