@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300_사회과학/340_정치학/340_A Preface to Democratic Theory.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,14 +81,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/06_Matrix_Factorization_Method.md",
+                "file": "Project/SSUspot/SSUspot_FineTuning.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/06_Matrix_Factorization_Method.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/06_Matrix_Factorization_Method.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/06_Matrix_Factorization_Method.md"
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md"
               }
             }
           },
@@ -233,19 +233,22 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "ff4dece77cabfa1e",
+  "active": "1e8a39e51c5224a2",
   "lastOpenFiles": [
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/00_Recommender_Systems.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/06_Matrix_Factorization_Method.md",
+    "300_사회과학/340_정치학/340_A Preface to Democratic Theory.md",
+    "Project/SSUspot/SSUspot_FineTuning.md",
+    "Attached file/Pasted image 20231120171125.png",
+    "Attached file/Pasted image 20231120181104.png",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/05_Neighborhood-Based_Collaborative_Filtering.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/04_Content-based_filtering.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/03_A_Recommender_Engine_Framework.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/00_Recommender_Systems.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Machine_Learning.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/Neighborhood-based collaborative filtering.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/Model-based methods.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/Deep learning with artificial neural networks.md",
-    "Project/SSUspot/SSUspot_FineTuning.md",
     "MG_231124.md",
     "conflict-files-obsidian-git.md",
     "Project/Project.md",
@@ -260,12 +263,10 @@
     "Book.md",
     "Read me.md",
     "gitignore",
-    "300_사회과학/340_정치학/340_A Preface to Democratic Theory.md",
     "300_사회과학/330_사회학/331_오리엔탈리즘.md",
     "300_사회과학/340_정치학/340_정치학.md",
     "300_사회과학/340_정치학",
     "300_사회과학/320_경제학",
-    "300_사회과학/300_사회과학.md",
     "300_사회과학/330_사회학",
     "300_사회과학/무제 파일.canvas",
     "100_철학/130_철학의_세계",
@@ -280,8 +281,6 @@
     "Attached file/03_05_Architecture_Component_Breakdown_4.png",
     "Attached file/03_05_Architecture_Component_Breakdown_3.png",
     "Attached file/03_05_Architecture_Component_Breakdown_2.png",
-    "무제 파일.canvas",
-    "Attached file/03_04_Machine_Learning_system_architecture_approaches_8.png",
-    "Attached file/03_04_Machine_Learning_system_architecture_approaches_7.png"
+    "무제 파일.canvas"
   ]
 }
