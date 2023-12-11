@@ -294,9 +294,9 @@ end
 
 figure(7);plot(amdf_data(:,1)), title('AMDF');
 ```
-
+### LPC
 ```
-%%피크
+%%LPC
 
 sig = audioread('남성_화난소리_읽어봐요01.wav');
 
@@ -339,10 +339,8 @@ pks = findpeaks(omag);
 disp('피크 값:');
 
 disp(ow(locs)), title('LPC');
-```
-### LPC
-#### Furior_Transform
-```
+
+
 %%Time domain
 
 Fs = 16000; % 주파수 신호의 샘플링 주파수를 설정하세요.

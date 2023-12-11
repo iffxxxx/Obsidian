@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "500_기술과학/550 기계공학/567_Multimedia/00_Multimedia.md",
+                "file": "400_순수과학/410 수학/414_Fourier_Analysis.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "500_기술과학/550 기계공학/567_Multimedia/00_Multimedia.md",
+                "file": "400_순수과학/410 수학/414_Fourier_Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "500_기술과학/550 기계공학/567_Multimedia/00_Multimedia.md",
+                "file": "400_순수과학/410 수학/414_Fourier_Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "500_기술과학/550 기계공학/567_Multimedia/00_Multimedia.md"
+                "file": "400_순수과학/410 수학/414_Fourier_Analysis.md"
               }
             }
           },
@@ -193,9 +193,9 @@
   "active": "8c500b29f5e17f91",
   "lastOpenFiles": [
     "500_기술과학/550 기계공학/567_Multimedia/01_Audio_Compression.md",
-    "500_기술과학/550 기계공학/567_Multimedia/00_Multimedia.md",
-    "500_기술과학/550 기계공학/567_Multimedia/06_Final_Project.md",
     "500_기술과학/550 기계공학/567_Multimedia/05_Test.md",
+    "500_기술과학/550 기계공학/567_Multimedia/06_Final_Project.md",
+    "500_기술과학/550 기계공학/567_Multimedia/00_Multimedia.md",
     "500_기술과학/550 기계공학/567_Multimedia/03_Video_Compression.md",
     "500_기술과학/550 기계공학/567_Multimedia/04_Internet_Protocol.md",
     "500_기술과학/550 기계공학/567_Multimedia/02_Image_Compression.md",
