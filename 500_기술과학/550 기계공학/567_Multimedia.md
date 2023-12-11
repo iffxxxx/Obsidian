@@ -1,3 +1,4 @@
+#500_기술과학 #550_기계공학 #567_통신공학 #Multimedia
 ## Multimedia attributes
 1. Digitized : All media including audio and video are represented in digital format
 2. Distributed : The information conveyed is remote distributed over networks

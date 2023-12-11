@@ -1,3 +1,4 @@
+#500_기술과학 #550_기계공학 #567_통신공학 #Multimedia
 ## VIDEO
 #### Video Bit Rate Calculation
 Bit Rate = width * height * depth * fps (bits/sec)

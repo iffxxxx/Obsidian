@@ -1,3 +1,4 @@
+#500_기술과학 #550_기계공학 #567_통신공학 #Multimedia
 ## Audio
 Audio signals are continuous analog signals
 > Analog : continuos signals must be converted or digitized for computer processing
@@ -43,4 +44,4 @@ simplified version of DPCM. Often used as a quick AD converter.
 ##### ADPCM (Adaptive DPCM)
 takes the idea of adapting the coder to suit the input much farther.
 
-[[414 Fourier Analysis]]
+[[414_Fourier_Analysis]]

@@ -1,3 +1,4 @@
+#500_기술과학 #550_기계공학 #567_통신공학 #Multimedia
 ## Image
 Still pictures which (uncompressed) are represented as a bitmap (a grid of pixels)
 ![[Pasted image 20231002002431.png]]
@@ -57,7 +58,7 @@ using [[413 Euler's formula]], we have
 $$e^ix=\cos(x)+i\sin(x)$$
 The formulation of the DCT that allows it to use only the cosine basis functions of the DFT is that **we can cancel out the imaginary part of the DFT by making a symmetric copy of the original input signal**.
 
-[[414 Fourier Analysis#DCT & DFT]]
+[[414_Fourier_Analysis#DCT & DFT]]
 #### Quantization
 Quantization (vertical) : $Q()$ is a rounding function which maps the value $s(n)$ (real number) into value in one of N levels (integer)
 #### Zigzag scan
