@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "400_순수과학/410 수학/414_Fourier_Analysis.md",
+                "file": "500_기술과학/550 기계공학/567_Multimedia/01_Audio_Compression.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "400_순수과학/410 수학/414_Fourier_Analysis.md",
+                "file": "500_기술과학/550 기계공학/567_Multimedia/01_Audio_Compression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "400_순수과학/410 수학/414_Fourier_Analysis.md",
+                "file": "500_기술과학/550 기계공학/567_Multimedia/01_Audio_Compression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "400_순수과학/410 수학/414_Fourier_Analysis.md"
+                "file": "500_기술과학/550 기계공학/567_Multimedia/01_Audio_Compression.md"
               }
             }
           },
@@ -192,6 +192,7 @@
   },
   "active": "8c500b29f5e17f91",
   "lastOpenFiles": [
+    "400_순수과학/410 수학/414_Fourier_Analysis.md",
     "500_기술과학/550 기계공학/567_Multimedia/01_Audio_Compression.md",
     "500_기술과학/550 기계공학/567_Multimedia/05_Test.md",
     "500_기술과학/550 기계공학/567_Multimedia/06_Final_Project.md",
@@ -203,7 +204,6 @@
     "500_기술과학/550 기계공학/550 기계공학.md",
     "500_기술과학/550 기계공학/567_Multimedia",
     "Attached file/MM_5조_20192694신승훈_20213004김혜령_20212012이혜원.pdf",
-    "400_순수과학/410 수학/414_Fourier_Analysis.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md",
     "300_사회과학/340_정치학/340_A Preface to Democratic Theory.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/00_Recommender_Systems.md",

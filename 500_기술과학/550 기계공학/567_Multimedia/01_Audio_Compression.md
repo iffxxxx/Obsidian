@@ -89,30 +89,20 @@ figure(3), plot(csig2), grid on
 title('감정_ 512');
 ```
 ### ZCR (Zero Crossing Rate)
-```
+```run-python
 %제로크로싱
 
 p=csig2;
-
 y=zeros;
-
 n=100;
 
   
-
 for i=1:(length(p)/n)-1
-
-y(i)=zero_crossings(p(n*(i-1)+1:n*i));
-
+	y(i)=zero_crossings(p(n*(i-1)+1:n*i));
 end
 
-  
-
 figure(4), plot(y),
-
 title('제로크로싱');
-
-  
 
 zcr1=zero_crossings(csig2);
 ```
