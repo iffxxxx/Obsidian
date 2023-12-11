@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "500_기술과학/550 기계공학/567_Multimedia/06_Final_Project.md",
+                "file": "500_기술과학/550 기계공학/567_Multimedia/09_Final_Project.md",
                 "mode": "source",
                 "source": false
               }
@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "949d0c8cf8c9f24f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "500_기술과학/550 기계공학/567_Multimedia/08_Speech_Signal_Analysis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "500_기술과학/550 기계공학/567_Multimedia/01_Audio_Compression.md",
+                "file": "500_기술과학/550 기계공학/567_Multimedia/08_Speech_Signal_Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "500_기술과학/550 기계공학/567_Multimedia/01_Audio_Compression.md",
+                "file": "500_기술과학/550 기계공학/567_Multimedia/08_Speech_Signal_Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "500_기술과학/550 기계공학/567_Multimedia/01_Audio_Compression.md"
+                "file": "500_기술과학/550 기계공학/567_Multimedia/08_Speech_Signal_Analysis.md"
               }
             }
           },
@@ -190,12 +202,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "8c500b29f5e17f91",
+  "active": "949d0c8cf8c9f24f",
   "lastOpenFiles": [
-    "400_순수과학/410 수학/414_Fourier_Analysis.md",
+    "500_기술과학/550 기계공학/567_Multimedia/09_Final_Project.md",
+    "500_기술과학/550 기계공학/567_Multimedia/08_Speech_Signal_Analysis.md",
     "500_기술과학/550 기계공학/567_Multimedia/01_Audio_Compression.md",
+    "400_순수과학/410 수학/414_Fourier_Analysis.md",
     "500_기술과학/550 기계공학/567_Multimedia/05_Test.md",
-    "500_기술과학/550 기계공학/567_Multimedia/06_Final_Project.md",
     "500_기술과학/550 기계공학/567_Multimedia/00_Multimedia.md",
     "500_기술과학/550 기계공학/567_Multimedia/03_Video_Compression.md",
     "500_기술과학/550 기계공학/567_Multimedia/04_Internet_Protocol.md",
