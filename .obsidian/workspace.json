@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md",
+                "file": "500_기술과학/550 기계공학/567_Nyquist's_Sampling Theorem.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md",
+                "file": "500_기술과학/550 기계공학/567_Nyquist's_Sampling Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md",
+                "file": "500_기술과학/550 기계공학/567_Nyquist's_Sampling Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md"
+                "file": "500_기술과학/550 기계공학/567_Nyquist's_Sampling Theorem.md"
               }
             }
           },
@@ -235,13 +235,16 @@
   },
   "active": "1e8a39e51c5224a2",
   "lastOpenFiles": [
+    "500_기술과학/550 기계공학/567_Audio_Compression.md",
+    "500_기술과학/550 기계공학/567_Multimedia.md",
+    "500_기술과학/550 기계공학/550 기계공학.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/00_Recommender_Systems.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/06_Matrix_Factorization_Method.md",
     "300_사회과학/340_정치학/340_A Preface to Democratic Theory.md",
     "Project/SSUspot/SSUspot_FineTuning.md",
     "Attached file/Pasted image 20231120171125.png",
     "Attached file/Pasted image 20231120181104.png",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/05_Neighborhood-Based_Collaborative_Filtering.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/04_Content-based_filtering.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/03_A_Recommender_Engine_Framework.md",
@@ -263,8 +266,6 @@
     "Book.md",
     "Read me.md",
     "gitignore",
-    "300_사회과학/330_사회학/331_오리엔탈리즘.md",
-    "300_사회과학/340_정치학/340_정치학.md",
     "300_사회과학/340_정치학",
     "300_사회과학/320_경제학",
     "300_사회과학/330_사회학",
