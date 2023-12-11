@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8c500b29f5e17f91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "500_기술과학/550 기계공학/567_Test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "500_기술과학/550 기계공학/567_청유형_문장의_종결어미_음성신호_감정분류.md",
+                "file": "500_기술과학/550 기계공학/567_Test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "500_기술과학/550 기계공학/567_청유형_문장의_종결어미_음성신호_감정분류.md",
+                "file": "500_기술과학/550 기계공학/567_Test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "500_기술과학/550 기계공학/567_청유형_문장의_종결어미_음성신호_감정분류.md"
+                "file": "500_기술과학/550 기계공학/567_Test.md"
               }
             }
           },
@@ -177,11 +189,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "62117278fb5ae6f2",
+  "active": "8c500b29f5e17f91",
   "lastOpenFiles": [
+    "500_기술과학/550 기계공학/567_청유형_문장의_종결어미_음성신호_감정분류.md",
+    "500_기술과학/550 기계공학/567_Test.md",
     "500_기술과학/550 기계공학/567_Audio_Compression.md",
     "500_기술과학/550 기계공학/550 기계공학.md",
-    "500_기술과학/550 기계공학/567_청유형_문장의_종결어미_음성신호_감정분류.md",
     "Attached file/MM_5조_20192694신승훈_20213004김혜령_20212012이혜원.pdf",
     "500_기술과학/550 기계공학/567_Video_Compression.md",
     "500_기술과학/550 기계공학/567_Nyquist's_Sampling Theorem.md",
