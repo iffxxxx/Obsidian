@@ -1,4 +1,34 @@
 #500_기술과학 #550_기계공학 #567_통신공학 #Multimedia 
 
-## 1
-- Write an equation for the definition of decibel and with this definition show what 0dB is.
+
+#### 1 Write an equation for the definition of decibel and with this definition show what 0dB is.
+- 데시벨(Decibel, dB)은 주로 파워나 인텐시티와 같은 물리량의 두 값 간의 비율을 나타내는 로그 스케일의 단위입니다. 
+	데시벨 수준(L)을 계산하는 일반적인 공식은 다음과 같습니다:
+	
+	$L=10*log_{10}(\frac{P}{P_0})$
+	
+	여기서:
+	
+	- L은 데시벨 레벨,
+	- P는 신호의 실제 파워나 인텐시티,
+	- P0​은 참조 파워나 인텐시티 (일반적으로 표준 참조값)입니다.
+	
+	소리의 인텐시티를 고려할 때 참조 인텐시티 (�0I0​)를 사용하며, 데시벨 공식은 다음과 같이 됩니다:
+	
+	$L=10*log_{10}(\frac{I}{I_0})$
+	
+	그러므로 0 dB는 실제 인텐시티와 참조 인텐시티가 동일한 수준을 나타내며, 이는 인텐시티의 증감이 없음을 의미하며 비교를 위한 기준점으로 사용됩니다.
+
+#### 2 Write a briief equation to show how the aliasing accurs by using the Nyquist's sampling theorem.
+- 나이키스트(Nyquist) 샘플링 정리를 사용하여 앨리어싱이 어떻게 발생하는지 간단한 방정식을 표현할 수 있습니다.
+	
+	$f_{s}= 2*f_{max}$
+	
+	
+	이 방정식은 나이키스트 샘플링 정리를 나타내며, 샘플링 주파수 ($f_{s}$​)는 신호의 최대 주파수 ($f_{max}$​)의 두 배 이상이어야 한다고 말합니다.
+	
+	앨리어싱은 이 정리를 위반할 때 발생합니다. 다시 말하면, 만약 샘플링 주파수가 최대 주파수의 두 배보다 작으면, 고주파 구성요소가 낮은 주파수로 착각되어 나타나게 되는데, 이를 앨리어싱이라고 합니다.
+	
+	앨리어싱 현상을 피하려면 샘플링 주파수를 신호의 최대 주파수의 두 배 이상으로 설정해야 합니다.
+
+#### 3. Explain in terms of MPEG what MP3 is.
