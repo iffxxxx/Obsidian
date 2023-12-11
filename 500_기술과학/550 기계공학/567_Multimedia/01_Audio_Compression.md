@@ -52,15 +52,12 @@ takes the idea of adapting the coder to suit the input much farther.
 %% 감정 오디오 넣기
 
 figure(1)
-
 [n,fs] = audioread('남성_화난소리_읽어봐요01.wav');
 
 s = normalize(n);
 
 plot(s);
-
 title('감정 voice signal')
-
 grid on;
 ```
 
@@ -69,13 +66,10 @@ grid on;
 %잘라내기
 
 figure(2)
-
 soundi=s(8650:9700); %%잘라내고 싶은 만큼
 
 plot(soundi)
-
 title('잘라내기')
-
 grid on;
 ```
 ### 512 Sampling
@@ -85,7 +79,6 @@ grid on;
 csig2=soundi(91:602);  %%512 샘플 조절
 
 figure(3), plot(csig2), grid on
-
 title('감정_ 512');
 ```
 ### ZCR (Zero Crossing Rate)
@@ -95,7 +88,6 @@ title('감정_ 512');
 p=csig2;
 y=zeros;
 n=100;
-
   
 for i=1:(length(p)/n)-1
 	y(i)=zero_crossings(p(n*(i-1)+1:n*i));
@@ -105,32 +97,50 @@ figure(4), plot(y),
 title('제로크로싱');
 
 zcr1=zero_crossings(csig2);
+
+
+%함수 정의
+function count = zero_crossings(x)
+
+% initial value
+count = 0;
+
+% force signal to be a vector oriented in the same direction
+x = x(:);
+
+num_samples = length(x);
+
+	for i=2:num_samples
+		% Any time you multiply to adjacent values that have a sign difference
+		% the result will always be negative. When the signs are identical,
+		% the product will always be positive.
+		
+		if((x(i) * x(i-1)) < 0)
+			count = count + 1;
+		end
+	end
+end
 ```
 
 ### Spectrogram
-```
+```run-python
 %% spectrogram
 
 file = csig2; % recorded data
 
 fs=16000;    
-
 R=15;
-
 L=ceil(R*0.5);
-
 noverlap=R-L;    
 
 [S,F,T,P] = spectrogram(file,80,noverlap,2048,fs);
 
 % window : 80
-
 % n overlap : number of samples that each segment overlaps
-
 % F=2048 : vector of frequencies
 ```
 ### STE (Short Term Energy)
-```
+```run-python
 %% energy    
 
 input=file;    
@@ -329,72 +339,33 @@ pks = findpeaks(omag);
 disp('피크 값:');
 
 disp(ow(locs)), title('LPC');
-
+```
+### FFT
+```
 
 %%Time domain
 
 Fs = 16000; % 주파수 신호의 샘플링 주파수를 설정하세요.
-
 T = 1/Fs;
-
 L = length(csig2);
-
 NFFT = 2^nextpow2(L);
-
-  
 
 Y = fft(csig2, NFFT)/L;
 
-  
-
 t = (0:L-1)*T;
-
 f = Fs/2*linspace(0,1,NFFT/2+1);
 
   
 
 % Plot y with time domain
 
-  
-
 figure(9), subplot(211); plot(t, csig2); grid on;
-
 title('Time Domain');
 
 
-
 % Plot single-sided amplitude spectrum
-
   
 subplot(212); plot(f, 2*abs(Y(1:NFFT/2+1))); grid on;
 
 title('Frequency Domain');
-
-  
-  
-
-function count = zero_crossings(x)
-
-% initial value
-
-count = 0;
-
-% force signal to be a vector oriented in the same direction
-
-x = x(:);
-
-num_samples = length(x);
-
-	for i=2:num_samples
-		
-		% Any time you multiply to adjacent values that have a sign difference
-		% the result will always be negative. When the signs are identical,
-		% the product will always be positive.
-		
-		if((x(i) * x(i-1)) < 0)
-			
-			count = count + 1;
-		end
-	end
-end
 ```
