@@ -98,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "무제 파일.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "무제 파일.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "무제 파일.canvas"
+              }
             }
           }
         ]
