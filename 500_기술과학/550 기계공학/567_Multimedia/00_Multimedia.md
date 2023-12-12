@@ -1,3 +1,4 @@
+#500_기술과학 #550_기계공학 #567_통신공학 #Multimedia
 ## Multimedia attributes
 1. Digitized : All media including audio and video are represented in digital format
 2. Distributed : The information conveyed is remote distributed over networks
@@ -17,8 +18,10 @@ Characterized by the processing, storage, generation, manipulation and rendition
 4. The interface to the final presentation of media is usually **interactive**
 
 ## Link
-[[567_Audio_Compression]]
-[[567_Nyquist's_Sampling Theorem]]
-[[567_Image_Compression]]
-[[567_Video_Compression]]
-[[567_Internet_Protocol]]
+[[01_Audio_Compression]]
+[[01.1_Nyquist's_Sampling Theorem]]
+[[02_Image_Compression]]
+[[03_Video_Compression]]
+[[04_Internet_Protocol]]
+[[05_Test]]
+[[09_Final_Project]]

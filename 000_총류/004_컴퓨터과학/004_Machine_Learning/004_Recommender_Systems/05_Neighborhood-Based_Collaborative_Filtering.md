@@ -1,4 +1,4 @@
-next : [[004_Matrix_Factorization_Method]]
+next : [[06_Matrix_Factorization_Method]]
 ## How to measure similarity
 - 다른 사람들의 협력적 행동을 기반으로 물건을 추천합니다.
 	

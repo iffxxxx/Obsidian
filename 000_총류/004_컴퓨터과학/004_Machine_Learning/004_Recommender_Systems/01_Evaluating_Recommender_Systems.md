@@ -1,4 +1,4 @@
-next : [[004_A_Recommender_Engine_Framework]]
+next : [[03_A_Recommender_Engine_Framework]]
 ## Train/Test_and_Cross_Validation
 ![[Pasted image 20231111034714.png|500]]
 - We start by splitting up your ratings data into a training set, and a testing set.

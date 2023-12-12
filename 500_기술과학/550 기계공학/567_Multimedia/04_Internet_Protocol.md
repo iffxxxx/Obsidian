@@ -1,3 +1,4 @@
+#500_기술과학 #550_기계공학 #567_통신공학 #Multimedia
 ## IP
 ### PSTN
 (Public Switched Telephone Network) : 세계의 공중 회선 전화망들이 얽혀있는 전화망 - 유선전화

@@ -62,7 +62,7 @@ $j^{2}=-1$
 ![[Pasted image 20231002194331.png]]
 톱니파가 "Odd Function"인 이유는 $$s(t) = (2/T) * (t - T/2), 0 <= t < T/2$$$$s(t) = (2/T) * (T - t - T/2), T/2 <= t < T $$
 위의 두 수식에서 볼 수 있듯이, $t$ 를 $\frac{T}{2}$ 에서 중심으로 우함수 대칭한 형태를 가진다.
-[[414 Fourier Analysis#Fourier series (퓨리에 급수)]]
+[[414_Fourier_Analysis#Fourier series (퓨리에 급수)]]
 
 3. reverse Saw-Tooth Wave
 ![[Pasted image 20231018011856.png|300]]

@@ -1,3 +1,4 @@
+#500_기술과학 #550_기계공학 #567_통신공학 #Multimedia
 ## Nyquist's Theorem
 $$f_{s}=\frac{samples}{sec} =\frac{1}{T_s}\geq 2f_{max}$$
 The Sampling frequency for a signal must be at least **twice** the highest frequency component in the signal.

@@ -29,9 +29,21 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "7631f36ac0d672d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "무제 파일.canvas",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "무제 파일.canvas",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "무제 파일.canvas"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -161,8 +173,35 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1c6d56b60802f4d6",
+  "active": "7631f36ac0d672d4",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Project/SSUspot/SSUspot_FineTuning.md",
+    "Project/SSUspot",
+    "Project/Project.md",
+    "Attached file/Pasted image 20231212040548.png",
+    "Attached file/Pasted image 20231212035615.png",
+    "Attached file/Pasted image 20231212035400.png",
+    "Attached file/Pasted image 20231212035049.png",
+    "Attached file/Pasted image 20231212034920.png",
+    "Attached file/MM_5조_20192694신승훈_20213004김혜령_20212012이혜원.pdf",
+    "500_기술과학/550 기계공학/567_Multimedia/09_Final_Project.md",
+    "500_기술과학/550 기계공학/567_Multimedia/08_Speech_Signal_Analysis.md",
+    "500_기술과학/550 기계공학/567_Multimedia/04_Internet_Protocol.md",
+    "500_기술과학/550 기계공학/567_Multimedia/05_Test.md",
+    "500_기술과학/550 기계공학/567_Multimedia/03_Video_Compression.md",
+    "500_기술과학/550 기계공학/567_Multimedia/02_Image_Compression.md",
+    "500_기술과학/550 기계공학/567_Multimedia/01_Audio_Compression.md",
+    "500_기술과학/550 기계공학/567_Multimedia/01.1_Nyquist's_Sampling Theorem.md",
+    "500_기술과학/550 기계공학/567_Multimedia/00_Multimedia.md",
+    "500_기술과학/550 기계공학/567_Multimedia",
+    "400_순수과학/410 수학/414_Fourier_Analysis.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/06_Matrix_Factorization_Method.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/05_Neighborhood-Based_Collaborative_Filtering.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/04_Content-based_filtering.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/03_A_Recommender_Engine_Framework.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/00_Recommender_Systems.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Machine_Learning.md",
     "Study/MediaGAN/시험대비.md",
     "MG_231124.md",
@@ -172,28 +211,9 @@
     "500_기술과학/550 기계공학/567_Video_Compression.md",
     "100_철학/180_심리학/180 심리학.md",
     "100_철학/130_철학의_세계/130_철학의 세계.md",
-    "100_철학/130_철학의_세계/137_역사와_계급의식.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/004_Content-based_filtering.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/004_Evaluating_Recommender_Systems.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/004_Matrix_Factorization_Method.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/004_Neighborhood-Based_Collaborative_Filtering.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/004_Recommender_Systems.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/Deep learning with artificial neural networks.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/Model-based methods.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/Neighborhood-based collaborative filtering.md",
-    "conflict-files-obsidian-git.md",
     "gitignore",
-    "300_사회과학/340_정치학/340_정치학.md",
-    "300_사회과학/340_정치학/340_A Preface to Democratic Theory.md",
     "300_사회과학/340_정치학",
-    "300_사회과학/320_경제학/321_Nudge.md",
-    "300_사회과학/320_경제학/320_경제학.md",
     "300_사회과학/320_경제학",
-    "test1.md",
-    "000_총류/060 일반 학회, 단체, 협회, 기관/Attention Res-UNet with Guided Decoder for semantic segmentation of brain tumors.md",
-    "000_총류/060 일반 학회, 단체, 협회, 기관/일반 학회, 단체, 협회, 기관.md",
-    "무제 파일 1.canvas",
-    "test2.md",
-    "800_문학/840 영미문학/843 천로역정.md"
+    "무제 파일 1.canvas"
   ]
 }
