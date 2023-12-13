@@ -60,7 +60,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "500_기술과학/550 기계공학/567_Multimedia/08_Speech_Signal_Analysis.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/06_Matrix_Factorization_Method.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "500_기술과학/550 기계공학/567_Multimedia/08_Speech_Signal_Analysis.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/06_Matrix_Factorization_Method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "500_기술과학/550 기계공학/567_Multimedia/08_Speech_Signal_Analysis.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/06_Matrix_Factorization_Method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "500_기술과학/550 기계공학/567_Multimedia/08_Speech_Signal_Analysis.md"
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/06_Matrix_Factorization_Method.md"
               }
             }
           }
@@ -198,13 +198,19 @@
   },
   "active": "dff338c9bf1383e4",
   "lastOpenFiles": [
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/05_Neighborhood-Based_Collaborative_Filtering.md",
+    "000_총류/000_총류.md",
+    "000_총류/060 일반 학회, 단체, 협회, 기관/Attention Res-UNet with Guided Decoder for semantic segmentation of brain tumors.md",
+    "000_총류/060 일반 학회, 단체, 협회, 기관/일반 학회, 단체, 협회, 기관.md",
+    "000_총류/004_컴퓨터과학/004_Linear_classifcation.md",
+    "000_총류/004_컴퓨터과학/004_Gradient_Descent.md",
+    "500_기술과학/550 기계공학/567_Multimedia/08_Speech_Signal_Analysis.md",
     "500_기술과학/550 기계공학/567_Multimedia/05_Test.md",
     "500_기술과학/550 기계공학/567_Multimedia/04_Internet_Protocol.md",
     "500_기술과학/550 기계공학/567_Multimedia/03_Video_Compression.md",
     "500_기술과학/550 기계공학/567_Multimedia/02_Image_Compression.md",
     "500_기술과학/550 기계공학/567_Multimedia/01.1_Nyquist's_Sampling Theorem.md",
     "500_기술과학/550 기계공학/567_Multimedia/01_Audio_Compression.md",
-    "500_기술과학/550 기계공학/567_Multimedia/08_Speech_Signal_Analysis.md",
     "500_기술과학/550 기계공학/567_Multimedia/07_Image_Analysis.md",
     "500_기술과학/550 기계공학/567_Multimedia/06_MatLab.md",
     "500_기술과학/550 기계공학/567_Multimedia/00_Multimedia.md",
@@ -223,17 +229,11 @@
     "500_기술과학/550 기계공학/567_Multimedia",
     "400_순수과학/410 수학/414_Fourier_Analysis.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/06_Matrix_Factorization_Method.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/05_Neighborhood-Based_Collaborative_Filtering.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/04_Content-based_filtering.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/03_A_Recommender_Engine_Framework.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/00_Recommender_Systems.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Machine_Learning.md",
-    "Study/MediaGAN/시험대비.md",
-    "MG_231124.md",
     "무제 파일.canvas",
     "Attached file/Woman_Angry_Read01.m",
-    "Study/MediaGAN/Media GAN (7).md",
     "gitignore",
     "300_사회과학/340_정치학",
     "300_사회과학/320_경제학",
