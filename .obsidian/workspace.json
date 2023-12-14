@@ -60,7 +60,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/MediaGAN/시험대비.md",
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/일반 학회, 단체, 협회, 기관.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/MediaGAN/시험대비.md",
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/일반 학회, 단체, 협회, 기관.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/MediaGAN/시험대비.md",
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/일반 학회, 단체, 협회, 기관.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/MediaGAN/시험대비.md"
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/일반 학회, 단체, 협회, 기관.md"
               }
             }
           }
@@ -198,13 +198,15 @@
   },
   "active": "dff338c9bf1383e4",
   "lastOpenFiles": [
+    "000_총류/060 일반 학회, 단체, 협회, 기관/Image_Segmentation_Using_Deep_Learning_A_Survey.md",
+    "000_총류/060 일반 학회, 단체, 협회, 기관/일반 학회, 단체, 협회, 기관.md",
+    "Study/MediaGAN/시험대비.md",
     "Study/MediaGAN/논문 찾기.md",
     "Study/MediaGAN/Media GAN (7).md",
     "000_총류/000_총류.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/06_Matrix_Factorization_Method.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/05_Neighborhood-Based_Collaborative_Filtering.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Attention Res-UNet with Guided Decoder for semantic segmentation of brain tumors.md",
-    "000_총류/060 일반 학회, 단체, 협회, 기관/일반 학회, 단체, 협회, 기관.md",
     "000_총류/004_컴퓨터과학/004_Linear_classifcation.md",
     "000_총류/004_컴퓨터과학/004_Gradient_Descent.md",
     "500_기술과학/550 기계공학/567_Multimedia/08_Speech_Signal_Analysis.md",
@@ -230,8 +232,6 @@
     "Attached file/MM_5조_20192694신승훈_20213004김혜령_20212012이혜원.pdf",
     "500_기술과학/550 기계공학/567_Multimedia/09_Final_Project.md",
     "500_기술과학/550 기계공학/567_Multimedia",
-    "400_순수과학/410 수학/414_Fourier_Analysis.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/04_Content-based_filtering.md",
     "무제 파일.canvas",
     "Attached file/Woman_Angry_Read01.m",
     "gitignore",
