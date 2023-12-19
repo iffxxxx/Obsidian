@@ -1,37 +1,38 @@
 {
   "main": {
-    "id": "d811f4c8beb3ae23",
+    "id": "177f58e34eea9bd4",
     "type": "split",
     "children": [
       {
-        "id": "7ddb957408b2aed9",
+        "id": "7e483816ca467425",
         "type": "tabs",
         "children": [
           {
-            "id": "3fd0286ae5f36ba5",
+            "id": "1e8a39e51c5224a2",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "무제 파일.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "500_기술과학/550 기계공학/567_Multimedia/03_Video_Compression.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "1c6d56b60802f4d6",
+            "id": "62117278fb5ae6f2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "500_기술과학/550 기계공학/567_Multimedia/09_Final_Project.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
-            "id": "7631f36ac0d672d4",
+            "id": "8c500b29f5e17f91",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -43,45 +44,33 @@
             }
           },
           {
-            "id": "3e12d50505c1e782",
+            "id": "949d0c8cf8c9f24f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "500_기술과학/550 기계공학/567_Multimedia/06_MatLab.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dff338c9bf1383e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Support_Vector_Machine.md",
+                "file": "500_기술과학/550 기계공학/567_Multimedia/07_Image_Analysis.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "1fd57d0e6602e3a0",
+    "id": "409ce0584145dcf1",
     "type": "split",
     "children": [
       {
-        "id": "a92911620996abc6",
+        "id": "8a0dcbd1c0f9862a",
         "type": "tabs",
         "children": [
           {
-            "id": "a8412368fade7c20",
+            "id": "6480f4013c936c3d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -91,12 +80,12 @@
             }
           },
           {
-            "id": "9dcab7543462d7f3",
+            "id": "0a4ba88712564a96",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "svm",
+                "query": "tag:#300_사회과학",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,35 +95,34 @@
             }
           },
           {
-            "id": "5089396807cbff9d",
+            "id": "895866d468360115",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "right": {
-    "id": "d6fcffc1ef5a2d78",
+    "id": "f6878ac96d36097f",
     "type": "split",
     "children": [
       {
-        "id": "43aa4e0b7b79b28e",
+        "id": "10b80d1a00787b7a",
         "type": "tabs",
         "children": [
           {
-            "id": "f564bb6f13544a51",
+            "id": "3295a5406aa6d18e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Support_Vector_Machine.md",
+                "file": "500_기술과학/550 기계공학/567_Multimedia/07_Image_Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,19 +134,19 @@
             }
           },
           {
-            "id": "3b561577ec0b3d47",
+            "id": "814fca3b99a514f6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Support_Vector_Machine.md",
+                "file": "500_기술과학/550 기계공학/567_Multimedia/07_Image_Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "bd92bb323eb05b96",
+            "id": "ff5ba7cf0394e8d3",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -169,75 +157,100 @@
             }
           },
           {
-            "id": "5d5b2a08f1e4f691",
+            "id": "34778d2b844a3ec3",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Support_Vector_Machine.md"
+                "file": "500_기술과학/550 기계공학/567_Multimedia/07_Image_Analysis.md"
               }
             }
+          },
+          {
+            "id": "8611f6fc4968d40c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "ab9918bd6f4fa3d6",
+            "type": "leaf",
+            "state": {
+              "type": "code-execute-manage-executors",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 321.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "3d-graph:3D Graph": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "3d-graph:3D Graph": false
     }
   },
-  "active": "dff338c9bf1383e4",
+  "active": "6480f4013c936c3d",
   "lastOpenFiles": [
-    "000_총류/060 일반 학회, 단체, 협회, 기관/일반 학회, 단체, 협회, 기관.md",
-    "000_총류/060 일반 학회, 단체, 협회, 기관/Image_Segmentation_Using_Deep_Learning_A_Survey.md",
-    "Study/MediaGAN/시험대비.md",
-    "Study/MediaGAN/논문 찾기.md",
-    "Study/MediaGAN/Media GAN (7).md",
-    "000_총류/000_총류.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/06_Matrix_Factorization_Method.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/05_Neighborhood-Based_Collaborative_Filtering.md",
-    "000_총류/060 일반 학회, 단체, 협회, 기관/Attention Res-UNet with Guided Decoder for semantic segmentation of brain tumors.md",
-    "000_총류/004_컴퓨터과학/004_Linear_classifcation.md",
-    "000_총류/004_컴퓨터과학/004_Gradient_Descent.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron",
     "500_기술과학/550 기계공학/567_Multimedia/08_Speech_Signal_Analysis.md",
-    "500_기술과학/550 기계공학/567_Multimedia/05_Test.md",
-    "500_기술과학/550 기계공학/567_Multimedia/04_Internet_Protocol.md",
-    "500_기술과학/550 기계공학/567_Multimedia/03_Video_Compression.md",
-    "500_기술과학/550 기계공학/567_Multimedia/02_Image_Compression.md",
-    "500_기술과학/550 기계공학/567_Multimedia/01.1_Nyquist's_Sampling Theorem.md",
-    "500_기술과학/550 기계공학/567_Multimedia/01_Audio_Compression.md",
     "500_기술과학/550 기계공학/567_Multimedia/07_Image_Analysis.md",
     "500_기술과학/550 기계공학/567_Multimedia/06_MatLab.md",
-    "500_기술과학/550 기계공학/567_Multimedia/00_Multimedia.md",
-    "500_기술과학/500 기술 과학.md",
-    "conflict-files-obsidian-git.md",
-    "Project/SSUspot/SSUspot_FineTuning.md",
-    "Project/SSUspot",
-    "Project/Project.md",
     "Attached file/Pasted image 20231212040548.png",
+    "500_기술과학/550 기계공학/567_Multimedia/09_Final_Project.md",
     "Attached file/Pasted image 20231212035615.png",
     "Attached file/Pasted image 20231212035400.png",
     "Attached file/Pasted image 20231212035049.png",
     "Attached file/Pasted image 20231212034920.png",
-    "Attached file/MM_5조_20192694신승훈_20213004김혜령_20212012이혜원.pdf",
-    "500_기술과학/550 기계공학/567_Multimedia/09_Final_Project.md",
+    "500_기술과학/550 기계공학/567_Multimedia/01_Audio_Compression.md",
+    "400_순수과학/410 수학/414_Fourier_Analysis.md",
+    "500_기술과학/550 기계공학/567_Multimedia/05_Test.md",
+    "500_기술과학/550 기계공학/567_Multimedia/00_Multimedia.md",
+    "500_기술과학/550 기계공학/567_Multimedia/03_Video_Compression.md",
+    "500_기술과학/550 기계공학/567_Multimedia/04_Internet_Protocol.md",
+    "500_기술과학/550 기계공학/567_Multimedia/02_Image_Compression.md",
+    "500_기술과학/550 기계공학/567_Multimedia/01.1_Nyquist's_Sampling Theorem.md",
+    "500_기술과학/550 기계공학/550 기계공학.md",
     "500_기술과학/550 기계공학/567_Multimedia",
-    "무제 파일.canvas",
+    "Attached file/MM_5조_20192694신승훈_20213004김혜령_20212012이혜원.pdf",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md",
+    "300_사회과학/340_정치학/340_A Preface to Democratic Theory.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/00_Recommender_Systems.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/06_Matrix_Factorization_Method.md",
+    "Project/SSUspot/SSUspot_FineTuning.md",
+    "Attached file/Pasted image 20231120171125.png",
+    "Attached file/Pasted image 20231120181104.png",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/05_Neighborhood-Based_Collaborative_Filtering.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/04_Content-based_filtering.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/03_A_Recommender_Engine_Framework.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Machine_Learning.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/Neighborhood-based collaborative filtering.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/Model-based methods.md",
+    "Project/SSUspot",
     "Attached file/Woman_Angry_Read01.m",
     "gitignore",
     "300_사회과학/340_정치학",
     "300_사회과학/320_경제학",
-    "무제 파일 1.canvas"
+    "300_사회과학/330_사회학",
+    "300_사회과학/무제 파일.canvas",
+    "100_철학/130_철학의_세계",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part2",
+    "Attached file/Pasted image 20231125162422.png",
+    "Attached file/Pasted image 20231125162008.png",
+    "Attached file/Pasted image 20231125161254.png",
+    "무제 파일.canvas"
   ]
 }
