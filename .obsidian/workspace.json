@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "500_기술과학/550 기계공학/567_Multimedia/07_Image_Analysis.md",
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron/00_.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "518e72bc74917a03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Deep_Learning.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "500_기술과학/550 기계공학/567_Multimedia/07_Image_Analysis.md",
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Deep_Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "500_기술과학/550 기계공학/567_Multimedia/07_Image_Analysis.md",
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Deep_Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "500_기술과학/550 기계공학/567_Multimedia/07_Image_Analysis.md"
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Deep_Learning.md"
               }
             }
           },
@@ -204,9 +216,12 @@
   },
   "active": "6480f4013c936c3d",
   "lastOpenFiles": [
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron/00_.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Deep_Learning.md",
+    "500_기술과학/550 기계공학/567_Multimedia/무제 파일.md",
+    "500_기술과학/550 기계공학/567_Multimedia/07_Image_Analysis.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron",
     "500_기술과학/550 기계공학/567_Multimedia/08_Speech_Signal_Analysis.md",
-    "500_기술과학/550 기계공학/567_Multimedia/07_Image_Analysis.md",
     "500_기술과학/550 기계공학/567_Multimedia/06_MatLab.md",
     "Attached file/Pasted image 20231212040548.png",
     "500_기술과학/550 기계공학/567_Multimedia/09_Final_Project.md",
@@ -237,8 +252,6 @@
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/04_Content-based_filtering.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/03_A_Recommender_Engine_Framework.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Machine_Learning.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/Neighborhood-based collaborative filtering.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/Model-based methods.md",
     "Project/SSUspot",
     "Attached file/Woman_Angry_Read01.m",
     "gitignore",
@@ -247,7 +260,6 @@
     "300_사회과학/330_사회학",
     "300_사회과학/무제 파일.canvas",
     "100_철학/130_철학의_세계",
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part2",
     "Attached file/Pasted image 20231125162422.png",
     "Attached file/Pasted image 20231125162008.png",
     "Attached file/Pasted image 20231125161254.png",
