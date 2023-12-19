@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron/00_.md",
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron/00_Perceptron.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Deep_Learning.md",
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron/00_Perceptron.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Deep_Learning.md",
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron/00_Perceptron.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Deep_Learning.md",
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron/00_Perceptron.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Deep_Learning.md"
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron/00_Perceptron.md"
               }
             }
           },
@@ -214,10 +214,29 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "6480f4013c936c3d",
+  "active": "518e72bc74917a03",
   "lastOpenFiles": [
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron/00_.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/05_Matrix_Factorization_Method.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/04_Neighborhood-Based_Collaborative_Filtering.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/03_Content-based_filtering.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/02_A_Recommender_Engine_Framework.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/Deep learning with artificial neural networks.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/00_Recommender_Systems.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/004_Research_Environment-Developing_a_Machine_Learning_Model.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/004_Packaging_The_Model_for_Production.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/004_Deployment_of_Machine_Learning_Models.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/03_Research_Production_Environment.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/02_Deployment_of_Pipelines.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/01_Model_Deployment.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/00_Overview_of_Model_Deployment.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron/00_Perceptron.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/01_Install.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/03_WebUi_Setting.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Deep_Learning.md",
+    "000_총류/004_컴퓨터과학/004_Weight_Regularization.md",
     "500_기술과학/550 기계공학/567_Multimedia/무제 파일.md",
     "500_기술과학/550 기계공학/567_Multimedia/07_Image_Analysis.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron",
@@ -229,29 +248,10 @@
     "Attached file/Pasted image 20231212035400.png",
     "Attached file/Pasted image 20231212035049.png",
     "Attached file/Pasted image 20231212034920.png",
-    "500_기술과학/550 기계공학/567_Multimedia/01_Audio_Compression.md",
-    "400_순수과학/410 수학/414_Fourier_Analysis.md",
-    "500_기술과학/550 기계공학/567_Multimedia/05_Test.md",
-    "500_기술과학/550 기계공학/567_Multimedia/00_Multimedia.md",
-    "500_기술과학/550 기계공학/567_Multimedia/03_Video_Compression.md",
-    "500_기술과학/550 기계공학/567_Multimedia/04_Internet_Protocol.md",
-    "500_기술과학/550 기계공학/567_Multimedia/02_Image_Compression.md",
-    "500_기술과학/550 기계공학/567_Multimedia/01.1_Nyquist's_Sampling Theorem.md",
-    "500_기술과학/550 기계공학/550 기계공학.md",
     "500_기술과학/550 기계공학/567_Multimedia",
     "Attached file/MM_5조_20192694신승훈_20213004김혜령_20212012이혜원.pdf",
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md",
-    "300_사회과학/340_정치학/340_A Preface to Democratic Theory.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/00_Recommender_Systems.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/06_Matrix_Factorization_Method.md",
-    "Project/SSUspot/SSUspot_FineTuning.md",
     "Attached file/Pasted image 20231120171125.png",
     "Attached file/Pasted image 20231120181104.png",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/05_Neighborhood-Based_Collaborative_Filtering.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/04_Content-based_filtering.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/03_A_Recommender_Engine_Framework.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Machine_Learning.md",
     "Project/SSUspot",
     "Attached file/Woman_Angry_Read01.m",
     "gitignore",

@@ -1,4 +1,4 @@
-next : [[05_Neighborhood-Based_Collaborative_Filtering]]
+next : [[04_Neighborhood-Based_Collaborative_Filtering]]
 
 - If we know a given user likes science fiction movies,
 	it's reasonable to recommend other science fiction movies to that user.
