@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron/00_Perceptron.md",
+                "file": "400_순수과학/410 수학/410 수학.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron/00_Perceptron.md",
+                "file": "400_순수과학/410 수학/410 수학.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron/00_Perceptron.md",
+                "file": "400_순수과학/410 수학/410 수학.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron/00_Perceptron.md"
+                "file": "400_순수과학/410 수학/410 수학.md"
               }
             }
           },
@@ -228,10 +228,10 @@
   },
   "active": "66961cf61d2fc1f1",
   "lastOpenFiles": [
-    "Attached file/Pasted image 20231220010859.png",
-    "Attached file/밑바닥부터시작하는딥러닝1_noOCR.pdf",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Deep_Learning.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron/00_Perceptron.md",
+    "Attached file/Pasted image 20231220010859.png",
+    "Attached file/밑바닥부터시작하는딥러닝1_noOCR.pdf",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/05_Matrix_Factorization_Method.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/04_Neighborhood-Based_Collaborative_Filtering.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/03_Content-based_filtering.md",
@@ -274,7 +274,6 @@
     "300_사회과학/무제 파일.canvas",
     "Attached file/Pasted image 20231125162422.png",
     "Attached file/Pasted image 20231125162008.png",
-    "Attached file/Pasted image 20231125161254.png",
     "무제 파일.canvas"
   ]
 }
