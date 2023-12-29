@@ -1,4 +1,5 @@
 #Array #Dynamic_Programming 
+
 ```run-python
 class Solution:
     def getRow(self, rowIndex: int) -> list[int]:

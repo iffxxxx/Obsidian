@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/005_프로그래밍.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/169_Majority_Element.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#300_사회과학",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/005_프로그래밍.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/169_Majority_Element.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/005_프로그래밍.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/169_Majority_Element.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/005_프로그래밍.md"
+                "file": "000_총류/005 프로그래밍/Leetcode/169_Majority_Element.md"
               }
             }
           },
@@ -240,11 +240,12 @@
   },
   "active": "17d832cdd76b7510",
   "lastOpenFiles": [
-    "000_총류/005 프로그래밍/Leetcode/122_Best_Time_to_Buy_and_Sell_Stock_2.md",
-    "000_총류/005 프로그래밍/Leetcode/119_Pascal's_Triangle_2.md",
     "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-    "000_총류/005 프로그래밍/Leetcode/64_Minimum_Path_Sum.md",
+    "000_총류/005 프로그래밍/Leetcode/169_Majority_Element.md",
+    "000_총류/005 프로그래밍/Leetcode/122_Best_Time_to_Buy_and_Sell_Stock_2.md",
     "000_총류/005 프로그래밍/Leetcode/1_Two_Sum.md",
+    "000_총류/005 프로그래밍/Leetcode/64_Minimum_Path_Sum.md",
+    "000_총류/005 프로그래밍/Leetcode/119_Pascal's_Triangle_2.md",
     "000_총류/005 프로그래밍/005_프로그래밍.md",
     "000_총류/005 프로그래밍/Leetcode",
     "400_순수과학/410 수학/410 수학.md",
@@ -268,7 +269,6 @@
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/00_Overview_of_Model_Deployment.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/01_Install.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md",
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/03_WebUi_Setting.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron",
     "Attached file/Pasted image 20231212040548.png",
     "Attached file/Pasted image 20231212035615.png",
