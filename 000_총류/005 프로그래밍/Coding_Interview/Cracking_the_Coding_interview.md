@@ -13,8 +13,30 @@ Then, search through the linked list for the value with this key.
 
 If the number of collisions is very high, the worst case runtime is $O(N)$, where $N$ is the number of keys. However, we generally assume a good implementation that keeps collisions to a minimum, in which case the lookup time is $O(1)$.
 
+Alternatively, we can implement the hash table with a **balanced binary search tree**. This gives us an $O( log N)$ lookup time. The advantage of this is **potentially using less space**, since we no longer allocate a large array. We can also iterate through the keys in order, which can be useful sometimes. 
 ### ArrayList_and_Resizable_Arrays
-Alternatively, we can implement the hash table with a **balanced binary search tree**. This gives us an O( log N) lookup time. The advantage of this is **potentially using less space**, since we no longer allocate a large array. We can also iterate through the keys in order, which can be useful sometimes. 
+A typical implementation
+is that when the array is full, the array doubles in size. Each doubling takes 0( n) time, but happens so 
+rarely that its amortized insertion time is still O ( 1). 
+
+#### Array_Doubling
+- 만약 연산을 수행하다 배열이 꽉찬 경우
+	1. 어떤 상수 c만큼 늘리는 것
+	
+	2. 배열을 두배 늘리는 것
+		- 60명을 수용할 수 있는 방에 61명을 수용하고자 한다.
+			120명을 수용할 수 있는 방으로 가야한다.
+			
+			만약 한사람을 옮기는 비용을 t, 옮겨야할 사람이 n이라고 가정
+			$t \times n$
+			
+			그 전에도 배열이 두배가 되었기에
+			 $t \times \frac{n}{2}$
+			 
+			 이와 같은 방법을 반복할 경우, N명의 사람들을 추가할 경우
+			 $t \times \frac{n}{2} + t \times \frac{n}{4} \cdots + 2 + 1$
+			
+			![[Pasted image 20231230001633.png]]
 
 #### Qusetion
 Why is the amortized insertion runtime $O(1)$? 
