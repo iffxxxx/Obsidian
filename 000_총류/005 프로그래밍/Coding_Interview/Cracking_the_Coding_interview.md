@@ -58,7 +58,7 @@ for w in words:
 print(sentence)
 ```
 - On each concatenation, a new copy of the string is created, and the two strings are copied over, character by character. 
-	The first iteration requires us to copy **x** characters. The second iteration requires copying **2x** characters. The third iteration requires **3x**, and so on. The total time therefore is O( x + 2x + . . . + nx). This reduces to $O(xn^2)$. 
+	The first iteration requires us to copy x characters. The second iteration requires copying 2x characters. The third iteration requires 3x, and so on. The total time therefore is O( x + 2x + . . . + nx). This reduces to $O(xn^2)$. 
 	
 	- ##### Question
 		Why is it $O(xn^2)$?
@@ -71,7 +71,7 @@ sentence = "".join(words)
 print(sentence)
 ```
 - StringBuilder can help you avoid this problem. 
-	StringBuilder simply **creates a resizable array** of all the strings, **copying them back to a string only when necessary**. 
+	StringBuilder simply creates a resizable array of all the strings, copying them back to a string only when necessary. 
 	
 1. **문자열 연결 방법의 차이:**
     
@@ -80,3 +80,6 @@ print(sentence)
 2. **성능 차이:**
     
     - 두 번째 코드(StringBuilder 사용)가 효율적입니다. 문자열을 연결할 때마다 객체를 새로 생성하는 첫 번째 방법은 더 많은 시간과 메모리를 소비할 수 있습니다. 반면, `StringBuilder`는 가변적이므로 효율적인 문자열 조작을 가능하게 합니다.
+
+### Interview_Question
+1. Is Unique: Implement an algorithm to determine if a string has all unique characters. What if you cannot use additional data structures? 
