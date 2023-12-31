@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/무제 파일.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/05_Matrix_Factorization_Method.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/무제 파일.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/05_Matrix_Factorization_Method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/무제 파일.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/05_Matrix_Factorization_Method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/무제 파일.md"
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/05_Matrix_Factorization_Method.md"
               }
             }
           },
@@ -183,9 +183,13 @@
   },
   "active": "53634b8359edd4b3",
   "lastOpenFiles": [
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/04_Neighborhood-Based_Collaborative_Filtering.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/03_Content-based_filtering.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/02_A_Recommender_Engine_Framework.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/무제 파일.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
     "000_총류/005 프로그래밍/Coding_Interview/Cracking_the_Coding_interview.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/무제 파일.md",
     "Attached file/Murphy.pdf",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning",
     "무제 폴더",
@@ -213,11 +217,8 @@
     "300_사회과학/320_경제학/320_경제학.md",
     "900_역사/900_역사.md",
     "Attached file/Cracking_the_Coding_Interview.pdf",
-    "000_총류/004_컴퓨터과학/004_컴퓨터과학.md",
     "Attached file/Facebook_coding_interview_guide.pdf",
     "000_총류/005 프로그래밍/Coding_Interview",
-    "400_순수과학/410 수학/414_Fourier_Analysis.md",
-    "400_순수과학/410 수학/415 Polar Coordinates.md",
     "000_총류/005 프로그래밍/Leetcode",
     "Attached file/Pasted image 20231220010859.png",
     "Attached file/밑바닥부터시작하는딥러닝1_noOCR.pdf",
