@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md"
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md"
               }
             }
           },
@@ -183,8 +183,9 @@
   },
   "active": "53634b8359edd4b3",
   "lastOpenFiles": [
-    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
     "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
+    "Attached file/Pasted image 20231231225156.png",
+    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
     "000_총류/005 프로그래밍/Leetcode/169_Majority_Element.md",
     "000_총류/005 프로그래밍/005_프로그래밍.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/05_Matrix_Factorization_Method.md",
@@ -215,7 +216,6 @@
     "500_기술과학/550 기계공학/567_Multimedia/01_Audio_Compression.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Deep_Learning.md",
     "300_사회과학/300_사회과학.md",
-    "300_사회과학/340_정치학/340_정치학.md",
     "Attached file/Cracking_the_Coding_Interview.pdf",
     "Attached file/Facebook_coding_interview_guide.pdf",
     "000_총류/005 프로그래밍/Coding_Interview",
@@ -230,7 +230,6 @@
     "Attached file/Pasted image 20231212034920.png",
     "500_기술과학/550 기계공학/567_Multimedia",
     "Attached file/Pasted image 20231120171125.png",
-    "Attached file/Pasted image 20231120181104.png",
     "300_사회과학/무제 파일.canvas"
   ]
 }
