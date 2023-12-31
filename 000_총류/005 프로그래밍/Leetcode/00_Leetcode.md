@@ -8,7 +8,7 @@
 [[122_Best_Time_to_Buy_and_Sell_Stock_2]]
 [[169_Majority_Element]]
 [[13_Roman_to_Integer]]
-[[14]]
+[[14_Longest_Common_Prefix]]
 [[28]]
 [[58]]
 [[67]]
