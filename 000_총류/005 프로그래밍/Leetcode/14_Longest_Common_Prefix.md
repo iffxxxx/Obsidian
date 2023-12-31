@@ -20,4 +20,3 @@ print(result)
 ```
 ### Abstract
 접두사라 앞에서부터 구분하는 것.
-제일 

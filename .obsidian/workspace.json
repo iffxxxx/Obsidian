@@ -28,14 +28,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/14_Longest_Common_Prefix.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3bfd37b5a0748797",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000_총류/005 프로그래밍/Leetcode/58_Length_of_Last_Word.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/14_Longest_Common_Prefix.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/58_Length_of_Last_Word.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/14_Longest_Common_Prefix.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/58_Length_of_Last_Word.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/14_Longest_Common_Prefix.md"
+                "file": "000_총류/005 프로그래밍/Leetcode/58_Length_of_Last_Word.md"
               }
             }
           },
@@ -181,9 +193,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "53634b8359edd4b3",
+  "active": "3bfd37b5a0748797",
   "lastOpenFiles": [
     "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+    "000_총류/005 프로그래밍/Leetcode/58_Length_of_Last_Word.md",
+    "000_총류/005 프로그래밍/Leetcode/28_Find_the_Index_of_the_First_Occurrence_in_a_String.md",
     "000_총류/005 프로그래밍/Leetcode/14_Longest_Common_Prefix.md",
     "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
     "Attached file/Pasted image 20231231225156.png",
@@ -215,8 +229,6 @@
     "500_기술과학/550 기계공학/567_Multimedia/03_Video_Compression.md",
     "500_기술과학/550 기계공학/567_Multimedia/09_Final_Project.md",
     "500_기술과학/550 기계공학/567_Multimedia/01_Audio_Compression.md",
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Deep_Learning.md",
-    "300_사회과학/300_사회과학.md",
     "Attached file/Cracking_the_Coding_Interview.pdf",
     "Attached file/Facebook_coding_interview_guide.pdf",
     "000_총류/005 프로그래밍/Coding_Interview",
