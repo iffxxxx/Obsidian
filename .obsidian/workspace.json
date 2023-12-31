@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/05_Matrix_Factorization_Method.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/05_Matrix_Factorization_Method.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/05_Matrix_Factorization_Method.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/05_Matrix_Factorization_Method.md"
+                "file": "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md"
               }
             }
           },
@@ -183,6 +183,11 @@
   },
   "active": "53634b8359edd4b3",
   "lastOpenFiles": [
+    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+    "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
+    "000_총류/005 프로그래밍/Leetcode/169_Majority_Element.md",
+    "000_총류/005 프로그래밍/005_프로그래밍.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/05_Matrix_Factorization_Method.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/04_Neighborhood-Based_Collaborative_Filtering.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/03_Content-based_filtering.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/02_A_Recommender_Engine_Framework.md",
@@ -195,10 +200,7 @@
     "무제 폴더",
     "Attached file/Pasted image 20231230001633.png",
     "Attached file/Pasted image 20231230001329.png",
-    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
     "000_총류/005 프로그래밍/Coding_Interview/Facebook_coding_interview_guide.md",
-    "000_총류/005 프로그래밍/005_프로그래밍.md",
-    "000_총류/005 프로그래밍/Leetcode/169_Majority_Element.md",
     "000_총류/005 프로그래밍/Leetcode/1_Two_Sum.md",
     "000_총류/005 프로그래밍/Leetcode/64_Minimum_Path_Sum.md",
     "000_총류/005 프로그래밍/Leetcode/119_Pascal's_Triangle_2.md",
@@ -214,8 +216,6 @@
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Deep_Learning.md",
     "300_사회과학/300_사회과학.md",
     "300_사회과학/340_정치학/340_정치학.md",
-    "300_사회과학/320_경제학/320_경제학.md",
-    "900_역사/900_역사.md",
     "Attached file/Cracking_the_Coding_Interview.pdf",
     "Attached file/Facebook_coding_interview_guide.pdf",
     "000_총류/005 프로그래밍/Coding_Interview",
