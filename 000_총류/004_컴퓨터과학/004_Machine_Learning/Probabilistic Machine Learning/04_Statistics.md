@@ -6,11 +6,11 @@ D로부터 θ를 추정하는 과정을 모델 피팅 또는 트레이닝이라�
 $$\hat{\theta}=argmin\;L(\theta)$$
 여기서 L(θ)는 일종의 손실 함수 또는 목적 함수입니다. 
 이 장에서는 몇 가지 다른 손실함수에 대해 설명합니다.
-### Maximum likelihood estimation(MLE)
-- #### Definition
+## Maximum likelihood estimation(MLE)
+- ### Definition
 1. **정의 (식 4.2):**
     
-    - MLE은 데이터셋 D에 대한 likelihood 함수 $p(D|\theta)$를 최대화하는 모수 $\theta$를 찾는 것으로 정의됩니다.
+    - MLE은 데이터셋 D에 대한 likelihood 함수 $p(D|\theta)$를 최대화하는 매개변수 $\theta$를 찾는 것으로 정의됩니다.
     - $\theta_{mle}=arg⁡max⁡_{\theta}\;p(D|\theta)$
 2. **딥러닝에서의 추론:**
     
@@ -21,23 +21,54 @@ $$\hat{\theta}=argmin\;L(\theta)$$
     
 4. **로그 우도 (식 4.4):**
     
-    - 로그 우도 �(�)L(θ)는 각 예제에 대한 로그 확률의 합으로 표현됩니다.
-    - �(�)=∑�=1�log⁡�(��∣��,�)L(θ)=∑n=1N​logp(yn​∣xn​,θ)
-5. **MLE 목적 함수 (식 4.5):**
+    - 로그 우도 $L(\theta)$는 각 예제에 대한 로그 확률의 합으로 표현됩니다.
+    - $L(\theta)=\sum_{n=1}^{N}\;log\;p(y_{n}|x_{n},\theta)$
+    
+    - 로그 우도 함수를 사용하는 이유
+		- 우도 함수는 0에서 1사이에 값을 취함
+			  우도 함수에 로그값을 취해 $-\infty<ln\;L<=0$
+	    - 우도 함수의 값은 사례수가 많은 경우에는 대단히 작은 값
+1. **MLE 목적 함수 (식 4.5):**
     
     - MLE는 로그 우도를 최대화하는 것으로 정의되며, 최적화 문제로 표현됩니다:
-        - �mle=arg⁡max⁡��(�)θmle​=argmaxθ​L(θ)
+	      최적화 알고리즘을 사용하여 이 목적 함수를 최대화하면, 모델의 파라미터를 찾을 수 있다.
+        - $\hat{\theta}_{mle}=arg⁡max⁡_{\theta}\;L(\theta)$
 6. **음의 로그 우도 (NLL) (식 4.6):**
     
-    - 최적화를 위해 (비용 함수를 최소화하기 위해) 음의 로그 우도가 일반적으로 사용됩니다.
-    - NLL(�)=−∑�=1�log⁡�(��∣��,�)NLL(θ)=−∑n=1N​logp(yn​∣xn​,θ)
+    - 목적에 따라 최적화를 위해 (비용 함수를 최소화하기 위해) 음의 로그 우도가 일반적으로 사용됩니다.
+    - $NLL(\theta)=-\sum_{n=1}^{N}\;log\;p(y_{n}|x_{n},\theta)$
 7. **무조건적 (비지도) MLE (식 4.7):**
     
-    - 무조건적 (비지도) 모델의 경우, 출력 ��yn​은 있지만 입력 ��xn​이 없을 때 음의 로그 우도를 최소화하여 MLE를 찾습니다.
-    - �mle=arg⁡min⁡�−∑�=1�log⁡�(��∣�)θmle​=argminθ​−∑n=1N​logp(yn​∣θ)
+    - 무조건적 (비지도) 모델의 경우, 출력 $y_{n}$은 있지만 입력 $x_{n}$이 없을 때 음의 로그 우도를 최소화하여 MLE를 찾습니다.
+    - $\hat{\theta}_{mle}=arg⁡min⁡_{\theta}\;-\sum_{n=1}^{N}\;log\;p(y_{n}|\theta)$
 8. **입출력의 결합 우도:**
     
-    - 어떤 경우에는 입력과 출력의 결합 우도를 최대화하고 싶을 수 있습니다.
-    - �mle=arg⁡min⁡�−∑�=1�log⁡�(��,��∣�)θmle​=argminθ​−∑n=1N​logp(yn​,xn​∣θ)
+    - 어떤 경우에는 <font color="#d99694">입력과 출력의 결합 우도를 최대화</font>하고 싶을 수 있습니다.
+	      입력과 출력 간의 상관 관계를 모델로써 잘 파악하고자 하는 목적을 나타내는 표현
+    - $\hat{\theta}_{mle}=arg⁡min⁡_{\theta}\;-\sum_{n=1}^{N}\;log\;p(y_{n}|\theta)$
 
 요약하면, MLE는 통계 모델의 매개변수를 likelihood 함수를 최대화하여 추정하는 방법으로, 딥러닝에서는 입력을 주고 출력을 예측하는 작업에 사용됩니다. 음의 로그 우도는 일반적으로 최적화의 목적 함수로 사용되며, 조건부와 결합 우도는 모델링 작업에 따라 선택됩니다.
+
+- ### Justification for MLE
+	 MLE를 사용하는 이유는
+	 
+
+- ### Example
+	- #### Bernoulli 분포
+	- #### categorical 분포
+	- #### univariate Gaussian
+	- #### multivariate Gaussian
+	- #### linear regression
+
+## Empirical Risk Minimization (ERM)
+- ### Example
+- ### Surrogate loss
+
+## Other Estimation Methods
+- ### The metod of moments
+- ### Online (recursive) estimation
+
+## Regularization
+
+## Bayesian Statistics
+## Frequentist Statistics
