@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/21_Merge_Two_Sorted_Lists.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/21_Merge_Two_Sorted_Lists.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/21_Merge_Two_Sorted_Lists.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md"
+                "file": "000_총류/005 프로그래밍/Leetcode/21_Merge_Two_Sorted_Lists.md"
               }
             }
           },
@@ -207,15 +207,17 @@
   },
   "active": "1ed7a4385e9f2f04",
   "lastOpenFiles": [
-    "000_총류/005 프로그래밍/Leetcode/67_Add_Binary.md",
-    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-    "000_총류/005 프로그래밍/Leetcode/58_Length_of_Last_Word.md",
-    "000_총류/005 프로그래밍/Leetcode/28_Find_the_Index_of_the_First_Occurrence_in_a_String.md",
     "000_총류/005 프로그래밍/Leetcode/14_Longest_Common_Prefix.md",
+    "000_총류/005 프로그래밍/Leetcode/21_Merge_Two_Sorted_Lists.md",
+    "000_총류/005 프로그래밍/005_프로그래밍.md",
+    "000_총류/005 프로그래밍/Leetcode/무제 파일.md",
+    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+    "000_총류/005 프로그래밍/Leetcode/28_Find_the_Index_of_the_First_Occurrence_in_a_String.md",
+    "000_총류/005 프로그래밍/Leetcode/58_Length_of_Last_Word.md",
+    "000_총류/005 프로그래밍/Leetcode/67_Add_Binary.md",
     "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
     "Attached file/Pasted image 20231231225156.png",
     "000_총류/005 프로그래밍/Leetcode/169_Majority_Element.md",
-    "000_총류/005 프로그래밍/005_프로그래밍.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/05_Matrix_Factorization_Method.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/04_Neighborhood-Based_Collaborative_Filtering.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/03_Content-based_filtering.md",
@@ -239,8 +241,6 @@
     "000_총류/000_총류.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Machine_Learning.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron/00_Perceptron.md",
-    "500_기술과학/550 기계공학/567_Multimedia/03_Video_Compression.md",
-    "500_기술과학/550 기계공학/567_Multimedia/09_Final_Project.md",
     "Attached file/Cracking_the_Coding_Interview.pdf",
     "Attached file/Facebook_coding_interview_guide.pdf",
     "000_총류/005 프로그래밍/Coding_Interview",
