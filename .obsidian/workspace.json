@@ -88,7 +88,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/160_Intersection_of_Two_Linked_Lists.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
                 "mode": "source",
                 "source": false
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#two",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -141,8 +141,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -162,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/160_Intersection_of_Two_Linked_Lists.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/160_Intersection_of_Two_Linked_Lists.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/160_Intersection_of_Two_Linked_Lists.md"
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md"
               }
             }
           },
@@ -242,10 +241,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0a4ba88712564a96",
+  "active": "8d0f2ace2b583b00",
   "lastOpenFiles": [
-    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
     "000_총류/005 프로그래밍/Leetcode/160_Intersection_of_Two_Linked_Lists.md",
+    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
     "000_총류/005 프로그래밍/Leetcode/141_Linked_List_Cycle.md",
     "000_총류/005 프로그래밍/Leetcode/83_Remove_Duplicates_from_Sorted_List.md",
     "000_총류/005 프로그래밍/Leetcode/21_Merge_Two_Sorted_Lists.md",
