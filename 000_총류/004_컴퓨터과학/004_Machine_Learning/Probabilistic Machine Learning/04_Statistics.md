@@ -33,7 +33,7 @@ $$\hat{\theta}=argmin\;L(\theta)$$
     - MLE는 로그 우도를 최대화하는 것으로 정의되며, 최적화 문제로 표현됩니다:
 	      최적화 알고리즘을 사용하여 이 목적 함수를 최대화하면, 모델의 파라미터를 찾을 수 있다.
         - $\hat{\theta}_{mle}=arg⁡max⁡_{\theta}\;L(\theta)$
-6. **음의 로그 우도 (NLL) (식 4.6):**
+6. **음의 로그 우도 (NLL : Negative Log Likelihood) (식 4.6):**
     
     - 목적에 따라 최적화를 위해 (비용 함수를 최소화하기 위해) 음의 로그 우도가 일반적으로 사용됩니다.
     - $NLL(\theta)=-\sum_{n=1}^{N}\;log\;p(y_{n}|x_{n},\theta)$
@@ -70,21 +70,54 @@ MLE는 베이지안 관점에서는 균일한 사전 분포를 사용한 베이�
 		
 		- **베르누이 분포:** 동전 던지기의 결과를 나타내는 확률변수 $Y$를 고려하고, 이때 이벤트 $Y=1$은 앞면을 나타내고 $Y=0$은 뒷면을 나타냅니다. 확률 $\theta$는 앞면이 나올 확률입니다.
 		- **Negative Log Likelihood (NLL):** 베르누이 분포의 NLL은 다음과 같이 정의됩니다. 
+			
 			$NLL(\theta)=−\sum_{n=1}^{N}​[I(y_{n}​=1)log\;\theta+I(y_{n}​=0)log(1-\theta)$] 여기서 $I$는 지시함수입니다.
 		- **MLE 계산:** NLL를 최소화하기 위해 편미분하여 미분이 0이 되는 값을 찾습니다. 
+		     
 		     $\theta_{mle}=\frac{N_{1}}{N_{0}+N_{1}}$
 		    여기서 $N_1$​은 1의 개수(앞면), $N_0​$은 0의 개수(뒷면), $N$은 전체 샘플 수입니다.
-		     
 		- **해석:** MLE는 단순히 앞면의 경험적 비율로 계산됩니다.
 	- #### categorical 분포에 대한 MLE
 		  
 		- **범주 분포:** K면체 주사위를 N번 던질 때의 결과를 나타내는 확률변수 $Y_n​$을 고려합니다. 각각의 범주 $k$에 대한 확률은 $\theta_{k}$입니다.
-		- **NLL 및 MLE 계산:** 범주 분포에 대한 NLL을 정의하고, MLE를 구하기 위해 Lagrange multipliers를 사용합니다. �mle,�=���θmle,k​=NNk​​ 여기서 ��Nk​는 �=�Y=k인 경우의 개수이고, �N은 전체 샘플 수입니다.
+		- **NLL 및 MLE 계산:** 범주 분포에 대한 NLL을 정의하고, MLE를 구하기 위해 Lagrange multipliers를 사용합니다. 
+			- Lagrange multipliers (라그랑주 승수)
+				  목적 함수 $f$ 와 등식 제한조건 $g$ 이 다음과 같은 경우를 생각하자.
+				$f\left(x,\ y\right)=x^2+y^2$
+				$g\left(x,\ y\right)=x+y=1$
+				
+				이를 만족하는 f의 최적해(최대 or 최솟값)를 찾아라.
+				
+				라그랑주 승수법의 보조함수를 아래와 같이 정의합니다.
+				$L\left(x,\ y,\ λ\right)=x^2+y^2-λ\left(x+y-1\right)$L(x, y, λ)=x2+y2−λ(x+y−1)​
+				위의 함수 L의 gradient vector가 0벡터인 위치를 구합니다.
+				$\frac{\partial L}{\partial x}=2x-λ=0$∂L∂x​=2x−λ=0​
+				$\frac{\partial L}{\partial y}=2y-λ=0$∂L∂y​=2y−λ=0​
+				$\frac{\partial L}{\partial λ}=x+y-1=0$∂L∂λ​=x+y−1=0​
+				
+				위의 연립방정식을 풀면 다음과 같은 최적해의 위치를 구할 수 있습니다.
+				$x=y=\frac{1}{2},\ λ=1$x=y=12​, λ=1​
+				
+			$\theta_{mle, k}=\frac{N_{k}}{N}$
+			여기서 $N_{k}$​는 $Y=k$인 경우의 개수이고, $N$은 전체 샘플 수입니다.
 		- **해석:** 각 범주의 경험적 비율로 MLE를 계산합니다.
-	- #### univariate Gaussian
-	- #### multivariate Gaussian
-	- #### linear regression
-
+	- #### univariate Gaussian 분포에 대한 MLE
+		 - **단변량 가우시안 분포의 MLE:**  단변량 가우시안에서는 평균과 분산을 계산합니다.
+			$\mu_{mle}=\frac{1}{N}\sum_{n-1}^{N}{y_{n}}$
+			$\sigma_{mle}^{2}=\frac{1}{N}\sum_{n=1}^{N}(y_{n}-\mu_{mle})^{2}$
+		
+	- #### multivariate Gaussian 분포에 대한 MLE
+		- **다변량 가우시안 분포의 MLE:** 다변량 가우시안에서는 평균 벡터와 공분산 행렬을 계산합니다.
+			$\mu_{mle}=\frac{1}{N}\sum_{n-1}^{N}{y_{n}}$
+			$\Sigma_{mle}=\frac{1}{N}\sum_{n=1}^{N}(y_{n}-\mu_{mle})(y_{n}-\mu_{mle})^{T}$
+	- #### linear regression 분포에 대한 MLE
+		- **선형 회귀의 RSS 및 MLE 계산:**
+			$RSS(w)=(Xw-y)^{T}(Xw-y)$
+			$w_{mle}=(X^{T}X)^{-1}X^{T}y$
+		- **해석:**
+			RSS는 잔차 제곱합으로, 회귀 모델의 적합도를 나타냅니다.
+			MLE는 회귀 계수를 얻기 위해 입력과 출력 간의 관계를 최적화합니다.
+		
 ## Empirical Risk Minimization (ERM)
 - ### Example
 - ### Surrogate loss
