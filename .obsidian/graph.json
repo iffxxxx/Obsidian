@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "path:\"000_총류/005 프로그래밍/Leetcode\"  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -95,6 +95,6 @@
   "repelStrength": 20,
   "linkStrength": 0,
   "linkDistance": 30,
-  "scale": 0.01979503003335872,
+  "scale": 0.10721850427295582,
   "close": false
 }
