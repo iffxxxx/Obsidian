@@ -11,7 +11,7 @@
 [[14_Longest_Common_Prefix]]
 [[28_Find_the_Index_of_the_First_Occurrence_in_a_String]]
 [[58_Length_of_Last_Word]]
-[[67]]
+[[67_Add_Binary]]
 [[21]]
 [[83]]
 [[141]]

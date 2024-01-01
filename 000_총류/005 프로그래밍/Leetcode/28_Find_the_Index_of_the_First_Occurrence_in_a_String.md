@@ -15,4 +15,3 @@ result = sol.strStr(haystack, needle)
 print(result)
 
 ```
-### Abstract
