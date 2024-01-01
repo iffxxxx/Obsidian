@@ -16,4 +16,4 @@
 [[83_Remove_Duplicates_from_Sorted_List]]
 [[141_Linked_List_Cycle]]
 [[160_Intersection_of_Two_Linked_Lists]]
-[[203]]
+[[203_Remove_Linked_List_Elements]]
