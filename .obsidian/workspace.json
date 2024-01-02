@@ -113,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d6fcffc1ef5a2d78",
@@ -192,7 +193,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "7631f36ac0d672d4",
+  "active": "a8412368fade7c20",
   "lastOpenFiles": [
     "400_순수과학/410 수학/410 수학.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
