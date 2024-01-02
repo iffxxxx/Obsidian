@@ -36,7 +36,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/64_Minimum_Path_Sum.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/203_Remove_Linked_List_Elements.md",
                 "mode": "source",
                 "source": false
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/64_Minimum_Path_Sum.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/203_Remove_Linked_List_Elements.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/64_Minimum_Path_Sum.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/203_Remove_Linked_List_Elements.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/64_Minimum_Path_Sum.md"
+                "file": "000_총류/005 프로그래밍/Leetcode/203_Remove_Linked_List_Elements.md"
               }
             }
           }
@@ -194,13 +194,17 @@
   },
   "active": "7631f36ac0d672d4",
   "lastOpenFiles": [
-    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-    "000_총류/005 프로그래밍/Leetcode/1_Two_Sum.md",
-    "000_총류/005 프로그래밍/Leetcode/64_Minimum_Path_Sum.md",
+    "000_총류/005 프로그래밍/Leetcode/122_Best_Time_to_Buy_and_Sell_Stock_2.md",
+    "000_총류/005 프로그래밍/Leetcode/141_Linked_List_Cycle.md",
     "000_총류/005 프로그래밍/Leetcode/160_Intersection_of_Two_Linked_Lists.md",
+    "000_총류/005 프로그래밍/Leetcode/203_Remove_Linked_List_Elements.md",
+    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+    "000_총류/005 프로그래밍/Leetcode/28_Find_the_Index_of_the_First_Occurrence_in_a_String.md",
+    "000_총류/005 프로그래밍/Leetcode/119_Pascal's_Triangle_2.md",
+    "000_총류/005 프로그래밍/Leetcode/64_Minimum_Path_Sum.md",
+    "000_총류/005 프로그래밍/Leetcode/1_Two_Sum.md",
     "000_총류/005 프로그래밍/Leetcode/169_Majority_Element.md",
     "000_총류/005 프로그래밍/Leetcode/58_Length_of_Last_Word.md",
-    "000_총류/005 프로그래밍/Leetcode/28_Find_the_Index_of_the_First_Occurrence_in_a_String.md",
     "000_총류/005 프로그래밍/Coding_Interview/Cracking_the_Coding_interview.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
@@ -229,10 +233,6 @@
     "Attached file/Facebook_coding_interview_guide.pdf",
     "Attached file/Cracking_the_Coding_Interview.pdf",
     "000_총류/005 프로그래밍/Leetcode/67_Add_Binary.md",
-    "000_총류/005 프로그래밍/Leetcode/203_Remove_Linked_List_Elements.md",
-    "000_총류/005 프로그래밍/Leetcode/141_Linked_List_Cycle.md",
-    "000_총류/005 프로그래밍/Leetcode/122_Best_Time_to_Buy_and_Sell_Stock_2.md",
-    "000_총류/005 프로그래밍/Leetcode/119_Pascal's_Triangle_2.md",
     "000_총류/005 프로그래밍/Leetcode",
     "Attached file/Pasted image 20231220010859.png",
     "Attached file/밑바닥부터시작하는딥러닝1_noOCR.pdf",
