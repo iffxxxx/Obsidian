@@ -291,7 +291,44 @@ $$\hat{\theta}=argmin\;L(\theta)$$
 				 $a=b=2$로 설정한다면 $\theta$값은 0.5 근처의 값을 약간 선호하는 것으로 파악됩니다. 그 경우 추정치는 다음과 같습니다.
 				 
 				 $\theta_{MAP}=\frac{N_{1}+1}{N_{1}+N_{0}+2}$
+				 0 카운트 문제를 피하는 간단하지만 널리 사용되는 기술입니다.
+				 
+		- **흑조 박쥐 패러독스:**
+			  이 예제에서의 0 카운트 문제와 과적합은 철학에서 "흑조 박쥐 패러독스"라는 문제와 유사하며, 이는 모든 백조가 흰색이라는 고대 서양의 개념에서 파생되었습니다. 이 맥락에서 흑조는 존재할 수 없는 것의 상징이었습니다. 이러한 고전적인 사고 방식을 피하려면 귀납의 문제로 알려진 문제를 해결해야 합니다. 이 패러독스의 해결책은 귀납이 일반적으로 불가능하며, 우리가 할 수 있는 최선은 경험적 데이터를 사전 지식과 결합하여 미래에 대한 타당한 추측을 만드는 것입니다.
 	- #### MAP estimation for the multivariate Gaussian
+		- **문제상황:**
+			 다변수 가우시안(MVN)의 MAP(Minimum A Posteriori) 추정을 살펴봅니다. 높은 차원에서 MLE(Maximum Likelihood Estimation)로 공분산을 추정하는 것은 어렵다.
+			 
+		- **해결방안: Shrinkage estimate**
+			  Shrinkage 추정은 MAP 추정의 한 형태로, 역 Wishart 사전 분포를 사용합니다. 역 Wishart 사전은 고유값의 대각 성분은 MLE와 같게 유지하면서, 그 외의 오프-대각 성분을 0에 가깝게 수축시키는 정규화를 수행합니다.
+			  
+			1. **MLE for Covariance:**
+			    
+			    - MLE로 추정한 공분산 행렬은 다음과 같습니다. 
+				    $\sum_{MLE}​=\frac{1}{N}​\sum{i=1}{N}​(y_{i}i-\mu_{MLE}​)(y_i​−\mu_{MLE}​)^{T}$
+			2. **Prior for Covariance:**
+			    
+			    - 역 Wishart 사전 분포를 사용하며, 사전 산포 행렬은 다음과 같습니다.
+				      $\sum_{prior​}=\lambda\sum_{0}​+(1-\lambda)\sum_{MLE}$
+				      여기서 λ는 정규화 정도를 제어합니다.
+			3. **MAP Estimate for Covariance:**
+			    
+			    - 위에서 정의한 사전 분포와 MLE에 대한 식을 사용하여 MAP 추정치를 계산합니다. 
+				      
+				      $\sum_{MAP}{​(i,j)}=\begin{cases}\sum_{MLE}​(i,j)\qquad if\,i=j\\ (1-\lambda)\sum_{MLE}​\quad otherwise\end{cases}​$
+				      
+			![[Pasted image 20240103200710.png]]
+			위의 그림은 D=50 차원에서 샘플 수 N이 100, 50, 25일 때 공분산 행렬을 추정하는 실험을 다룹니다. 여기서 사용된 추정 방법은 식 (4.98)에 따른 MAP 추정이며, 정규화 파라미터 λ는 0.9로 설정되었습니다.
+			
+			실험에서는 다음의 정보를 시각화하였습니다:
+			
+			1. 실제 공분산 행렬의 고유값(eigenvalues)을 내림차순으로 나열한 실선 그래프 (solid black).
+			2. MLE로 추정한 공분산 행렬의 고유값을 내림차순으로 나열한 점선 그래프 (dotted blue).
+			3. MAP로 추정한 공분산 행렬의 고유값을 내림차순으로 나열한 대시 그래프 (dashed red).
+			4. 각 행렬의 조건 수(condition number)를 범례에 표시.
+			
+			그 결과로, MLE 추정치는 종종 나쁜 조건을 가지고 있음을 볼 수 있지만, MAP 추정치는 수치적으로 잘 행동하는 것으로 나타났습니다. 종종 MLE는 공분산 행렬의 역행렬을 계산하는 동안 수치적인 불안정성을 보일 수 있으나, MAP 추정치는 이러한 문제를 완화하는 경향이 있습니다. 이는 안정적인 다변수 가우시안 추정을 위해 Shrinkage 방법이 MLE의 불안정성을 줄이고, 안정적인 추정치를 얻을 수 있도록 도와준다는 것을 보여줍니다.
+			
 	- #### weight decay
 - ### Picking the regularizer using a validation set
 - ### Cross-validation
