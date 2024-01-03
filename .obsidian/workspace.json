@@ -23,78 +23,6 @@
             }
           },
           {
-            "id": "53634b8359edd4b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3bfd37b5a0748797",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ed7a4385e9f2f04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "31ca525652cd7c36",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c162f7005da542d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d0f2ace2b583b00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "35fa303e38b7d78e",
             "type": "leaf",
             "state": {
@@ -119,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -267,11 +195,14 @@
   },
   "active": "35fa303e38b7d78e",
   "lastOpenFiles": [
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/01_Introduction.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
     "400_순수과학/410 수학/410 수학.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/01_Introduction.md",
+    "Attached file/Pasted image 20240103173040.png",
+    "Attached file/Pasted image 20240103172815.png",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
+    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
     "Attached file/Pasted image 20240102072229.png",
     "Attached file/Pasted image 20240102071736.png",
     "Attached file/Pasted image 20240102065656.png",
@@ -280,7 +211,6 @@
     "400_순수과학/400 자연 과학.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Machine_Learning.md",
     "000_총류/004_컴퓨터과학/004_Weight_Regularization.md",
-    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
     "Book.md",
     "MG_231124.md",
     "000_총류/005 프로그래밍/Coding_Interview/Cracking_the_Coding_interview.md",
@@ -299,7 +229,6 @@
     "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
     "Attached file/Pasted image 20231231225156.png",
     "000_총류/005 프로그래밍/Leetcode/169_Majority_Element.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/05_Matrix_Factorization_Method.md",
     "Attached file/Murphy.pdf",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning",
     "무제 폴더",
@@ -310,10 +239,8 @@
     "Attached file/Facebook_coding_interview_guide.pdf",
     "000_총류/005 프로그래밍/Coding_Interview",
     "000_총류/005 프로그래밍/Leetcode",
-    "Attached file/Pasted image 20231220010859.png",
     "Attached file/밑바닥부터시작하는딥러닝1_noOCR.pdf",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron",
-    "Attached file/Pasted image 20231212040548.png",
     "500_기술과학/550 기계공학/567_Multimedia",
     "300_사회과학/무제 파일.canvas"
   ]
