@@ -27,14 +27,48 @@
 		  ![[Pasted image 20240103173040.png]]
 		  또한, 데이터를 더 잘 이해하기 위해 결정 트리(Decision Tree)나 다른 모델을 사용하여 시각화할 수 있습니다. 위의 그림은 Iris 데이터에 깊이가 2인 결정 트리를 적용한 예시입니다. 여기서 잎 노드는 예측된 클래스에 따라 색상이 부여되며, 각 상자 내에는 루트에서 해당 노드로 통과하는 훈련 샘플 수가 표시됩니다. 이를 통해 각 노드에 속한 각 클래스 값의 수를 알 수 있으며, 이 벡터를 정규화하여 각 노드에 대한 클래스 레이블 분포를 얻을 수 있습니다. 이를 통해 우리는 다수의 클래스를 선택할 수 있습니다.
 		  
-- ### Expirical risk minimization
-	 지도 학습의 목표는 Figure 1.4a와 같은 분류 모델을 자동으로 생성하여 어떠한 입력에 대해서도 레이블을 신뢰성 있게 예측하는 것입니다. 이 작업의 성능을 측정하는 일반적인 방법은 훈련 세트에서의 오분류 비율을 기반으로 하는데, 이는 다음과 같이 정의됩니다:
-	
-	$L(\theta)=\frac{1}{N}\sum_{n=1}{N}​I(y_n​\ne f(x_n​;\theta))$
-	
-	여기서 $I(e)$는 이진 표시 함수로, 조건 $e$가 참일 때만 1을 반환하고 그렇지 않으면 0을 반환합니다. 즉,
-	
-	$I(e)=\begin{cases}1,\;if\;e\;is\;true\\0,\;if\;e\;is\;false\end{cases}$
+	- #### Expirical risk minimization
+		 지도 학습의 목표는 분류 모델을 자동으로 생성하여 어떠한 입력에 대해서도 레이블을 신뢰성 있게 예측하는 것입니다. 이 작업의 성능을 측정하는 일반적인 방법은 훈련 세트에서의 오분류 비율을 기반으로 하는데, 이는 다음과 같이 정의됩니다:
+		
+		$L(\theta)=\frac{1}{N}\sum_{n=1}{N}​I(y_n​\ne f(x_n​;\theta))$
+		
+		여기서 $I(e)$는 이진 표시 함수로, 조건 $e$가 참일 때만 1을 반환하고 그렇지 않으면 0을 반환합니다. 즉,
+		
+		$I(e)=\begin{cases}1,\;if\;e\;is\;true\\0,\;if\;e\;is\;false\end{cases}$
 	 
-
+	- #### Uncertainty
+		  우리는 입력과 출력 간의 매핑에 대한 지식 부족으로 인해(이를 '에피스템적 불확실성' 또는 '모델 불확실성'이라고 함) 또는 매핑에서 내재된(줄일 수 없는) 확률적 변동성으로 인해 정확한 출력을 완벽하게 예측할 수 없을 것입니다.
+		  
+		- **확인 방법:** 우리는 다음과 같은 조건부 확률 분포를 사용하여 불확실성을 캡처할 수 있습니다:
+			$p(y=c|x;\theta)=f_c​(x;\theta)$
+			
+		- **제약:**$f_c​(x;\theta)$는 클래스 레이블 c의 확률을 반환하므로 각 c에 대해 $0≤f_c​≤1$ 및 $\sum_{c=1}^{C}​f_c​=1$이 필요합니다.
+			  
+		- **제약 해결방안:** 모델이 정규화되지 않은 로그-확률을 반환하도록 요구하는 것이 일반적입니다. 그런 다음 이를 소프트맥스 함수를 사용하여 확률로 변환할 수 있는데, 이는 다음과 같이 정의됩니다:
+			  $softmax(a)=\bigg(\frac{e^{a_1}}{\sum_{c=1}^{1}e^{a_{c_{0}}}},\cdots,\frac{e^{a_C}}{\sum_{c=1}^{1}e^{a_{c_{0}}}}\bigg)$
+			  
+			이는 $R^C$를 $[0, 1]^C$로 매핑하며, $0≤softmax(a)_{c}​≤1$ 및 $\sum_{c=1}^{C}​softmax(a)_{c}​=1$ 제약을 충족시킵니다.
+	
+	- #### Maximum likelihood estimation
+		  
+- ### Regrression
+	- #### Linear reggression
+	- #### Polynomial reggression
+	- #### Deep neural networks
+## Unsupervised learning
+- ### Clustering
+- ### Discovering latent "factors of variation"
+- ### Self-supervised learning
+- ### Evaluationg unsupervised learning
+## Reinforcement learning
+## Data
+- ### Some common image datasets
+- ### Some common text datasets
+- ### Preprocessing discrete input data
+- ### Preprocessing text data
+- ### Handling missing data
+## Discussion
+- ### The relationship between ML and other fields
+- ### Structure of the book
+- ### Caveats
 
