@@ -84,8 +84,8 @@ $$\hat{\theta}=argmin\;L(\theta)$$
 	    KL 다이버전스를 최소화하는 것은 MLE를 수행하는 것과 동일하며, 이는 Negative Log Likelihood(NLL)를 최소화하는 것과도 동일합니다.
 	    
     이를 통해 모델이 주어진 데이터의 경험적 분포와 가능한 가까워지도록 모델을 학습하는 것이 MLE를 정당화하는 한 가지 방법임을 보여줍니다.
-
-MLE는 베이지안 관점에서는 균일한 사전 분포를 사용한 베이지안 추론의 특별한 경우로 해석되며, 예측 분포의 경험적 분포와의 유사성을 최대화함으로써 정당화될 수 있습니다.
+	
+	MLE는 베이지안 관점에서는 균일한 사전 분포를 사용한 베이지안 추론의 특별한 경우로 해석되며, 예측 분포의 경험적 분포와의 유사성을 최대화함으로써 정당화될 수 있습니다.
 
 - ### Example
 	- #### Bernoulli 분포에 대한 MLE
@@ -254,28 +254,39 @@ MLE는 베이지안 관점에서는 균일한 사전 분포를 사용한 베이�
 		편향 보정은 초기 편향을 완화하기 위해 도입되었으며, 초기에 편향이 크게 줄어들 수 있도록 합니다.
 
 ## Regularization
-이 섹션에서는 기계 학습 모델에서 나타나는 과적합 문제를 해결하기 위한 정규화 기술에 대해 논의합니다. 과적합은 모델이 훈련 데이터에서는 잘 수행되지만 새로운, 보지 않은 데이터에는 일반화되지 않는 경우를 말합니다.
-
-1. **MLE와 ERM의 기본 문제:**
-    
-    - 최대 우도 추정(MLE) 및 경험적 위험 최소화(ERM)은 훈련 세트에서 손실을 최소화하려고 시도하지만 이는 과적합으로 이어질 수 있습니다.
-    - 과적합은 적은 관측을 기반으로 동전 던지기 결과를 예측하는 예제를 통해 설명됩니다.
-	      
-	    간단한 예로 동전 던지기를 생각해봅시다. 동전을 3번 던져서 3번 모두 앞면이 나왔다고 가정하면, MLE는 1이 됩니다. 하지만 이 모델을 사용하면 미래 동전 던지기 결과가 항상 앞면이 나올 것으로 예측할 것입니다. 이러한 문제는 모델이 훈련 데이터에 완벽하게 적합하여 경험적 분포를 완벽하게 따라갈 수 있지만, 대부분의 경우 경험적 분포가 실제 분포와 일치하지 않기 때문에 발생합니다.
-2. **과적합 문제:**
-    
-    - 핵심 문제는 충분한 매개변수를 가진 모델이 훈련 데이터에 완벽하게 맞추려고 할 수 있지만 새로운 데이터에 대해 잘 일반화되지 않을 수 있다는 것입니다.
-    - 정규화는 해결책으로 도입되며 음의 로그 우도 또는 경험적 위험에 패널티 항을 추가하는 것입니다.
-3. **정규화된 목적 함수:**
-    
-    - 과적합 문제를 해결하기 위한 주요 방법 중 하나는 **정규화**(Regularization)를 사용하는 것입니다. 정규화는 음의 로그 우도 또는 경험적 위험에 패널티 항을 추가하여 목적 함수를 최적화하는 것을 의미합니다. 목적 함수는 다음과 같이 정의됩니다.
-		
-		$L(\theta;\lambda)=\frac{1}{N}\sum_{n=1}{N}{​ℓ(yn​,f(xn​;θ))}+λC(θ)$
-		여기서 $λ$는 정규화 매개변수이고, $C(θ)$는 복잡성 페널티입니다.
-
-
+- **문제 정의:**
+	MLE(최대우도추정) 및 ERM(최소 경험적 위험)의 근본적인 문제는 훈련 세트에서 손실을 최소화하려고 시도할 것이지만, 이로 인해 미래 데이터에서 손실이 낮은 모델이 되지 않을 수 있다는 것입니다. 이를 과적합이라고 합니다.
+	
+	문제의 핵심은 모델이 관측된 훈련 데이터를 완벽하게 맞출 수 있는 충분한 매개변수를 가지고 있다는 것입니다. 따라서 이 모델은 경험적 분포를 완벽하게 일치시킬 수 있습니다. 그러나 대부분의 경우 경험적 분포는 실제 분포와 동일하지 않으므로 N개의 예제 집합에 모든 확률 질량을 할당하면 미래의 새로운 데이터를 위한 확률이 남아 있지 않게 됩니다. 즉, 모델이 일반화되지 않을 수 있습니다.
+	
+- **해결 방안:**
+	 과적합에 대한 주요 해결책은 정규화를 사용하는 것이며, 이는 NLL(또는 경험적 위험)에 패널티 항을 추가하는 것을 의미합니다. 따라서 다음과 같은 형태의 목적 함수를 최적화합니다.
+	 
+	 $L(\theta;\lambda)=\frac{1}{N}\sum_{n=1}{N}​ℓ(yn​,θ;xn​)+λC(θ)$
+- ### Examples
+	- #### MAP estimation for the Bernoulli distribution
+	- #### MAP estimation for the multivariate Gaussian
+	- #### weight decay
+- ### Picking the regularizer using a validation set
+- ### Cross-validation
+- ### Early stopping
+- ### Using more data
 ## Bayesian Statistics
+- ### Conjugate priors
+- ### The beta-binomial model
+- ### The Dirichlet-multinomial model
+- ### The Gaussian-Gaussian model
+- ### Beyond conjugate priors
+- ### Credible intervals
+- ### Bayesian machine learning
+- ### Computational issues
 ## Frequentist Statistics
+- ### Sampling distributions
+- ### Gaussian approximation of the sampling distribution of the MLE
+- ### Bootstrap approximation of sampling distribution of any estimator
+- ### Confidence intervals
+- ### Caution: Confidence intervals are not credible
+- ### The bias-variance tradeoff
 ## Reference
 [Log-Odds](https://soobarkbar.tistory.com/12)
 [EWMA](https://colab.research.google.com/github/probml/pyprobml/blob/master/notebooks/book1/04/ema_demo.ipynb)

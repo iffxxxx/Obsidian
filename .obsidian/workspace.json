@@ -59,7 +59,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/01_Introduction.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/01_Introduction.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/01_Introduction.md"
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md"
               }
             }
           },
@@ -205,10 +205,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "35fa303e38b7d78e",
+  "active": "41e3e2a6fc873acc",
   "lastOpenFiles": [
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/01_Introduction.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
     "400_순수과학/410 수학/410 수학.md",
     "Attached file/Pasted image 20240103184240.png",
     "Attached file/Pasted image 20240103183840.png",
