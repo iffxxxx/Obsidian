@@ -262,9 +262,35 @@ $$\hat{\theta}=argmin\;L(\theta)$$
 - **해결 방안:**
 	 과적합에 대한 주요 해결책은 정규화를 사용하는 것이며, 이는 NLL(또는 경험적 위험)에 패널티 항을 추가하는 것을 의미합니다. 따라서 다음과 같은 형태의 목적 함수를 최적화합니다.
 	 
-	 $L(\theta;\lambda)=\frac{1}{N}\sum_{n=1}{N}​ℓ(yn​,θ;xn​)+λC(θ)$
+	 $L(\theta;\lambda)=\frac{1}{N}\sum_{n=1}{N}​ℓ(y_n​,\theta;x_n​)+\lambda C(\theta)$
+	 
+	 여기서 $\lambda≥0$는 정규화 매개변수이며, $C(\theta)$는 어떤 형태의 복잡성 페널티입니다.일반적인 복잡성 페널티로는 $C(\theta)=-log\,p(\theta)$를 사용하는 것이 흔합니다. 여기서 $p(θ)$는 $θ$에 대한 사전 분포입니다.
+	
+	이것을 최소화하는 것은 다음을 최대화하는 것과 동일합니다.
+	
+	$\hat{\theta}=argmax_{\theta}log⁡\,p(\theta|D)=argmax_\theta[log⁡\,p(D|\theta)+log⁡\,p(\theta)-const]$
+	
+	이를 최대 사후 추정이라고 합니다(MAP 추정).
+	 
 - ### Examples
 	- #### MAP estimation for the Bernoulli distribution
+		- **문제정의:**
+			  전 던지기 시나리오가 있으며 베르누이 분포에서 앞면이 나올 확률인 $θ$를 추정하는 것이 목표입니다. 최대 우도 추정(MLE)은 특히 제한된 데이터가 있는 경우(예: 하나의 앞면만 관찰된 경우) 과적합을 초래할 수 있습니다.
+			  
+		- **해결방안:**
+			  과적합을 완화하고 $θ$의 극단적인 값(예: $θ=0$ 또는 $θ=1$)을 피하기 위해 $Beta(θ∣a,b)$ 형태의 베타 분포를 사용하여 정규화 항 또는 사전을 도입합니다. 여기서 $a,b>1$은 $θ$의 값을 $a/(a+b)$ 근처로 유도하기 위해 사용됩니다. 로그 우도와 로그 사전(log prior)을 더하면 다음과 같습니다.
+			  
+			  $l(\theta)=log\,p(D|\theta)+log\,p(\theta)$
+			  $\quad\quad =[N_{1}log \theta+N_{0}log(1-\theta)]+[(a-1)log\,\theta + (b-1)log(1-\theta)]$
+			  
+			 - **Add-one smoothing:**
+				MAP 추정값은 다음과 같습니다:
+				 
+				 $\theta_{MAP}=\frac{N_{1}+a-1}{N_{1}+N_{0}+a+b-2}$
+				 
+				 $a=b=2$로 설정한다면 $\theta$값은 0.5 근처의 값을 약간 선호하는 것으로 파악됩니다. 그 경우 추정치는 다음과 같습니다.
+				 
+				 $\theta_{MAP}=\frac{N_{1}+1}{N_{1}+N_{0}+2}$
 	- #### MAP estimation for the multivariate Gaussian
 	- #### weight decay
 - ### Picking the regularizer using a validation set
