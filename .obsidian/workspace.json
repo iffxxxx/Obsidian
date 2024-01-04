@@ -40,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md"
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models.md"
               }
             }
           },
@@ -219,9 +219,9 @@
   },
   "active": "0bc8fd25240c70a9",
   "lastOpenFiles": [
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/01_Introduction.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/00_Machine_Learning_System_Architecture.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
     "000_총류/005 프로그래밍/Leetcode/203_Remove_Linked_List_Elements.md",
