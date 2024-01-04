@@ -646,7 +646,11 @@ $$\hat{\theta}=argmin\;L(\theta)$$
 		
 		- 표본 분포를 통해 우리는 추정치가 다양한 데이터셋에서 어떻게 변할지를 이해할 수 있습니다.
 		- 빈도주의 접근에서는 매개변수가 고정되었다고 가정하고 이를 기반으로 불확실성을 모델링합니다.
-
+- ### Gaussian approximation of the sampling distribution of the MLE
+- ### Bootstrap approximation of sampling distribution of any estimator
+- ### Confidence intervals
+- ### Caution: Confidence intervals are not credible
+- ### The bias-variance tradeoff
 ## Reference
 [Log-Odds](https://soobarkbar.tistory.com/12)
 [EWMA](https://colab.research.google.com/github/probml/pyprobml/blob/master/notebooks/book1/04/ema_demo.ipynb)
