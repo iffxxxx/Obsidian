@@ -35,18 +35,6 @@
             }
           },
           {
-            "id": "0bc8fd25240c70a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "41e3e2a6fc873acc",
             "type": "leaf",
             "state": {
@@ -69,9 +57,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0bc8fd25240c70a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -121,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f6878ac96d36097f",
@@ -219,9 +220,11 @@
   },
   "active": "0bc8fd25240c70a9",
   "lastOpenFiles": [
+    "Attached file/Pasted image 20240103223211.png",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
+    "Attached file/Pasted image 20240105064858.png",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/01_Introduction.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/00_Machine_Learning_System_Architecture.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
     "000_총류/005 프로그래밍/Leetcode/203_Remove_Linked_List_Elements.md",
@@ -250,12 +253,9 @@
     "Attached file/Pasted image 20240104063111.png",
     "Attached file/Pasted image 20240104063107.png",
     "Attached file/Pasted image 20240103224535.png",
-    "Attached file/Pasted image 20240103223211.png",
-    "Attached file/Pasted image 20240103221448.png",
     "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
     "400_순수과학/400 자연 과학.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Machine_Learning.md",
-    "000_총류/004_컴퓨터과학/004_Weight_Regularization.md",
     "Attached file/Murphy.pdf",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning",
     "무제 폴더",
