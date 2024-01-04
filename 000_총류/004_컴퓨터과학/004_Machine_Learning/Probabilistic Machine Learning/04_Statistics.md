@@ -181,7 +181,7 @@ $$\hat{\theta}=argmin\;L(\theta)$$
 			  $odds = \frac{p(y=1|x)}{1-p(y=1|x)}$
 			  $p(y=1|x)$ 확률 값이 다음 그래프와 같이 1에 가까워질수록 odds 값은 엄청나게 상승합니다.
 			   ![[Pasted image 20240102071736.png]]
-			 - 한계점점
+			 - 한계점
 			 $0<odds<\infty$의 범위에 속하기에 , 범위에 제약이 있다.
 			확률값과 odds값은 비대칭성(Asymmetric)을 띈다.
 			   
