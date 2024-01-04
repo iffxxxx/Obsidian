@@ -277,7 +277,7 @@
 			  
 			 일반적으로(모든 문서를 대상으로) 많이 발생하는 단어의 영향을 줄이기 위해 역문서 빈도(IDF)라는 양을 계산합니다. $IDF_i$는 다음과 같이 정의됩니다: 
 			 
-			 $IDF_i = log(N / (1 + DF_i))$, 
+			 $IDF_i = log(N / (1 + DF_i))$
 			 여기서 DFi는 용어 i가 포함된 문서의 수입니다. 이러한 변환을 결합하여 TF-IDF 행렬을 계산할 수 있습니다:
 - ### Handling missing data
 ## Discussion
