@@ -72,7 +72,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models.md"
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models 1.md"
               }
             }
           }
@@ -219,6 +219,10 @@
   },
   "active": "dff338c9bf1383e4",
   "lastOpenFiles": [
+    "Attached file/Pasted image 20240105193821.png",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models 1.md",
+    "Attached file/Pasted image 20240105191546.png",
     "Attached file/Pasted image 20240105190853.png",
     "Attached file/Pasted image 20240105184435.png",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Deep_Learning.md",
@@ -236,10 +240,7 @@
     "Attached file/Pasted image 20240104235555.png",
     "Attached file/Pasted image 20240104234002.png",
     "Attached file/Pasted image 20240104221405.png",
-    "Attached file/Pasted image 20240104063117.png",
-    "Attached file/Pasted image 20240104063111.png",
     "04_Statistics 1.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/01_Introduction.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
     "000_총류/005 프로그래밍/Leetcode/203_Remove_Linked_List_Elements.md",
@@ -255,7 +256,6 @@
     "000_총류/005 프로그래밍/Leetcode/58_Length_of_Last_Word.md",
     "000_총류/005 프로그래밍/Coding_Interview/Cracking_the_Coding_interview.md",
     "000_총류/005 프로그래밍/Leetcode/21_Merge_Two_Sorted_Lists.md",
-    "000_총류/005 프로그래밍/Leetcode/14_Longest_Common_Prefix.md",
     "000_총류/005 프로그래밍/Coding_Interview",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning",
     "Attached file/Murphy.pdf",
