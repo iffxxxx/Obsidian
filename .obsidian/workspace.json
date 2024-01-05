@@ -60,7 +60,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d6fcffc1ef5a2d78",
@@ -153,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md"
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md"
               }
             }
           }
@@ -216,11 +217,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1badfb81711cdb71",
+  "active": "a8412368fade7c20",
   "lastOpenFiles": [
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/03_WebUi_Setting.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/01_Install.md",
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
     "conflict-files-obsidian-git.md",
     "Attached file/Pasted image 20240105064858.png",
@@ -249,7 +251,6 @@
     "000_총류/005 프로그래밍/Leetcode/169_Majority_Element.md",
     "000_총류/005 프로그래밍/Leetcode/58_Length_of_Last_Word.md",
     "000_총류/005 프로그래밍/Coding_Interview/Cracking_the_Coding_interview.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
     "000_총류/005 프로그래밍/Leetcode/21_Merge_Two_Sorted_Lists.md",
     "000_총류/005 프로그래밍/Leetcode/14_Longest_Common_Prefix.md",
     "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
