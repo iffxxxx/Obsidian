@@ -62,7 +62,7 @@ $$\hat{\theta}=argmin\;L(\theta)$$
 		     $P(A|B)=\frac{P(B|A)\cdot P(A)}{P(B)}$
 		     
 		     $p(\theta|D)=\frac{p(D|\theta)\cdot p(\theta)}{p(D)}$
-		     여기서 $p(D∣θ)$는 likelihood, $p(θ)$는 prior, $p(D)$는 evidence(데이터의 확률)입니다. 베이지안 추론에서는 posterior($\theta$에 대한 확률분포)를 구하기 위해 prior와 likelihood의 곱을 evidence로 나누어야 합니다. 만약 균일한 사전 분포를 사용한다면, prior $p(θ)$는 상수가 되어 posterior를 likelihood로만 구하는 것과 같아집니다.
+		      여기서 $p(D∣θ)$는 likelihood, $p(θ)$는 prior, $p(D)$는 evidence(데이터의 확률)입니다. 베이지안 추론에서는 posterior($\theta$에 대한 확률분포)를 구하기 위해 prior와 likelihood의 곱을 evidence로 나누어야 합니다. 만약 균일한 사전 분포를 사용한다면, prior $p(θ)$는 상수가 되어 posterior를 likelihood로만 구하는 것과 같아집니다.
 		     
 		     $p(θ∣D)∝p(D∣θ)$
 		     

@@ -208,7 +208,7 @@
   "left-ribbon": {
     "hiddenItems": {
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "3d-graph:3D Graph": false,
+      "3d-graph:3D Graph": true,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -217,45 +217,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "floating": {
-    "id": "65698ffcb4fcc528",
-    "type": "floating",
-    "children": [
-      {
-        "id": "1ae25289b545e352",
-        "type": "window",
-        "children": [
-          {
-            "id": "295089c85a7d95ac",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c5e41b05ff9b1e18",
-                "type": "leaf",
-                "state": {
-                  "type": "image",
-                  "state": {
-                    "file": "Attached file/Pasted image 20240103200710.png"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 853,
-        "y": 0,
-        "width": 854,
-        "height": 1043,
-        "maximize": false,
-        "zoom": 2.5
-      }
-    ]
-  },
   "active": "1badfb81711cdb71",
   "lastOpenFiles": [
-    "Attached file/Pasted image 20240103200710.png",
+    "Attached file/Pasted image 20240103221448.png",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
+    "Attached file/Pasted image 20240103200710.png",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/03_WebUi_Setting.md",
@@ -270,7 +236,6 @@
     "Attached file/Pasted image 20240104063111.png",
     "Attached file/Pasted image 20240104063107.png",
     "Attached file/Pasted image 20240103224535.png",
-    "Attached file/Pasted image 20240103223211.png",
     "04_Statistics 1.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/01_Introduction.md",
