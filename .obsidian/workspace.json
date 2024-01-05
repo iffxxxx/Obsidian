@@ -137,8 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d6fcffc1ef5a2d78",
@@ -219,16 +218,18 @@
   },
   "active": "dff338c9bf1383e4",
   "lastOpenFiles": [
-    "Attached file/Pasted image 20240105193821.png",
+    "02_Probbability_Univariate-Models 1.pdf",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/01_Introduction.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models 1.md",
+    "Attached file/Pasted image 20240105193821.png",
     "Attached file/Pasted image 20240105191546.png",
     "Attached file/Pasted image 20240105190853.png",
     "Attached file/Pasted image 20240105184435.png",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Deep_Learning.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
     "400_순수과학/410 수학/410 수학.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
     "Attached file/Pasted image 20240103221448.png",
     "Attached file/Pasted image 20240103200710.png",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
@@ -239,9 +240,7 @@
     "Attached file/Pasted image 20240105003312.png",
     "Attached file/Pasted image 20240104235555.png",
     "Attached file/Pasted image 20240104234002.png",
-    "Attached file/Pasted image 20240104221405.png",
     "04_Statistics 1.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/01_Introduction.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
     "000_총류/005 프로그래밍/Leetcode/203_Remove_Linked_List_Elements.md",
     "000_총류/005 프로그래밍/Leetcode/122_Best_Time_to_Buy_and_Sell_Stock_2.md",
