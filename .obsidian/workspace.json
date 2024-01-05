@@ -1,53 +1,73 @@
 {
   "main": {
-    "id": "177f58e34eea9bd4",
+    "id": "d811f4c8beb3ae23",
     "type": "split",
     "children": [
       {
-        "id": "7e483816ca467425",
+        "id": "7ddb957408b2aed9",
         "type": "tabs",
         "children": [
           {
-            "id": "949d0c8cf8c9f24f",
+            "id": "3fd0286ae5f36ba5",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
+                "file": "무제 파일.canvas",
                 "viewState": {
-                  "x": -100,
-                  "y": -50,
+                  "x": 0,
+                  "y": 0,
                   "zoom": 0
                 }
               }
             }
           },
           {
-            "id": "35fa303e38b7d78e",
+            "id": "1c6d56b60802f4d6",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "7631f36ac0d672d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/01_Introduction.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "41e3e2a6fc873acc",
+            "id": "64682b7eef584a8c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1d26ba94b7d626c7",
+            "id": "1badfb81711cdb71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dff338c9bf1383e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -59,15 +79,11 @@
             }
           },
           {
-            "id": "0bc8fd25240c70a9",
+            "id": "4e9ca1464819a76a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -77,15 +93,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "409ce0584145dcf1",
+    "id": "1fd57d0e6602e3a0",
     "type": "split",
     "children": [
       {
-        "id": "8a0dcbd1c0f9862a",
+        "id": "a92911620996abc6",
         "type": "tabs",
         "children": [
           {
-            "id": "6480f4013c936c3d",
+            "id": "a8412368fade7c20",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -95,7 +111,7 @@
             }
           },
           {
-            "id": "0a4ba88712564a96",
+            "id": "9dcab7543462d7f3",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -110,7 +126,7 @@
             }
           },
           {
-            "id": "895866d468360115",
+            "id": "5089396807cbff9d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -121,19 +137,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "f6878ac96d36097f",
+    "id": "d6fcffc1ef5a2d78",
     "type": "split",
     "children": [
       {
-        "id": "10b80d1a00787b7a",
+        "id": "43aa4e0b7b79b28e",
         "type": "tabs",
         "children": [
           {
-            "id": "3295a5406aa6d18e",
+            "id": "f564bb6f13544a51",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -150,7 +165,7 @@
             }
           },
           {
-            "id": "814fca3b99a514f6",
+            "id": "3b561577ec0b3d47",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -162,7 +177,7 @@
             }
           },
           {
-            "id": "ff5ba7cf0394e8d3",
+            "id": "bd92bb323eb05b96",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -173,7 +188,7 @@
             }
           },
           {
-            "id": "34778d2b844a3ec3",
+            "id": "5d5b2a08f1e4f691",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -181,92 +196,76 @@
                 "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md"
               }
             }
-          },
-          {
-            "id": "8611f6fc4968d40c",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "ab9918bd6f4fa3d6",
-            "type": "leaf",
-            "state": {
-              "type": "code-execute-manage-executors",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 321.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "3d-graph:3D Graph": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "3d-graph:3D Graph": false
+      "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "0bc8fd25240c70a9",
+  "active": "1badfb81711cdb71",
   "lastOpenFiles": [
-    "Attached file/Pasted image 20240103223211.png",
+    "conflict-files-obsidian-git.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
     "Attached file/Pasted image 20240105064858.png",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/01_Introduction.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/01_Machine_Learning_System_Architecture/00_Machine_Learning_System_Architecture.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
-    "000_총류/005 프로그래밍/Leetcode/203_Remove_Linked_List_Elements.md",
-    "000_총류/005 프로그래밍/Leetcode/169_Majority_Element.md",
-    "000_총류/005 프로그래밍/Leetcode/160_Intersection_of_Two_Linked_Lists.md",
-    "000_총류/005 프로그래밍/Leetcode/141_Linked_List_Cycle.md",
-    "000_총류/005 프로그래밍/Leetcode/122_Best_Time_to_Buy_and_Sell_Stock_2.md",
-    "000_총류/005 프로그래밍/Leetcode/83_Remove_Duplicates_from_Sorted_List.md",
-    "000_총류/005 프로그래밍/Leetcode/119_Pascal's_Triangle_2.md",
-    "000_총류/005 프로그래밍/Leetcode/67_Add_Binary.md",
-    "000_총류/005 프로그래밍/Leetcode/64_Minimum_Path_Sum.md",
-    "000_총류/005 프로그래밍/Leetcode/58_Length_of_Last_Word.md",
-    "000_총류/005 프로그래밍/Leetcode/28_Find_the_Index_of_the_First_Occurrence_in_a_String.md",
-    "000_총류/005 프로그래밍/Leetcode/14_Longest_Common_Prefix.md",
-    "000_총류/005 프로그래밍/Leetcode/21_Merge_Two_Sorted_Lists.md",
-    "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
-    "000_총류/005 프로그래밍/Leetcode/1_Two_Sum.md",
     "Attached file/Pasted image 20240105003312.png",
     "Attached file/Pasted image 20240104235555.png",
     "Attached file/Pasted image 20240104234002.png",
     "Attached file/Pasted image 20240104221405.png",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
-    "04_Statistics 1.md",
-    "400_순수과학/410 수학/410 수학.md",
     "Attached file/Pasted image 20240104063117.png",
     "Attached file/Pasted image 20240104063111.png",
     "Attached file/Pasted image 20240104063107.png",
     "Attached file/Pasted image 20240103224535.png",
+    "Attached file/Pasted image 20240103223211.png",
+    "04_Statistics 1.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/01_Introduction.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
+    "000_총류/005 프로그래밍/Leetcode/203_Remove_Linked_List_Elements.md",
+    "000_총류/005 프로그래밍/Leetcode/122_Best_Time_to_Buy_and_Sell_Stock_2.md",
+    "000_총류/005 프로그래밍/Leetcode/141_Linked_List_Cycle.md",
+    "000_총류/005 프로그래밍/Leetcode/160_Intersection_of_Two_Linked_Lists.md",
     "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-    "400_순수과학/400 자연 과학.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Machine_Learning.md",
-    "Attached file/Murphy.pdf",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning",
-    "무제 폴더",
-    "무제 파일.canvas",
-    "Attached file/Cracking_the_Coding_Interview.pdf",
-    "Attached file/Facebook_coding_interview_guide.pdf",
+    "000_총류/005 프로그래밍/Leetcode/28_Find_the_Index_of_the_First_Occurrence_in_a_String.md",
+    "000_총류/005 프로그래밍/Leetcode/119_Pascal's_Triangle_2.md",
+    "000_총류/005 프로그래밍/Leetcode/64_Minimum_Path_Sum.md",
+    "000_총류/005 프로그래밍/Leetcode/1_Two_Sum.md",
+    "000_총류/005 프로그래밍/Leetcode/169_Majority_Element.md",
+    "000_총류/005 프로그래밍/Leetcode/58_Length_of_Last_Word.md",
+    "000_총류/005 프로그래밍/Coding_Interview/Cracking_the_Coding_interview.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
+    "000_총류/005 프로그래밍/Leetcode/21_Merge_Two_Sorted_Lists.md",
+    "000_총류/005 프로그래밍/Leetcode/14_Longest_Common_Prefix.md",
+    "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
+    "400_순수과학/410 수학/410 수학.md",
+    "500_기술과학/550 기계공학/567_Multimedia/01_Audio_Compression.md",
+    "500_기술과학/550 기계공학/567_Multimedia/06_MatLab.md",
+    "000_총류/005 프로그래밍/Leetcode/83_Remove_Duplicates_from_Sorted_List.md",
+    "000_총류/004_컴퓨터과학/004_컴퓨터과학.md",
     "000_총류/005 프로그래밍/Coding_Interview",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning",
+    "Attached file/Murphy.pdf",
+    "Attached file/Facebook_coding_interview_guide.pdf",
+    "Attached file/Cracking_the_Coding_Interview.pdf",
     "000_총류/005 프로그래밍/Leetcode",
     "Attached file/밑바닥부터시작하는딥러닝1_noOCR.pdf",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron",
-    "500_기술과학/550 기계공학/567_Multimedia",
-    "300_사회과학/무제 파일.canvas"
+    "Project/SSUspot",
+    "Attached file/MM_5조_20192694신승훈_20213004김혜령_20212012이혜원.pdf",
+    "무제 파일.canvas",
+    "무제 파일 1.canvas"
   ]
 }
