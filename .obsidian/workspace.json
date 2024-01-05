@@ -60,7 +60,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/03_WebUi_Setting.md",
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
                 "mode": "source",
                 "source": false
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/03_WebUi_Setting.md",
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/03_WebUi_Setting.md",
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/03_WebUi_Setting.md"
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md"
               }
             }
           }
@@ -216,10 +216,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a8412368fade7c20",
+  "active": "1badfb81711cdb71",
   "lastOpenFiles": [
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/03_WebUi_Setting.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/01_Install.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
     "conflict-files-obsidian-git.md",
     "Attached file/Pasted image 20240105064858.png",
@@ -254,7 +255,6 @@
     "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
     "400_순수과학/410 수학/410 수학.md",
     "500_기술과학/550 기계공학/567_Multimedia/01_Audio_Compression.md",
-    "500_기술과학/550 기계공학/567_Multimedia/06_MatLab.md",
     "000_총류/005 프로그래밍/Coding_Interview",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning",
     "Attached file/Murphy.pdf",
