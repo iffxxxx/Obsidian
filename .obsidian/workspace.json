@@ -217,13 +217,49 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a8412368fade7c20",
+  "floating": {
+    "id": "65698ffcb4fcc528",
+    "type": "floating",
+    "children": [
+      {
+        "id": "1ae25289b545e352",
+        "type": "window",
+        "children": [
+          {
+            "id": "295089c85a7d95ac",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c5e41b05ff9b1e18",
+                "type": "leaf",
+                "state": {
+                  "type": "image",
+                  "state": {
+                    "file": "Attached file/Pasted image 20240103200710.png"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 853,
+        "y": 0,
+        "width": 854,
+        "height": 1043,
+        "maximize": false,
+        "zoom": 2.5
+      }
+    ]
+  },
+  "active": "1badfb81711cdb71",
   "lastOpenFiles": [
+    "Attached file/Pasted image 20240103200710.png",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/03_WebUi_Setting.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/01_Install.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
     "conflict-files-obsidian-git.md",
     "Attached file/Pasted image 20240105064858.png",
     "Attached file/Pasted image 20240105003312.png",
@@ -255,7 +291,6 @@
     "000_총류/005 프로그래밍/Leetcode/14_Longest_Common_Prefix.md",
     "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
     "400_순수과학/410 수학/410 수학.md",
-    "500_기술과학/550 기계공학/567_Multimedia/01_Audio_Compression.md",
     "000_총류/005 프로그래밍/Coding_Interview",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning",
     "Attached file/Murphy.pdf",
