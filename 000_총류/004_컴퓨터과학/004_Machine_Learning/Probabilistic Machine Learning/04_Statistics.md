@@ -64,7 +64,7 @@ $$\hat{\theta}=argmin\;L(\theta)$$
     - MLE를 베이지안 관점에서 바라볼 수 있습니다. 
 	      베이지안 관점에서 MLE는 베이지안 사후 확률인 $p(\theta|D)$를 균일한 사전 분포(uniform prior)를 사용한 델타 함수(delta function)로 근사화한 것으로 볼 수 있습니다.
 	      
-	     베이지안 통계에서 사후 확률은 베이즈 정리를 사용하여 다음과 같이 표현됩니다:
+	     베이지안 통계에서 사후 확률은 **베이즈 정리**를 사용하여 다음과 같이 표현됩니다:
 	     
 	     $p(\theta|D)=\frac{p(D|\theta)\cdot p(\theta)}{p(D)}$
 	     여기서 $p(D∣θ)$는 likelihood, $p(θ)$는 prior, $p(D)$는 evidence(데이터의 확률)입니다. 베이지안 추론에서는 posterior($\theta$에 대한 확률분포)를 구하기 위해 prior와 likelihood의 곱을 evidence로 나누어야 합니다.
