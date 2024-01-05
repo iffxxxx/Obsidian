@@ -87,7 +87,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
+                "file": "400_순수과학/410 수학/410 수학.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
+                "file": "400_순수과학/410 수학/410 수학.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md"
+                "file": "400_순수과학/410 수학/410 수학.md"
               }
             }
           }
@@ -217,10 +217,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1badfb81711cdb71",
+  "active": "dff338c9bf1383e4",
   "lastOpenFiles": [
-    "Attached file/Pasted image 20240103221448.png",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
+    "Attached file/Pasted image 20240103221448.png",
     "Attached file/Pasted image 20240103200710.png",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
@@ -235,7 +235,6 @@
     "Attached file/Pasted image 20240104063117.png",
     "Attached file/Pasted image 20240104063111.png",
     "Attached file/Pasted image 20240104063107.png",
-    "Attached file/Pasted image 20240103224535.png",
     "04_Statistics 1.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/01_Introduction.md",
