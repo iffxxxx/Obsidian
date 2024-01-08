@@ -148,14 +148,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/133_Clone_Graph.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "475f4faf2be6a60e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -221,7 +233,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/133_Clone_Graph.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -238,7 +250,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/133_Clone_Graph.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -261,7 +273,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/133_Clone_Graph.md"
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md"
               }
             }
           },
@@ -301,8 +313,9 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1510f08786d64ea8",
+  "active": "475f4faf2be6a60e",
   "lastOpenFiles": [
+    "000_총류/005 프로그래밍/Leetcode/207_Course_Schedule.md",
     "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
     "000_총류/005 프로그래밍/Leetcode/133_Clone_Graph.md",
     "000_총류/005 프로그래밍/Leetcode/1971_Find_if_Path_Exists_in_Graph.md",
@@ -337,7 +350,6 @@
     "000_총류/005 프로그래밍/Leetcode/20_Valid_Parentheses.md",
     "000_총류/005 프로그래밍/Leetcode/203_Remove_Linked_List_Elements.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models.md",
     "Attached file/Pasted image 20240105193821.png",
     "Attached file/Pasted image 20240105191546.png",
     "Attached file/Murphy.pdf",
