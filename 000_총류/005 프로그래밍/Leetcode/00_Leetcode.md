@@ -19,7 +19,7 @@
 [[203_Remove_Linked_List_Elements]]
 
 ## Week 2
-[[20]]
+[[20_Valid_Parentheses]]
 [[155]]
 [[255]]
 [[496]]
