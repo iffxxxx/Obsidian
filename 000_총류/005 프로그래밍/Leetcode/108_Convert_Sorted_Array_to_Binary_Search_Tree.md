@@ -24,3 +24,4 @@ Given an integer array `nums` where the elements are sorted in **ascending or
 - `1 <= nums.length <= 104`
 - `-104 <= nums[i] <= 104`
 - `nums` is sorted in a **strictly increasing** order.
+## Code
