@@ -23,7 +23,7 @@
 [[155_Min_Stack]]
 [[255]]
 [[496_Next_Greater_Element_1]]
-[[1021]]
+[[1021_Remove_Outermost_Parentheses]]
 [[232]]
 [[387]]
 [[933]]
