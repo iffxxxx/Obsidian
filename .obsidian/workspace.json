@@ -100,7 +100,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/1021_Remove_Outermost_Parentheses.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
                 "mode": "source",
                 "source": false
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/1021_Remove_Outermost_Parentheses.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/1021_Remove_Outermost_Parentheses.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/1021_Remove_Outermost_Parentheses.md"
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md"
               }
             }
           },
@@ -255,8 +255,8 @@
   },
   "active": "ef704b53ed38f431",
   "lastOpenFiles": [
-    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
     "000_총류/005 프로그래밍/Leetcode/1021_Remove_Outermost_Parentheses.md",
+    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
     "000_총류/005 프로그래밍/Leetcode/496_Next_Greater_Element_1.md",
     "000_총류/005 프로그래밍/Leetcode/20_Valid_Parentheses.md",
     "000_총류/005 프로그래밍/Leetcode/203_Remove_Linked_List_Elements.md",

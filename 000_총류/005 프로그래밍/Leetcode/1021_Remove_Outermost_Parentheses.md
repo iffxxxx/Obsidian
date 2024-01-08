@@ -63,3 +63,6 @@ sol = Solution()
 result = sol.removeOuterParentheses("(()())(())")
 print(result)
 ```
+
+## Abstract
+그냥 크게 묶고 있는 `( )`를 제거하는 문제
