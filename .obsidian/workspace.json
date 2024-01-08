@@ -136,14 +136,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/933_Number_of_Recent_Calls.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f05084045ef11e1a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "45b3db289efb68d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000_총류/005 프로그래밍/Leetcode/2073_Time_Needed_to_Buy_Tickets.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -209,7 +233,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/933_Number_of_Recent_Calls.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/2073_Time_Needed_to_Buy_Tickets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -226,7 +250,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/933_Number_of_Recent_Calls.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/2073_Time_Needed_to_Buy_Tickets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -249,7 +273,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/933_Number_of_Recent_Calls.md"
+                "file": "000_총류/005 프로그래밍/Leetcode/2073_Time_Needed_to_Buy_Tickets.md"
               }
             }
           },
@@ -289,15 +313,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "c38e31a747c8347f",
+  "active": "45b3db289efb68d3",
   "lastOpenFiles": [
     "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+    "000_총류/005 프로그래밍/Leetcode/2073_Time_Needed_to_Buy_Tickets.md",
+    "000_총류/005 프로그래밍/Leetcode/1700_Number_of_Stuudents_Unable_to_Eat_Lunch.md",
+    "000_총류/005 프로그래밍/Leetcode/1_Two_Sum.md",
+    "000_총류/005 프로그래밍/Leetcode/496_Next_Greater_Element_1.md",
+    "000_총류/005 프로그래밍/Leetcode/155_Min_Stack.md",
     "000_총류/005 프로그래밍/Leetcode/933_Number_of_Recent_Calls.md",
+    "Attached file/Pasted image 20240109030758.png",
     "000_총류/005 프로그래밍/Leetcode/387_First_Unique_Character_in_a_String.md",
     "000_총류/005 프로그래밍/Leetcode/232_Implement_Queue_using_Stacks.md",
     "000_총류/005 프로그래밍/Leetcode/1021_Remove_Outermost_Parentheses.md",
-    "000_총류/005 프로그래밍/Leetcode/496_Next_Greater_Element_1.md",
-    "000_총류/005 프로그래밍/Leetcode/155_Min_Stack.md",
     "000_총류/005 프로그래밍/Leetcode/20_Valid_Parentheses.md",
     "000_총류/005 프로그래밍/Leetcode/203_Remove_Linked_List_Elements.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
@@ -319,15 +347,11 @@
     "500_기술과학/550 기계공학/567_Multimedia/05_Test.md",
     "500_기술과학/550 기계공학/567_Multimedia/03_Video_Compression.md",
     "500_기술과학/550 기계공학/567_Multimedia/00_Multimedia.md",
-    "Book.md",
-    "000_총류/005 프로그래밍/Leetcode/14_Longest_Common_Prefix.md",
-    "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
     "Attached file/Pasted image 20240103223211.png",
     "Attached file/Pasted image 20240105064858.png",
     "Attached file/Pasted image 20240105003312.png",
     "Attached file/Pasted image 20240104235555.png",
     "Attached file/Pasted image 20240104234002.png",
-    "Attached file/Pasted image 20240104221405.png",
     "Attached file/Murphy.pdf",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning",
     "무제 폴더",

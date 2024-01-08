@@ -29,3 +29,24 @@ recentCounter.ping(3002);  // requests = `[1, 100, 3001, 3002]`, range is `[2,30
 - `1 <= t <= 109`
 - Each test case will call `ping` with **strictly increasing** values of `t`.
 - At most `104` calls will be made to `ping`.
+
+## Code
+```run-python
+class RecentCounter:
+    def __init__(self):
+        self.st = []
+
+    def ping(self, t: int) -> int:
+        if t is None:
+            return None
+        else:
+            cnt = 0
+            self.st.append(t)
+            for i in self.st:
+                if t - 3000 <= i <= t:
+                    cnt += 1
+            return cnt
+```
+## Abstract
+![[Pasted image 20240109030758.png]]
+시간 줄이기 ?
