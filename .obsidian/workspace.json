@@ -112,14 +112,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/997_Find_the_Town_Judge.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b2305431f907488",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000_총류/005 프로그래밍/Leetcode/1791_Find_Center_of_Star_Graph.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -185,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/997_Find_the_Town_Judge.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/1791_Find_Center_of_Star_Graph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +214,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/997_Find_the_Town_Judge.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/1791_Find_Center_of_Star_Graph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +237,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/997_Find_the_Town_Judge.md"
+                "file": "000_총류/005 프로그래밍/Leetcode/1791_Find_Center_of_Star_Graph.md"
               }
             }
           },
@@ -265,10 +277,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "db95e0ac22340cf0",
+  "active": "6b2305431f907488",
   "lastOpenFiles": [
+    "Attached file/Pasted image 20240109075940.png",
+    "Book.md",
+    "000_총류/005 프로그래밍/Leetcode/1791_Find_Center_of_Star_Graph.md",
     "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
     "000_총류/005 프로그래밍/Leetcode/997_Find_the_Town_Judge.md",
+    "Attached file/Pasted image 20240109074442.png",
     "000_총류/005 프로그래밍/Leetcode/111_Minimum_Depth_of_Binary_Tree.md",
     "000_총류/005 프로그래밍/Leetcode/119_Pascal's_Triangle_2.md",
     "000_총류/005 프로그래밍/Leetcode/104_Maximum_Depth_of_Binary_Tree.md",
@@ -296,14 +312,10 @@
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models.md",
     "000_총류/005 프로그래밍/Leetcode/160_Intersection_of_Two_Linked_Lists.md",
-    "conflict-files-obsidian-git.md",
-    "000_총류/005 프로그래밍/Coding_Interview/Facebook_coding_interview_guide.md",
     "Attached file/Pasted image 20240105193821.png",
     "Attached file/Pasted image 20240105191546.png",
     "Attached file/Pasted image 20240105190853.png",
     "Attached file/Pasted image 20240105184435.png",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models 1.md",
-    "Attached file/Pasted image 20240103223211.png",
     "Attached file/Murphy.pdf",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning",
     "무제 폴더",

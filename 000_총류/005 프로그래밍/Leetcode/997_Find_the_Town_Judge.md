@@ -37,3 +37,24 @@ Return _the label of the town judge if the town judge exists and can be identif
 - `1 <= ai, bi <= n`
 
 ## Code
+```run-python
+class Solution:
+    def findJudge(self, n: int, trust: list[list[int]]) -> int:
+        Graph = [0] * (n + 1)
+        for t in trust:
+            Graph[t[0]] -= 1
+
+        for i in range(1, n + 1):
+            if Graph[i] == 0:
+                return i
+
+        return -1
+
+sol = Solution()
+result = sol.findJudge(3, [[1,2],[2,3]])
+print(result)
+```
+
+## Abstract
+![[Pasted image 20240109074442.png]]
+?

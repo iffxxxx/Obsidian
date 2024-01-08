@@ -35,7 +35,7 @@
 [[108_Convert_Sorted_Array_to_Binary_Search_Tree]]
 [[111_Minimum_Depth_of_Binary_Tree]]
 [[997_Find_the_Town_Judge]]
-[[1791]]
+[[1791_Find_Center_of_Star_Graph]]
 [[1971]]
 [[133]]
 [[207]]
