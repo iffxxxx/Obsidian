@@ -30,7 +30,7 @@
 [[1700_Number_of_Stuudents_Unable_to_Eat_Lunch]]
 [[2073_Time_Needed_to_Buy_Tickets]]
 [[100_Same_Tree]]
-[[101]]
+[[101_Symmetric_Tree]]
 [[104]]
 [[108]]
 [[111]]

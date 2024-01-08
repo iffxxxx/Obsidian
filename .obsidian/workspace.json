@@ -160,14 +160,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/100_Same_Tree.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9710caf2dc788080",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000_총류/005 프로그래밍/Leetcode/101_Symmetric_Tree.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -233,7 +245,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/100_Same_Tree.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/101_Symmetric_Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -250,7 +262,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/100_Same_Tree.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/101_Symmetric_Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -273,7 +285,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/100_Same_Tree.md"
+                "file": "000_총류/005 프로그래밍/Leetcode/101_Symmetric_Tree.md"
               }
             }
           },
@@ -313,10 +325,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "45b3db289efb68d3",
+  "active": "9710caf2dc788080",
   "lastOpenFiles": [
-    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+    "Attached file/Pasted image 20240109043027.png",
     "000_총류/005 프로그래밍/Leetcode/100_Same_Tree.md",
+    "000_총류/005 프로그래밍/Leetcode/101_Symmetric_Tree.md",
+    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
     "000_총류/005 프로그래밍/Leetcode/2073_Time_Needed_to_Buy_Tickets.md",
     "000_총류/005 프로그래밍/Leetcode/1700_Number_of_Stuudents_Unable_to_Eat_Lunch.md",
     "000_총류/005 프로그래밍/Leetcode/1_Two_Sum.md",
@@ -345,8 +359,6 @@
     "500_기술과학/550 기계공학/567_Multimedia/02_Image_Compression.md",
     "500_기술과학/550 기계공학/567_Multimedia/07_Image_Analysis.md",
     "500_기술과학/550 기계공학/567_Multimedia/06_MatLab.md",
-    "500_기술과학/550 기계공학/567_Multimedia/05_Test.md",
-    "500_기술과학/550 기계공학/567_Multimedia/03_Video_Compression.md",
     "Attached file/Pasted image 20240103223211.png",
     "Attached file/Pasted image 20240105064858.png",
     "Attached file/Pasted image 20240105003312.png",
