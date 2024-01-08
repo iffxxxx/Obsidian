@@ -22,7 +22,7 @@
 [[20_Valid_Parentheses]]
 [[155_Min_Stack]]
 [[255]]
-[[496]]
+[[496_Next_Greater_Element_1]]
 [[1021]]
 [[232]]
 [[387]]
