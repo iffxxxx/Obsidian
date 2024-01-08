@@ -24,7 +24,7 @@
 [[255]]
 [[496_Next_Greater_Element_1]]
 [[1021_Remove_Outermost_Parentheses]]
-[[232]]
+[[232_Implement_Queue_using_Stacks]]
 [[387]]
 [[933]]
 [[1700]]

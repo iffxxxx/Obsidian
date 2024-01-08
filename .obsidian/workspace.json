@@ -105,9 +105,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f3e74fe52d56c503",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000_총류/005 프로그래밍/Leetcode/232_Implement_Queue_using_Stacks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -173,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/232_Implement_Queue_using_Stacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/232_Implement_Queue_using_Stacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +225,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md"
+                "file": "000_총류/005 프로그래밍/Leetcode/232_Implement_Queue_using_Stacks.md"
               }
             }
           },
@@ -253,10 +265,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "ef704b53ed38f431",
+  "active": "f3e74fe52d56c503",
   "lastOpenFiles": [
-    "000_총류/005 프로그래밍/Leetcode/1021_Remove_Outermost_Parentheses.md",
     "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+    "000_총류/005 프로그래밍/Leetcode/232_Implement_Queue_using_Stacks.md",
+    "000_총류/005 프로그래밍/Leetcode/1021_Remove_Outermost_Parentheses.md",
     "000_총류/005 프로그래밍/Leetcode/496_Next_Greater_Element_1.md",
     "000_총류/005 프로그래밍/Leetcode/20_Valid_Parentheses.md",
     "000_총류/005 프로그래밍/Leetcode/203_Remove_Linked_List_Elements.md",
@@ -285,7 +298,6 @@
     "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
     "000_총류/005 프로그래밍/Leetcode/1_Two_Sum.md",
     "000_총류/005 프로그래밍/005_프로그래밍.md",
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
     "Attached file/Pasted image 20240103223211.png",
     "Attached file/Pasted image 20240105064858.png",
     "Attached file/Pasted image 20240105003312.png",
