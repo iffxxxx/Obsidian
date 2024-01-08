@@ -36,6 +36,6 @@
 [[111_Minimum_Depth_of_Binary_Tree]]
 [[997_Find_the_Town_Judge]]
 [[1791_Find_Center_of_Star_Graph]]
-[[1971]]
-[[133]]
+[[1971_Find_if_Path_Exists_in_Graph]]
+[[133_Clone_Graph]]
 [[207]]
