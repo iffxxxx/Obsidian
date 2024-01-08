@@ -76,31 +76,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "509467793255b744",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "649368b48b244a2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/155_Min_Stack.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,14 +88,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/496_Next_Greater_Element_1.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -148,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Design",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -185,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/496_Next_Greater_Element_1.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/496_Next_Greater_Element_1.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/496_Next_Greater_Element_1.md"
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md"
               }
             }
           },
@@ -267,10 +243,11 @@
   },
   "active": "b4de1960d4e96005",
   "lastOpenFiles": [
-    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
     "000_총류/005 프로그래밍/Leetcode/496_Next_Greater_Element_1.md",
-    "000_총류/005 프로그래밍/Leetcode/155_Min_Stack.md",
+    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
     "000_총류/005 프로그래밍/Leetcode/20_Valid_Parentheses.md",
+    "000_총류/005 프로그래밍/Leetcode/203_Remove_Linked_List_Elements.md",
+    "000_총류/005 프로그래밍/Leetcode/155_Min_Stack.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models.md",
     "000_총류/005 프로그래밍/Leetcode/160_Intersection_of_Two_Linked_Lists.md",
@@ -297,7 +274,6 @@
     "000_총류/005 프로그래밍/005_프로그래밍.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/01_Install.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
     "Attached file/Pasted image 20240103223211.png",
     "Attached file/Pasted image 20240105064858.png",
     "Attached file/Pasted image 20240105003312.png",
