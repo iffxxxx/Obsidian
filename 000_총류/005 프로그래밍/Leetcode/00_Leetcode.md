@@ -29,7 +29,7 @@
 [[933_Number_of_Recent_Calls]]
 [[1700_Number_of_Stuudents_Unable_to_Eat_Lunch]]
 [[2073_Time_Needed_to_Buy_Tickets]]
-[[100]]
+[[100_Same_Tree]]
 [[101]]
 [[104]]
 [[108]]

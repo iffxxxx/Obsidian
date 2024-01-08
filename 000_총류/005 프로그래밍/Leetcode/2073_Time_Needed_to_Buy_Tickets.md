@@ -36,3 +36,23 @@ The person at position 0 has successfully bought 5 tickets and it took 4 + 1 + 
 - `1 <= n <= 100`
 - `1 <= tickets[i] <= 100`
 - `0 <= k < n`
+
+## Code
+```run-python
+class Solution:
+    def timeRequiredToBuy(self, tickets: list[int], k: int) -> int:
+        time = 0
+        for i in range(len(tickets)):
+            if i <= k:
+                time += min(tickets[i], tickets[k])
+            else:
+                time += min(tickets[i], tickets[k] - 1)
+        return time
+
+sol = Solution()
+result = sol.timeRequiredToBuy(tickets = [2,3,2], k = 2)
+print(result)
+```
+## Abstract
+k보다 앞에 있는 사람은 결국 k번째 사람이 사는 가기 전까지 k와 동일한 티켓을 구매해야함
+k보다 뒤에 있는 사람은 k가 다 사고 가는 시점에 k-1 초를 소비하게 됨

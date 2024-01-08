@@ -160,7 +160,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/2073_Time_Needed_to_Buy_Tickets.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/100_Same_Tree.md",
                 "mode": "source",
                 "source": false
               }
@@ -233,7 +233,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/2073_Time_Needed_to_Buy_Tickets.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/100_Same_Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -250,7 +250,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/2073_Time_Needed_to_Buy_Tickets.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/100_Same_Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -273,7 +273,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/2073_Time_Needed_to_Buy_Tickets.md"
+                "file": "000_총류/005 프로그래밍/Leetcode/100_Same_Tree.md"
               }
             }
           },
@@ -316,6 +316,7 @@
   "active": "45b3db289efb68d3",
   "lastOpenFiles": [
     "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+    "000_총류/005 프로그래밍/Leetcode/100_Same_Tree.md",
     "000_총류/005 프로그래밍/Leetcode/2073_Time_Needed_to_Buy_Tickets.md",
     "000_총류/005 프로그래밍/Leetcode/1700_Number_of_Stuudents_Unable_to_Eat_Lunch.md",
     "000_총류/005 프로그래밍/Leetcode/1_Two_Sum.md",
@@ -346,7 +347,6 @@
     "500_기술과학/550 기계공학/567_Multimedia/06_MatLab.md",
     "500_기술과학/550 기계공학/567_Multimedia/05_Test.md",
     "500_기술과학/550 기계공학/567_Multimedia/03_Video_Compression.md",
-    "500_기술과학/550 기계공학/567_Multimedia/00_Multimedia.md",
     "Attached file/Pasted image 20240103223211.png",
     "Attached file/Pasted image 20240105064858.png",
     "Attached file/Pasted image 20240105003312.png",
