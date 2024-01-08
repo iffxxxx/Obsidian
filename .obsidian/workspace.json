@@ -112,14 +112,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/232_Implement_Queue_using_Stacks.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8cfee2f9befea3f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c38e31a747c8347f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000_총류/005 프로그래밍/Leetcode/933_Number_of_Recent_Calls.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -185,7 +209,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/232_Implement_Queue_using_Stacks.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/933_Number_of_Recent_Calls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +226,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/232_Implement_Queue_using_Stacks.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/933_Number_of_Recent_Calls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +249,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/232_Implement_Queue_using_Stacks.md"
+                "file": "000_총류/005 프로그래밍/Leetcode/933_Number_of_Recent_Calls.md"
               }
             }
           },
@@ -265,15 +289,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f3e74fe52d56c503",
+  "active": "c38e31a747c8347f",
   "lastOpenFiles": [
     "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+    "000_총류/005 프로그래밍/Leetcode/933_Number_of_Recent_Calls.md",
+    "000_총류/005 프로그래밍/Leetcode/387_First_Unique_Character_in_a_String.md",
     "000_총류/005 프로그래밍/Leetcode/232_Implement_Queue_using_Stacks.md",
     "000_총류/005 프로그래밍/Leetcode/1021_Remove_Outermost_Parentheses.md",
     "000_총류/005 프로그래밍/Leetcode/496_Next_Greater_Element_1.md",
+    "000_총류/005 프로그래밍/Leetcode/155_Min_Stack.md",
     "000_총류/005 프로그래밍/Leetcode/20_Valid_Parentheses.md",
     "000_총류/005 프로그래밍/Leetcode/203_Remove_Linked_List_Elements.md",
-    "000_총류/005 프로그래밍/Leetcode/155_Min_Stack.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models.md",
     "000_총류/005 프로그래밍/Leetcode/160_Intersection_of_Two_Linked_Lists.md",
@@ -296,8 +322,6 @@
     "Book.md",
     "000_총류/005 프로그래밍/Leetcode/14_Longest_Common_Prefix.md",
     "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
-    "000_총류/005 프로그래밍/Leetcode/1_Two_Sum.md",
-    "000_총류/005 프로그래밍/005_프로그래밍.md",
     "Attached file/Pasted image 20240103223211.png",
     "Attached file/Pasted image 20240105064858.png",
     "Attached file/Pasted image 20240105003312.png",
