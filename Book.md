@@ -32,6 +32,8 @@
 ## MEMO
 누구 알려주는 게 아니라 내가 기억할 수 있게
 언젠가 내가 누구를 알려줄 수 있게 필기할 것
+- ### Python Path
+	`C:/Users/iffxx/AppData/Local/Programs/Python/Python311/python.exe
 ## RULE
 - 하루에 공부할 만큼 노트를 생성하고 노트를 다 채우는 것을 목표로 하자.
 
