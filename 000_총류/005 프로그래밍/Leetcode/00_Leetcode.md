@@ -21,7 +21,7 @@
 ## Week 2
 [[20_Valid_Parentheses]]
 [[155_Min_Stack]]
-[[225]]
+[[225_Implement_Stack_using_Queues]]
 [[496_Next_Greater_Element_1]]
 [[1021_Remove_Outermost_Parentheses]]
 [[232_Implement_Queue_using_Stacks]]
