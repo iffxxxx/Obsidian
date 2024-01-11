@@ -172,14 +172,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/04_Tree_and_Graphs.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -225,8 +225,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -246,7 +245,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/997_Find_the_Town_Judge.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -263,7 +262,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/997_Find_the_Town_Judge.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -286,7 +285,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/997_Find_the_Town_Judge.md"
+                "file": "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md"
               }
             }
           },
@@ -326,12 +325,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "475f4faf2be6a60e",
+  "active": "f6eb14d86d9d765f",
   "lastOpenFiles": [
+    "000_총류/005 프로그래밍/Coding_Interview/04_Tree_and_Graphs.md",
+    "000_총류/005 프로그래밍/Leetcode/997_Find_the_Town_Judge.md",
     "000_총류/005 프로그래밍/Leetcode/133_Clone_Graph.md",
     "000_총류/005 프로그래밍/Leetcode/207_Course_Schedule.md",
     "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-    "000_총류/005 프로그래밍/Coding_Interview/04_Tree_and_Graphs.md",
     "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",
     "000_총류/005 프로그래밍/Coding_Interview/Facebook_coding_interview_guide.md",
     "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md",
@@ -351,7 +351,6 @@
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/05_Decision Theory.md",
     "000_총류/005 프로그래밍/Leetcode/1971_Find_if_Path_Exists_in_Graph.md",
     "000_총류/005 프로그래밍/Leetcode/1791_Find_Center_of_Star_Graph.md",
-    "000_총류/005 프로그래밍/Leetcode/997_Find_the_Town_Judge.md",
     "000_총류/005 프로그래밍/Leetcode/1021_Remove_Outermost_Parentheses.md",
     "000_총류/005 프로그래밍/Leetcode/1700_Number_of_Stuudents_Unable_to_Eat_Lunch.md",
     "Book.md",
