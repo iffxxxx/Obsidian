@@ -66,3 +66,54 @@ class Node:
 	- #### Perfect Binary Trees
 		  ![[Pasted image 20240111200732.png]]
 		- 완벽한 이진 트리의 노드 수는 정확히 $2^k−1$개여야 하며, $k$는 트리의 레벨 수입니다.
+- ### Binary Tree Traversal
+	- **정의:**
+		  이진 트리의 순회는 트리의 노드를 특정 순서로 방문하는 방법을 의미합니다. 대표적으로 중위 순회(In-Order Traversal), 전위 순회(Pre-Order Traversal), 후위 순회(Post-Order Traversal)가 있습니다.
+	- #### In-Order Traversal
+		- **정의:**
+			- 중위 순회는 "왼쪽 서브트리 - 현재 노드 - 오른쪽 서브트리" 순서로 노드를 방문합니다.
+			- 이진 탐색 트리에서 중위 순회를 수행하면 노드가 오름차순으로 정렬된 순서로 방문됩니다.
+			  
+		- **Code:**
+			```run-python
+			def in_order_traversal(node):
+			    if node is not None:
+			        in_order_traversal(node.left)
+			        visit(node)
+			        in_order_traversal(node.right)
+			```
+	- #### Pre-Order Traversal
+		- **정의:**
+			- 전위 순회는 "현재 노드 - 왼쪽 서브트리 - 오른쪽 서브트리" 순서로 노드를 방문합니다.
+			- 순회를 시작하는 노드는 항상 먼저 방문됩니다.
+			  
+		- **Code:**
+			```run-python
+			def pre_order_traversal(node):
+			    if node is not None:
+			        visit(node)
+			        pre_order_traversal(node.left)
+			        pre_order_traversal(node.right)
+			```
+	- #### Post-Order Traversal
+		- **정의:**
+			- 후위 순회는 "왼쪽 서브트리 - 오른쪽 서브트리 - 현재 노드" 순서로 노드를 방문합니다.
+			- 순회를 마치는 노드는 항상 마지막에 방문됩니다.
+			  
+		- **Code:**
+			```run-python
+			def post_order_traversal(node):
+			    if node is not None:
+			        post_order_traversal(node.left)
+			        post_order_traversal(node.right)
+			        visit(node)
+			```
+		
+- ### Binary Heaps
+	- #### Min-Heap
+		- **정의:**
+			  ![[Pasted image 20240111205239.png]]
+			  Min-heap은 완전한 이진 트리(마지막 레벨의 가장 오른쪽 요소를 제외하고 모두 채워진)로, 각 노드는 자식보다 작습니다. 따라서 루트는 트리에서의 최솟값입니다.
+			 
+		- ##### Insert
+			- 
