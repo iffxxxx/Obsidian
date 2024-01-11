@@ -160,19 +160,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "17a738c42fc248e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/997_Find_the_Town_Judge.md",
                 "mode": "source",
                 "source": false
               }
@@ -191,7 +179,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -220,7 +208,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "#graph",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -237,7 +225,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -257,7 +246,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/04_Tree_and_Graphs.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/997_Find_the_Town_Judge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -274,7 +263,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/04_Tree_and_Graphs.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/997_Find_the_Town_Judge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -297,7 +286,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/04_Tree_and_Graphs.md"
+                "file": "000_총류/005 프로그래밍/Leetcode/997_Find_the_Town_Judge.md"
               }
             }
           },
@@ -337,8 +326,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f6eb14d86d9d765f",
+  "active": "475f4faf2be6a60e",
   "lastOpenFiles": [
+    "000_총류/005 프로그래밍/Leetcode/133_Clone_Graph.md",
+    "000_총류/005 프로그래밍/Leetcode/207_Course_Schedule.md",
+    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+    "000_총류/005 프로그래밍/Coding_Interview/04_Tree_and_Graphs.md",
+    "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",
+    "000_총류/005 프로그래밍/Coding_Interview/Facebook_coding_interview_guide.md",
+    "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md",
+    "Attached file/Pasted image 20240111233957.png",
+    "Attached file/Pasted image 20240111233739.png",
+    "Attached file/Pasted image 20240111232943.png",
     "Attached file/Pasted image 20240111232806.png",
     "Attached file/Pasted image 20240111232018.png",
     "Attached file/Pasted image 20240111231630.png",
@@ -346,25 +345,15 @@
     "Attached file/Pasted image 20240111205239.png",
     "Attached file/Pasted image 20240111200732.png",
     "Attached file/Pasted image 20240111200507.png",
-    "Attached file/Pasted image 20240111195600.png",
-    "Attached file/Pasted image 20240111194950.png",
-    "Attached file/Pasted image 20240111194617.png",
-    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-    "000_총류/005 프로그래밍/Coding_Interview/04_Tree_and_Graphs.md",
-    "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",
-    "000_총류/005 프로그래밍/Coding_Interview/01.md",
     "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
     "000_총류/005 프로그래밍/Leetcode/225_Implement_Stack_using_Queues.md",
     "000_총류/005 프로그래밍/Leetcode/28_Find_the_Index_of_the_First_Occurrence_in_a_String.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/05_Decision Theory.md",
-    "000_총류/005 프로그래밍/Leetcode/207_Course_Schedule.md",
-    "000_총류/005 프로그래밍/Leetcode/133_Clone_Graph.md",
     "000_총류/005 프로그래밍/Leetcode/1971_Find_if_Path_Exists_in_Graph.md",
     "000_총류/005 프로그래밍/Leetcode/1791_Find_Center_of_Star_Graph.md",
     "000_총류/005 프로그래밍/Leetcode/997_Find_the_Town_Judge.md",
     "000_총류/005 프로그래밍/Leetcode/1021_Remove_Outermost_Parentheses.md",
     "000_총류/005 프로그래밍/Leetcode/1700_Number_of_Stuudents_Unable_to_Eat_Lunch.md",
-    "Attached file/Pasted image 20240109080746.png",
     "Book.md",
     "000_총류/005 프로그래밍/Leetcode/111_Minimum_Depth_of_Binary_Tree.md",
     "000_총류/005 프로그래밍/Leetcode/119_Pascal's_Triangle_2.md",

@@ -1,4 +1,4 @@
-#Tree 
+#Tree #Graph #Binary_Tree #Binary_Search_Tree
 ## Introduce
 - **트리 및 그래프 소개:**
 	
@@ -20,16 +20,18 @@
 - **노드 클래스의 예시:**
 	
 	- 노드에 대한 간단한 클래스 정의가 제공되었으며, 각 노드는 이름과 자식 배열을 가지고 있습니다.
-```run-python
-class Node:
-    def __init__(self, name):
-        self.name = name
-        self.children = []
-```
+		```run-python
+		class Node:
+		    def __init__(self, name):
+		        self.name = name
+		        self.children = []
+		```
 - ### Type of Trees
 	- #### Trees vs Binary Trees
 		- **정의:**
 			이진 트리는 각 노드가 최대 두 개의 자식을 가지는 트리입니다. 모든 트리가 이진 트리는 아닙니다. 
+			
+			반례:
 			  ![[Pasted image 20240111194617.png]]
 			예를 들어, 다음 트리는 이진 트리가 아닙니다. 이를 삼진 트리라고 할 수 있습니다. 가끔 특정한 경우에는 이진 트리가 아닌 트리가 필요할 수 있습니다. 만약 어떤 노드가 자식이 없다면 해당 노드는 "잎 노드(leaf node)"라고 부릅니다.
 			
@@ -173,3 +175,60 @@ class Node:
 		
 		```
 		`Graph` 클래스는 트리와 달리 하나의 노드에서 모든 노드에 도달할 수 없을 수 있기 때문에 사용됩니다. 그래프를 표현하는 데 추가적인 클래스가 필요하지 않을 수 있습니다. 인접 목록을 저장하는 배열(또는 해시 테이블)만 있으면 됩니다(배열, ArrayList, 연결 리스트 등). 위의 그래프는 다음과 같이 나타낼 수 있습니다.
+- ### Adjacency Matrices
+	- **정의:**
+		  인접 행렬은 노드의 수 N인 부울 행렬입니다. 여기서 행렬$[i][j]$가 참이면 노드 i에서 노드 j로의 간선을 나타냅니다. (0s 및 1s를 사용하는 정수 행렬을 사용할 수도 있습니다.)
+		![[Pasted image 20240111232943.png]]
+		무방향 그래프에서는 인접 행렬이 대칭일 것입니다. 그러나 방향 그래프에서는 (필연적으로) 그렇지 않을 것입니다.
+		
+	- **단점:**
+		인접 목록 표현에서는 노드의 이웃을 쉽게 반복할 수 있지만, 인접 행렬 표현에서는 노드의 이웃을 식별하려면 모든 노드를 반복해야 합니다.
+- ### Graph Search
+	- **소개:**
+		  ![[Pasted image 20240111233739.png]]
+		그래프를 탐색하는 두 가지 가장 일반적인 방법은 깊이 우선 탐색(DFS)과 너비 우선 탐색(BFS)입니다.
+	- #### Depth-First Search (DFS)
+		- **정의:**
+			- DFS는 루트(또는 무작위로 선택한 다른 노드)에서 시작하여 각 가지를 완전히 탐색한 후 다음 가지로 이동하는 방식입니다. 다시 말해, 깊이를 먼저 탐색하고(wide보다는 deep), 그 후에 넓게 탐색합니다.
+			- DFS는 주로 그래프의 모든 노드를 방문하고자 할 때 사용됩니다. 그래프의 모든 노드를 방문할 수 있지만, DFS가 조금 더 간단합니다.
+		- **Code:**
+			```run-python
+			def search(root):
+			    if root is None:
+			        return
+			    visit(root)
+			    root.visited = True
+			    for n in root.adjacent:
+			        if not n.visited:
+			            search(n)
+			```
+		
+	- #### Breadth-First Search (BFS)
+		- **정의:**
+			- BFS는 루트(또는 무작위로 선택한 다른 노드)에서 시작하여 각 이웃을 모두 탐색한 후 그들의 자식 중 아무거나로 이동하는 방식입니다. 다시 말해, wide하게 탐색하고(deep보다는 wide), 그 후에 깊이를 탐색합니다.
+			- BFS는 일반적으로 두 노드 간의 가장 짧은 경로(또는 어떠한 경로라도)를 찾고자 할 때 사용됩니다.
+		- **Code:**
+			```run-python
+			from queue import Queue
+			
+			def search(root):
+			    queue = Queue()
+			    root.marked = True
+			    queue.put(root)  # 큐의 끝에 추가
+			
+			    while not queue.empty():
+			        r = queue.get()  # 큐의 앞에서 제거
+			        visit(r)
+			        for n in r.adjacent:
+			            if not n.marked:
+			                n.marked = True
+			                queue.put(n)
+			```
+		
+	- #### Bidirectional Search
+		- **정의:**
+			양방향 탐색은 출발 노드와 도착 노드 간의 최단 경로를 찾기 위해 사용됩니다. 이 방법은 본질적으로 두 동시에 수행되는 BFS입니다. 그들의 탐색이 충돌하면 경로를 찾은 것입니다.
+			![[Pasted image 20240111233957.png]]
+			
+		- **장점:**
+			  이 방법이 더 빠른 이유는 그래프의 모든 노드가 최대 k개의 인접 노드를 가지고 있고 노드 s에서 노드 t까지의 최단 경로가 길이 d인 경우를 생각해 보면 됩니다. 기존의 BFS에서는 $k^d$개의 노드를 탐색해야 하지만 양방향 탐색에서는 $k^{(d/2)}$개의 노드만 탐색하면 충분합니다. 이는 시간 복잡도에서 큰 차이를 만듭니다.
