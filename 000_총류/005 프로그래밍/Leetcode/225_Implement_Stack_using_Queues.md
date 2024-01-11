@@ -65,4 +65,4 @@ class MyStack:
         for _ in range(len(self.q) - 1):
             self.q.append(self.q.popleft())
 ```
-ㅇ 
+위의 코드에는 입력받으면 다시 역순으로 넣어주는 for문이 포함되어 있다.

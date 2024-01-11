@@ -1,6 +1,6 @@
 [Leetcode](https://leetcode.com/explore/)
 
-[[Cracking_the_Coding_interview]] 교재의 내용과 연습문제/ 해설을 먼저 공부할 것
+[[00_Cracking_the_Coding_interview]] 교재의 내용과 연습문제/ 해설을 먼저 공부할 것
 ## Week 1
 [[1_Two_Sum]]
 [[64_Minimum_Path_Sum]]
