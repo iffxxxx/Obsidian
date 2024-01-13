@@ -1,0 +1,1 @@
+## Bit Manipulation By Hand

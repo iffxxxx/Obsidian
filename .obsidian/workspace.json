@@ -172,7 +172,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/05_.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
                 "mode": "source",
                 "source": false
               }
@@ -245,7 +245,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/05_.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -262,7 +262,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/05_.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -285,7 +285,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/05_.md"
+                "file": "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md"
               }
             }
           },
@@ -332,7 +332,7 @@
     "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md",
     "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",
     "000_총류/005 프로그래밍/Coding_Interview/04_Tree_and_Graphs.md",
-    "000_총류/005 프로그래밍/Coding_Interview/05_.md",
+    "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
     "000_총류/005 프로그래밍/Coding_Interview/Facebook_coding_interview_guide.md",
     "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
     "000_총류/004_컴퓨터과학/004_컴퓨터과학.md",
