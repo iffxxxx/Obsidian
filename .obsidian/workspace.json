@@ -172,7 +172,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/005_프로그래밍.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/05_.md",
                 "mode": "source",
                 "source": false
               }
@@ -225,8 +225,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -246,7 +245,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/005_프로그래밍.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/05_.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -263,7 +262,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/005_프로그래밍.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/05_.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -286,7 +285,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/005_프로그래밍.md"
+                "file": "000_총류/005 프로그래밍/Coding_Interview/05_.md"
               }
             }
           },
@@ -328,6 +327,7 @@
   },
   "active": "f6eb14d86d9d765f",
   "lastOpenFiles": [
+    "000_총류/005 프로그래밍/005_프로그래밍.md",
     "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
     "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md",
     "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",
@@ -363,7 +363,6 @@
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/05_Decision Theory.md",
     "000_총류/005 프로그래밍/Leetcode/1971_Find_if_Path_Exists_in_Graph.md",
     "000_총류/005 프로그래밍/Leetcode/1791_Find_Center_of_Star_Graph.md",
-    "000_총류/005 프로그래밍/Leetcode/1021_Remove_Outermost_Parentheses.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
     "Attached file/Murphy.pdf",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning",
