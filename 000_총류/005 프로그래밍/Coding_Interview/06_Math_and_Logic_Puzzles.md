@@ -10,4 +10,55 @@
 	    
 	- 사실, x와 y의 최대공약수(gcd)는 각 소수의 지수들 중 작은 것들을 곱한 것입니다. 최소공배수(lcm)는 각 소수의 지수들 중 큰 것들을 곱한 것입니다.
 	    ![[Pasted image 20240114225443.png]]
-	- $gcd \times lcm$
+	- $gcd \times lcm$?
+		각 소수의 min과 max값을 곱한 것이기에 $x \times y$가 된다.
+- ### Checking for Primality
+	- **접근 방식:**
+		주어진 숫자가 소수인지 여부를 확인하는 과정에 대해 설명합니다. 초기 접근 방식은 2부터 n-1까지 반복하여 각 반복에서 나누어 떨어지는지 확인하는 것입니다.
+		
+		```run-python
+		def primeNaive(n)
+		    if n < 2:
+		        return False
+		    for i in range(2, n):
+		        if n % i == 0:
+		            return False
+		    return True
+		```
+	- **개선방안:**
+		루트 n까지만 반복하는 이유는 a×b=n인 경우, n을 나누는 어떤 a에 대해서는 그 보수 �b가 존재하기 때문입니다. 만약 a>n​이라면, b<n​일 것이며 (n​)2=n이기 때문에) 이미 b에 대해서 확인했으므로 a를 확인할 필요가 없습니다.
+		```run-python
+		import math
+		
+		def primeSlightlyBetter(n)
+		    if n < 2:
+		        return False
+		    sqrt_n = int(math.sqrt(n))
+		    for i in range(2, sqrt_n + 1):
+		        if n % i == 0:
+		            return False
+		    return True
+		```
+	- **아리스토텔레스의 체:**
+		  
+		```run-python
+		import math
+		
+		def prime_naive(n):
+		    if n < 2:
+		        return False
+		    for i in range(2, n):
+		        if n % i == 0:
+		            return False
+		    return True
+		
+		def prime_slightly_better(n):
+		    if n < 2:
+		        return False
+		    sqrt_n = int(math.sqrt(n))
+		    for i in range(2, sqrt_n + 1):
+		        if n % i == 0:
+		            return False
+		    return True
+		```
+	
