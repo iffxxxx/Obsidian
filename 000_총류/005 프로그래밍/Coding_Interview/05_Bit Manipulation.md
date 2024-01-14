@@ -52,10 +52,15 @@ print(repeatedLogicalShift(-93242, 40))
 	함수들이 매개변수 x = -93242와 count = 40으로 호출될 경우에 대한 예상 결과를 설명합니다. 논리적 시프트에서는 0이 반복해서 부호 비트에 채워지므로 0이 반환됩니다. 산술적 시프트에서는 1이 반복해서 부호 비트에 채워지므로 -1이 반환됩니다. 부호 있는 정수에서 모든 비트가 1인 경우는 -1을 나타냅니다.
 ## Common Bit Tasks: Getting and Setting
 1. **Get Bit (비트 가져오기):**
-	   이 방법은 1을 1비트씩 이동하여 00010000 같은 값을 생성합니다. AND를 수행하면 를 사용하여 AND를 수행하면 비트 i의 비트를 제외한 모든 비트를 지우고 마지막으로 0과 비교합니다. 새 값이 0이 아니라면, 비트 i는 1이어야 합니다. 그렇지 않으면 비트 i는 0입니다. 
+	   이 방법은 1을 1비트씩 이동하여 00010000 같은 값을 생성합니다. AND를 수행하면 num을 사용하여 AND를 수행하면 비트 i의 비트를 제외한 모든 비트를 지우고 마지막으로 0과 비교합니다. 새 값이 0이 아니라면, 비트 i는 1이어야 합니다. 그렇지 않으면 비트 i는 0입니다. 
 ```run-python
 def get_bit(num, i): 
 	return (num & (1 << i)) != 0
+	
+num_get_bit = 23 # 이진수로 11111 
+i_get_bit = 2    
+result_get_bit = get_bit(num_get_bit, i_get_bit) 
+print(f"Get Bit: Bit at position {i_get_bit} in {num_get_bit} is {result_get_bit}")
 ```
 
 2. **Set Bit (비트 설정):** 
@@ -63,10 +68,25 @@ def get_bit(num, i):
 ```run-python
 def set_bit(num, i): 
 	return num | (1 << i)
+
+num_set_bit = 1 # 이진수로 0001
+i_set_bit = 2   # 이진수로 0101
+result_set_bit = set_bit(num_set_bit, i_set_bit) 
+print(f"Set Bit: Setting bit at position {i_set_bit} in {num_set_bit} results in {result_set_bit}")
 ```
     
-3. **Clear Bit (비트 지우기):** 해당 비트를 0으로 지우는 함수입니다. `1 << i`를 이용하여 해당 비트를 1로 만들고, 이를 NOT 연산하여 해당 비트를 0으로 만든 뒤 AND 연산하여 지웁니다.
-    
+3. **Clear Bit (비트 지우기):** 
+	해당 비트를 0으로 지우는 함수입니다. `1 << i`를 이용하여 해당 비트를 1로 만들고, 이를 NOT 연산하여 해당 비트를 0으로 만든 뒤 AND 연산하여 지웁니다.
+```run-python
+def clear_bit(num, i): 
+	mask = ~(1 << i) 
+	return num & mask
+
+num_clear_bit = 15 # 이진수로 1111 
+i_clear_bit = 2    # 이진수로 1011 = 11
+result_clear_bit = clear_bit(num_clear_bit, i_clear_bit) 
+print(f"Clear Bit: Clearing bit at position {i_clear_bit} in {num_clear_bit} results in {result_clear_bit}")
+```
 4. **Clear Bits from Most Significant Bit through i (inclusive) (가장 상위 비트부터 i 비트까지 모두 지우기):** `1 << i - 1`로 구한 mask를 이용하여 가장 상위 비트부터 i 비트까지를 모두 0으로 만듭니다.
     
 5. **Clear Bits from i through 0 (inclusive) (i 비트부터 0 비트까지 모두 지우기):** `(-1 << (i + 1))`로 구한 mask를 이용하여 i 비트부터 0 비트까지를 모두 0으로 만듭니다.
