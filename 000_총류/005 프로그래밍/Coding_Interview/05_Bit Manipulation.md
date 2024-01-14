@@ -96,7 +96,7 @@ def clear_bits_msb_through_i(num, i):
 	return num & mask
 
 num_clear_bits_msb_through_i = 29 # 이진수로 11101 
-i_clear_bits_msb_through_i = 3    # 이진수로 00101 맨 앞부터 5 - 3번째까지 0으로 교체
+i_clear_bits_msb_through_i = 3    # 이진수로 ^^___ 맨 앞부터 5 - 3번째까지 0으로 교체
 result_clear_bits_msb_through_i =clear_bits_msb_through_i(num_clear_bits_msb_through_i, i_clear_bits_msb_through_i) 
 print(f"Clear Bits MSB through i: Clearing bits from MSB through {i_clear_bits_msb_through_i} in {num_clear_bits_msb_through_i} results in {result_clear_bits_msb_through_i}")
 ```
@@ -108,8 +108,23 @@ def clear_bits_i_through_0(num, i):
 	mask = -1 << (i + 1) 
 	return num & mask
 
-num_clear_bits_i_through_0 = 18 # 이진수로 10010 
-i_clear_bits_i_through_0 = 2 result_clear_bits_i_through_0 = clear_bits_i_through_0(num_clear_bits_i_through_0, i_clear_bits_i_through_0) 
+num_clear_bits_i_through_0 = 22 # 이진수로 10110 
+i_clear_bits_i_through_0 = 2    # 이진수로 __^^^ 0비트부터 i 비트까지 0으로 교체
+result_clear_bits_i_through_0 = clear_bits_i_through_0(num_clear_bits_i_through_0, i_clear_bits_i_through_0) 
 print(f"Clear Bits i through 0: Clearing bits from {i_clear_bits_i_through_0} through 0 in {num_clear_bits_i_through_0} results in {result_clear_bits_i_through_0}")
 ```
-6. **Update Bit (비트 업데이트):** 해당 비트를 주어진 값으로 업데이트하는 함수입니다. 먼저 해당 비트를 0으로 지우기 위해 `1 << i`로 구한 mask를 이용하고, 값을 왼쪽으로 i 비트 시프트하여 해당 비트에 원하는 값을 넣은 뒤 OR 연산하여 업데이트합니다.
+	
+6. **Update Bit (비트 업데이트):** 
+	해당 비트를 주어진 값으로 업데이트하는 함수입니다. 먼저 해당 비트를 0으로 지우기 위해 `1 << i`로 구한 mask를 이용하고, 값을 왼쪽으로 i 비트 시프트하여 해당 비트에 원하는 값을 넣은 뒤 OR 연산하여 업데이트합니다.
+```run-python
+def update_bit(num, i, bit_is_1): 
+	value = 1 if bit_is_1 else 0 
+	mask = ~(1 << i) 
+	return (num & mask) | (value << i)
+
+num_update_bit = 9 # 이진수로 1001 
+i_update_bit = 1   # 이진수로 __^_ 1비트를 1로 바꾸고 싶다.
+bit_value_update_bit = True # 1로 업데이트 
+result_update_bit = update_bit(num_update_bit, i_update_bit, bit_value_update_bit) 
+print(f"Update Bit: Updating bit at position {i_update_bit} in {num_update_bit} to {bit_value_update_bit} results in {result_update_bit}")
+```

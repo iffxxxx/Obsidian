@@ -172,7 +172,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
                 "mode": "source",
                 "source": false
               }
@@ -245,7 +245,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -262,7 +262,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -285,7 +285,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md"
+                "file": "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md"
               }
             }
           },
@@ -327,8 +327,9 @@
   },
   "active": "f6eb14d86d9d765f",
   "lastOpenFiles": [
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
     "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
+    "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
     "Attached file/Pasted image 20240114220318.png",
     "000_총류/004_컴퓨터과학/004_컴퓨터과학.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/07_Linear Algebra.md",
