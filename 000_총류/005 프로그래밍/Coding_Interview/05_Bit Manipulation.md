@@ -57,20 +57,20 @@ print(repeatedLogicalShift(-93242, 40))
 def get_bit(num, i): 
 	return (num & (1 << i)) != 0
 	
-num_get_bit = 23 # 이진수로 11111 
-i_get_bit = 2    
+num_get_bit = 28 # 이진수로 11101 
+i_get_bit = 1    # 뒤에서 0 1 두번째가 0이면 False, 1이면 True
 result_get_bit = get_bit(num_get_bit, i_get_bit) 
 print(f"Get Bit: Bit at position {i_get_bit} in {num_get_bit} is {result_get_bit}")
 ```
-
+	
 2. **Set Bit (비트 설정):** 
 	비트 시프트 1을 i비트씩 설정하여 00010000 같은 값을 만듭니다. num으로 OR을 수행하면 비트 i의 값만 변경됩니다. 마스크의 다른 모든 비트는 0이며 num에 영향을 주지 않습니다. 
 ```run-python
 def set_bit(num, i): 
 	return num | (1 << i)
 
-num_set_bit = 1 # 이진수로 0001
-i_set_bit = 2   # 이진수로 0101
+num_set_bit = 23 # 이진수로 10111
+i_set_bit = 3    # 이진수로 11111
 result_set_bit = set_bit(num_set_bit, i_set_bit) 
 print(f"Set Bit: Setting bit at position {i_set_bit} in {num_set_bit} results in {result_set_bit}")
 ```
@@ -87,8 +87,29 @@ i_clear_bit = 2    # 이진수로 1011 = 11
 result_clear_bit = clear_bit(num_clear_bit, i_clear_bit) 
 print(f"Clear Bit: Clearing bit at position {i_clear_bit} in {num_clear_bit} results in {result_clear_bit}")
 ```
-4. **Clear Bits from Most Significant Bit through i (inclusive) (가장 상위 비트부터 i 비트까지 모두 지우기):** `1 << i - 1`로 구한 mask를 이용하여 가장 상위 비트부터 i 비트까지를 모두 0으로 만듭니다.
+	
+4. **Clear Bits from Most Significant Bit through i (inclusive)**
+	가장 상위 비트부터 i 비트까지 모두 지우기: `1 << i - 1`로 구한 mask를 이용하여 가장 상위 비트부터 i 비트까지를 모두 0으로 만듭니다.
+```run-python
+def clear_bits_msb_through_i(num, i): 
+	mask = (1 << i) - 1 
+	return num & mask
+
+num_clear_bits_msb_through_i = 29 # 이진수로 11101 
+i_clear_bits_msb_through_i = 3    # 이진수로 00101 맨 앞부터 5 - 3번째까지 0으로 교체
+result_clear_bits_msb_through_i =clear_bits_msb_through_i(num_clear_bits_msb_through_i, i_clear_bits_msb_through_i) 
+print(f"Clear Bits MSB through i: Clearing bits from MSB through {i_clear_bits_msb_through_i} in {num_clear_bits_msb_through_i} results in {result_clear_bits_msb_through_i}")
+```
     
-5. **Clear Bits from i through 0 (inclusive) (i 비트부터 0 비트까지 모두 지우기):** `(-1 << (i + 1))`로 구한 mask를 이용하여 i 비트부터 0 비트까지를 모두 0으로 만듭니다.
-    
+5. **Clear Bits from i through 0 (inclusive)**
+	i 비트부터 0 비트까지 모두 지우기: `(-1 << (i + 1))`로 구한 mask를 이용하여 i 비트부터 0 비트까지를 모두 0으로 만듭니다.
+```run-python
+def clear_bits_i_through_0(num, i): 
+	mask = -1 << (i + 1) 
+	return num & mask
+
+num_clear_bits_i_through_0 = 18 # 이진수로 10010 
+i_clear_bits_i_through_0 = 2 result_clear_bits_i_through_0 = clear_bits_i_through_0(num_clear_bits_i_through_0, i_clear_bits_i_through_0) 
+print(f"Clear Bits i through 0: Clearing bits from {i_clear_bits_i_through_0} through 0 in {num_clear_bits_i_through_0} results in {result_clear_bits_i_through_0}")
+```
 6. **Update Bit (비트 업데이트):** 해당 비트를 주어진 값으로 업데이트하는 함수입니다. 먼저 해당 비트를 0으로 지우기 위해 `1 << i`로 구한 mask를 이용하고, 값을 왼쪽으로 i 비트 시프트하여 해당 비트에 원하는 값을 넣은 뒤 OR 연산하여 업데이트합니다.
