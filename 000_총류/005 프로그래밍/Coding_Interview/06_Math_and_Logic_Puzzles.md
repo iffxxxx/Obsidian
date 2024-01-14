@@ -26,7 +26,7 @@
 		    return True
 		```
 	- **개선방안:**
-		루트 n까지만 반복하는 이유는 a×b=n인 경우, n을 나누는 어떤 a에 대해서는 그 보수 �b가 존재하기 때문입니다. 만약 a>n​이라면, b<n​일 것이며 (n​)2=n이기 때문에) 이미 b에 대해서 확인했으므로 a를 확인할 필요가 없습니다.
+		루트 n까지만 반복하는 이유는 a×b=n인 경우, n을 나누는 어떤 a에 대해서는 그 보수 b가 존재하기 때문입니다. 만약 $a>\sqrt{n})$이라면, $b<\sqrt{n}$일 것이며 ($(\sqrt{n})^2=n$이기 때문에) 이미 b에 대해서 확인했으므로 a를 확인할 필요가 없습니다.
 		```run-python
 		import math
 		
@@ -40,7 +40,8 @@
 		    return True
 		```
 	- **아리스토텔레스의 체:**
-		  
+		  ![[Sieve_of_Eratosthenes_animation.gif]]
+		  마치 체처럼 걸러낸다고 하여 이름 붙인 이 알고리즘은, 2 이상 n 이하의 정수 x가 소수인지 아닌지 효율적으로 판단할 수 있도록 추가적인 배열을 만드는 전처리 알고리즘입니다.
 		```run-python
 		import math
 		
@@ -61,4 +62,8 @@
 		            return False
 		    return True
 		```
+## Probability
+- **정의:**
+	
+- ### Probabiliry of A and B
 	
