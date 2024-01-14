@@ -31,3 +31,44 @@
 	 산술적 오른쪽 시프트에서는 값을 오른쪽으로 이동시키지만 새로운 비트는 부호 비트의 값으로 채워집니다. 이는 (대략적으로) 2로 나누는 효과를 가지고 있습니다. `>>` 연산자로 표시됩니다.
 	![[Pasted image 20240114220318.png]]
 	
+- **코드:**
+```run-python
+def repeatedArithmeticShift(x, count):
+    for i in range(count):
+        x >>= 1  # 산술적 오른쪽 시프트 1회 수행
+    return x
+
+def repeatedLogicalShift(x, count):
+    for i in range(count):
+        x = (x % 0x100000000) // 2  # 논리적 오른쪽 시프트 1회 수행
+    return x
+
+print(repeatedArithmeticShift(-93242, 40))
+print(repeatedLogicalShift(-93242, 40))
+```
+- **코드설명:**
+	이 함수들은 정수 x와 count라는 매개변수를 받아서 각각 산술적 오른쪽 시프트와 논리적 오른쪽 시프트를 반복적으로 수행하는 것으로 보입니다.
+	
+	함수들이 매개변수 x = -93242와 count = 40으로 호출될 경우에 대한 예상 결과를 설명합니다. 논리적 시프트에서는 0이 반복해서 부호 비트에 채워지므로 0이 반환됩니다. 산술적 시프트에서는 1이 반복해서 부호 비트에 채워지므로 -1이 반환됩니다. 부호 있는 정수에서 모든 비트가 1인 경우는 -1을 나타냅니다.
+## Common Bit Tasks: Getting and Setting
+1. **Get Bit (비트 가져오기):**
+	   이 방법은 1을 1비트씩 이동하여 00010000 같은 값을 생성합니다. AND를 수행하면 를 사용하여 AND를 수행하면 비트 i의 비트를 제외한 모든 비트를 지우고 마지막으로 0과 비교합니다. 새 값이 0이 아니라면, 비트 i는 1이어야 합니다. 그렇지 않으면 비트 i는 0입니다. 
+```run-python
+def get_bit(num, i): 
+	return (num & (1 << i)) != 0
+```
+
+2. **Set Bit (비트 설정):** 
+	비트 시프트 1을 i비트씩 설정하여 00010000 같은 값을 만듭니다. num으로 OR을 수행하면 비트 i의 값만 변경됩니다. 마스크의 다른 모든 비트는 0이며 num에 영향을 주지 않습니다. 
+```run-python
+def set_bit(num, i): 
+	return num | (1 << i)
+```
+    
+3. **Clear Bit (비트 지우기):** 해당 비트를 0으로 지우는 함수입니다. `1 << i`를 이용하여 해당 비트를 1로 만들고, 이를 NOT 연산하여 해당 비트를 0으로 만든 뒤 AND 연산하여 지웁니다.
+    
+4. **Clear Bits from Most Significant Bit through i (inclusive) (가장 상위 비트부터 i 비트까지 모두 지우기):** `1 << i - 1`로 구한 mask를 이용하여 가장 상위 비트부터 i 비트까지를 모두 0으로 만듭니다.
+    
+5. **Clear Bits from i through 0 (inclusive) (i 비트부터 0 비트까지 모두 지우기):** `(-1 << (i + 1))`로 구한 mask를 이용하여 i 비트부터 0 비트까지를 모두 0으로 만듭니다.
+    
+6. **Update Bit (비트 업데이트):** 해당 비트를 주어진 값으로 업데이트하는 함수입니다. 먼저 해당 비트를 0으로 지우기 위해 `1 << i`로 구한 mask를 이용하고, 값을 왼쪽으로 i 비트 시프트하여 해당 비트에 원하는 값을 넣은 뒤 OR 연산하여 업데이트합니다.
