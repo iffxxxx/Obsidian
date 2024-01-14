@@ -229,8 +229,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f6878ac96d36097f",
@@ -326,14 +325,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f6eb14d86d9d765f",
+  "active": "6480f4013c936c3d",
   "lastOpenFiles": [
-    "000_총류/005 프로그래밍/005_프로그래밍.md",
     "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
+    "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
+    "000_총류/005 프로그래밍/005_프로그래밍.md",
     "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md",
     "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",
     "000_총류/005 프로그래밍/Coding_Interview/04_Tree_and_Graphs.md",
-    "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
     "000_총류/005 프로그래밍/Coding_Interview/Facebook_coding_interview_guide.md",
     "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
     "000_총류/004_컴퓨터과학/004_컴퓨터과학.md",
