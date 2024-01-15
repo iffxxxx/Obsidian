@@ -42,7 +42,7 @@
 ## Week 3
 [[67_Add_Binary]]
 [[136_Single_Number]]
-[[190]]
+[[190_Reverse_Bits]]
 [[693]]
 [[784]]
 [[9]]
