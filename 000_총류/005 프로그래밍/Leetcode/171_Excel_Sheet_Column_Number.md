@@ -43,7 +43,6 @@ class Solution:
             result = result * 26 + (ord(char) - ord('A') + 1)
         return result
 
-# 테스트
 sol = Solution()
 result1 = sol.titleToNumber("A")
 result2 = sol.titleToNumber("AB")
@@ -52,5 +51,6 @@ result3 = sol.titleToNumber("ZY")
 print(result1)  # 1
 print(result2)  # 28
 print(result3)  # 701
-
 ```
+## Abstract
+`ord(char) - ord('A') + 1`은 각 문자를 1부터 26까지의 숫자로 변환하는 부분
