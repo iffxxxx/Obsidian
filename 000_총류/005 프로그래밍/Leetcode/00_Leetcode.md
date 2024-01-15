@@ -44,7 +44,7 @@
 [[136_Single_Number]]
 [[190_Reverse_Bits]]
 [[693_Binary_Number_with_Alternating_Bit]]
-[[784]]
+[[784_Letter_Case_Permutation]]
 [[9]]
 [[13_Roman_to_Integer]]
 [[66]]
