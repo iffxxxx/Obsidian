@@ -41,7 +41,7 @@
 [[207_Course_Schedule]]
 ## Week 3
 [[67_Add_Binary]]
-[[136]]
+[[136_Single_Number]]
 [[190]]
 [[693]]
 [[784]]
