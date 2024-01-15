@@ -49,4 +49,17 @@ print(result)
 XOR 연산을 통해서 풀수도 있음을 깨달았다.
 
 [[05_Bit Manipulation#Bit_Facts_and_Tricks]]에서 알 수 있듯이, `x ^ x = 0`과 `x ^ 0 = x`임을 볼 수 있다.
-즉 nums = [1, 1, 3]
+즉 `nums = [1, 1, 3]`이라면 `1 ^ 1 ^ 3 = 3`이 나오는 것을 확인할 수 있다.
+
+```run-python
+class Solution:     
+	def singleNumber(self, nums: List[int]) -> int:         
+		n = nums[0]         
+		for i in range(1,len(nums)):             
+			n ^= nums[i]         
+			return n
+
+sol = Solution() 
+result = sol.singleNumber([1,4,1,3,3]) 
+print(result)
+```
