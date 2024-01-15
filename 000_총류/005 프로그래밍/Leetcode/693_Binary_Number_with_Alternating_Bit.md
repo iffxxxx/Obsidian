@@ -23,3 +23,17 @@ Given a positive integer, check whether it has alternating bits: namely, if two 
 **Constraints:**
 
 - `1 <= n <= 231 - 1`
+
+## Code
+```run-python
+class Solution:
+    def hasAlternatingBits(self, n: int) -> bool:
+        n = bin(n)
+
+        for i in range(3,len(n)):
+            if n[i] == n[i-1]:
+                return False
+        return True
+```
+## Abstract
+없음
