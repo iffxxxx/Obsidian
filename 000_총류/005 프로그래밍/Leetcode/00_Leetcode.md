@@ -51,6 +51,6 @@
 [[67_Add_Binary]]
 [[70_Climbing_Stairs]]
 [[168_Excel_Sheet_Column_Title]]
-[[171]]
+[[171_Excel_Sheet_Column_Number]]
 [[202]]
 [[231]]

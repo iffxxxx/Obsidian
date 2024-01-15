@@ -56,3 +56,6 @@ print(result1)
 print(result2) 
 print(result3)
 ```
+## Abstract
+26진법으로 나눠서 몫과 나머지로 나눈다.
+이후에 ord를 사용해서 상응하는 알파벳 찾기
