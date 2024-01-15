@@ -35,3 +35,24 @@ AB -> 28
 - `1 <= columnNumber <= 231 - 1`
 
 ## Code
+```run-python
+class Solution:
+    def convertToTitle(self, columnNumber: int) -> str:
+        result = []
+
+        while columnNumber:
+            columnNumber -= 1
+            m, n = divmod(columnNumber, 26)
+            result.append(chr(n + ord('A')))
+            columnNumber = m
+        return ''.join(result[::-1])
+
+sol = Solution() 
+result1 = sol.convertToTitle(1) 
+result2 = sol.convertToTitle(27) 
+result3 = sol.convertToTitle(701) 
+
+print(result1) 
+print(result2) 
+print(result3)
+```
