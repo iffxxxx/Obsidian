@@ -53,4 +53,4 @@
 [[168_Excel_Sheet_Column_Title]]
 [[171_Excel_Sheet_Column_Number]]
 [[202_Happy_Number]]
-[[231]]
+[[231_Power_of_Two]]

@@ -29,3 +29,18 @@ Return `true` _if_ `n` _is a happy number, and_ `false` _if not_.
 
 - `1 <= n <= 231 - 1`
 ## Code
+```run-python
+class Solution:
+    def isHappy(self, n: int) -> bool:
+        vis = set([n])
+        while True:
+            n = sum([int(c) ** 2 for c in str(n)])
+            if n == 1:
+                return True
+            if n in vis:
+                return False
+            vis.add(n)
+```
+## Abstract
+결과가 1 >> True
+무한 루프를 돌면서 혹시나 주기가 반복될 경우 False 출력
