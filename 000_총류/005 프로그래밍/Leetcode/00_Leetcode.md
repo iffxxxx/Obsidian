@@ -45,7 +45,7 @@
 [[190_Reverse_Bits]]
 [[693_Binary_Number_with_Alternating_Bit]]
 [[784_Letter_Case_Permutation]]
-[[9]]
+[[9_Palindrome_Number]]
 [[13_Roman_to_Integer]]
 [[66]]
 [[67]]
