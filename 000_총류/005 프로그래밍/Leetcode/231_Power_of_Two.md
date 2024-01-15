@@ -34,4 +34,16 @@ class Solution:
 ```
 
 ## Abstract
-`bin(n).count('1')` 2의 거듭제곱인지 여부를 확인
+- ### Edge case
+	n의 범위가 음수도 포함되어 있어 양수인지 확인
+`bin(n).count('1')` 2의 거듭제곱인지 여부를 확인 `ex) 1, 10, 100, 1000`
+
+- ### Corner case
+	```run-python
+	class Solution:
+	    def isPowerOfTwo(self, n: int) -> bool:
+	        if n <= 0:
+	            return False
+	        return str(bin(n))[2] == '1'
+	```
+	 맨앞에만 1이면 된다고 생각했었는데, 3도 110으로 1로 시작해서 오류가 났었다.
