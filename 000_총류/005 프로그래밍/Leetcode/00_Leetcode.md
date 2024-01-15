@@ -47,7 +47,7 @@
 [[784_Letter_Case_Permutation]]
 [[9_Palindrome_Number]]
 [[13_Roman_to_Integer]]
-[[66]]
+[[66_Plus_One]]
 [[67]]
 [[69]]
 [[70]]
