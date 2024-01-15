@@ -172,7 +172,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
                 "mode": "source",
                 "source": false
               }
@@ -229,8 +229,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f6878ac96d36097f",
@@ -246,7 +245,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -263,7 +262,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -286,7 +285,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md"
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md"
               }
             }
           },
@@ -328,10 +327,13 @@
   },
   "active": "f6eb14d86d9d765f",
   "lastOpenFiles": [
+    "000_총류/005 프로그래밍/005_프로그래밍.md",
+    "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
+    "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
     "000_총류/005 프로그래밍/Coding_Interview/04_Tree_and_Graphs.md",
     "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",
     "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md",
-    "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
     "Attached file/Sieve_of_Eratosthenes_animation.gif",
     "Attached file/Pasted image 20240114230619.png",
     "Attached file/Pasted image 20240114230548.png",
@@ -352,11 +354,8 @@
     "Attached file/Pasted image 20240114215406.png",
     "Attached file/Pasted image 20240114214729.png",
     "Attached file/Pasted image 20240114195846.png",
-    "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
-    "000_총류/005 프로그래밍/005_프로그래밍.md",
     "000_총류/005 프로그래밍/Coding_Interview/Facebook_coding_interview_guide.md",
     "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron/00_Perceptron.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/01_Install.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
