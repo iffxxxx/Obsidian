@@ -172,7 +172,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/67_Add_Binary.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/190_Reverse_Bits.md",
                 "mode": "source",
                 "source": false
               }
@@ -245,7 +245,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/67_Add_Binary.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/190_Reverse_Bits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -262,7 +262,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/67_Add_Binary.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/190_Reverse_Bits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -285,7 +285,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/67_Add_Binary.md"
+                "file": "000_총류/005 프로그래밍/Leetcode/190_Reverse_Bits.md"
               }
             }
           },
@@ -328,8 +328,8 @@
   "active": "f6eb14d86d9d765f",
   "lastOpenFiles": [
     "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-    "000_총류/005 프로그래밍/Leetcode/190_Reverse_Bits.md",
     "000_총류/005 프로그래밍/Leetcode/67_Add_Binary.md",
+    "000_총류/005 프로그래밍/Leetcode/190_Reverse_Bits.md",
     "000_총류/005 프로그래밍/Leetcode/136_Single_Number.md",
     "000_총류/005 프로그래밍/Leetcode/1_Two_Sum.md",
     "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
