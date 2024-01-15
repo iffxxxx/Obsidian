@@ -172,7 +172,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/190_Reverse_Bits.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/67_Add_Binary.md",
                 "mode": "source",
                 "source": false
               }
@@ -245,7 +245,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/190_Reverse_Bits.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/67_Add_Binary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -262,7 +262,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/190_Reverse_Bits.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/67_Add_Binary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -285,7 +285,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/190_Reverse_Bits.md"
+                "file": "000_총류/005 프로그래밍/Leetcode/67_Add_Binary.md"
               }
             }
           },
