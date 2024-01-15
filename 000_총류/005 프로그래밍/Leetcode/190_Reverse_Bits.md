@@ -24,3 +24,16 @@ Reverse bits of a given 32 bits unsigned integer.
 - The input must be a **binary string** of length `32`
 
 **Follow up:** If this function is called many times, how would you optimize it?
+
+## Code
+```run-python
+class Solution:
+    def reverseBits(self, n: int) -> int:
+        bin_str = (bin(n))[2:][::-1] 
+        answer = bin_str + "0"*(32-len(bin_str))
+        return int(answer, 2)
+```
+## Abstract
+- ### Corner Case
+	4일경우 2진수로 0b100인데 32비트이기 때문에 앞의 0들이 생략된다.
+	 0을 추가적으로 입력해줘야함.

@@ -172,14 +172,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/190_Reverse_Bits.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "69f088fd25d237e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000_총류/005 프로그래밍/Leetcode/67_Add_Binary.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -245,7 +257,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/190_Reverse_Bits.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/67_Add_Binary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -262,7 +274,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/190_Reverse_Bits.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/67_Add_Binary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -285,7 +297,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/190_Reverse_Bits.md"
+                "file": "000_총류/005 프로그래밍/Leetcode/67_Add_Binary.md"
               }
             }
           },
@@ -325,11 +337,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f6eb14d86d9d765f",
+  "active": "69f088fd25d237e7",
   "lastOpenFiles": [
     "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-    "000_총류/005 프로그래밍/Leetcode/67_Add_Binary.md",
+    "000_총류/005 프로그래밍/Leetcode/693_Binary_Number_with_Alternating_Bit.md",
     "000_총류/005 프로그래밍/Leetcode/190_Reverse_Bits.md",
+    "000_총류/005 프로그래밍/Leetcode/67_Add_Binary.md",
     "000_총류/005 프로그래밍/Leetcode/136_Single_Number.md",
     "000_총류/005 프로그래밍/Leetcode/1_Two_Sum.md",
     "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
@@ -352,7 +365,6 @@
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
     "000_총류/005 프로그래밍/Coding_Interview/04_Tree_and_Graphs.md",
     "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",
-    "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md",
     "Attached file/Sieve_of_Eratosthenes_animation.gif",
     "Attached file/Pasted image 20240114230619.png",
     "Attached file/Pasted image 20240114230548.png",

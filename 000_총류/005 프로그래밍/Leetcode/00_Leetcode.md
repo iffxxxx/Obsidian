@@ -43,7 +43,7 @@
 [[67_Add_Binary]]
 [[136_Single_Number]]
 [[190_Reverse_Bits]]
-[[693]]
+[[693_Binary_Number_with_Alternating_Bit]]
 [[784]]
 [[9]]
 [[13_Roman_to_Integer]]
