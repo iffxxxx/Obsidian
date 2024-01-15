@@ -27,3 +27,10 @@ _, and_ `false` _otherwise_.
 **Constraints:**
 
 - `-231 <= x <= 231 - 1`
+## Code
+```run-python
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        x = list(str(x))
+        return x == x[::-1]
+```
