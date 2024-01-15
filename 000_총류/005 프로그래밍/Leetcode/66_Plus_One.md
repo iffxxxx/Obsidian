@@ -33,3 +33,20 @@ Thus, the result should be `[1,0]`.
 - `1 <= digits.length <= 100`
 - `0 <= digits[i] <= 9`
 - `digits` does not contain any leading `0`'s.
+
+## Code
+```run-python
+class Solution:
+    def plusOne(self, digits: list[int]) -> list[int]:
+            n = len(digits)
+
+            for i in range(n - 1, -1, -1):
+                digits[i] += 1
+                if digits[i] < 10:
+                    return digits
+                else:
+                    digits[i] = 0
+            return [1] + digits
+```
+## Abstract
+신경써야 할 것이 마지막 숫자가 9인지 확인하는 것
