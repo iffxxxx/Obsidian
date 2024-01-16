@@ -79,6 +79,16 @@
             }
           },
           {
+            "id": "df965c013294da6d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Attached file/Cracking_the_Coding_Interview.pdf"
+              }
+            }
+          },
+          {
             "id": "082493d69e9b09e5",
             "type": "leaf",
             "state": {
@@ -149,8 +159,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d6fcffc1ef5a2d78",
@@ -229,12 +238,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a8412368fade7c20",
+  "active": "dff338c9bf1383e4",
   "lastOpenFiles": [
+    "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
+    "Attached file/Cracking_the_Coding_Interview.pdf",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
+    "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
     "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/07_Linear Algebra.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/06_Entropy.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
@@ -244,7 +256,6 @@
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models.md",
     "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",
     "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md",
-    "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
     "000_총류/005 프로그래밍/005_프로그래밍.md",
     "Attached file/Sieve_of_Eratosthenes_animation.gif",
     "Attached file/Pasted image 20240114230619.png",
@@ -268,15 +279,12 @@
     "000_총류/005 프로그래밍/Leetcode/171_Excel_Sheet_Column_Number.md",
     "000_총류/005 프로그래밍/Leetcode/168_Excel_Sheet_Column_Title.md",
     "000_총류/005 프로그래밍/Leetcode/136_Single_Number.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/01_Introduction.md",
-    "400_순수과학/410 수학/412_Orthogonal_Functions.md",
     "무제 폴더",
     "02_Probbability_Univariate-Models 1.pdf",
     "000_총류/005 프로그래밍/Coding_Interview",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning",
     "Attached file/Murphy.pdf",
     "Attached file/Facebook_coding_interview_guide.pdf",
-    "Attached file/Cracking_the_Coding_Interview.pdf",
     "000_총류/005 프로그래밍/Leetcode",
     "Attached file/밑바닥부터시작하는딥러닝1_noOCR.pdf",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron",
