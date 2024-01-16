@@ -72,7 +72,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
+                "file": "000_총류/004_컴퓨터과학/004_Gradient_Descent.md",
                 "mode": "source",
                 "source": false
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
+                "file": "000_총류/004_컴퓨터과학/004_Gradient_Descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
+                "file": "000_총류/004_컴퓨터과학/004_Gradient_Descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md"
+                "file": "000_총류/004_컴퓨터과학/004_Gradient_Descent.md"
               }
             }
           }
@@ -240,12 +240,16 @@
   },
   "active": "dff338c9bf1383e4",
   "lastOpenFiles": [
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/07_Linear Algebra.md",
+    "000_총류/004_컴퓨터과학/004_Gradient_Vanishing.md",
+    "000_총류/004_컴퓨터과학/004_Linear_classifcation.md",
+    "000_총류/004_컴퓨터과학/004_Support_Vector_Machine.md",
+    "000_총류/004_컴퓨터과학/004_Gradient_Descent.md",
+    "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
     "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
     "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
     "Attached file/Cracking_the_Coding_Interview.pdf",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
-    "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/07_Linear Algebra.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/06_Entropy.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
@@ -276,9 +280,6 @@
     "000_총류/005 프로그래밍/Leetcode/231_Power_of_Two.md",
     "000_총류/005 프로그래밍/Leetcode/202_Happy_Number.md",
     "000_총류/005 프로그래밍/Leetcode/190_Reverse_Bits.md",
-    "000_총류/005 프로그래밍/Leetcode/171_Excel_Sheet_Column_Number.md",
-    "000_총류/005 프로그래밍/Leetcode/168_Excel_Sheet_Column_Title.md",
-    "000_총류/005 프로그래밍/Leetcode/136_Single_Number.md",
     "무제 폴더",
     "02_Probbability_Univariate-Models 1.pdf",
     "000_총류/005 프로그래밍/Coding_Interview",
