@@ -87,10 +87,10 @@ DEEPFM ^q4HgIucT
 		{
 			"id": "tR4AqLuUuRqxb5eVH3get",
 			"type": "embeddable",
-			"x": -117.16492067800414,
-			"y": -81.30425851492143,
-			"width": 402.40002441406244,
-			"height": 240.8000030517578,
+			"x": -172.16483763421382,
+			"y": -88.56842313847577,
+			"width": 526.9284250926655,
+			"height": 285.42267204428805,
 			"angle": 0,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
@@ -105,11 +105,11 @@ DEEPFM ^q4HgIucT
 				"type": 3
 			},
 			"seed": 1808083094,
-			"version": 506,
-			"versionNonce": 1456581142,
+			"version": 680,
+			"versionNonce": 1837103190,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1705491551732,
+			"updated": 1705491645361,
 			"link": "https://arxiv.org/pdf/1703.04247.pdf",
 			"locked": false,
 			"validated": true,
@@ -260,7 +260,7 @@ DEEPFM ^q4HgIucT
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"scrollX": 306.52411357009976,
-		"scrollY": 278.51325162302123,
+		"scrollY": 197.4400740978891,
 		"zoom": {
 			"value": 1.5418169586513473
 		},
