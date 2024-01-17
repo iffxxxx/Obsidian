@@ -98,11 +98,9 @@
             "id": "fa26d0d685a012f3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Scripts/Downloaded/Rename Image.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2024-01-17 16.41.21.excalidraw.md"
               }
             }
           }
@@ -153,8 +151,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -174,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Scripts/Downloaded/Rename Image.md",
+                "file": "Excalidraw/Drawing 2024-01-17 16.41.21.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Scripts/Downloaded/Rename Image.md",
+                "file": "Excalidraw/Drawing 2024-01-17 16.41.21.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Scripts/Downloaded/Rename Image.md"
+                "file": "Excalidraw/Drawing 2024-01-17 16.41.21.excalidraw.md"
               }
             }
           },
@@ -255,13 +252,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fa26d0d685a012f3",
+  "active": "6480f4013c936c3d",
   "lastOpenFiles": [
+    "Excalidraw/Scripts/Downloaded/Rename Image.md",
     "Excalidraw/Drawing 2024-01-17 16.41.21.excalidraw.md",
     "Excalidraw/Scripts/Downloaded/Text to Sticky Notes.svg",
     "Excalidraw/Scripts/Downloaded/Text to Sticky Notes.md",
     "Excalidraw/Scripts/Downloaded/Rename Image.svg",
-    "Excalidraw/Scripts/Downloaded/Rename Image.md",
     "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.svg",
     "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.md",
     "Excalidraw/Scripts/Downloaded",
