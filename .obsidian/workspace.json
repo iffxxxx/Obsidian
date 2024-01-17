@@ -98,9 +98,9 @@
             "id": "fa26d0d685a012f3",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "diagram",
               "state": {
-                "file": "Excalidraw/Drawing 2024-01-17 16.41.21.excalidraw.md"
+                "file": "Excalidraw/Scripts/Downloaded/Create DrawIO file.svg"
               }
             }
           }
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-01-17 16.41.21.excalidraw.md",
+                "file": "Excalidraw/Scripts/Downloaded/Create DrawIO file.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-01-17 16.41.21.excalidraw.md",
+                "file": "Excalidraw/Scripts/Downloaded/Create DrawIO file.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-01-17 16.41.21.excalidraw.md"
+                "file": "Excalidraw/Scripts/Downloaded/Create DrawIO file.svg"
               }
             }
           },
@@ -252,10 +252,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6480f4013c936c3d",
+  "active": "fa26d0d685a012f3",
   "lastOpenFiles": [
+    "Excalidraw/Scripts/Downloaded/Create DrawIO file.md",
+    "Excalidraw/Scripts/Downloaded/Create DrawIO file.svg",
+    "000_총류/060 일반 학회, 단체, 협회, 기관/Drawing_DeepFM.excalidraw.md",
+    "Attached file/image/good diagram.svg",
+    "Attached file/image/hi.svg",
+    "Book.md",
     "Excalidraw/Scripts/Downloaded/Rename Image.md",
-    "Excalidraw/Drawing 2024-01-17 16.41.21.excalidraw.md",
     "Excalidraw/Scripts/Downloaded/Text to Sticky Notes.svg",
     "Excalidraw/Scripts/Downloaded/Text to Sticky Notes.md",
     "Excalidraw/Scripts/Downloaded/Rename Image.svg",
@@ -283,9 +288,6 @@
     "Attached file/image/Sinc_interpolation.gif",
     "Attached file/image/Sieve_of_Eratosthenes_animation.gif",
     "Attached file/image/Pasted image 20240114230619.png",
-    "Attached file/image/Pasted image 20240114230548.png",
-    "Attached file/image/Pasted image 20240114225443.png",
-    "Attached file/image/Pasted image 20240114225235.png",
     "000_총류/060 일반 학회, 단체, 협회, 기관/무제 파일.canvas",
     "000_총류/000_총류.md",
     "000_총류/005 프로그래밍/Leetcode/231_Power_of_Two.md",
@@ -300,8 +302,6 @@
     "000_총류/005 프로그래밍/Leetcode/67_Add_Binary.md",
     "000_총류/005 프로그래밍/Leetcode/66_Plus_One.md",
     "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
-    "000_총류/005 프로그래밍/Leetcode/9_Palindrome_Number.md",
-    "000_총류/005 프로그래밍/Leetcode/784_Letter_Case_Permutation.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
     "무제 파일.canvas",
     "300_사회과학/무제 파일.canvas"
