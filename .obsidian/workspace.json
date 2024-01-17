@@ -1,61 +1,41 @@
 {
   "main": {
-    "id": "d811f4c8beb3ae23",
+    "id": "177f58e34eea9bd4",
     "type": "split",
     "children": [
       {
-        "id": "7ddb957408b2aed9",
+        "id": "7e483816ca467425",
         "type": "tabs",
         "children": [
           {
-            "id": "3fd0286ae5f36ba5",
+            "id": "949d0c8cf8c9f24f",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "무제 파일.canvas",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
+                  "x": -100,
+                  "y": -50,
                   "zoom": 0
                 }
               }
             }
           },
           {
-            "id": "1c6d56b60802f4d6",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "7631f36ac0d672d4",
+            "id": "35fa303e38b7d78e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/01_Introduction.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "64682b7eef584a8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1badfb81711cdb71",
+            "id": "41e3e2a6fc873acc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -67,63 +47,84 @@
             }
           },
           {
-            "id": "dff338c9bf1383e4",
+            "id": "1d26ba94b7d626c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Gradient_Descent.md",
+                "file": "400_순수과학/410 수학/410 수학.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "df965c013294da6d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Attached file/Cracking_the_Coding_Interview.pdf"
-              }
-            }
-          },
-          {
-            "id": "082493d69e9b09e5",
+            "id": "0bc8fd25240c70a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "400_순수과학/410 수학/412_Orthogonal_Functions.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/Facebook_coding_interview_guide.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4e9ca1464819a76a",
+            "id": "f6eb14d86d9d765f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "69f088fd25d237e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa26d0d685a012f3",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
+                "viewState": {
+                  "x": -430,
+                  "y": 232.04572147651,
+                  "zoom": -0.7159965291415337
+                }
+              }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "1fd57d0e6602e3a0",
+    "id": "409ce0584145dcf1",
     "type": "split",
     "children": [
       {
-        "id": "a92911620996abc6",
+        "id": "8a0dcbd1c0f9862a",
         "type": "tabs",
         "children": [
           {
-            "id": "a8412368fade7c20",
+            "id": "6480f4013c936c3d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -133,12 +134,12 @@
             }
           },
           {
-            "id": "9dcab7543462d7f3",
+            "id": "0a4ba88712564a96",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "docs.",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -148,7 +149,7 @@
             }
           },
           {
-            "id": "5089396807cbff9d",
+            "id": "895866d468360115",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -162,20 +163,20 @@
     "width": 300
   },
   "right": {
-    "id": "d6fcffc1ef5a2d78",
+    "id": "f6878ac96d36097f",
     "type": "split",
     "children": [
       {
-        "id": "43aa4e0b7b79b28e",
+        "id": "10b80d1a00787b7a",
         "type": "tabs",
         "children": [
           {
-            "id": "f564bb6f13544a51",
+            "id": "3295a5406aa6d18e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Gradient_Descent.md",
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,19 +188,19 @@
             }
           },
           {
-            "id": "3b561577ec0b3d47",
+            "id": "814fca3b99a514f6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Gradient_Descent.md",
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "bd92bb323eb05b96",
+            "id": "ff5ba7cf0394e8d3",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -210,86 +211,102 @@
             }
           },
           {
-            "id": "5d5b2a08f1e4f691",
+            "id": "34778d2b844a3ec3",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Gradient_Descent.md"
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas"
               }
             }
+          },
+          {
+            "id": "8611f6fc4968d40c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "ab9918bd6f4fa3d6",
+            "type": "leaf",
+            "state": {
+              "type": "code-execute-manage-executors",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 321.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "3d-graph:3D Graph": true,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "3d-graph:3D Graph": false
     }
   },
-  "active": "dff338c9bf1383e4",
+  "active": "fa26d0d685a012f3",
   "lastOpenFiles": [
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/07_Linear Algebra.md",
-    "000_총류/004_컴퓨터과학/004_Gradient_Vanishing.md",
-    "000_총류/004_컴퓨터과학/004_Linear_classifcation.md",
-    "000_총류/004_컴퓨터과학/004_Support_Vector_Machine.md",
-    "000_총류/004_컴퓨터과학/004_Gradient_Descent.md",
-    "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
-    "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
-    "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
-    "Attached file/Cracking_the_Coding_Interview.pdf",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/06_Entropy.md",
-    "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
+    "000_총류/000_총류.md",
+    "000_총류/005 프로그래밍/Leetcode/231_Power_of_Two.md",
+    "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
     "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models 1.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/02_Probbability_Univariate-Models.md",
-    "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",
-    "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md",
-    "000_총류/005 프로그래밍/005_프로그래밍.md",
+    "000_총류/005 프로그래밍/Leetcode/202_Happy_Number.md",
+    "000_총류/005 프로그래밍/Leetcode/171_Excel_Sheet_Column_Number.md",
+    "000_총류/005 프로그래밍/Leetcode/1_Two_Sum.md",
+    "000_총류/005 프로그래밍/Leetcode/168_Excel_Sheet_Column_Title.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/03_WebUi_Setting.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/01_Install.md",
+    "000_총류/005 프로그래밍/Leetcode/70_Climbing_Stairs.md",
+    "000_총류/005 프로그래밍/Leetcode/67_Add_Binary.md",
+    "000_총류/005 프로그래밍/Leetcode/66_Plus_One.md",
+    "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
+    "000_총류/005 프로그래밍/Leetcode/9_Palindrome_Number.md",
+    "000_총류/005 프로그래밍/Leetcode/784_Letter_Case_Permutation.md",
+    "000_총류/005 프로그래밍/Leetcode/693_Binary_Number_with_Alternating_Bit.md",
+    "000_총류/005 프로그래밍/Leetcode/190_Reverse_Bits.md",
+    "000_총류/005 프로그래밍/Leetcode/136_Single_Number.md",
+    "000_총류/005 프로그래밍/Leetcode/155_Min_Stack.md",
+    "000_총류/005 프로그래밍/Leetcode/20_Valid_Parentheses.md",
+    "000_총류/005 프로그래밍/Leetcode/58_Length_of_Last_Word.md",
+    "000_총류/005 프로그래밍/Leetcode/64_Minimum_Path_Sum.md",
+    "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
+    "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
     "Attached file/Sieve_of_Eratosthenes_animation.gif",
     "Attached file/Pasted image 20240114230619.png",
     "Attached file/Pasted image 20240114230548.png",
     "Attached file/Pasted image 20240114225443.png",
     "Attached file/Pasted image 20240114225235.png",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
     "Attached file/Pasted image 20240114220318.png",
     "Attached file/Pasted image 20240114215908.png",
     "Attached file/Pasted image 20240114215406.png",
     "Attached file/Pasted image 20240114214729.png",
     "Attached file/Pasted image 20240114195846.png",
-    "000_총류/005 프로그래밍/Leetcode/무제 파일.md",
-    "000_총류/005 프로그래밍/Leetcode/9_Palindrome_Number.md",
-    "000_총류/005 프로그래밍/Leetcode/784_Letter_Case_Permutation.md",
-    "000_총류/005 프로그래밍/Leetcode/70_Climbing_Stairs.md",
-    "000_총류/005 프로그래밍/Leetcode/693_Binary_Number_with_Alternating_Bit.md",
-    "000_총류/005 프로그래밍/Leetcode/66_Plus_One.md",
-    "000_총류/005 프로그래밍/Leetcode/231_Power_of_Two.md",
-    "000_총류/005 프로그래밍/Leetcode/202_Happy_Number.md",
-    "000_총류/005 프로그래밍/Leetcode/190_Reverse_Bits.md",
-    "무제 폴더",
-    "02_Probbability_Univariate-Models 1.pdf",
-    "000_총류/005 프로그래밍/Coding_Interview",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning",
     "Attached file/Murphy.pdf",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning",
+    "무제 폴더",
+    "무제 파일.canvas",
+    "Attached file/Cracking_the_Coding_Interview.pdf",
     "Attached file/Facebook_coding_interview_guide.pdf",
+    "000_총류/005 프로그래밍/Coding_Interview",
     "000_총류/005 프로그래밍/Leetcode",
     "Attached file/밑바닥부터시작하는딥러닝1_noOCR.pdf",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron",
-    "무제 파일.canvas",
-    "무제 파일 1.canvas"
+    "500_기술과학/550 기계공학/567_Multimedia",
+    "300_사회과학/무제 파일.canvas"
   ]
 }
