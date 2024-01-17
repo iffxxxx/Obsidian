@@ -104,7 +104,7 @@
         "highlighter": false,
         "constantPressure": false,
         "hasOutline": false,
-        "outlineWidth": 1,
+        "outlineWidth": 0,
         "options": {
           "thinning": 0.6,
           "smoothing": 0.5,
@@ -403,7 +403,7 @@
       }
     }
   ],
-  "numberOfCustomPens": 0,
+  "numberOfCustomPens": 10,
   "pdfScale": 4,
   "pdfBorderBox": true,
   "pdfGapSize": 20,
