@@ -98,9 +98,9 @@
             "id": "fa26d0d685a012f3",
             "type": "leaf",
             "state": {
-              "type": "diagram",
+              "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Scripts/Downloaded/Create DrawIO file.svg"
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md"
               }
             }
           }
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Scripts/Downloaded/Create DrawIO file.svg",
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Scripts/Downloaded/Create DrawIO file.svg",
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Scripts/Downloaded/Create DrawIO file.svg"
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md"
               }
             }
           },
@@ -254,9 +254,13 @@
   },
   "active": "fa26d0d685a012f3",
   "lastOpenFiles": [
+    "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
+    "000_총류/060 일반 학회, 단체, 협회, 기관/Znet_ Deep Learning Approach for 2D MRI Brain Tumor Segmentation.md",
+    "Excalidraw/Drawing 2024-01-17 20.32.00.excalidraw.md",
     "Excalidraw/Scripts/Downloaded/Create DrawIO file.md",
     "Excalidraw/Scripts/Downloaded/Create DrawIO file.svg",
-    "000_총류/060 일반 학회, 단체, 협회, 기관/Drawing_DeepFM.excalidraw.md",
+    "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.md",
+    "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
     "Attached file/image/good diagram.svg",
     "Attached file/image/hi.svg",
     "Book.md",
@@ -265,13 +269,11 @@
     "Excalidraw/Scripts/Downloaded/Text to Sticky Notes.md",
     "Excalidraw/Scripts/Downloaded/Rename Image.svg",
     "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.svg",
-    "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.md",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
     "Excalidraw/Drawing 2024-01-17 16.41.49.excalidraw.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Image_Segmentation_Using_Deep_Learning_A_Survey.md",
-    "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron/00_Perceptron.md",
     "Attached file/font/나눔손글씨 다행체.ttf",
     "Attached file/font",
@@ -300,8 +302,6 @@
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/01_Install.md",
     "000_총류/005 프로그래밍/Leetcode/70_Climbing_Stairs.md",
     "000_총류/005 프로그래밍/Leetcode/67_Add_Binary.md",
-    "000_총류/005 프로그래밍/Leetcode/66_Plus_One.md",
-    "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
     "무제 파일.canvas",
     "300_사회과학/무제 파일.canvas"
