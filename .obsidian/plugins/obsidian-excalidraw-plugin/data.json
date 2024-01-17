@@ -82,7 +82,14 @@
   "mdFontColor": "Black",
   "mdBorderColor": "Black",
   "mdCSS": "",
-  "scriptEngineSettings": {},
+  "scriptEngineSettings": {
+    "Downloaded/Deconstruct selected elements into new drawing": {
+      "Templates": {
+        "value": "",
+        "description": "Comma-separated list of template filepaths"
+      }
+    }
+  },
   "defaultTrayMode": true,
   "previousRelease": "2.0.17",
   "showReleaseNotes": true,
