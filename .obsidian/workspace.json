@@ -134,7 +134,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Rename",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md"
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md"
               }
             }
           },
@@ -252,15 +252,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fa26d0d685a012f3",
+  "active": "6480f4013c936c3d",
   "lastOpenFiles": [
+    "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Znet_ Deep Learning Approach for 2D MRI Brain Tumor Segmentation.md",
     "Excalidraw/Drawing 2024-01-17 20.32.00.excalidraw.md",
     "Excalidraw/Scripts/Downloaded/Create DrawIO file.md",
     "Excalidraw/Scripts/Downloaded/Create DrawIO file.svg",
     "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.md",
-    "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
     "Attached file/image/good diagram.svg",
     "Attached file/image/hi.svg",
     "Book.md",
