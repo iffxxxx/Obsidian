@@ -58,6 +58,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 기저귀를 구매하는 사람은 맥주를 함께 구매한다(order-2)
 와 같은 대부분의 Interaction들은 데이터 속에 숨겨짐.
 
+(아버지들이 기저귀를 기저귀를 자주 구매하는 듯 한다)
+위와 같은 Interaction들은 전문가조차 찾기 힘들다.
  ^ebK8nqVk
 
 
@@ -1258,7 +1260,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"x": -73.7325337084252,
 			"y": -2664.616907453574,
 			"width": 526.2317504882812,
-			"height": 134.4,
+			"height": 201.60000000000002,
 			"angle": 0,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
@@ -1271,23 +1273,67 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": "45xFR6gTILwISZ2FOkroU",
 			"roundness": null,
 			"seed": 1078522720,
-			"version": 164,
-			"versionNonce": 299212640,
+			"version": 318,
+			"versionNonce": 1653171872,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1705586748542,
+			"updated": 1705586931646,
 			"link": null,
 			"locked": false,
-			"text": "기저귀를 구매하는 사람은 맥주를 함께 구매한다(order-2)\n와 같은 대부분의 Interaction들은 데이터 속에 숨겨짐.\n\n",
-			"rawText": "기저귀를 구매하는 사람은 맥주를 함께 구매한다(order-2)\n와 같은 대부분의 Interaction들은 데이터 속에 숨겨짐.\n\n",
+			"text": "기저귀를 구매하는 사람은 맥주를 함께 구매한다(order-2)\n와 같은 대부분의 Interaction들은 데이터 속에 숨겨짐.\n\n(아버지들이 기저귀를 기저귀를 자주 구매하는 듯 한다)\n위와 같은 Interaction들은 전문가조차 찾기 힘들다.\n",
+			"rawText": "기저귀를 구매하는 사람은 맥주를 함께 구매한다(order-2)\n와 같은 대부분의 Interaction들은 데이터 속에 숨겨짐.\n\n(아버지들이 기저귀를 기저귀를 자주 구매하는 듯 한다)\n위와 같은 Interaction들은 전문가조차 찾기 힘들다.\n",
 			"fontSize": 28,
 			"fontFamily": 4,
 			"textAlign": "left",
 			"verticalAlign": "top",
-			"baseline": 127,
+			"baseline": 194,
 			"containerId": null,
-			"originalText": "기저귀를 구매하는 사람은 맥주를 함께 구매한다(order-2)\n와 같은 대부분의 Interaction들은 데이터 속에 숨겨짐.\n\n",
+			"originalText": "기저귀를 구매하는 사람은 맥주를 함께 구매한다(order-2)\n와 같은 대부분의 Interaction들은 데이터 속에 숨겨짐.\n\n(아버지들이 기저귀를 기저귀를 자주 구매하는 듯 한다)\n위와 같은 Interaction들은 전문가조차 찾기 힘들다.\n",
 			"lineHeight": 1.2
+		},
+		{
+			"id": "PH0Mu60CGHYivYu0S6MVs",
+			"type": "arrow",
+			"x": 161.6961946676912,
+			"y": -2562.6170905590443,
+			"width": 0,
+			"height": 25.142909458705162,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "45xFR6gTILwISZ2FOkroU",
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1238132576,
+			"version": 29,
+			"versionNonce": 1181180576,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1705586939424,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0,
+					-25.142909458705162
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
 		},
 		{
 			"type": "frame",
@@ -1466,8 +1512,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 392.30396227985375,
-		"scrollY": 3017.331195347687,
+		"scrollX": 467.7324290767284,
+		"scrollY": 3224.7600021975763,
 		"zoom": {
 			"value": 0.7000000000000001
 		},
