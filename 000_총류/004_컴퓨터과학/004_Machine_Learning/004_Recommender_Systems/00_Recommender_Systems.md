@@ -237,7 +237,7 @@ Also known as recommender engines, recommendation systems, recommendation platfo
 It's all data-driven.
 recommending things, musics, posts, people, search results
 
-## Implicit vs Explicit
+## Implicit_vs_Explicit
 ### Explicit
 Star reviews where you are explicitly asking a user for their opinion of something.
 ### Implicit

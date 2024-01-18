@@ -20,7 +20,7 @@ CTR이란 (Clikc-through rate)로 추천된 아이템을
 2017년 발표된 논문으로 Factorization Machine을
 신경망으로 확장한 DeepFM 모델 제안 ^oSXzoabA
 
-Implicit feature ^GUTZRWIU
+%%***>>>text element-link:[[00_Recommender_Systems#Implicit_vs_Explicit]]<<<***%%Implicit feature ^GUTZRWIU
 
 학습 요소 ^zILDYHwL
 
@@ -55,7 +55,10 @@ FM이 Linear complexity를 가지고 있다고 하지만
 실제로는 높은 복잡도로 인하여 High-order가 아닌
 order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 
-[[000_총류]] ^MAy6wUQl
+기저귀를 구매하는 사람은 맥주를 함께 구매한다(order-2)
+와 같은 대부분의 Interaction들은 데이터 속에 숨겨짐.
+
+ ^ebK8nqVk
 
 
 # Embedded files
@@ -146,8 +149,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "embeddable",
-			"version": 706,
-			"versionNonce": 837746336,
+			"version": 707,
+			"versionNonce": 235679584,
 			"isDeleted": false,
 			"id": "tR4AqLuUuRqxb5eVH3get",
 			"fillStyle": "hachure",
@@ -169,7 +172,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1705586055307,
+			"updated": 1705586522848,
 			"link": "https://arxiv.org/pdf/1703.04247.pdf",
 			"locked": false,
 			"validated": true,
@@ -180,8 +183,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "arrow",
-			"version": 1309,
-			"versionNonce": 1736293216,
+			"version": 1312,
+			"versionNonce": 1255108256,
 			"isDeleted": false,
 			"id": "ZBnbuoHoKJLjN2pLtabZh",
 			"fillStyle": "hachure",
@@ -208,18 +211,18 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"id": "gtDauUeq"
 				}
 			],
-			"updated": 1705586055307,
+			"updated": 1705586701196,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "I0ZLWxhbtCMX1qgMrQ5_a",
-				"focus": -0.06571647361692608,
+				"focus": -0.06778346413228742,
 				"gap": 18.224595688862337
 			},
 			"endBinding": {
 				"elementId": "MAy6wUQl",
 				"focus": 0.3103907633044229,
-				"gap": 9.536481359587015
+				"gap": 9.536481359586958
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -237,8 +240,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "text",
-			"version": 42,
-			"versionNonce": 618015392,
+			"version": 51,
+			"versionNonce": 1321255584,
 			"isDeleted": false,
 			"id": "gtDauUeq",
 			"fillStyle": "hachure",
@@ -247,8 +250,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 419.8925923423826,
-			"y": -413.66466613084685,
+			"x": 13.474795209595037,
+			"y": -319.3891239754552,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 90.38395690917969,
@@ -258,7 +261,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705586055307,
+			"updated": 1705586700693,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -274,8 +277,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "rectangle",
-			"version": 988,
-			"versionNonce": 1525632864,
+			"version": 989,
+			"versionNonce": 1992397472,
 			"isDeleted": false,
 			"id": "MAy6wUQl",
 			"fillStyle": "hachure",
@@ -306,8 +309,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"type": "arrow"
 				}
 			],
-			"updated": 1705586055307,
-			"link": "[[000_총류]]",
+			"updated": 1705586538305,
+			"link": null,
 			"locked": false
 		},
 		{
@@ -591,8 +594,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "text",
-			"version": 235,
-			"versionNonce": 882679648,
+			"version": 238,
+			"versionNonce": 156282528,
 			"isDeleted": false,
 			"id": "GUTZRWIU",
 			"fillStyle": "hachure",
@@ -612,8 +615,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": "WzpDNumaP0gcIe9j0-SQy",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705586055308,
-			"link": null,
+			"updated": 1705586625647,
+			"link": "[[00_Recommender_Systems#Implicit_vs_Explicit]]",
 			"locked": false,
 			"fontSize": 36,
 			"fontFamily": 4,
@@ -1079,64 +1082,64 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"locked": false
 		},
 		{
-			"id": "moCIA2oh",
 			"type": "text",
-			"x": -1118.008954743735,
-			"y": 808.5385109843486,
-			"width": 463.4837646484375,
-			"height": 100.80000000000001,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
+			"version": 680,
+			"versionNonce": 701446816,
+			"isDeleted": false,
+			"id": "moCIA2oh",
 			"fillStyle": "hachure",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
+			"angle": 0,
+			"x": -1118.008954743735,
+			"y": 808.5385109843486,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 463.4837646484375,
+			"height": 100.80000000000001,
+			"seed": 203196256,
 			"groupIds": [],
 			"frameId": "RS4ehBEVEp216OCwhPj18",
 			"roundness": null,
-			"seed": 203196256,
-			"version": 680,
-			"versionNonce": 701446816,
-			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1705586059328,
 			"link": null,
 			"locked": false,
-			"text": "FM이 Linear complexity를 가지고 있다고 하지만\n실제로는 높은 복잡도로 인하여 High-order가 아닌\norder-2 모델링이 주로 사용됩니다.",
-			"rawText": "FM이 Linear complexity를 가지고 있다고 하지만\n실제로는 높은 복잡도로 인하여 High-order가 아닌\norder-2 모델링이 주로 사용됩니다.",
 			"fontSize": 28,
 			"fontFamily": 4,
+			"text": "FM이 Linear complexity를 가지고 있다고 하지만\n실제로는 높은 복잡도로 인하여 High-order가 아닌\norder-2 모델링이 주로 사용됩니다.",
+			"rawText": "FM이 Linear complexity를 가지고 있다고 하지만\n실제로는 높은 복잡도로 인하여 High-order가 아닌\norder-2 모델링이 주로 사용됩니다.",
 			"textAlign": "left",
 			"verticalAlign": "top",
-			"baseline": 94,
 			"containerId": null,
 			"originalText": "FM이 Linear complexity를 가지고 있다고 하지만\n실제로는 높은 복잡도로 인하여 High-order가 아닌\norder-2 모델링이 주로 사용됩니다.",
-			"lineHeight": 1.2
+			"lineHeight": 1.2,
+			"baseline": 94
 		},
 		{
-			"id": "RS4ehBEVEp216OCwhPj18",
 			"type": "frame",
-			"x": -1178.0089547437344,
-			"y": 727.2054777405359,
-			"width": 627.9999796549478,
-			"height": 649.3333435058595,
-			"angle": 0,
-			"strokeColor": "#bbb",
-			"backgroundColor": "transparent",
+			"version": 678,
+			"versionNonce": 62491296,
+			"isDeleted": false,
+			"id": "RS4ehBEVEp216OCwhPj18",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
+			"angle": 0,
+			"x": -1178.0089547437344,
+			"y": 727.2054777405359,
+			"strokeColor": "#bbb",
+			"backgroundColor": "transparent",
+			"width": 627.9999796549478,
+			"height": 649.3333435058595,
+			"seed": 855777120,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
-			"seed": 855777120,
-			"version": 678,
-			"versionNonce": 62491296,
-			"isDeleted": false,
 			"boundElements": [
 				{
 					"id": "-FkThbfgCU29iAl7HPxrv",
@@ -1156,29 +1159,29 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"name": null
 		},
 		{
-			"id": "-FkThbfgCU29iAl7HPxrv",
 			"type": "arrow",
-			"x": -857.0659610426922,
-			"y": 481.84458274348157,
-			"width": 1.1053069688169899,
-			"height": 232.02756166372086,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
+			"version": 1741,
+			"versionNonce": 1644872352,
+			"isDeleted": false,
+			"id": "-FkThbfgCU29iAl7HPxrv",
 			"fillStyle": "hachure",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
+			"angle": 0,
+			"x": -857.0659610426922,
+			"y": 481.84458274348157,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 1.1053069688169899,
+			"height": 232.02756166372086,
+			"seed": 722874208,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
-			"seed": 722874208,
-			"version": 1741,
-			"versionNonce": 1644872352,
-			"isDeleted": false,
 			"boundElements": [
 				{
 					"type": "text",
@@ -1188,17 +1191,6 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"updated": 1705586076333,
 			"link": null,
 			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					1.1053069688169899,
-					232.02756166372086
-				]
-			],
-			"lastCommittedPoint": null,
 			"startBinding": {
 				"elementId": "HEJ25XmHBNYjcTvpBbY1J",
 				"focus": -0.010378460790382417,
@@ -1209,16 +1201,64 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 				"focus": 0.030608593073469265,
 				"gap": 13.333333333333485
 			},
+			"lastCommittedPoint": null,
 			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					1.1053069688169899,
+					232.02756166372086
+				]
+			]
 		},
 		{
-			"id": "zWORx80X",
 			"type": "text",
+			"version": 30,
+			"versionNonce": 555766624,
+			"isDeleted": false,
+			"id": "zWORx80X",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
 			"x": 1526.31931267163,
 			"y": 686.0718420472365,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
 			"width": 43.343994140625,
 			"height": 33.6,
+			"seed": 31626912,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705586055308,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "장점",
+			"rawText": "장점",
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "-FkThbfgCU29iAl7HPxrv",
+			"originalText": "장점",
+			"lineHeight": 1.2,
+			"baseline": 26
+		},
+		{
+			"id": "ebK8nqVk",
+			"type": "text",
+			"x": -73.7325337084252,
+			"y": -2664.616907453574,
+			"width": 526.2317504882812,
+			"height": 134.4,
 			"angle": 0,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
@@ -1228,50 +1268,50 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"groupIds": [],
-			"frameId": null,
+			"frameId": "45xFR6gTILwISZ2FOkroU",
 			"roundness": null,
-			"seed": 31626912,
-			"version": 30,
-			"versionNonce": 555766624,
+			"seed": 1078522720,
+			"version": 164,
+			"versionNonce": 299212640,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1705586055308,
+			"updated": 1705586748542,
 			"link": null,
 			"locked": false,
-			"text": "장점",
-			"rawText": "장점",
+			"text": "기저귀를 구매하는 사람은 맥주를 함께 구매한다(order-2)\n와 같은 대부분의 Interaction들은 데이터 속에 숨겨짐.\n\n",
+			"rawText": "기저귀를 구매하는 사람은 맥주를 함께 구매한다(order-2)\n와 같은 대부분의 Interaction들은 데이터 속에 숨겨짐.\n\n",
 			"fontSize": 28,
 			"fontFamily": 4,
-			"textAlign": "center",
-			"verticalAlign": "middle",
-			"baseline": 26,
-			"containerId": "-FkThbfgCU29iAl7HPxrv",
-			"originalText": "장점",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 127,
+			"containerId": null,
+			"originalText": "기저귀를 구매하는 사람은 맥주를 함께 구매한다(order-2)\n와 같은 대부분의 Interaction들은 데이터 속에 숨겨짐.\n\n",
 			"lineHeight": 1.2
 		},
 		{
-			"id": "45xFR6gTILwISZ2FOkroU",
 			"type": "frame",
-			"x": -132.67600796639135,
-			"y": -2730.127883567244,
-			"width": 633.3333333333335,
-			"height": 626.6667175292969,
-			"angle": 0,
-			"strokeColor": "#bbb",
-			"backgroundColor": "transparent",
+			"version": 240,
+			"versionNonce": 116063072,
+			"isDeleted": false,
+			"id": "45xFR6gTILwISZ2FOkroU",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
+			"angle": 0,
+			"x": -132.67600796639135,
+			"y": -2730.127883567244,
+			"strokeColor": "#bbb",
+			"backgroundColor": "transparent",
+			"width": 633.3333333333335,
+			"height": 626.6667175292969,
+			"seed": 1434321568,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
-			"seed": 1434321568,
-			"version": 240,
-			"versionNonce": 116063072,
-			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1705586055308,
 			"link": null,
 			"locked": false,
@@ -1285,44 +1325,33 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"name": null
 		},
 		{
-			"id": "-2j90jjP8ljRqBCwnqMQD",
 			"type": "arrow",
-			"x": 191.97112396051682,
-			"y": -1927.1714822262156,
-			"width": 2.422722603382283,
-			"height": 206.23369511643023,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
+			"version": 748,
+			"versionNonce": 1843194528,
+			"isDeleted": false,
+			"id": "-2j90jjP8ljRqBCwnqMQD",
 			"fillStyle": "hachure",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
+			"angle": 0,
+			"x": 191.97112396051682,
+			"y": -1927.1714822262156,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 2.422722603382283,
+			"height": 206.23369511643023,
+			"seed": 2116281184,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
-			"seed": 2116281184,
-			"version": 748,
-			"versionNonce": 1843194528,
-			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1705586055308,
 			"link": null,
 			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					-2.422722603382283,
-					-206.23369511643023
-				]
-			],
-			"lastCommittedPoint": null,
 			"startBinding": {
 				"elementId": "WzpDNumaP0gcIe9j0-SQy",
 				"focus": -0.03053705795282291,
@@ -1333,112 +1362,27 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 				"focus": -0.0034259653060493217,
 				"gap": 2.3691887962691
 			},
+			"lastCommittedPoint": null,
 			"startArrowhead": null,
-			"endArrowhead": "arrow"
-		},
-		{
-			"id": "TcHYX3wPtdi2_rWh3a0MP",
-			"type": "line",
-			"x": 1017.991411467203,
-			"y": 983.5386890035571,
-			"width": 1.3334147135417425,
-			"height": 70.66670735677076,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
-			"strokeWidth": 4,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": "HEJ25XmHBNYjcTvpBbY1J",
-			"roundness": {
-				"type": 2
-			},
-			"seed": 1468559200,
-			"version": 54,
-			"versionNonce": 2112684896,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1705586055308,
-			"link": null,
-			"locked": false,
+			"endArrowhead": "arrow",
 			"points": [
 				[
 					0,
 					0
 				],
 				[
-					-1.3334147135417425,
-					70.66670735677076
+					-2.422722603382283,
+					-206.23369511643023
 				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": null,
-			"endBinding": null,
-			"startArrowhead": null,
-			"endArrowhead": null
+			]
 		},
 		{
-			"id": "s35tqqK3TyqLRjpNv4leZ",
-			"type": "arrow",
-			"x": 1323.324663420328,
-			"y": 732.5387805562914,
-			"width": 218.66668701171875,
-			"height": 5.3333536783854925,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
-			"strokeWidth": 4,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": "HEJ25XmHBNYjcTvpBbY1J",
-			"roundness": {
-				"type": 2
-			},
-			"seed": 1520940704,
-			"version": 104,
-			"versionNonce": 1082081120,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1705586055308,
-			"link": null,
-			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					218.66668701171875,
-					-5.3333536783854925
-				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": {
-				"elementId": "o5lVJX8glv51z8dSGrXDp",
-				"focus": 0.13532098385541402,
-				"gap": 14.697485638507885
-			},
-			"endBinding": {
-				"elementId": "qi0dYaEIknVYnd1rP-eWZ",
-				"focus": -0.07447516464162748,
-				"gap": 20.98750530806933
-			},
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
-		},
-		{
-			"id": "XXz-wxzUsaU7o8U_ll_i-",
-			"type": "arrow",
-			"x": 2144.657467782307,
-			"y": -1498.1278505065347,
-			"width": 133.33333333333348,
-			"height": 2.6666768391926325,
+			"id": "he3drCvW",
+			"type": "text",
+			"x": 90.55283180496826,
+			"y": -1785.4741026265556,
+			"width": 8.399993896484375,
+			"height": 33.6,
 			"angle": 0,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
@@ -1449,79 +1393,33 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"opacity": 100,
 			"groupIds": [],
 			"frameId": "WzpDNumaP0gcIe9j0-SQy",
-			"roundness": {
-				"type": 2
-			},
-			"seed": 938798752,
-			"version": 120,
-			"versionNonce": 1044976288,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1705586055308,
-			"link": null,
-			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					133.33333333333348,
-					-2.6666768391926325
-				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": {
-				"elementId": "NSo4GmfTI0HwEEMwN-uQl",
-				"focus": -0.08249572724582001,
-				"gap": 10.159890146843281
-			},
-			"endBinding": null,
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
-		},
-		{
-			"id": "6oNTpCi7UIr7cY7AyuZAP",
-			"type": "frame",
-			"x": 2493.9908621507966,
-			"y": -1791.461183839868,
-			"width": 643.9999389648438,
-			"height": 645.3333028157551,
-			"angle": 0,
-			"strokeColor": "#bbb",
-			"backgroundColor": "transparent",
-			"fillStyle": "solid",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
 			"roundness": null,
-			"seed": 1868864160,
-			"version": 117,
-			"versionNonce": 1954473824,
+			"seed": 1127200608,
+			"version": 2,
+			"versionNonce": 1532697248,
 			"isDeleted": true,
 			"boundElements": null,
-			"updated": 1705586055308,
+			"updated": 1705586565952,
 			"link": null,
 			"locked": false,
-			"customData": {
-				"frameColor": {
-					"stroke": "#D4D4D4",
-					"fill": "#ADADAD",
-					"nameColor": "#949494"
-				}
-			},
-			"name": null
+			"text": "",
+			"rawText": "",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 26,
+			"containerId": null,
+			"originalText": "",
+			"lineHeight": 1.2
 		},
 		{
-			"id": "deCWEJ7RIGdM6ZnQf3ZYF",
-			"type": "arrow",
-			"x": 2144.657467782307,
-			"y": -1455.4611736673419,
-			"width": 361.33331298828125,
-			"height": 8.000030517578125,
+			"id": "Jg0YdGmR",
+			"type": "text",
+			"x": 60.552831804968264,
+			"y": -1782.616959769413,
+			"width": 8.399993896484375,
+			"height": 33.6,
 			"angle": 0,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
@@ -1532,40 +1430,25 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"opacity": 100,
 			"groupIds": [],
 			"frameId": "WzpDNumaP0gcIe9j0-SQy",
-			"roundness": {
-				"type": 2
-			},
-			"seed": 666700640,
-			"version": 92,
-			"versionNonce": 1154334368,
+			"roundness": null,
+			"seed": 1701381984,
+			"version": 10,
+			"versionNonce": 1153182368,
 			"isDeleted": true,
 			"boundElements": null,
-			"updated": 1705586055308,
+			"updated": 1705586576465,
 			"link": null,
 			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					361.33331298828125,
-					-8.000030517578125
-				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": {
-				"elementId": "NSo4GmfTI0HwEEMwN-uQl",
-				"focus": 0.0657887539399245,
-				"gap": 10.159890146843281
-			},
-			"endBinding": {
-				"elementId": "7eeGwcY2N4JxWeYg35SW9",
-				"focus": -0.0160675549020271,
-				"gap": 25.035916498091865
-			},
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			"text": "",
+			"rawText": "",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 26,
+			"containerId": null,
+			"originalText": "",
+			"lineHeight": 1.2
 		}
 	],
 	"appState": {
@@ -1583,10 +1466,10 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 2297.3427560132645,
-		"scrollY": 659.128496461935,
+		"scrollX": 392.30396227985375,
+		"scrollY": 3017.331195347687,
 		"zoom": {
-			"value": 0.3
+			"value": 0.7000000000000001
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

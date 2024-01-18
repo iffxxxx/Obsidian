@@ -93,17 +93,55 @@
             }
           },
           {
+            "id": "84eb754673b92e2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/00_Recommender_Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f22bd82cf39ae08a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/00_Recommender_Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "353b8839f6f337f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/00_Recommender_Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "11266fa6a0931bac",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md"
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/00_Recommender_Systems.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -149,7 +187,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -250,10 +289,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "11266fa6a0931bac",
+  "active": "69f088fd25d237e7",
   "lastOpenFiles": [
-    "000_총류/000_총류.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/00_Recommender_Systems.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
+    "000_총류/000_총류.md",
     "Attached file/image/Pasted Image 20240118210956_301.png",
     "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Image_Segmentation_Using_Deep_Learning_A_Survey.md",
