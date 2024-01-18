@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Book.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Book.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Book.md"
+                "file": "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md"
               }
             }
           },
@@ -229,6 +229,12 @@
   },
   "active": "69f088fd25d237e7",
   "lastOpenFiles": [
+    "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",
+    "000_총류/005 프로그래밍/Coding_Interview/04_Tree_and_Graphs.md",
+    "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
+    "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
+    "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md",
+    "Book.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron/00_Perceptron.md",
     "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
     "000_총류/005 프로그래밍/Leetcode/1_Two_Sum.md",
@@ -248,7 +254,6 @@
     "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.md",
     "Attached file/image/good diagram.svg",
     "Attached file/image/hi.svg",
-    "Book.md",
     "Excalidraw/Scripts/Downloaded/Rename Image.md",
     "Excalidraw/Scripts/Downloaded/Text to Sticky Notes.svg",
     "Excalidraw/Scripts/Downloaded/Text to Sticky Notes.md",
@@ -274,11 +279,6 @@
     "000_총류/060 일반 학회, 단체, 협회, 기관/무제 파일.canvas",
     "000_총류/005 프로그래밍/Leetcode/231_Power_of_Two.md",
     "000_총류/005 프로그래밍/Leetcode/202_Happy_Number.md",
-    "000_총류/005 프로그래밍/Leetcode/171_Excel_Sheet_Column_Number.md",
-    "000_총류/005 프로그래밍/Leetcode/168_Excel_Sheet_Column_Title.md",
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/03_WebUi_Setting.md",
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/01_Install.md",
-    "000_총류/005 프로그래밍/Leetcode/70_Climbing_Stairs.md",
     "무제 파일.canvas",
     "300_사회과학/무제 파일.canvas"
   ]
