@@ -20,6 +20,30 @@ CTR이란 (Clikc-through rate)로 추천된 아이템을
 2017년 발표된 논문으로 Factorization Machine을
 신경망으로 확장한 DeepFM 모델 제안 ^oSXzoabA
 
+Implicit feature ^GUTZRWIU
+
+학습 요소 ^zILDYHwL
+
+식사시간(시간)에 음식 배달 앱(앱 종류)을 자주 다운로드
+앱 종류와 시간 사이의 order-2 Interaction이 
+CTR의 신호
+
+남자(성별) 아이들(나이)이 슈팅게임 어플(앱 종류)을 선호
+성별, 나이, 앱 종류 사이의 order-3 Interaction이
+CTR의 신호 ^phjZ7ZH6
+
+문제 정의: ^gtDauUeq
+
+일반적인 접근법 ^ARPfDggG
+
+Related Studies ^q1MjBx4p
+
+2010년에 발표된 FM(Factorization Machine)은 Latent
+space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
+을 계산할 수 있는 방법입니다.
+
+ ^vuHjbpWn
+
 %%
 # Drawing
 ```json
@@ -30,8 +54,8 @@ CTR이란 (Clikc-through rate)로 추천된 아이템을
 	"elements": [
 		{
 			"type": "rectangle",
-			"version": 246,
-			"versionNonce": 12720992,
+			"version": 249,
+			"versionNonce": 436296352,
 			"isDeleted": false,
 			"id": "I0ZLWxhbtCMX1qgMrQ5_a",
 			"fillStyle": "hachure",
@@ -56,16 +80,20 @@ CTR이란 (Clikc-through rate)로 추천된 아이템을
 				{
 					"id": "ZBnbuoHoKJLjN2pLtabZh",
 					"type": "arrow"
+				},
+				{
+					"id": "N1Ri-QHvsohZgJLD2LkZf",
+					"type": "arrow"
 				}
 			],
-			"updated": 1705578868875,
+			"updated": 1705579424846,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 45,
-			"versionNonce": 2022165152,
+			"version": 47,
+			"versionNonce": 1132775264,
 			"isDeleted": false,
 			"id": "q4HgIucT",
 			"fillStyle": "hachure",
@@ -85,7 +113,7 @@ CTR이란 (Clikc-through rate)로 추천된 아이템을
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705578868875,
+			"updated": 1705579033927,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -101,8 +129,8 @@ CTR이란 (Clikc-through rate)로 추천된 아이템을
 		},
 		{
 			"type": "embeddable",
-			"version": 689,
-			"versionNonce": 1039154848,
+			"version": 691,
+			"versionNonce": 966123168,
 			"isDeleted": false,
 			"id": "tR4AqLuUuRqxb5eVH3get",
 			"fillStyle": "hachure",
@@ -124,7 +152,7 @@ CTR이란 (Clikc-through rate)로 추천된 아이템을
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1705578887225,
+			"updated": 1705579033927,
 			"link": "https://arxiv.org/pdf/1703.04247.pdf",
 			"locked": false,
 			"validated": true,
@@ -135,8 +163,8 @@ CTR이란 (Clikc-through rate)로 추천된 아이템을
 		},
 		{
 			"type": "arrow",
-			"version": 890,
-			"versionNonce": 129991520,
+			"version": 895,
+			"versionNonce": 1899811488,
 			"isDeleted": false,
 			"id": "ZBnbuoHoKJLjN2pLtabZh",
 			"fillStyle": "hachure",
@@ -157,8 +185,13 @@ CTR이란 (Clikc-through rate)로 추천된 아이템을
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1705578982230,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "gtDauUeq"
+				}
+			],
+			"updated": 1705579417398,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -186,9 +219,46 @@ CTR이란 (Clikc-through rate)로 추천된 아이템을
 			]
 		},
 		{
+			"id": "gtDauUeq",
+			"type": "text",
+			"x": 419.8925923423826,
+			"y": -413.66466613084685,
+			"width": 90.38395690917969,
+			"height": 33.6,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 897572704,
+			"version": 30,
+			"versionNonce": 1879746208,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1705579416373,
+			"link": null,
+			"locked": false,
+			"text": "문제 정의:",
+			"rawText": "문제 정의:",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"baseline": 26,
+			"containerId": "ZBnbuoHoKJLjN2pLtabZh",
+			"originalText": "문제 정의:",
+			"lineHeight": 1.2
+		},
+		{
 			"type": "rectangle",
-			"version": 792,
-			"versionNonce": 286532256,
+			"version": 796,
+			"versionNonce": 1419840160,
 			"isDeleted": false,
 			"id": "85S40L0JYNpCpStoRgX8R",
 			"fillStyle": "hachure",
@@ -215,18 +285,18 @@ CTR이란 (Clikc-through rate)로 추천된 아이템을
 					"type": "arrow"
 				},
 				{
-					"id": "X_T6wi8IE_Dj1yd51206t",
+					"id": "I-9PL8fW6hvKsli_bTsN-",
 					"type": "arrow"
 				}
 			],
-			"updated": 1705578993034,
+			"updated": 1705579033927,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 198,
-			"versionNonce": 479085408,
+			"version": 201,
+			"versionNonce": 1606269792,
 			"isDeleted": false,
 			"id": "GK3BKitr",
 			"fillStyle": "hachure",
@@ -236,7 +306,7 @@ CTR이란 (Clikc-through rate)로 추천된 아이템을
 			"opacity": 100,
 			"angle": 0,
 			"x": 598.1504863527408,
-			"y": -1153.4845192349708,
+			"y": -1155.0844948209083,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 56.37599182128906,
@@ -246,7 +316,7 @@ CTR이란 (Clikc-through rate)로 추천된 아이템을
 			"frameId": "DZh1jPdZmLUojklmLsu6x",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705578911834,
+			"updated": 1705579045207,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -262,8 +332,8 @@ CTR이란 (Clikc-through rate)로 추천된 아이템을
 		},
 		{
 			"type": "text",
-			"version": 375,
-			"versionNonce": 749655904,
+			"version": 377,
+			"versionNonce": 1030141600,
 			"isDeleted": false,
 			"id": "woPkp4sQ",
 			"fillStyle": "hachure",
@@ -283,7 +353,7 @@ CTR이란 (Clikc-through rate)로 추천된 아이템을
 			"frameId": "DZh1jPdZmLUojklmLsu6x",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705578911834,
+			"updated": 1705579033927,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -296,58 +366,6 @@ CTR이란 (Clikc-through rate)로 추천된 아이템을
 			"originalText": "CTR이란 (Clikc-through rate)로 추천된 아이템을\n유저가 클릭할 확률\n\n추천시스템에 있어 CTR은 매우 중요한 요소 중 하나",
 			"lineHeight": 1.2,
 			"baseline": 127
-		},
-		{
-			"id": "X_T6wi8IE_Dj1yd51206t",
-			"type": "arrow",
-			"x": 1161.6978034655417,
-			"y": -948.4782567115335,
-			"width": 377.599853515625,
-			"height": 516.7999877929688,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": "DZh1jPdZmLUojklmLsu6x",
-			"roundness": {
-				"type": 2
-			},
-			"seed": 1298251616,
-			"version": 111,
-			"versionNonce": 733400736,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1705578993034,
-			"link": null,
-			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					377.599853515625,
-					-516.7999877929688
-				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": {
-				"elementId": "85S40L0JYNpCpStoRgX8R",
-				"focus": 0.5558110221382301,
-				"gap": 18.30286792117755
-			},
-			"endBinding": {
-				"elementId": "NSo4GmfTI0HwEEMwN-uQl",
-				"focus": 0.6114400577999889,
-				"gap": 17.599884033203125
-			},
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
 		},
 		{
 			"id": "DZh1jPdZmLUojklmLsu6x",
@@ -368,11 +386,16 @@ CTR이란 (Clikc-through rate)로 추천된 아이템을
 			"frameId": null,
 			"roundness": null,
 			"seed": 1964057440,
-			"version": 366,
-			"versionNonce": 1406333792,
+			"version": 369,
+			"versionNonce": 981304160,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1705578911834,
+			"boundElements": [
+				{
+					"id": "I-9PL8fW6hvKsli_bTsN-",
+					"type": "arrow"
+				}
+			],
+			"updated": 1705579033927,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -403,11 +426,11 @@ CTR이란 (Clikc-through rate)로 추천된 아이템을
 			"frameId": null,
 			"roundness": null,
 			"seed": 1210613408,
-			"version": 108,
-			"versionNonce": 635020128,
+			"version": 110,
+			"versionNonce": 1486283424,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1705578949140,
+			"updated": 1705579033927,
 			"link": null,
 			"locked": false,
 			"text": "2017년 발표된 논문으로 Factorization Machine을\n신경망으로 확장한 DeepFM 모델 제안",
@@ -423,8 +446,8 @@ CTR이란 (Clikc-through rate)로 추천된 아이템을
 		},
 		{
 			"type": "rectangle",
-			"version": 915,
-			"versionNonce": 891550368,
+			"version": 920,
+			"versionNonce": 1976575648,
 			"isDeleted": false,
 			"id": "NSo4GmfTI0HwEEMwN-uQl",
 			"fillStyle": "hachure",
@@ -441,19 +464,498 @@ CTR이란 (Clikc-through rate)로 추천된 아이템을
 			"height": 572,
 			"seed": 1841226400,
 			"groupIds": [],
+			"frameId": "WzpDNumaP0gcIe9j0-SQy",
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [
+				{
+					"id": "I-9PL8fW6hvKsli_bTsN-",
+					"type": "arrow"
+				}
+			],
+			"updated": 1705579042570,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "I-9PL8fW6hvKsli_bTsN-",
+			"type": "arrow",
+			"x": 1160.0977058092917,
+			"y": -878.0782322974709,
+			"width": 390.39990234375,
+			"height": 572.7999877929689,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 587400864,
+			"version": 161,
+			"versionNonce": 384761696,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "zILDYHwL"
+				}
+			],
+			"updated": 1705579073577,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					390.39990234375,
+					-572.7999877929689
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "85S40L0JYNpCpStoRgX8R",
+				"focus": 0.6720536460656841,
+				"gap": 16.70277026492755
+			},
+			"endBinding": {
+				"elementId": "NSo4GmfTI0HwEEMwN-uQl",
+				"focus": 0.586026319322658,
+				"gap": 6.399932861328125
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "zILDYHwL",
+			"type": "text",
+			"x": 1302.5756721178855,
+			"y": -1186.0782261939553,
+			"width": 105.4439697265625,
+			"height": 43.199999999999996,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 804024160,
+			"version": 18,
+			"versionNonce": 364079968,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1705579072528,
+			"link": null,
+			"locked": false,
+			"text": "학습 요소",
+			"rawText": "학습 요소",
+			"fontSize": 36,
+			"fontFamily": 4,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"baseline": 34,
+			"containerId": "I-9PL8fW6hvKsli_bTsN-",
+			"originalText": "학습 요소",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "GUTZRWIU",
+			"type": "text",
+			"x": 1585.2975349108542,
+			"y": -1713.6781590552835,
+			"width": 215.8918914794922,
+			"height": 43.199999999999996,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "WzpDNumaP0gcIe9j0-SQy",
+			"roundness": null,
+			"seed": 2120939360,
+			"version": 34,
+			"versionNonce": 1766601568,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1705579061992,
+			"link": null,
+			"locked": false,
+			"text": "Implicit feature",
+			"rawText": "Implicit feature",
+			"fontSize": 36,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 34,
+			"containerId": null,
+			"originalText": "Implicit feature",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "phjZ7ZH6",
+			"type": "text",
+			"x": 1586.0975837389792,
+			"y": -1624.477939328721,
+			"width": 502.7397766113281,
+			"height": 235.20000000000002,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "WzpDNumaP0gcIe9j0-SQy",
+			"roundness": null,
+			"seed": 1613364896,
+			"version": 310,
+			"versionNonce": 489268064,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1705579219415,
+			"link": null,
+			"locked": false,
+			"text": "식사시간(시간)에 음식 배달 앱(앱 종류)을 자주 다운로드\n앱 종류와 시간 사이의 order-2 Interaction이 \nCTR의 신호\n\n남자(성별) 아이들(나이)이 슈팅게임 어플(앱 종류)을 선호\n성별, 나이, 앱 종류 사이의 order-3 Interaction이\nCTR의 신호",
+			"rawText": "식사시간(시간)에 음식 배달 앱(앱 종류)을 자주 다운로드\n앱 종류와 시간 사이의 order-2 Interaction이 \nCTR의 신호\n\n남자(성별) 아이들(나이)이 슈팅게임 어플(앱 종류)을 선호\n성별, 나이, 앱 종류 사이의 order-3 Interaction이\nCTR의 신호",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 228,
+			"containerId": null,
+			"originalText": "식사시간(시간)에 음식 배달 앱(앱 종류)을 자주 다운로드\n앱 종류와 시간 사이의 order-2 Interaction이 \nCTR의 신호\n\n남자(성별) 아이들(나이)이 슈팅게임 어플(앱 종류)을 선호\n성별, 나이, 앱 종류 사이의 order-3 Interaction이\nCTR의 신호",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "WzpDNumaP0gcIe9j0-SQy",
+			"type": "frame",
+			"x": 1531.2975349108542,
+			"y": -1780.4781651587991,
+			"width": 640,
+			"height": 632.0000305175781,
+			"angle": 0,
+			"strokeColor": "#bbb",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 2105960096,
+			"version": 80,
+			"versionNonce": 964197024,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1705579042007,
+			"link": null,
+			"locked": false,
+			"customData": {
+				"frameColor": {
+					"stroke": "#D4D4D4",
+					"fill": "#ADADAD",
+					"nameColor": "#949494"
+				}
+			},
+			"name": null
+		},
+		{
+			"id": "N1Ri-QHvsohZgJLD2LkZf",
+			"type": "arrow",
+			"x": 380.91813514598914,
+			"y": 401.9832667235222,
+			"width": 338.90902432528424,
+			"height": 183.2727050781249,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1863007072,
+			"version": 140,
+			"versionNonce": 1888948896,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "ARPfDggG"
+				}
+			],
+			"updated": 1705579441278,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					338.90902432528424,
+					183.2727050781249
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "I0ZLWxhbtCMX1qgMrQ5_a",
+				"focus": 0.2731616604517115,
+				"gap": 2.5181107319266403
+			},
+			"endBinding": {
+				"elementId": "o5lVJX8glv51z8dSGrXDp",
+				"focus": -0.10373296125100802,
+				"gap": 11.199981689452954
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "ARPfDggG",
+			"type": "text",
+			"x": 480.86268331937345,
+			"y": 476.81961926258464,
+			"width": 139.01992797851562,
+			"height": 33.6,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1984111456,
+			"version": 25,
+			"versionNonce": 1571612320,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1705579439969,
+			"link": null,
+			"locked": false,
+			"text": "일반적인 접근법",
+			"rawText": "일반적인 접근법",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"baseline": 26,
+			"containerId": "N1Ri-QHvsohZgJLD2LkZf",
+			"originalText": "일반적인 접근법",
+			"lineHeight": 1.2
+		},
+		{
+			"type": "rectangle",
+			"version": 800,
+			"versionNonce": 1474223776,
+			"isDeleted": false,
+			"id": "o5lVJX8glv51z8dSGrXDp",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": 731.0271411607263,
+			"y": 415.6196081652837,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 577.6000366210938,
+			"height": 572,
+			"seed": 610524832,
+			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 3
 			},
 			"boundElements": [
 				{
-					"id": "X_T6wi8IE_Dj1yd51206t",
+					"id": "N1Ri-QHvsohZgJLD2LkZf",
 					"type": "arrow"
 				}
 			],
-			"updated": 1705578993034,
+			"updated": 1705579432558,
 			"link": null,
 			"locked": false
+		},
+		{
+			"id": "q1MjBx4p",
+			"type": "text",
+			"x": 763.4635231076369,
+			"y": 469.54688089255643,
+			"width": 208.97988891601562,
+			"height": 43.199999999999996,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1069977440,
+			"version": 33,
+			"versionNonce": 2144407392,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1705579459996,
+			"link": null,
+			"locked": false,
+			"text": "Related Studies",
+			"rawText": "Related Studies",
+			"fontSize": 36,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 34,
+			"containerId": null,
+			"originalText": "Related Studies",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "vuHjbpWn",
+			"type": "text",
+			"x": 760.1907070565004,
+			"y": 549.9832556262211,
+			"width": 539.1677856445312,
+			"height": 168,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 108176224,
+			"version": 185,
+			"versionNonce": 581377696,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1705579589373,
+			"link": null,
+			"locked": false,
+			"text": "2010년에 발표된 FM(Factorization Machine)은 Latent\nspace로 각각의 특성들을 매핑하여 내적을 통해 Interaction\n을 계산할 수 있는 방법입니다.\n\n",
+			"rawText": "2010년에 발표된 FM(Factorization Machine)은 Latent\nspace로 각각의 특성들을 매핑하여 내적을 통해 Interaction\n을 계산할 수 있는 방법입니다.\n\n",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 161,
+			"containerId": null,
+			"originalText": "2010년에 발표된 FM(Factorization Machine)은 Latent\nspace로 각각의 특성들을 매핑하여 내적을 통해 Interaction\n을 계산할 수 있는 방법입니다.\n\n",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "JEraBrLg",
+			"type": "text",
+			"x": 768.9180685621822,
+			"y": 590.4195748733803,
+			"width": 8.399993896484375,
+			"height": 33.6,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 332319584,
+			"version": 22,
+			"versionNonce": 735226720,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1705579543560,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 26,
+			"containerId": null,
+			"originalText": "",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "SsCyzacl",
+			"type": "text",
+			"x": 791.0997979655913,
+			"y": 540.8923465353121,
+			"width": 8.399993896484375,
+			"height": 33.6,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1752306336,
+			"version": 2,
+			"versionNonce": 2062678880,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1705579544674,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 26,
+			"containerId": null,
+			"originalText": "",
+			"lineHeight": 1.2
 		}
 	],
 	"appState": {
@@ -462,7 +964,7 @@ CTR이란 (Clikc-through rate)로 추천된 아이템을
 		"currentItemStrokeColor": "#000000",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "hachure",
-		"currentItemStrokeWidth": 2,
+		"currentItemStrokeWidth": 4,
 		"currentItemStrokeStyle": "solid",
 		"currentItemRoughness": 0,
 		"currentItemOpacity": 100,
@@ -471,10 +973,10 @@ CTR이란 (Clikc-through rate)로 추천된 아이템을
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 266.7023430188334,
-		"scrollY": 2056.2782597632913,
+		"scrollX": 101.62747476168137,
+		"scrollY": 153.47129260264953,
 		"zoom": {
-			"value": 0.5
+			"value": 0.55
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
