@@ -41,8 +41,16 @@ Related Studies ^q1MjBx4p
 2010년에 발표된 FM(Factorization Machine)은 Latent
 space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 을 계산할 수 있는 방법입니다.
-
  ^vuHjbpWn
+
+위의 식을 통해 order-2에서부터 order-n까지의 
+Interaction을 내적을 통해 모두 모델링 할 수 있습니다.   ^jdj2uvvr
+
+[[000_총류]] ^MAy6wUQl
+
+
+# Embedded files
+13c9ee52728b723a0340730c28d19618c8be616b: [[Pasted Image 20240118210956_301.png]]
 
 %%
 # Drawing
@@ -54,8 +62,8 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 	"elements": [
 		{
 			"type": "rectangle",
-			"version": 249,
-			"versionNonce": 436296352,
+			"version": 250,
+			"versionNonce": 576523936,
 			"isDeleted": false,
 			"id": "I0ZLWxhbtCMX1qgMrQ5_a",
 			"fillStyle": "hachure",
@@ -86,14 +94,14 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 					"type": "arrow"
 				}
 			],
-			"updated": 1705579424846,
+			"updated": 1705579839679,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 47,
-			"versionNonce": 1132775264,
+			"version": 48,
+			"versionNonce": 146320224,
 			"isDeleted": false,
 			"id": "q4HgIucT",
 			"fillStyle": "hachure",
@@ -113,7 +121,7 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705579033927,
+			"updated": 1705579839679,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -129,8 +137,8 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 		},
 		{
 			"type": "embeddable",
-			"version": 691,
-			"versionNonce": 966123168,
+			"version": 692,
+			"versionNonce": 2097298080,
 			"isDeleted": false,
 			"id": "tR4AqLuUuRqxb5eVH3get",
 			"fillStyle": "hachure",
@@ -152,7 +160,7 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1705579033927,
+			"updated": 1705579839679,
 			"link": "https://arxiv.org/pdf/1703.04247.pdf",
 			"locked": false,
 			"validated": true,
@@ -163,8 +171,8 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 		},
 		{
 			"type": "arrow",
-			"version": 895,
-			"versionNonce": 1899811488,
+			"version": 896,
+			"versionNonce": 2001485664,
 			"isDeleted": false,
 			"id": "ZBnbuoHoKJLjN2pLtabZh",
 			"fillStyle": "hachure",
@@ -191,7 +199,7 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 					"id": "gtDauUeq"
 				}
 			],
-			"updated": 1705579417398,
+			"updated": 1705579839680,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -200,7 +208,7 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 				"gap": 12.891343735737337
 			},
 			"endBinding": {
-				"elementId": "85S40L0JYNpCpStoRgX8R",
+				"elementId": "MAy6wUQl",
 				"focus": 0.44219415903570497,
 				"gap": 9.536481359587071
 			},
@@ -237,11 +245,11 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 			"frameId": null,
 			"roundness": null,
 			"seed": 897572704,
-			"version": 30,
-			"versionNonce": 1879746208,
+			"version": 31,
+			"versionNonce": 572647072,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1705579416373,
+			"updated": 1705579839680,
 			"link": null,
 			"locked": false,
 			"text": "문제 정의:",
@@ -257,10 +265,10 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 		},
 		{
 			"type": "rectangle",
-			"version": 796,
-			"versionNonce": 1419840160,
+			"version": 801,
+			"versionNonce": 1978771296,
 			"isDeleted": false,
-			"id": "85S40L0JYNpCpStoRgX8R",
+			"id": "MAy6wUQl",
 			"fillStyle": "hachure",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -289,14 +297,14 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 					"type": "arrow"
 				}
 			],
-			"updated": 1705579033927,
-			"link": null,
+			"updated": 1705580065594,
+			"link": "[[000_총류]]",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 201,
-			"versionNonce": 1606269792,
+			"version": 202,
+			"versionNonce": 1584140960,
 			"isDeleted": false,
 			"id": "GK3BKitr",
 			"fillStyle": "hachure",
@@ -316,7 +324,7 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 			"frameId": "DZh1jPdZmLUojklmLsu6x",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705579045207,
+			"updated": 1705579839680,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -332,8 +340,8 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 		},
 		{
 			"type": "text",
-			"version": 377,
-			"versionNonce": 1030141600,
+			"version": 378,
+			"versionNonce": 470542176,
 			"isDeleted": false,
 			"id": "woPkp4sQ",
 			"fillStyle": "hachure",
@@ -353,7 +361,7 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 			"frameId": "DZh1jPdZmLUojklmLsu6x",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705579033927,
+			"updated": 1705579839680,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -386,8 +394,8 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 			"frameId": null,
 			"roundness": null,
 			"seed": 1964057440,
-			"version": 369,
-			"versionNonce": 981304160,
+			"version": 370,
+			"versionNonce": 1754316448,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -395,7 +403,7 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 					"type": "arrow"
 				}
 			],
-			"updated": 1705579033927,
+			"updated": 1705579839680,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -426,11 +434,11 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 			"frameId": null,
 			"roundness": null,
 			"seed": 1210613408,
-			"version": 110,
-			"versionNonce": 1486283424,
+			"version": 111,
+			"versionNonce": 886569824,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1705579033927,
+			"updated": 1705579839680,
 			"link": null,
 			"locked": false,
 			"text": "2017년 발표된 논문으로 Factorization Machine을\n신경망으로 확장한 DeepFM 모델 제안",
@@ -446,8 +454,8 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 		},
 		{
 			"type": "rectangle",
-			"version": 920,
-			"versionNonce": 1976575648,
+			"version": 921,
+			"versionNonce": 557836960,
 			"isDeleted": false,
 			"id": "NSo4GmfTI0HwEEMwN-uQl",
 			"fillStyle": "hachure",
@@ -474,7 +482,7 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 					"type": "arrow"
 				}
 			],
-			"updated": 1705579042570,
+			"updated": 1705579839680,
 			"link": null,
 			"locked": false
 		},
@@ -499,8 +507,8 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 				"type": 2
 			},
 			"seed": 587400864,
-			"version": 161,
-			"versionNonce": 384761696,
+			"version": 162,
+			"versionNonce": 50433888,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -508,7 +516,7 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 					"id": "zILDYHwL"
 				}
 			],
-			"updated": 1705579073577,
+			"updated": 1705579839680,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -523,7 +531,7 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 			],
 			"lastCommittedPoint": null,
 			"startBinding": {
-				"elementId": "85S40L0JYNpCpStoRgX8R",
+				"elementId": "MAy6wUQl",
 				"focus": 0.6720536460656841,
 				"gap": 16.70277026492755
 			},
@@ -554,11 +562,11 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 			"frameId": null,
 			"roundness": null,
 			"seed": 804024160,
-			"version": 18,
-			"versionNonce": 364079968,
+			"version": 19,
+			"versionNonce": 1395234464,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1705579072528,
+			"updated": 1705579839680,
 			"link": null,
 			"locked": false,
 			"text": "학습 요소",
@@ -591,11 +599,11 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 			"frameId": "WzpDNumaP0gcIe9j0-SQy",
 			"roundness": null,
 			"seed": 2120939360,
-			"version": 34,
-			"versionNonce": 1766601568,
+			"version": 35,
+			"versionNonce": 2128126816,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1705579061992,
+			"updated": 1705579839680,
 			"link": null,
 			"locked": false,
 			"text": "Implicit feature",
@@ -628,11 +636,11 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 			"frameId": "WzpDNumaP0gcIe9j0-SQy",
 			"roundness": null,
 			"seed": 1613364896,
-			"version": 310,
-			"versionNonce": 489268064,
+			"version": 311,
+			"versionNonce": 1929233056,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1705579219415,
+			"updated": 1705579839680,
 			"link": null,
 			"locked": false,
 			"text": "식사시간(시간)에 음식 배달 앱(앱 종류)을 자주 다운로드\n앱 종류와 시간 사이의 order-2 Interaction이 \nCTR의 신호\n\n남자(성별) 아이들(나이)이 슈팅게임 어플(앱 종류)을 선호\n성별, 나이, 앱 종류 사이의 order-3 Interaction이\nCTR의 신호",
@@ -665,11 +673,11 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 			"frameId": null,
 			"roundness": null,
 			"seed": 2105960096,
-			"version": 80,
-			"versionNonce": 964197024,
+			"version": 81,
+			"versionNonce": 380450656,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1705579042007,
+			"updated": 1705579839680,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -685,9 +693,9 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 			"id": "N1Ri-QHvsohZgJLD2LkZf",
 			"type": "arrow",
 			"x": 380.91813514598914,
-			"y": 401.9832667235222,
-			"width": 338.90902432528424,
-			"height": 183.2727050781249,
+			"y": 401.98326672352215,
+			"width": 338.90902432528435,
+			"height": 183.27270507812494,
 			"angle": 0,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
@@ -702,8 +710,8 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 				"type": 2
 			},
 			"seed": 1863007072,
-			"version": 140,
-			"versionNonce": 1888948896,
+			"version": 201,
+			"versionNonce": 1600941728,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -711,7 +719,7 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 					"id": "ARPfDggG"
 				}
 			],
-			"updated": 1705579441278,
+			"updated": 1705579839680,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -720,8 +728,8 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 					0
 				],
 				[
-					338.90902432528424,
-					183.2727050781249
+					338.90902432528435,
+					183.27270507812494
 				]
 			],
 			"lastCommittedPoint": null,
@@ -757,11 +765,11 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 			"frameId": null,
 			"roundness": null,
 			"seed": 1984111456,
-			"version": 25,
-			"versionNonce": 1571612320,
+			"version": 26,
+			"versionNonce": 1859079008,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1705579439969,
+			"updated": 1705579839680,
 			"link": null,
 			"locked": false,
 			"text": "일반적인 접근법",
@@ -777,8 +785,8 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 		},
 		{
 			"type": "rectangle",
-			"version": 800,
-			"versionNonce": 1474223776,
+			"version": 831,
+			"versionNonce": 556112544,
 			"isDeleted": false,
 			"id": "o5lVJX8glv51z8dSGrXDp",
 			"fillStyle": "hachure",
@@ -795,7 +803,7 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 			"height": 572,
 			"seed": 610524832,
 			"groupIds": [],
-			"frameId": null,
+			"frameId": "HEJ25XmHBNYjcTvpBbY1J",
 			"roundness": {
 				"type": 3
 			},
@@ -805,7 +813,7 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 					"type": "arrow"
 				}
 			],
-			"updated": 1705579432558,
+			"updated": 1705579839680,
 			"link": null,
 			"locked": false
 		},
@@ -825,14 +833,14 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 			"roughness": 0,
 			"opacity": 100,
 			"groupIds": [],
-			"frameId": null,
+			"frameId": "HEJ25XmHBNYjcTvpBbY1J",
 			"roundness": null,
 			"seed": 1069977440,
-			"version": 33,
-			"versionNonce": 2144407392,
+			"version": 64,
+			"versionNonce": 563011424,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1705579459996,
+			"updated": 1705579839680,
 			"link": null,
 			"locked": false,
 			"text": "Related Studies",
@@ -852,7 +860,7 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 			"x": 760.1907070565004,
 			"y": 549.9832556262211,
 			"width": 539.1677856445312,
-			"height": 168,
+			"height": 134.4,
 			"angle": 0,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
@@ -862,34 +870,67 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 			"roughness": 0,
 			"opacity": 100,
 			"groupIds": [],
-			"frameId": null,
+			"frameId": "HEJ25XmHBNYjcTvpBbY1J",
 			"roundness": null,
 			"seed": 108176224,
-			"version": 185,
-			"versionNonce": 581377696,
+			"version": 233,
+			"versionNonce": 718882464,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1705579589373,
+			"updated": 1705579839680,
 			"link": null,
 			"locked": false,
-			"text": "2010년에 발표된 FM(Factorization Machine)은 Latent\nspace로 각각의 특성들을 매핑하여 내적을 통해 Interaction\n을 계산할 수 있는 방법입니다.\n\n",
-			"rawText": "2010년에 발표된 FM(Factorization Machine)은 Latent\nspace로 각각의 특성들을 매핑하여 내적을 통해 Interaction\n을 계산할 수 있는 방법입니다.\n\n",
+			"text": "2010년에 발표된 FM(Factorization Machine)은 Latent\nspace로 각각의 특성들을 매핑하여 내적을 통해 Interaction\n을 계산할 수 있는 방법입니다.\n",
+			"rawText": "2010년에 발표된 FM(Factorization Machine)은 Latent\nspace로 각각의 특성들을 매핑하여 내적을 통해 Interaction\n을 계산할 수 있는 방법입니다.\n",
 			"fontSize": 28,
 			"fontFamily": 4,
 			"textAlign": "left",
 			"verticalAlign": "top",
-			"baseline": 161,
+			"baseline": 127,
 			"containerId": null,
-			"originalText": "2010년에 발표된 FM(Factorization Machine)은 Latent\nspace로 각각의 특성들을 매핑하여 내적을 통해 Interaction\n을 계산할 수 있는 방법입니다.\n\n",
+			"originalText": "2010년에 발표된 FM(Factorization Machine)은 Latent\nspace로 각각의 특성들을 매핑하여 내적을 통해 Interaction\n을 계산할 수 있는 방법입니다.\n",
 			"lineHeight": 1.2
 		},
 		{
-			"id": "JEraBrLg",
+			"id": "IlfqHsXtKMtMaJJpFPVpd",
+			"type": "image",
+			"x": 760.8270484982618,
+			"y": 671.0740981333234,
+			"width": 518,
+			"height": 112,
+			"angle": 0,
+			"strokeColor": "transparent",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "HEJ25XmHBNYjcTvpBbY1J",
+			"roundness": null,
+			"seed": 929116000,
+			"version": 83,
+			"versionNonce": 2134635360,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1705579839680,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "13c9ee52728b723a0340730c28d19618c8be616b",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "jdj2uvvr",
 			"type": "text",
-			"x": 768.9180685621822,
-			"y": 590.4195748733803,
-			"width": 8.399993896484375,
-			"height": 33.6,
+			"x": 755.4634787184325,
+			"y": 819.4377123023575,
+			"width": 513.4078369140625,
+			"height": 67.2,
 			"angle": 0,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
@@ -899,63 +940,90 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 			"roughness": 0,
 			"opacity": 100,
 			"groupIds": [],
-			"frameId": null,
+			"frameId": "HEJ25XmHBNYjcTvpBbY1J",
 			"roundness": null,
-			"seed": 332319584,
-			"version": 22,
-			"versionNonce": 735226720,
-			"isDeleted": true,
+			"seed": 2008453984,
+			"version": 207,
+			"versionNonce": 1474575200,
+			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1705579543560,
+			"updated": 1705579949268,
 			"link": null,
 			"locked": false,
-			"text": "",
-			"rawText": "",
+			"text": "위의 식을 통해 order-2에서부터 order-n까지의 \nInteraction을 내적을 통해 모두 모델링 할 수 있습니다.  ",
+			"rawText": "위의 식을 통해 order-2에서부터 order-n까지의 \nInteraction을 내적을 통해 모두 모델링 할 수 있습니다.  ",
 			"fontSize": 28,
 			"fontFamily": 4,
 			"textAlign": "left",
 			"verticalAlign": "top",
-			"baseline": 26,
+			"baseline": 60,
 			"containerId": null,
-			"originalText": "",
+			"originalText": "위의 식을 통해 order-2에서부터 order-n까지의 \nInteraction을 내적을 통해 모두 모델링 할 수 있습니다.  ",
 			"lineHeight": 1.2
 		},
 		{
-			"id": "SsCyzacl",
-			"type": "text",
-			"x": 791.0997979655913,
-			"y": 540.8923465353121,
-			"width": 8.399993896484375,
-			"height": 33.6,
+			"id": "HEJ25XmHBNYjcTvpBbY1J",
+			"type": "frame",
+			"x": 708.1907514457049,
+			"y": 395.4378010807666,
+			"width": 629.8182262073861,
+			"height": 637.0909534801135,
 			"angle": 0,
-			"strokeColor": "#000000",
+			"strokeColor": "#bbb",
 			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
-			"strokeWidth": 4,
+			"fillStyle": "solid",
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
-			"seed": 1752306336,
-			"version": 2,
-			"versionNonce": 2062678880,
-			"isDeleted": true,
+			"seed": 1210615648,
+			"version": 160,
+			"versionNonce": 1756580512,
+			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1705579544674,
+			"updated": 1705579839680,
 			"link": null,
 			"locked": false,
-			"text": "",
-			"rawText": "",
-			"fontSize": 28,
-			"fontFamily": 4,
-			"textAlign": "left",
-			"verticalAlign": "top",
-			"baseline": 26,
-			"containerId": null,
-			"originalText": "",
-			"lineHeight": 1.2
+			"customData": {
+				"frameColor": {
+					"stroke": "#D4D4D4",
+					"fill": "#ADADAD",
+					"nameColor": "#949494"
+				}
+			},
+			"name": null
+		},
+		{
+			"type": "rectangle",
+			"version": 1599,
+			"versionNonce": 393006944,
+			"isDeleted": false,
+			"id": "7eeGwcY2N4JxWeYg35SW9",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": 2531.02669726868,
+			"y": -1761.1076867565907,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 577.6000366210938,
+			"height": 572,
+			"seed": 193514336,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [],
+			"updated": 1705579992761,
+			"link": null,
+			"locked": false
 		}
 	],
 	"appState": {
@@ -973,8 +1041,8 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 101.62747476168137,
-		"scrollY": 153.47129260264953,
+		"scrollX": -102.00833400962452,
+		"scrollY": 1557.1078226985294,
 		"zoom": {
 			"value": 0.55
 		},
