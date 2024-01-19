@@ -11,9 +11,14 @@
             "id": "83f980bde5f14f2a",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "canvas",
               "state": {
-                "file": "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md"
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
+                "viewState": {
+                  "x": -414.79978515040125,
+                  "y": 143.11063785906975,
+                  "zoom": 0.14464105528645851
+                }
               }
             }
           }
@@ -75,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5,
-    "collapsed": true
+    "width": 335.5
   },
   "right": {
     "id": "d6fcffc1ef5a2d78",
@@ -92,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md",
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md",
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md"
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas"
               }
             }
           },
@@ -165,8 +169,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5abcd933269630a4",
+  "active": "83f980bde5f14f2a",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md",
     "Excalidraw/Drawing 2024-01-19 16.39.38.excalidraw.md",
     "300_사회과학/330_사회학/331_오리엔탈리즘.md",
     "300_사회과학/330_사회학/330 사회학.md",
@@ -179,7 +184,6 @@
     "무제 파일.canvas",
     "무제 파일 1.canvas",
     "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
-    "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md",
     "Untitled Diagram.svg",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Best Prompts for Text-to-Image Models and How to Find Them.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
