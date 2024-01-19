@@ -66,17 +66,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "69f088fd25d237e7",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -142,6 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,6 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +173,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md"
+              }
             }
           },
           {
@@ -219,8 +215,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "69f088fd25d237e7",
+  "active": "f6eb14d86d9d765f",
   "lastOpenFiles": [
+    "000_총류/005 프로그래밍/Leetcode/1_Two_Sum.md",
+    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics 1.md",
     "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md",
     "무제 파일 1.canvas",
@@ -234,8 +232,6 @@
     "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
     "Book.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron/00_Perceptron.md",
-    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-    "000_총류/005 프로그래밍/Leetcode/1_Two_Sum.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/00_Recommender_Systems.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/01_Introduction.md",
