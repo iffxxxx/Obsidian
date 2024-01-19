@@ -75,7 +75,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5
+    "width": 335.5,
+    "collapsed": true
   },
   "right": {
     "id": "d6fcffc1ef5a2d78",
@@ -148,7 +149,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,7 +165,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "83f980bde5f14f2a",
+  "active": "5abcd933269630a4",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2024-01-19 16.39.38.excalidraw.md",
     "300_사회과학/330_사회학/331_오리엔탈리즘.md",
