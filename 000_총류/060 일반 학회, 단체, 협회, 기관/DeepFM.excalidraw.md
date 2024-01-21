@@ -157,6 +157,7 @@ product layer를 도입 ^4qJ40Lvf
 $$
 13c9ee52728b723a0340730c28d19618c8be616b: [[Pasted Image 20240118210956_301.png]]
 238684eaf896cacd041c8ce3215c3c8f7b330ced: [[Pasted Image 20240122001632_748.png]]
+bdb9ea3364a7abdc205f780176b173ccf12a3a34: [[Pasted Image 20240122020009_943.png]]
 
 %%
 # Drawing
@@ -4022,8 +4023,8 @@ $$
 		},
 		{
 			"type": "text",
-			"version": 575,
-			"versionNonce": 1494339459,
+			"version": 609,
+			"versionNonce": 92690989,
 			"isDeleted": false,
 			"id": "rRmfrMLn",
 			"fillStyle": "solid",
@@ -4032,8 +4033,8 @@ $$
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1078.784582992888,
-			"y": 1404.3974956320828,
+			"x": -1083.2441332259734,
+			"y": 1369.6130038140182,
 			"strokeColor": "#e03131",
 			"backgroundColor": "#a5d8ff",
 			"width": 207.64791870117188,
@@ -4045,7 +4046,7 @@ $$
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705854443369,
+			"updated": 1705856431973,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -4061,8 +4062,8 @@ $$
 		},
 		{
 			"type": "text",
-			"version": 541,
-			"versionNonce": 866254669,
+			"version": 616,
+			"versionNonce": 926985507,
 			"isDeleted": false,
 			"id": "4qJ40Lvf",
 			"fillStyle": "solid",
@@ -4071,8 +4072,8 @@ $$
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1077.4512496595546,
-			"y": 1464.597495632083,
+			"x": -1084.5865300324908,
+			"y": 1432.4887339538693,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#a5d8ff",
 			"width": 487.19976806640625,
@@ -4084,7 +4085,7 @@ $$
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705854400357,
+			"updated": 1705856441503,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -4191,6 +4192,39 @@ $$
 			"containerId": "wQ8CYLuKT4M-27GeEwBTk",
 			"originalText": "해결방안:",
 			"lineHeight": 1.2
+		},
+		{
+			"id": "vzR0V9BWtxmopwo_DR5-h",
+			"type": "image",
+			"x": -1031.0499671864927,
+			"y": 1554.5682106054073,
+			"width": 408.9726754451125,
+			"height": 313.95233640919935,
+			"angle": 0,
+			"strokeColor": "transparent",
+			"backgroundColor": "#e7f5ff",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 453133635,
+			"version": 80,
+			"versionNonce": 1123606093,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1705856419022,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "bdb9ea3364a7abdc205f780176b173ccf12a3a34",
+			"scale": [
+				1,
+				1
+			]
 		},
 		{
 			"type": "text",
@@ -4541,6 +4575,43 @@ $$
 			"containerId": "wQ8CYLuKT4M-27GeEwBTk",
 			"originalText": "",
 			"lineHeight": 1.2
+		},
+		{
+			"id": "l3IxZZUE",
+			"type": "text",
+			"x": -797.4607323191071,
+			"y": 1744.5450505348376,
+			"width": 8.399993896484375,
+			"height": 33.6,
+			"angle": 0,
+			"strokeColor": "#1971c2",
+			"backgroundColor": "#e7f5ff",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1949502253,
+			"version": 2,
+			"versionNonce": 2014383555,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1705856418930,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 26,
+			"containerId": null,
+			"originalText": "",
+			"lineHeight": 1.2
 		}
 	],
 	"appState": {
@@ -4558,10 +4629,10 @@ $$
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 2020.7925488093088,
-		"scrollY": -1034.1936072595443,
+		"scrollX": 1271.9568771193747,
+		"scrollY": -1073.3827404555118,
 		"zoom": {
-			"value": 0.7788107009300619
+			"value": 1.1211892990699386
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
