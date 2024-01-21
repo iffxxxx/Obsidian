@@ -138,7 +138,7 @@
       }
     }
   },
-  "defaultTrayMode": true,
+  "defaultTrayMode": false,
   "previousRelease": "2.0.17",
   "showReleaseNotes": true,
   "showNewVersionNotification": true,
