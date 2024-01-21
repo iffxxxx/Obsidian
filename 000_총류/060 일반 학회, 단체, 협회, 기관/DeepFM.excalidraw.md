@@ -92,6 +92,10 @@ Why? ^hFKivGyP
 FM모델이 높은 차원의 Feature Interaction을 모델링 가능
 허나, 실제로는 높은 복잡도 때문에 거의 order-2 상호작용만 ^DjiJ7pBb
 
+CNN과 같이 ^UezxAaVr
+
+FM supported Neural Network(FNN) ^9jzL3QPr
+
 
 # Embedded files
 1acd85ab268aa15908884e70b2120d6f3eafdc60: $$\times
@@ -2353,10 +2357,10 @@ $$
 			"type": "arrow",
 			"x": -2548.6178841672286,
 			"y": 831.1452839821695,
-			"width": 176.000088778409,
-			"height": 4.363680752840878,
+			"width": 486.3032670454545,
+			"height": 1.4545232599431301,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "#2f9e44",
 			"backgroundColor": "#a5d8ff",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
@@ -2369,11 +2373,16 @@ $$
 				"type": 2
 			},
 			"seed": 2045964173,
-			"version": 115,
-			"versionNonce": 1040127971,
+			"version": 189,
+			"versionNonce": 179485763,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1705847314626,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "UezxAaVr"
+				}
+			],
+			"updated": 1705847789825,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2382,19 +2391,60 @@ $$
 					0
 				],
 				[
-					176.000088778409,
-					4.363680752840878
+					486.3032670454545,
+					1.4545232599431301
 				]
 			],
 			"lastCommittedPoint": null,
 			"startBinding": {
 				"elementId": "_NKlakUeYwbodt-tAHv0C",
-				"focus": -0.05419947795038953,
+				"focus": -0.033399033003767155,
 				"gap": 1
 			},
-			"endBinding": null,
+			"endBinding": {
+				"elementId": "b_W4ATtroabrMqZ_ztwCr",
+				"focus": 0.006298813082892034,
+				"gap": 12.315691390089341
+			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow"
+		},
+		{
+			"id": "UezxAaVr",
+			"type": "text",
+			"x": -2372.1107978468717,
+			"y": 815.0725456121411,
+			"width": 114.37995910644531,
+			"height": 33.6,
+			"angle": 0,
+			"strokeColor": "#2f9e44",
+			"backgroundColor": "#a5d8ff",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 101000035,
+			"version": 19,
+			"versionNonce": 831695459,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1705847603691,
+			"link": null,
+			"locked": false,
+			"text": "CNN과 같이",
+			"rawText": "CNN과 같이",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"baseline": 26,
+			"containerId": "5kGwZHFLTUbDIfTVehCVt",
+			"originalText": "CNN과 같이",
+			"lineHeight": 1.2
 		},
 		{
 			"id": "VzkAOlYFXQlBboCKm9Kzr",
@@ -2432,14 +2482,14 @@ $$
 			"name": null
 		},
 		{
-			"id": "vkN8aBKMi9UzA0LvBwvgs",
-			"type": "arrow",
-			"x": -2399.1636522114404,
-			"y": 789.6506396630014,
-			"width": 145.99990844726562,
-			"height": 112.0001220703125,
+			"id": "9jzL3QPr",
+			"type": "text",
+			"x": -2026.8656147779093,
+			"y": 591.840703530474,
+			"width": 467.85577392578125,
+			"height": 43.199999999999996,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "#e03131",
 			"backgroundColor": "#a5d8ff",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
@@ -2447,46 +2497,101 @@ $$
 			"roughness": 0,
 			"opacity": 100,
 			"groupIds": [],
-			"frameId": null,
-			"roundness": {
-				"type": 2
-			},
-			"seed": 752750861,
-			"version": 83,
-			"versionNonce": 1214402509,
-			"isDeleted": true,
+			"frameId": "C5GCRCbtj5DsP8OwngzmS",
+			"roundness": null,
+			"seed": 1634490509,
+			"version": 41,
+			"versionNonce": 237174819,
+			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1705847289125,
+			"updated": 1705847819035,
 			"link": null,
 			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					23.99993896484375,
-					-112.0001220703125
-				],
-				[
-					145.99990844726562,
-					-54.000091552734375
-				]
+			"text": "FM supported Neural Network(FNN)",
+			"rawText": "FM supported Neural Network(FNN)",
+			"fontSize": 36,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 34,
+			"containerId": null,
+			"originalText": "FM supported Neural Network(FNN)",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "C5GCRCbtj5DsP8OwngzmS",
+			"type": "frame",
+			"x": -2071.9875967334406,
+			"y": 533.654927377645,
+			"width": 622.5454989346592,
+			"height": 606.5454656427557,
+			"angle": 0,
+			"strokeColor": "#bbb",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 502688067,
+			"version": 63,
+			"versionNonce": 236336643,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1705847631706,
+			"link": null,
+			"locked": false,
+			"customData": {
+				"frameColor": {
+					"stroke": "#D4D4D4",
+					"fill": "#ADADAD",
+					"nameColor": "#949494"
+				}
+			},
+			"name": null
+		},
+		{
+			"type": "rectangle",
+			"version": 2514,
+			"versionNonce": 1983396835,
+			"isDeleted": false,
+			"id": "b_W4ATtroabrMqZ_ztwCr",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -2049.9989257316847,
+			"y": 549.3073396795626,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 577.6000366210938,
+			"height": 572,
+			"seed": 883328525,
+			"groupIds": [],
+			"frameId": "C5GCRCbtj5DsP8OwngzmS",
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [
+				{
+					"id": "5kGwZHFLTUbDIfTVehCVt",
+					"type": "arrow"
+				}
 			],
-			"lastCommittedPoint": [
-				145.99990844726562,
-				-54.000091552734375
-			],
-			"startBinding": null,
-			"endBinding": null,
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			"updated": 1705847789825,
+			"link": null,
+			"locked": false
 		}
 	],
 	"appState": {
 		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#1e1e1e",
+		"currentItemStrokeColor": "#e03131",
 		"currentItemBackgroundColor": "#a5d8ff",
 		"currentItemFillStyle": "solid",
 		"currentItemStrokeWidth": 4,
@@ -2494,14 +2599,14 @@ $$
 		"currentItemRoughness": 0,
 		"currentItemOpacity": 100,
 		"currentItemFontFamily": 4,
-		"currentItemFontSize": 28,
+		"currentItemFontSize": 36,
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 3348.25422560899,
-		"scrollY": 8.672900610337706,
+		"scrollX": 2891.8656147779093,
+		"scrollY": -26.807367654009095,
 		"zoom": {
-			"value": 0.5499999999999999
+			"value": 0.6
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
