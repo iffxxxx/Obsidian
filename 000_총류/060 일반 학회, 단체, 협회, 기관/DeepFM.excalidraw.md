@@ -37,7 +37,7 @@ CTR의 신호
 위의 예시들은 누구나 납득할만한 Interaction이며,
 전문가를 고용하여 모델링이 가능 ^phjZ7ZH6
 
-문제 정의: ^gtDauUeq
+CTR? ^gtDauUeq
 
 일반적인 접근법 ^ARPfDggG
 
@@ -51,11 +51,9 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 위의 식을 통해 order-2에서부터 order-n까지의 
 Interaction을 내적을 통해 모두 모델링 할 수 있습니다.   ^jdj2uvvr
 
-장점 ^zWORx80X
+해결방안 ^zWORx80X
 
-FM이 Linear complexity를 가지고 있다고 하지만
-실제로는 높은 복잡도로 인하여 High-order가 아닌
-order-2 모델링이 주로 사용됩니다. ^moCIA2oh
+피쳐 벡터들 간의 pairwise interaction을 직접 feature ^moCIA2oh
 
 기저귀를 구매하는 사람은 맥주를 함께 구매한다(order-2)
 와 같은 대부분의 Interaction들은 데이터 속에 숨겨짐.
@@ -105,11 +103,11 @@ $$
 	"elements": [
 		{
 			"type": "rectangle",
-			"version": 348,
-			"versionNonce": 527480941,
+			"version": 357,
+			"versionNonce": 572201357,
 			"isDeleted": false,
 			"id": "I0ZLWxhbtCMX1qgMrQ5_a",
-			"fillStyle": "hachure",
+			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
 			"roughness": 0,
@@ -118,7 +116,7 @@ $$
 			"x": -164.53326416015625,
 			"y": -167.6721318562826,
 			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
+			"backgroundColor": "#a5d8ff",
 			"width": 577.6000366210938,
 			"height": 572,
 			"seed": 1704014154,
@@ -141,7 +139,7 @@ $$
 					"type": "arrow"
 				}
 			],
-			"updated": 1705845316469,
+			"updated": 1705845631816,
 			"link": null,
 			"locked": false
 		},
@@ -218,8 +216,8 @@ $$
 		},
 		{
 			"type": "arrow",
-			"version": 1527,
-			"versionNonce": 970695651,
+			"version": 1529,
+			"versionNonce": 981505763,
 			"isDeleted": false,
 			"id": "ZBnbuoHoKJLjN2pLtabZh",
 			"fillStyle": "hachure",
@@ -230,7 +228,7 @@ $$
 			"angle": 0,
 			"x": 122.72600327511182,
 			"y": -184.56341455686368,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
 			"width": 4.668223294235432,
 			"height": 237.3846301002037,
@@ -246,7 +244,7 @@ $$
 					"id": "gtDauUeq"
 				}
 			],
-			"updated": 1705845441122,
+			"updated": 1705846055755,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -275,8 +273,8 @@ $$
 		},
 		{
 			"type": "text",
-			"version": 66,
-			"versionNonce": 504053709,
+			"version": 74,
+			"versionNonce": 799700803,
 			"isDeleted": false,
 			"id": "gtDauUeq",
 			"fillStyle": "hachure",
@@ -285,28 +283,28 @@ $$
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 13.474795209595037,
-			"y": -319.3891239754552,
-			"strokeColor": "#1e1e1e",
+			"x": 94.3518983418613,
+			"y": -320.05572960696554,
+			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
-			"width": 90.38395690917969,
+			"width": 52.079986572265625,
 			"height": 33.6,
 			"seed": 897572704,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705845441122,
+			"updated": 1705846054853,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
 			"fontFamily": 4,
-			"text": "문제 정의:",
-			"rawText": "문제 정의:",
+			"text": "CTR?",
+			"rawText": "CTR?",
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "ZBnbuoHoKJLjN2pLtabZh",
-			"originalText": "문제 정의:",
+			"originalText": "CTR?",
 			"lineHeight": 1.2,
 			"baseline": 26
 		},
@@ -609,8 +607,8 @@ $$
 		},
 		{
 			"type": "arrow",
-			"version": 1114,
-			"versionNonce": 551275171,
+			"version": 1116,
+			"versionNonce": 238472963,
 			"isDeleted": false,
 			"id": "I-9PL8fW6hvKsli_bTsN-",
 			"fillStyle": "hachure",
@@ -621,7 +619,7 @@ $$
 			"angle": 0,
 			"x": 128.5497425985784,
 			"y": -1024.5510787596834,
-			"strokeColor": "#000000",
+			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
 			"width": 3.4220611764685174,
 			"height": 278.1577835685641,
@@ -637,7 +635,7 @@ $$
 					"id": "zILDYHwL"
 				}
 			],
-			"updated": 1705845316469,
+			"updated": 1705846038333,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -666,8 +664,8 @@ $$
 		},
 		{
 			"type": "text",
-			"version": 43,
-			"versionNonce": 1133896973,
+			"version": 45,
+			"versionNonce": 816043693,
 			"isDeleted": false,
 			"id": "zILDYHwL",
 			"fillStyle": "hachure",
@@ -678,7 +676,7 @@ $$
 			"angle": 0,
 			"x": 1302.5756721178855,
 			"y": -1186.0782261939553,
-			"strokeColor": "#000000",
+			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
 			"width": 105.4439697265625,
 			"height": 43.199999999999996,
@@ -687,7 +685,7 @@ $$
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705845316469,
+			"updated": 1705846038333,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -911,11 +909,11 @@ $$
 		},
 		{
 			"type": "rectangle",
-			"version": 1193,
-			"versionNonce": 162267107,
+			"version": 1196,
+			"versionNonce": 506098179,
 			"isDeleted": false,
 			"id": "o5lVJX8glv51z8dSGrXDp",
-			"fillStyle": "hachure",
+			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
 			"roughness": 0,
@@ -924,7 +922,7 @@ $$
 			"x": -1778.3060497572424,
 			"y": -608.1898575155201,
 			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
+			"backgroundColor": "#a5d8ff",
 			"width": 577.6000366210938,
 			"height": 572,
 			"seed": 610524832,
@@ -945,9 +943,13 @@ $$
 				{
 					"id": "6sT5k8WgllKwZCSpIWlqa",
 					"type": "arrow"
+				},
+				{
+					"id": "-FkThbfgCU29iAl7HPxrv",
+					"type": "arrow"
 				}
 			],
-			"updated": 1705845367790,
+			"updated": 1705845741814,
 			"link": null,
 			"locked": false
 		},
@@ -1179,8 +1181,8 @@ $$
 		},
 		{
 			"type": "rectangle",
-			"version": 1906,
-			"versionNonce": 1097028611,
+			"version": 1910,
+			"versionNonce": 1006765955,
 			"isDeleted": false,
 			"id": "qi0dYaEIknVYnd1rP-eWZ",
 			"fillStyle": "hachure",
@@ -1201,15 +1203,24 @@ $$
 			"roundness": {
 				"type": 3
 			},
-			"boundElements": [],
-			"updated": 1705845375838,
+			"boundElements": [
+				{
+					"id": "-FkThbfgCU29iAl7HPxrv",
+					"type": "arrow"
+				},
+				{
+					"id": "p-zllBP0pFRlpNKvPDwoj",
+					"type": "arrow"
+				}
+			],
+			"updated": 1705846115414,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 809,
-			"versionNonce": 41933731,
+			"version": 874,
+			"versionNonce": 1896367245,
 			"isDeleted": false,
 			"id": "moCIA2oh",
 			"fillStyle": "hachure",
@@ -1222,26 +1233,74 @@ $$
 			"y": 244.5382668437236,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 463.4837646484375,
-			"height": 100.80000000000001,
+			"width": 520.0717163085938,
+			"height": 33.6,
 			"seed": 203196256,
 			"groupIds": [],
 			"frameId": "RS4ehBEVEp216OCwhPj18",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705845375838,
+			"updated": 1705845972892,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
 			"fontFamily": 4,
-			"text": "FM이 Linear complexity를 가지고 있다고 하지만\n실제로는 높은 복잡도로 인하여 High-order가 아닌\norder-2 모델링이 주로 사용됩니다.",
-			"rawText": "FM이 Linear complexity를 가지고 있다고 하지만\n실제로는 높은 복잡도로 인하여 High-order가 아닌\norder-2 모델링이 주로 사용됩니다.",
+			"text": "피쳐 벡터들 간의 pairwise interaction을 직접 feature",
+			"rawText": "피쳐 벡터들 간의 pairwise interaction을 직접 feature",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "FM이 Linear complexity를 가지고 있다고 하지만\n실제로는 높은 복잡도로 인하여 High-order가 아닌\norder-2 모델링이 주로 사용됩니다.",
+			"originalText": "피쳐 벡터들 간의 pairwise interaction을 직접 feature",
 			"lineHeight": 1.2,
-			"baseline": 94
+			"baseline": 26
+		},
+		{
+			"id": "p-zllBP0pFRlpNKvPDwoj",
+			"type": "arrow",
+			"x": -1496.426807043353,
+			"y": 762.6452416146719,
+			"width": 2.9091574928979753,
+			"height": 224.00013316761374,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#a5d8ff",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1042537261,
+			"version": 197,
+			"versionNonce": 1947353795,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1705846115832,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					2.9091574928979753,
+					224.00013316761374
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "qi0dYaEIknVYnd1rP-eWZ",
+				"focus": 0.05454950811416423,
+				"gap": 2.8203751234385663
+			},
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
 		},
 		{
 			"type": "frame",
@@ -1285,8 +1344,8 @@ $$
 		},
 		{
 			"type": "arrow",
-			"version": 2162,
-			"versionNonce": 2053527651,
+			"version": 2250,
+			"versionNonce": 1214778605,
 			"isDeleted": false,
 			"id": "-FkThbfgCU29iAl7HPxrv",
 			"fillStyle": "hachure",
@@ -1295,12 +1354,12 @@ $$
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1480.0435150525796,
-			"y": 25.844521708325317,
+			"x": -1477.2792683249938,
+			"y": -33.58767925342039,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 0.6466637938906388,
-			"height": 124.02737855825217,
+			"width": 2.1175829336950756,
+			"height": 206.95609850148958,
 			"seed": 722874208,
 			"groupIds": [],
 			"frameId": null,
@@ -1313,18 +1372,18 @@ $$
 					"id": "zWORx80X"
 				}
 			],
-			"updated": 1705845375838,
+			"updated": 1705845756754,
 			"link": null,
 			"locked": false,
 			"startBinding": {
-				"elementId": "HEJ25XmHBNYjcTvpBbY1J",
-				"gap": 15.982393124007729,
-				"focus": -0.010378460790382417
+				"elementId": "o5lVJX8glv51z8dSGrXDp",
+				"focus": -0.052034210521768175,
+				"gap": 2.6021782620996987
 			},
 			"endBinding": {
-				"elementId": "RS4ehBEVEp216OCwhPj18",
-				"gap": 13.333333333333485,
-				"focus": 0.030608593073469265
+				"elementId": "qi0dYaEIknVYnd1rP-eWZ",
+				"focus": 0.005999304090948875,
+				"gap": 14.456447243164178
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -1335,15 +1394,15 @@ $$
 					0
 				],
 				[
-					0.6466637938906388,
-					124.02737855825217
+					-2.1175829336950756,
+					206.95609850148958
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 43,
-			"versionNonce": 1286327107,
+			"version": 58,
+			"versionNonce": 1778017933,
 			"isDeleted": false,
 			"id": "zWORx80X",
 			"fillStyle": "hachure",
@@ -1352,28 +1411,28 @@ $$
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1526.31931267163,
-			"y": 686.0718420472365,
+			"x": -1520.128053077974,
+			"y": 53.0903699973244,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 43.343994140625,
+			"width": 83.57998657226562,
 			"height": 33.6,
 			"seed": 31626912,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705845316470,
+			"updated": 1705845755263,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
 			"fontFamily": 4,
-			"text": "장점",
-			"rawText": "장점",
+			"text": "해결방안",
+			"rawText": "해결방안",
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "-FkThbfgCU29iAl7HPxrv",
-			"originalText": "장점",
+			"originalText": "해결방안",
 			"lineHeight": 1.2,
 			"baseline": 26
 		},
@@ -1698,8 +1757,8 @@ $$
 		},
 		{
 			"type": "arrow",
-			"version": 416,
-			"versionNonce": 1393944803,
+			"version": 417,
+			"versionNonce": 615110381,
 			"isDeleted": false,
 			"id": "aXSV0EcqZGTyMsoC8MfDd",
 			"fillStyle": "hachure",
@@ -1710,7 +1769,7 @@ $$
 			"angle": 0,
 			"x": -1198.212667025899,
 			"y": -202.80169105444355,
-			"strokeColor": "#2f9e44",
+			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 1023.5843371106432,
 			"height": 394.056379391198,
@@ -1726,7 +1785,7 @@ $$
 					"id": "xWE7M7SM"
 				}
 			],
-			"updated": 1705845396648,
+			"updated": 1705845543857,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1755,8 +1814,8 @@ $$
 		},
 		{
 			"type": "text",
-			"version": 31,
-			"versionNonce": 4442829,
+			"version": 32,
+			"versionNonce": 884284003,
 			"isDeleted": false,
 			"id": "xWE7M7SM",
 			"fillStyle": "hachure",
@@ -1767,7 +1826,7 @@ $$
 			"angle": 0,
 			"x": -707.1264921229211,
 			"y": -22.573501358844556,
-			"strokeColor": "#2f9e44",
+			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 41.4119873046875,
 			"height": 33.6,
@@ -1776,7 +1835,7 @@ $$
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705845396648,
+			"updated": 1705845543857,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -1827,11 +1886,11 @@ $$
 			"id": "6sT5k8WgllKwZCSpIWlqa",
 			"type": "arrow",
 			"x": -1489.2278129416145,
-			"y": -610.1222760914139,
+			"y": -611.3944996585152,
 			"width": 0.9306431494812841,
 			"height": 293.7142399379185,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 4,
@@ -1844,8 +1903,8 @@ $$
 				"type": 2
 			},
 			"seed": 723757603,
-			"version": 518,
-			"versionNonce": 1188087619,
+			"version": 522,
+			"versionNonce": 1427032621,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1853,7 +1912,7 @@ $$
 					"id": "vde9RmJW"
 				}
 			],
-			"updated": 1705845370162,
+			"updated": 1705845678705,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1869,13 +1928,13 @@ $$
 			"lastCommittedPoint": null,
 			"startBinding": {
 				"elementId": "o5lVJX8glv51z8dSGrXDp",
-				"focus": -0.004434065566793195,
-				"gap": 1.9324185758936778
+				"focus": 0.004123393872828464,
+				"gap": 3.2046421429951124
 			},
 			"endBinding": {
 				"elementId": "6ISOuwRavITLKEmlLc4vT",
-				"focus": 0.02214892951637223,
-				"gap": 9.428575788225373
+				"focus": 0.022135015138254513,
+				"gap": 8.156352221124052
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow"
@@ -1888,7 +1947,7 @@ $$
 			"width": 81.98396301269531,
 			"height": 33.6,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 4,
@@ -1899,11 +1958,11 @@ $$
 			"frameId": null,
 			"roundness": null,
 			"seed": 2034702285,
-			"version": 17,
-			"versionNonce": 766065923,
+			"version": 18,
+			"versionNonce": 1606155043,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1705845316470,
+			"updated": 1705845678705,
 			"link": null,
 			"locked": false,
 			"text": "문제정의:",
@@ -2237,9 +2296,9 @@ $$
 	"appState": {
 		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#1e1e1e",
-		"currentItemBackgroundColor": "transparent",
-		"currentItemFillStyle": "hachure",
+		"currentItemStrokeColor": "#e03131",
+		"currentItemBackgroundColor": "#a5d8ff",
+		"currentItemFillStyle": "solid",
 		"currentItemStrokeWidth": 4,
 		"currentItemStrokeStyle": "solid",
 		"currentItemRoughness": 0,
@@ -2249,10 +2308,10 @@ $$
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 3545.116457896482,
-		"scrollY": 3077.5527963158147,
+		"scrollX": 2287.3358979524437,
+		"scrollY": -49.37257815142601,
 		"zoom": {
-			"value": 0.15000000000000002
+			"value": 0.5499999999999999
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
