@@ -15,7 +15,9 @@ CTR ^GK3BKitr
 CTR이란 (Clikc-through rate)로 추천된 아이템을
 유저가 클릭할 확률
 
-추천시스템에 있어 CTR은 매우 중요한 요소 중 하나 ^woPkp4sQ
+추천시스템에 있어 CTR은 매우 중요한 요소 중 하나
+
+Ranking Sort 기준은 CTR   bid 값으로 조정 ^woPkp4sQ
 
 2017년 발표된 논문으로 Factorization Machine을
 신경망으로 확장한 DeepFM 모델 제안 ^oSXzoabA
@@ -64,8 +66,19 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 
 발전 ^xWE7M7SM
 
+Bid? ^TTl5qHkx
+
+유저가 아이템을 클릭할 때마다 받는 보상값 ^Ub2G9d7i
+
+즉, 피쳐들간의 상호작용을 모델링하는 것이 목적 ^WmOy8sKw
+
+대부분의 피쳐 상호작용은 데이터 속에 숨겨져 있고
+이를 선험적(prior)으로 알기 어렵다. ^TJHlTldr
+
 
 # Embedded files
+1acd85ab268aa15908884e70b2120d6f3eafdc60: $$\times
+$$
 13c9ee52728b723a0340730c28d19618c8be616b: [[Pasted Image 20240118210956_301.png]]
 
 %%
@@ -78,8 +91,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 	"elements": [
 		{
 			"type": "rectangle",
-			"version": 341,
-			"versionNonce": 1231955616,
+			"version": 347,
+			"versionNonce": 1151079565,
 			"isDeleted": false,
 			"id": "I0ZLWxhbtCMX1qgMrQ5_a",
 			"fillStyle": "hachure",
@@ -114,14 +127,14 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"type": "arrow"
 				}
 			],
-			"updated": 1705601317467,
+			"updated": 1705844897806,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 112,
-			"versionNonce": 1759843168,
+			"version": 118,
+			"versionNonce": 1917257411,
 			"isDeleted": false,
 			"id": "q4HgIucT",
 			"fillStyle": "hachure",
@@ -141,7 +154,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": "xypwCSRmvveY3TFu7EULd",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317467,
+			"updated": 1705844897806,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -157,8 +170,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "embeddable",
-			"version": 760,
-			"versionNonce": 1378898592,
+			"version": 767,
+			"versionNonce": 2124675821,
 			"isDeleted": false,
 			"id": "tR4AqLuUuRqxb5eVH3get",
 			"fillStyle": "hachure",
@@ -180,7 +193,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1705601317467,
+			"updated": 1705844897806,
 			"link": "https://arxiv.org/pdf/1703.04247.pdf",
 			"locked": false,
 			"validated": true,
@@ -191,8 +204,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "arrow",
-			"version": 1518,
-			"versionNonce": 1705748320,
+			"version": 1524,
+			"versionNonce": 702494307,
 			"isDeleted": false,
 			"id": "ZBnbuoHoKJLjN2pLtabZh",
 			"fillStyle": "hachure",
@@ -219,7 +232,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"id": "gtDauUeq"
 				}
 			],
-			"updated": 1705601317467,
+			"updated": 1705844897806,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -248,8 +261,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "text",
-			"version": 57,
-			"versionNonce": 1506606752,
+			"version": 63,
+			"versionNonce": 1335891277,
 			"isDeleted": false,
 			"id": "gtDauUeq",
 			"fillStyle": "hachure",
@@ -269,7 +282,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317467,
+			"updated": 1705844897806,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -285,8 +298,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "rectangle",
-			"version": 995,
-			"versionNonce": 880786272,
+			"version": 1002,
+			"versionNonce": 168849923,
 			"isDeleted": false,
 			"id": "MAy6wUQl",
 			"fillStyle": "hachure",
@@ -317,14 +330,14 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"type": "arrow"
 				}
 			],
-			"updated": 1705601317467,
+			"updated": 1705844897806,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 395,
-			"versionNonce": 552872608,
+			"version": 404,
+			"versionNonce": 854188973,
 			"isDeleted": false,
 			"id": "GK3BKitr",
 			"fillStyle": "hachure",
@@ -335,7 +348,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"angle": 0,
 			"x": -116.51626169413419,
 			"y": -968.4178281542415,
-			"strokeColor": "#000000",
+			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
 			"width": 56.37599182128906,
 			"height": 43.199999999999996,
@@ -344,7 +357,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": "DZh1jPdZmLUojklmLsu6x",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317467,
+			"updated": 1705844897806,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -360,8 +373,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "text",
-			"version": 571,
-			"versionNonce": 934367072,
+			"version": 661,
+			"versionNonce": 869874083,
 			"isDeleted": false,
 			"id": "woPkp4sQ",
 			"fillStyle": "hachure",
@@ -375,30 +388,104 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 466.78778076171875,
-			"height": 134.4,
+			"height": 201.60000000000002,
 			"seed": 1065861792,
 			"groupIds": [],
 			"frameId": "DZh1jPdZmLUojklmLsu6x",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317467,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
 			"fontFamily": 4,
-			"text": "CTR이란 (Clikc-through rate)로 추천된 아이템을\n유저가 클릭할 확률\n\n추천시스템에 있어 CTR은 매우 중요한 요소 중 하나",
-			"rawText": "CTR이란 (Clikc-through rate)로 추천된 아이템을\n유저가 클릭할 확률\n\n추천시스템에 있어 CTR은 매우 중요한 요소 중 하나",
+			"text": "CTR이란 (Clikc-through rate)로 추천된 아이템을\n유저가 클릭할 확률\n\n추천시스템에 있어 CTR은 매우 중요한 요소 중 하나\n\nRanking Sort 기준은 CTR   bid 값으로 조정",
+			"rawText": "CTR이란 (Clikc-through rate)로 추천된 아이템을\n유저가 클릭할 확률\n\n추천시스템에 있어 CTR은 매우 중요한 요소 중 하나\n\nRanking Sort 기준은 CTR   bid 값으로 조정",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "CTR이란 (Clikc-through rate)로 추천된 아이템을\n유저가 클릭할 확률\n\n추천시스템에 있어 CTR은 매우 중요한 요소 중 하나",
+			"originalText": "CTR이란 (Clikc-through rate)로 추천된 아이템을\n유저가 클릭할 확률\n\n추천시스템에 있어 CTR은 매우 중요한 요소 중 하나\n\nRanking Sort 기준은 CTR   bid 값으로 조정",
 			"lineHeight": 1.2,
-			"baseline": 127
+			"baseline": 194
+		},
+		{
+			"id": "TTl5qHkx",
+			"type": "text",
+			"x": -110.03113523981426,
+			"y": -668.7065559540721,
+			"width": 32.89997863769531,
+			"height": 33.6,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "DZh1jPdZmLUojklmLsu6x",
+			"roundness": null,
+			"seed": 19892877,
+			"version": 64,
+			"versionNonce": 1071422573,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1705844897807,
+			"link": null,
+			"locked": false,
+			"text": "Bid?",
+			"rawText": "Bid?",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 26,
+			"containerId": null,
+			"originalText": "Bid?",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "Ub2G9d7i",
+			"type": "text",
+			"x": -107.36446857314752,
+			"y": -615.1065071259471,
+			"width": 292.119873046875,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "DZh1jPdZmLUojklmLsu6x",
+			"roundness": null,
+			"seed": 1807805741,
+			"version": 169,
+			"versionNonce": 790326499,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1705844897807,
+			"link": null,
+			"locked": false,
+			"text": "유저가 아이템을 클릭할 때마다 받는 보상값",
+			"rawText": "유저가 아이템을 클릭할 때마다 받는 보상값",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "유저가 아이템을 클릭할 때마다 받는 보상값",
+			"lineHeight": 1.2
 		},
 		{
 			"type": "frame",
-			"version": 563,
-			"versionNonce": 1381357216,
+			"version": 569,
+			"versionNonce": 1950910157,
 			"isDeleted": false,
 			"id": "DZh1jPdZmLUojklmLsu6x",
 			"fillStyle": "solid",
@@ -423,7 +510,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"type": "arrow"
 				}
 			],
-			"updated": 1705601317467,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -437,8 +524,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "text",
-			"version": 175,
-			"versionNonce": 126903136,
+			"version": 181,
+			"versionNonce": 931256451,
 			"isDeleted": false,
 			"id": "oSXzoabA",
 			"fillStyle": "hachure",
@@ -458,7 +545,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": "xypwCSRmvveY3TFu7EULd",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317467,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -474,8 +561,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "rectangle",
-			"version": 1167,
-			"versionNonce": 1117913760,
+			"version": 1173,
+			"versionNonce": 1552426285,
 			"isDeleted": false,
 			"id": "NSo4GmfTI0HwEEMwN-uQl",
 			"fillStyle": "hachure",
@@ -502,14 +589,14 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"type": "arrow"
 				}
 			],
-			"updated": 1705601317467,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "arrow",
-			"version": 1107,
-			"versionNonce": 846002016,
+			"version": 1113,
+			"versionNonce": 727306275,
 			"isDeleted": false,
 			"id": "I-9PL8fW6hvKsli_bTsN-",
 			"fillStyle": "hachure",
@@ -536,7 +623,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"id": "zILDYHwL"
 				}
 			],
-			"updated": 1705601317467,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -565,8 +652,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "text",
-			"version": 36,
-			"versionNonce": 814263968,
+			"version": 42,
+			"versionNonce": 738523021,
 			"isDeleted": false,
 			"id": "zILDYHwL",
 			"fillStyle": "hachure",
@@ -586,7 +673,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317467,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -602,8 +689,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "text",
-			"version": 275,
-			"versionNonce": 2090273632,
+			"version": 282,
+			"versionNonce": 1016189891,
 			"isDeleted": false,
 			"id": "GUTZRWIU",
 			"fillStyle": "hachure",
@@ -614,7 +701,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"angle": 0,
 			"x": -137.12667052238476,
 			"y": -1843.6176463969618,
-			"strokeColor": "#000000",
+			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
 			"width": 215.8918914794922,
 			"height": 43.199999999999996,
@@ -623,7 +710,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": "WzpDNumaP0gcIe9j0-SQy",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317467,
+			"updated": 1705844897807,
 			"link": "[[00_Recommender_Systems#Implicit_vs_Explicit]]",
 			"locked": false,
 			"fontSize": 36,
@@ -639,8 +726,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "text",
-			"version": 661,
-			"versionNonce": 79288992,
+			"version": 667,
+			"versionNonce": 1828224493,
 			"isDeleted": false,
 			"id": "phjZ7ZH6",
 			"fillStyle": "hachure",
@@ -660,7 +747,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": "WzpDNumaP0gcIe9j0-SQy",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317467,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -676,8 +763,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "frame",
-			"version": 319,
-			"versionNonce": 236172128,
+			"version": 325,
+			"versionNonce": 644626509,
 			"isDeleted": false,
 			"id": "WzpDNumaP0gcIe9j0-SQy",
 			"fillStyle": "solid",
@@ -702,7 +789,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"type": "arrow"
 				}
 			],
-			"updated": 1705601317467,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -716,8 +803,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "arrow",
-			"version": 874,
-			"versionNonce": 1421587104,
+			"version": 1113,
+			"versionNonce": 1875640067,
 			"isDeleted": false,
 			"id": "N1Ri-QHvsohZgJLD2LkZf",
 			"fillStyle": "hachure",
@@ -744,7 +831,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"id": "ARPfDggG"
 				}
 			],
-			"updated": 1705601317467,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -773,8 +860,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "text",
-			"version": 43,
-			"versionNonce": 738608992,
+			"version": 49,
+			"versionNonce": 1111074477,
 			"isDeleted": false,
 			"id": "ARPfDggG",
 			"fillStyle": "hachure",
@@ -794,7 +881,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317467,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -810,8 +897,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "rectangle",
-			"version": 1107,
-			"versionNonce": 871128736,
+			"version": 1113,
+			"versionNonce": 1419454115,
 			"isDeleted": false,
 			"id": "o5lVJX8glv51z8dSGrXDp",
 			"fillStyle": "hachure",
@@ -842,14 +929,14 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"type": "arrow"
 				}
 			],
-			"updated": 1705601317468,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 335,
-			"versionNonce": 377903968,
+			"version": 341,
+			"versionNonce": 856312077,
 			"isDeleted": false,
 			"id": "q1MjBx4p",
 			"fillStyle": "hachure",
@@ -869,7 +956,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": "HEJ25XmHBNYjcTvpBbY1J",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317468,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -885,8 +972,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "text",
-			"version": 504,
-			"versionNonce": 1076333216,
+			"version": 512,
+			"versionNonce": 275012163,
 			"isDeleted": false,
 			"id": "vuHjbpWn",
 			"fillStyle": "hachure",
@@ -906,7 +993,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": "HEJ25XmHBNYjcTvpBbY1J",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317468,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -922,8 +1009,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "image",
-			"version": 354,
-			"versionNonce": 1608773472,
+			"version": 360,
+			"versionNonce": 1515691885,
 			"isDeleted": false,
 			"id": "IlfqHsXtKMtMaJJpFPVpd",
 			"fillStyle": "hachure",
@@ -943,7 +1030,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": "HEJ25XmHBNYjcTvpBbY1J",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317468,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -955,8 +1042,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "text",
-			"version": 478,
-			"versionNonce": 1948071584,
+			"version": 484,
+			"versionNonce": 1342577123,
 			"isDeleted": false,
 			"id": "jdj2uvvr",
 			"fillStyle": "hachure",
@@ -976,7 +1063,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": "HEJ25XmHBNYjcTvpBbY1J",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317468,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -992,8 +1079,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "frame",
-			"version": 434,
-			"versionNonce": 1349452640,
+			"version": 440,
+			"versionNonce": 778774989,
 			"isDeleted": false,
 			"id": "HEJ25XmHBNYjcTvpBbY1J",
 			"fillStyle": "solid",
@@ -1022,7 +1109,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"type": "arrow"
 				}
 			],
-			"updated": 1705601317468,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -1036,8 +1123,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "rectangle",
-			"version": 1817,
-			"versionNonce": 1954374304,
+			"version": 1823,
+			"versionNonce": 546235779,
 			"isDeleted": false,
 			"id": "7eeGwcY2N4JxWeYg35SW9",
 			"fillStyle": "hachure",
@@ -1064,14 +1151,14 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"type": "arrow"
 				}
 			],
-			"updated": 1705601317468,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 1785,
-			"versionNonce": 645371744,
+			"version": 1791,
+			"versionNonce": 543057965,
 			"isDeleted": false,
 			"id": "qi0dYaEIknVYnd1rP-eWZ",
 			"fillStyle": "hachure",
@@ -1093,14 +1180,14 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1705601317468,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 688,
-			"versionNonce": 1341656736,
+			"version": 694,
+			"versionNonce": 1765621027,
 			"isDeleted": false,
 			"id": "moCIA2oh",
 			"fillStyle": "hachure",
@@ -1120,7 +1207,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": "RS4ehBEVEp216OCwhPj18",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317468,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -1136,8 +1223,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "frame",
-			"version": 694,
-			"versionNonce": 1447930720,
+			"version": 700,
+			"versionNonce": 1109056141,
 			"isDeleted": false,
 			"id": "RS4ehBEVEp216OCwhPj18",
 			"fillStyle": "solid",
@@ -1162,7 +1249,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"type": "arrow"
 				}
 			],
-			"updated": 1705601317468,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -1176,8 +1263,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "arrow",
-			"version": 1773,
-			"versionNonce": 1060977312,
+			"version": 1779,
+			"versionNonce": 629121219,
 			"isDeleted": false,
 			"id": "-FkThbfgCU29iAl7HPxrv",
 			"fillStyle": "hachure",
@@ -1204,7 +1291,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"id": "zWORx80X"
 				}
 			],
-			"updated": 1705601317468,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1233,8 +1320,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "text",
-			"version": 36,
-			"versionNonce": 1245790048,
+			"version": 42,
+			"versionNonce": 744095981,
 			"isDeleted": false,
 			"id": "zWORx80X",
 			"fillStyle": "hachure",
@@ -1254,7 +1341,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317468,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -1269,70 +1356,75 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"baseline": 26
 		},
 		{
-			"id": "ebK8nqVk",
 			"type": "text",
-			"x": -143.55053796978893,
-			"y": -2666.071486200023,
-			"width": 526.2317504882812,
-			"height": 201.60000000000002,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
+			"version": 374,
+			"versionNonce": 1593086051,
+			"isDeleted": false,
+			"id": "ebK8nqVk",
 			"fillStyle": "hachure",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
+			"angle": 0,
+			"x": -143.55053796978893,
+			"y": -2666.071486200023,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 526.2317504882812,
+			"height": 201.60000000000002,
+			"seed": 1078522720,
 			"groupIds": [],
 			"frameId": "45xFR6gTILwISZ2FOkroU",
 			"roundness": null,
-			"seed": 1078522720,
-			"version": 368,
-			"versionNonce": 1694295712,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1705601317468,
+			"boundElements": [],
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
-			"text": "기저귀를 구매하는 사람은 맥주를 함께 구매한다(order-2)\n와 같은 대부분의 Interaction들은 데이터 속에 숨겨짐.\n\n(아버지들이 기저귀를 기저귀를 자주 구매하는 듯 한다)\n위와 같은 Interaction들은 전문가조차 찾기 힘들다.\n",
-			"rawText": "기저귀를 구매하는 사람은 맥주를 함께 구매한다(order-2)\n와 같은 대부분의 Interaction들은 데이터 속에 숨겨짐.\n\n(아버지들이 기저귀를 기저귀를 자주 구매하는 듯 한다)\n위와 같은 Interaction들은 전문가조차 찾기 힘들다.\n",
 			"fontSize": 28,
 			"fontFamily": 4,
+			"text": "기저귀를 구매하는 사람은 맥주를 함께 구매한다(order-2)\n와 같은 대부분의 Interaction들은 데이터 속에 숨겨짐.\n\n(아버지들이 기저귀를 기저귀를 자주 구매하는 듯 한다)\n위와 같은 Interaction들은 전문가조차 찾기 힘들다.\n",
+			"rawText": "기저귀를 구매하는 사람은 맥주를 함께 구매한다(order-2)\n와 같은 대부분의 Interaction들은 데이터 속에 숨겨짐.\n\n(아버지들이 기저귀를 기저귀를 자주 구매하는 듯 한다)\n위와 같은 Interaction들은 전문가조차 찾기 힘들다.\n",
 			"textAlign": "left",
 			"verticalAlign": "top",
-			"baseline": 194,
 			"containerId": null,
 			"originalText": "기저귀를 구매하는 사람은 맥주를 함께 구매한다(order-2)\n와 같은 대부분의 Interaction들은 데이터 속에 숨겨짐.\n\n(아버지들이 기저귀를 기저귀를 자주 구매하는 듯 한다)\n위와 같은 Interaction들은 전문가조차 찾기 힘들다.\n",
-			"lineHeight": 1.2
+			"lineHeight": 1.2,
+			"baseline": 194
 		},
 		{
-			"id": "PH0Mu60CGHYivYu0S6MVs",
 			"type": "arrow",
-			"x": 91.87819040632746,
-			"y": -2564.0716693054933,
-			"width": 0,
-			"height": 25.142909458705162,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
+			"version": 85,
+			"versionNonce": 614816589,
+			"isDeleted": false,
+			"id": "PH0Mu60CGHYivYu0S6MVs",
 			"fillStyle": "hachure",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
+			"angle": 0,
+			"x": 91.87819040632746,
+			"y": -2564.0716693054933,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 0,
+			"height": 25.142909458705162,
+			"seed": 1238132576,
 			"groupIds": [],
 			"frameId": "45xFR6gTILwISZ2FOkroU",
 			"roundness": {
 				"type": 2
 			},
-			"seed": 1238132576,
-			"version": 79,
-			"versionNonce": 581063520,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1705601317468,
+			"boundElements": [],
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
+			"startBinding": null,
+			"endBinding": null,
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
 			"points": [
 				[
 					0,
@@ -1342,17 +1434,86 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					0,
 					-25.142909458705162
 				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": null,
-			"endBinding": null,
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			]
+		},
+		{
+			"id": "WmOy8sKw",
+			"type": "text",
+			"x": -134.29732990127195,
+			"y": -1394.8396858368885,
+			"width": 417.39581298828125,
+			"height": 33.6,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "WzpDNumaP0gcIe9j0-SQy",
+			"roundness": null,
+			"seed": 851176077,
+			"version": 186,
+			"versionNonce": 1735035907,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1705844897807,
+			"link": null,
+			"locked": false,
+			"text": "즉, 피쳐들간의 상호작용을 모델링하는 것이 목적",
+			"rawText": "즉, 피쳐들간의 상호작용을 모델링하는 것이 목적",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 26,
+			"containerId": null,
+			"originalText": "즉, 피쳐들간의 상호작용을 모델링하는 것이 목적",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "TJHlTldr",
+			"type": "text",
+			"x": -143.09729734918852,
+			"y": -2449.773043584283,
+			"width": 441.58782958984375,
+			"height": 67.2,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "45xFR6gTILwISZ2FOkroU",
+			"roundness": null,
+			"seed": 629761315,
+			"version": 116,
+			"versionNonce": 55994797,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1705844897807,
+			"link": null,
+			"locked": false,
+			"text": "대부분의 피쳐 상호작용은 데이터 속에 숨겨져 있고\n이를 선험적(prior)으로 알기 어렵다.",
+			"rawText": "대부분의 피쳐 상호작용은 데이터 속에 숨겨져 있고\n이를 선험적(prior)으로 알기 어렵다.",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 60,
+			"containerId": null,
+			"originalText": "대부분의 피쳐 상호작용은 데이터 속에 숨겨져 있고\n이를 선험적(prior)으로 알기 어렵다.",
+			"lineHeight": 1.2
 		},
 		{
 			"type": "frame",
-			"version": 290,
-			"versionNonce": 233247392,
+			"version": 296,
+			"versionNonce": 1390416803,
 			"isDeleted": false,
 			"id": "45xFR6gTILwISZ2FOkroU",
 			"fillStyle": "solid",
@@ -1372,7 +1533,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317468,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -1386,8 +1547,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "arrow",
-			"version": 904,
-			"versionNonce": 1975576416,
+			"version": 910,
+			"versionNonce": 1503046669,
 			"isDeleted": false,
 			"id": "-2j90jjP8ljRqBCwnqMQD",
 			"fillStyle": "hachure",
@@ -1409,7 +1570,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1705601317468,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1437,29 +1598,29 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			]
 		},
 		{
-			"id": "xypwCSRmvveY3TFu7EULd",
 			"type": "frame",
-			"x": -183.79747317705142,
-			"y": -187.0923495224929,
-			"width": 629.333292643229,
-			"height": 640,
-			"angle": 0,
-			"strokeColor": "#bbb",
-			"backgroundColor": "transparent",
+			"version": 167,
+			"versionNonce": 830711619,
+			"isDeleted": false,
+			"id": "xypwCSRmvveY3TFu7EULd",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
+			"angle": 0,
+			"x": -183.79747317705142,
+			"y": -187.0923495224929,
+			"strokeColor": "#bbb",
+			"backgroundColor": "transparent",
+			"width": 629.333292643229,
+			"height": 640,
+			"seed": 1100530336,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
-			"seed": 1100530336,
-			"version": 161,
-			"versionNonce": 1890303648,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1705601317468,
+			"boundElements": [],
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -1472,49 +1633,38 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"name": null
 		},
 		{
-			"id": "aXSV0EcqZGTyMsoC8MfDd",
 			"type": "arrow",
-			"x": -567.3556026425285,
-			"y": 182.7811774022531,
-			"width": 392.72727272727275,
-			"height": 49.45456764914775,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
+			"version": 235,
+			"versionNonce": 1465885293,
+			"isDeleted": false,
+			"id": "aXSV0EcqZGTyMsoC8MfDd",
 			"fillStyle": "hachure",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
+			"angle": 0,
+			"x": -567.3556026425285,
+			"y": 182.7811774022531,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 392.72727272727275,
+			"height": 49.45456764914775,
+			"seed": 660233888,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
-			"seed": 660233888,
-			"version": 229,
-			"versionNonce": 1845160608,
-			"isDeleted": false,
 			"boundElements": [
 				{
 					"type": "text",
 					"id": "xWE7M7SM"
 				}
 			],
-			"updated": 1705601317468,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					392.72727272727275,
-					49.45456764914775
-				]
-			],
-			"lastCommittedPoint": null,
 			"startBinding": {
 				"elementId": "o5lVJX8glv51z8dSGrXDp",
 				"focus": 0.03189913123947394,
@@ -1525,51 +1675,95 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 				"focus": -0.4701049851076974,
 				"gap": 10.09506575509954
 			},
+			"lastCommittedPoint": null,
 			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					392.72727272727275,
+					49.45456764914775
+				]
+			]
 		},
 		{
-			"id": "xWE7M7SM",
 			"type": "text",
+			"version": 18,
+			"versionNonce": 162776803,
+			"isDeleted": false,
+			"id": "xWE7M7SM",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
 			"x": -391.0259628609234,
 			"y": 190.70846122682696,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
 			"width": 40.0679931640625,
 			"height": 33.6,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
-			"strokeWidth": 4,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
+			"seed": 429070176,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
-			"seed": 429070176,
-			"version": 12,
-			"versionNonce": 863407968,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1705601317468,
+			"boundElements": [],
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
 			"text": "발전",
 			"rawText": "발전",
-			"fontSize": 28,
-			"fontFamily": 4,
 			"textAlign": "center",
 			"verticalAlign": "middle",
-			"baseline": 26,
 			"containerId": "aXSV0EcqZGTyMsoC8MfDd",
 			"originalText": "발전",
-			"lineHeight": 1.2
+			"lineHeight": 1.2,
+			"baseline": 26
 		},
 		{
-			"id": "he3drCvW",
+			"type": "image",
+			"version": 32,
+			"versionNonce": 1903873229,
+			"isDeleted": false,
+			"id": "hsfrpMP9",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 132.33548259872748,
+			"y": -697.1398343557648,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 23,
+			"height": 9,
+			"seed": 3470,
+			"groupIds": [],
+			"frameId": "DZh1jPdZmLUojklmLsu6x",
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705844897807,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "1acd85ab268aa15908884e70b2120d6f3eafdc60",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "Vwibv2NH",
 			"type": "text",
-			"x": 90.55283180496826,
-			"y": -1785.4741026265556,
+			"x": 143.83548259872737,
+			"y": -693.2398404592805,
 			"width": 8.399993896484375,
 			"height": 33.6,
 			"angle": 0,
@@ -1581,14 +1775,14 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"groupIds": [],
-			"frameId": "WzpDNumaP0gcIe9j0-SQy",
+			"frameId": "DZh1jPdZmLUojklmLsu6x",
 			"roundness": null,
-			"seed": 1127200608,
+			"seed": 73767171,
 			"version": 8,
-			"versionNonce": 543072096,
+			"versionNonce": 2091574797,
 			"isDeleted": true,
 			"boundElements": null,
-			"updated": 1705601317467,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
 			"text": "",
@@ -1603,14 +1797,51 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"lineHeight": 1.2
 		},
 		{
-			"id": "Jg0YdGmR",
+			"id": "oiZYK3DJ",
 			"type": "text",
-			"x": 60.552831804968264,
-			"y": -1782.616959769413,
+			"x": -98.83118406793926,
+			"y": -573.2398404592805,
 			"width": 8.399993896484375,
 			"height": 33.6,
 			"angle": 0,
-			"strokeColor": "#000000",
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "DZh1jPdZmLUojklmLsu6x",
+			"roundness": null,
+			"seed": 839000099,
+			"version": 6,
+			"versionNonce": 610798915,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1705844897807,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 26,
+			"containerId": null,
+			"originalText": "",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "7I9jdLwj",
+			"type": "text",
+			"x": -18.83118406793926,
+			"y": -1769.23984045928,
+			"width": 6,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 4,
@@ -1620,1991 +1851,30 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"groupIds": [],
 			"frameId": "WzpDNumaP0gcIe9j0-SQy",
 			"roundness": null,
-			"seed": 1701381984,
-			"version": 16,
-			"versionNonce": 300254880,
+			"seed": 948436291,
+			"version": 6,
+			"versionNonce": 1531470691,
 			"isDeleted": true,
 			"boundElements": null,
-			"updated": 1705601317467,
+			"updated": 1705844897807,
 			"link": null,
 			"locked": false,
 			"text": "",
 			"rawText": "",
-			"fontSize": 28,
+			"fontSize": 20,
 			"fontFamily": 4,
 			"textAlign": "left",
 			"verticalAlign": "top",
-			"baseline": 26,
+			"baseline": 18,
 			"containerId": null,
 			"originalText": "",
 			"lineHeight": 1.2
-		},
-		{
-			"id": "FZOVEHwnp5m2Mas5N5p8_",
-			"type": "arrow",
-			"x": -557.1738288499148,
-			"y": 162.41751884401447,
-			"width": 362.1818403764205,
-			"height": 7.272727272727252,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
-			"strokeWidth": 4,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": "HEJ25XmHBNYjcTvpBbY1J",
-			"roundness": {
-				"type": 2
-			},
-			"seed": 609411936,
-			"version": 86,
-			"versionNonce": 267189088,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1705601317468,
-			"link": null,
-			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					362.1818403764205,
-					7.272727272727252
-				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": {
-				"elementId": "o5lVJX8glv51z8dSGrXDp",
-				"focus": 0.07290309677536565,
-				"gap": 19.532245321390064
-			},
-			"endBinding": {
-				"elementId": "xypwCSRmvveY3TFu7EULd",
-				"focus": -0.1327720550794567,
-				"gap": 11.194515296442887
-			},
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
-		},
-		{
-			"id": "ct1PYQzTUAWhxQ1y34FSm",
-			"type": "freedraw",
-			"x": -55.4598546527252,
-			"y": 242.43812283312127,
-			"width": 251.99991861979152,
-			"height": 3.9999898274739962,
-			"angle": 0,
-			"strokeColor": "#FFC47C",
-			"backgroundColor": "#FFC47C",
-			"fillStyle": "solid",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": null,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": "xypwCSRmvveY3TFu7EULd",
-			"roundness": null,
-			"seed": 1806280352,
-			"version": 34,
-			"versionNonce": 1764868768,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1705601309949,
-			"link": null,
-			"locked": false,
-			"customData": {
-				"strokeOptions": {
-					"highlighter": true,
-					"constantPressure": true,
-					"hasOutline": true,
-					"outlineWidth": 4,
-					"options": {
-						"thinning": 1,
-						"smoothing": 0.5,
-						"streamline": 0.5,
-						"easing": "linear",
-						"start": {
-							"taper": 0,
-							"cap": true,
-							"easing": "linear"
-						},
-						"end": {
-							"taper": 0,
-							"cap": true,
-							"easing": "linear"
-						}
-					}
-				}
-			},
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					1.3332112630207575,
-					0
-				],
-				[
-					6.666666666666515,
-					1.33331298828125
-				],
-				[
-					10.666707356770758,
-					1.33331298828125
-				],
-				[
-					15.999959309895758,
-					2.6666768391927462
-				],
-				[
-					22.6666259765625,
-					3.9999898274739962
-				],
-				[
-					34.666544596354015,
-					3.9999898274739962
-				],
-				[
-					37.3333740234375,
-					3.9999898274739962
-				],
-				[
-					44.000040690104015,
-					3.9999898274739962
-				],
-				[
-					53.33333333333326,
-					3.9999898274739962
-				],
-				[
-					62.6666259765625,
-					3.9999898274739962
-				],
-				[
-					64.00004069010402,
-					3.9999898274739962
-				],
-				[
-					107.9998779296875,
-					2.6666768391927462
-				],
-				[
-					118.66658528645826,
-					2.6666768391927462
-				],
-				[
-					131.99991861979152,
-					2.6666768391927462
-				],
-				[
-					137.3333740234375,
-					2.6666768391927462
-				],
-				[
-					169.33329264322902,
-					1.33331298828125
-				],
-				[
-					191.99991861979152,
-					1.33331298828125
-				],
-				[
-					200,
-					1.33331298828125
-				],
-				[
-					220,
-					1.33331298828125
-				],
-				[
-					237.3333740234375,
-					1.33331298828125
-				],
-				[
-					242.6666259765625,
-					1.33331298828125
-				],
-				[
-					244.00004069010402,
-					1.33331298828125
-				],
-				[
-					245.333251953125,
-					1.33331298828125
-				],
-				[
-					246.66666666666652,
-					1.33331298828125
-				],
-				[
-					247.9998779296875,
-					1.33331298828125
-				],
-				[
-					249.33329264322902,
-					1.33331298828125
-				],
-				[
-					249.33329264322902,
-					2.6666768391927462
-				],
-				[
-					250.66670735677076,
-					2.6666768391927462
-				],
-				[
-					250.66670735677076,
-					3.9999898274739962
-				],
-				[
-					251.99991861979152,
-					3.9999898274739962
-				],
-				[
-					251.99991861979152,
-					3.9999898274739962
-				]
-			],
-			"pressures": [
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				0
-			],
-			"simulatePressure": false,
-			"lastCommittedPoint": [
-				251.99991861979152,
-				3.9999898274739962
-			]
-		},
-		{
-			"id": "rVJZaoSAEBdnpfoYOXD72",
-			"type": "freedraw",
-			"x": -491.45991568788156,
-			"y": 546.4381126605953,
-			"width": 338.66668701171886,
-			"height": 5.333251953125,
-			"angle": 0,
-			"strokeColor": "#FFC47C",
-			"backgroundColor": "#FFC47C",
-			"fillStyle": "solid",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": null,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"seed": 1320184480,
-			"version": 17,
-			"versionNonce": 1931713184,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1705601305088,
-			"link": null,
-			"locked": false,
-			"customData": {
-				"strokeOptions": {
-					"highlighter": true,
-					"constantPressure": true,
-					"hasOutline": true,
-					"outlineWidth": 4,
-					"options": {
-						"thinning": 1,
-						"smoothing": 0.5,
-						"streamline": 0.5,
-						"easing": "linear",
-						"start": {
-							"taper": 0,
-							"cap": true,
-							"easing": "linear"
-						},
-						"end": {
-							"taper": 0,
-							"cap": true,
-							"easing": "linear"
-						}
-					}
-				}
-			},
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					1.33331298828125,
-					0
-				],
-				[
-					4.000040690104129,
-					0
-				],
-				[
-					7.999979654947879,
-					-1.33331298828125
-				],
-				[
-					21.33331298828125,
-					-2.6666259765625
-				],
-				[
-					45.33335367838538,
-					-3.99993896484375
-				],
-				[
-					81.33331298828136,
-					-3.99993896484375
-				],
-				[
-					92.00002034505212,
-					-3.99993896484375
-				],
-				[
-					126.66666666666663,
-					-3.99993896484375
-				],
-				[
-					165.33335367838538,
-					-1.33331298828125
-				],
-				[
-					205.33335367838538,
-					0
-				],
-				[
-					314.6666463216146,
-					1.33331298828125
-				],
-				[
-					337.3332722981771,
-					0
-				],
-				[
-					338.66668701171886,
-					0
-				],
-				[
-					338.66668701171886,
-					0
-				]
-			],
-			"pressures": [
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				0
-			],
-			"simulatePressure": false,
-			"lastCommittedPoint": [
-				338.66668701171886,
-				0
-			]
-		},
-		{
-			"id": "7kB-thnlFeoI4UirAKrdr",
-			"type": "freedraw",
-			"x": -395.4599563779857,
-			"y": 522.4381736957515,
-			"width": 258.66668701171875,
-			"height": 78.66658528645837,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"seed": 219629216,
-			"version": 52,
-			"versionNonce": 1283586720,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1705601307425,
-			"link": null,
-			"locked": false,
-			"customData": {
-				"strokeOptions": {
-					"highlighter": false,
-					"constantPressure": false,
-					"hasOutline": false,
-					"outlineWidth": 0,
-					"options": {
-						"thinning": 0.6,
-						"smoothing": 0.5,
-						"streamline": 0.5,
-						"easing": "easeOutSine",
-						"start": {
-							"cap": true,
-							"taper": 0,
-							"easing": "linear"
-						},
-						"end": {
-							"cap": true,
-							"taper": 0,
-							"easing": "linear"
-						}
-					}
-				}
-			},
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					-5.333251953125,
-					5.333251953125
-				],
-				[
-					-6.6666666666667425,
-					6.666666666666629
-				],
-				[
-					-9.333292643229242,
-					7.999979654947879
-				],
-				[
-					-14.666646321614508,
-					15.999959309895871
-				],
-				[
-					-17.333272298177008,
-					18.66658528645837
-				],
-				[
-					-18.666585286458258,
-					21.33331298828125
-				],
-				[
-					-23.99993896484375,
-					27.99997965494788
-				],
-				[
-					-23.99993896484375,
-					29.33329264322913
-				],
-				[
-					-26.666666666666742,
-					34.66664632161462
-				],
-				[
-					-26.666666666666742,
-					37.33327229817712
-				],
-				[
-					-26.666666666666742,
-					40
-				],
-				[
-					-25.333251953125,
-					41.33331298828125
-				],
-				[
-					-17.333272298177008,
-					42.6666259765625
-				],
-				[
-					-2.6666259765625,
-					42.6666259765625
-				],
-				[
-					25.333353678385492,
-					42.6666259765625
-				],
-				[
-					49.33339436848951,
-					38.66658528645837
-				],
-				[
-					84.00014241536451,
-					27.99997965494788
-				],
-				[
-					82.66672770182299,
-					27.99997965494788
-				],
-				[
-					80.00010172526049,
-					30.66660563151038
-				],
-				[
-					76.00006103515625,
-					33.33333333333337
-				],
-				[
-					73.33343505859375,
-					37.33327229817712
-				],
-				[
-					69.33339436848951,
-					41.33331298828125
-				],
-				[
-					69.33339436848951,
-					42.6666259765625
-				],
-				[
-					66.66676839192701,
-					46.66666666666663
-				],
-				[
-					65.33335367838549,
-					49.33329264322913
-				],
-				[
-					66.66676839192701,
-					53.33333333333337
-				],
-				[
-					69.33339436848951,
-					55.99995930989587
-				],
-				[
-					74.66664632161451,
-					57.33327229817712
-				],
-				[
-					96.00006103515625,
-					57.33327229817712
-				],
-				[
-					121.33331298828125,
-					55.99995930989587
-				],
-				[
-					152.000020345052,
-					43.99993896484375
-				],
-				[
-					154.6666463216145,
-					41.33331298828125
-				],
-				[
-					157.333475748698,
-					35.99995930989587
-				],
-				[
-					154.6666463216145,
-					40
-				],
-				[
-					152.000020345052,
-					43.99993896484375
-				],
-				[
-					146.666768391927,
-					51.99991861979163
-				],
-				[
-					142.666727701823,
-					65.333251953125
-				],
-				[
-					142.666727701823,
-					69.33329264322913
-				],
-				[
-					144.0001424153645,
-					73.33333333333337
-				],
-				[
-					174.6666463216145,
-					78.66658528645837
-				],
-				[
-					185.3333536783855,
-					78.66658528645837
-				],
-				[
-					190.66680908203125,
-					77.33327229817712
-				],
-				[
-					196.00006103515625,
-					73.33333333333337
-				],
-				[
-					198.66668701171875,
-					70.66660563151038
-				],
-				[
-					198.66668701171875,
-					67.99997965494788
-				],
-				[
-					218.66668701171875,
-					63.99993896484375
-				],
-				[
-					230.66680908203125,
-					62.6666259765625
-				],
-				[
-					232.000020345052,
-					61.33331298828125
-				],
-				[
-					232.000020345052,
-					61.33331298828125
-				]
-			],
-			"pressures": [],
-			"simulatePressure": true,
-			"lastCommittedPoint": [
-				232.000020345052,
-				61.33331298828125
-			]
-		},
-		{
-			"id": "8skkgSzlFzumNvwgMr60J",
-			"type": "freedraw",
-			"x": -280.7933100563712,
-			"y": 571.7714663389806,
-			"width": 488.0000813802085,
-			"height": 440,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"seed": 1864396448,
-			"version": 201,
-			"versionNonce": 83050144,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1705601314540,
-			"link": null,
-			"locked": false,
-			"customData": {
-				"strokeOptions": {
-					"highlighter": false,
-					"constantPressure": false,
-					"hasOutline": false,
-					"outlineWidth": 1,
-					"options": {
-						"smoothing": 0.2,
-						"thinning": 0.6,
-						"streamline": 0.2,
-						"easing": "easeInOutSine",
-						"start": {
-							"taper": 150,
-							"cap": true,
-							"easing": "linear"
-						},
-						"end": {
-							"taper": 1,
-							"cap": true,
-							"easing": "linear"
-						}
-					}
-				}
-			},
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					-1.3332112630207575,
-					1.33331298828125
-				],
-				[
-					-5.333251953125,
-					4.0000406901042425
-				],
-				[
-					-10.66650390625,
-					10.666707356770871
-				],
-				[
-					-18.666585286458258,
-					22.6666259765625
-				],
-				[
-					-20,
-					25.333353678385492
-				],
-				[
-					-22.6666259765625,
-					30.66670735677087
-				],
-				[
-					-26.666666666666515,
-					41.33331298828125
-				],
-				[
-					-27.9998779296875,
-					45.33335367838549
-				],
-				[
-					-27.9998779296875,
-					54.66664632161462
-				],
-				[
-					-27.9998779296875,
-					61.33331298828125
-				],
-				[
-					-20,
-					70.66670735677087
-				],
-				[
-					-13.333333333333258,
-					75.99995930989587
-				],
-				[
-					-6.666666666666515,
-					78.66668701171875
-				],
-				[
-					6.6666666666667425,
-					85.33335367838549
-				],
-				[
-					36.00016276041674,
-					89.33329264322924
-				],
-				[
-					69.33349609375,
-					89.33329264322924
-				],
-				[
-					77.3333740234375,
-					87.99997965494799
-				],
-				[
-					102.66682942708348,
-					78.66668701171875
-				],
-				[
-					108.00008138020848,
-					75.99995930989587
-				],
-				[
-					112.0001220703125,
-					73.33333333333337
-				],
-				[
-					122.66682942708348,
-					62.6666259765625
-				],
-				[
-					128.00008138020848,
-					38.66668701171875
-				],
-				[
-					126.66666666666674,
-					34.66664632161462
-				],
-				[
-					125.33345540364598,
-					32.00002034505212
-				],
-				[
-					120,
-					26.666666666666742
-				],
-				[
-					104.00004069010424,
-					20
-				],
-				[
-					92.0001220703125,
-					17.3333740234375
-				],
-				[
-					78.66678873697924,
-					17.3333740234375
-				],
-				[
-					50.666707356770985,
-					32.00002034505212
-				],
-				[
-					50.666707356770985,
-					34.66664632161462
-				],
-				[
-					50.666707356770985,
-					41.33331298828125
-				],
-				[
-					50.666707356770985,
-					47.99997965494799
-				],
-				[
-					62.666829427083485,
-					64.00004069010424
-				],
-				[
-					73.33333333333348,
-					70.66670735677087
-				],
-				[
-					144.00004069010424,
-					82.6666259765625
-				],
-				[
-					189.33349609375,
-					74.66664632161462
-				],
-				[
-					193.33333333333348,
-					70.66670735677087
-				],
-				[
-					193.33333333333348,
-					69.33329264322924
-				],
-				[
-					185.33345540364598,
-					77.3333740234375
-				],
-				[
-					184.00004069010424,
-					81.33331298828125
-				],
-				[
-					180,
-					97.3333740234375
-				],
-				[
-					180,
-					101.33331298828125
-				],
-				[
-					178.66678873697924,
-					104.00004069010424
-				],
-				[
-					180,
-					105.33335367838549
-				],
-				[
-					182.66682942708348,
-					106.66666666666674
-				],
-				[
-					186.66666666666674,
-					106.66666666666674
-				],
-				[
-					193.33333333333348,
-					106.66666666666674
-				],
-				[
-					200,
-					106.66666666666674
-				],
-				[
-					209.33349609375,
-					106.66666666666674
-				],
-				[
-					220,
-					105.33335367838549
-				],
-				[
-					238.66678873697924,
-					101.33331298828125
-				],
-				[
-					242.66682942708348,
-					101.33331298828125
-				],
-				[
-					250.66670735677098,
-					98.66668701171875
-				],
-				[
-					252.0001220703125,
-					98.66668701171875
-				],
-				[
-					252.0001220703125,
-					97.3333740234375
-				],
-				[
-					250.66670735677098,
-					98.66668701171875
-				],
-				[
-					250.66670735677098,
-					101.33331298828125
-				],
-				[
-					250.66670735677098,
-					106.66666666666674
-				],
-				[
-					250.66670735677098,
-					107.99997965494799
-				],
-				[
-					252.0001220703125,
-					112.00002034505212
-				],
-				[
-					260,
-					117.3333740234375
-				],
-				[
-					262.6668294270835,
-					118.66668701171875
-				],
-				[
-					274.666748046875,
-					124.00004069010424
-				],
-				[
-					289.33349609375,
-					130.66670735677087
-				],
-				[
-					292.0001220703125,
-					132.00002034505212
-				],
-				[
-					293.3333333333335,
-					132.00002034505212
-				],
-				[
-					298.66678873697924,
-					134.66664632161462
-				],
-				[
-					298.66678873697924,
-					135.99995930989587
-				],
-				[
-					298.66678873697924,
-					138.66668701171875
-				],
-				[
-					297.3333740234375,
-					140
-				],
-				[
-					289.33349609375,
-					146.66666666666674
-				],
-				[
-					268.0000813802085,
-					165.3333536783855
-				],
-				[
-					262.6668294270835,
-					169.33329264322924
-				],
-				[
-					249.33349609375,
-					181.33331298828125
-				],
-				[
-					237.3333740234375,
-					190.66670735677098
-				],
-				[
-					226.66666666666674,
-					197.3333740234375
-				],
-				[
-					192.0001220703125,
-					210.66670735677098
-				],
-				[
-					186.66666666666674,
-					212.00002034505223
-				],
-				[
-					169.33349609375,
-					215.99995930989598
-				],
-				[
-					112.0001220703125,
-					220
-				],
-				[
-					78.66678873697924,
-					209.33329264322924
-				],
-				[
-					76.00016276041674,
-					209.33329264322924
-				],
-				[
-					70.66670735677098,
-					206.66666666666674
-				],
-				[
-					28.000081380208485,
-					181.33331298828125
-				],
-				[
-					14.666748046875,
-					167.999979654948
-				],
-				[
-					6.6666666666667425,
-					150.66670735677087
-				],
-				[
-					4.0000406901042425,
-					146.66666666666674
-				],
-				[
-					0,
-					114.66664632161462
-				],
-				[
-					0,
-					109.33329264322924
-				],
-				[
-					2.666829427083485,
-					102.6666259765625
-				],
-				[
-					81.33341471354174,
-					49.33329264322924
-				],
-				[
-					121.33341471354174,
-					45.33335367838549
-				],
-				[
-					128.00008138020848,
-					45.33335367838549
-				],
-				[
-					136.00016276041674,
-					45.33335367838549
-				],
-				[
-					204.00004069010424,
-					58.66668701171875
-				],
-				[
-					222.66682942708348,
-					65.33335367838549
-				],
-				[
-					254.666748046875,
-					90.66670735677087
-				],
-				[
-					261.33341471354174,
-					98.66668701171875
-				],
-				[
-					266.66666666666674,
-					106.66666666666674
-				],
-				[
-					249.33349609375,
-					184.00004069010424
-				],
-				[
-					226.66666666666674,
-					207.999979654948
-				],
-				[
-					222.66682942708348,
-					213.33333333333348
-				],
-				[
-					200,
-					233.33333333333348
-				],
-				[
-					177.3333740234375,
-					247.999979654948
-				],
-				[
-					152.0001220703125,
-					264.00004069010424
-				],
-				[
-					96.00016276041674,
-					275.999959309896
-				],
-				[
-					-77.33327229817701,
-					193.33333333333348
-				],
-				[
-					-82.6666259765625,
-					164.00004069010424
-				],
-				[
-					-81.33331298828125,
-					144.00004069010424
-				],
-				[
-					-67.9998779296875,
-					109.33329264322924
-				],
-				[
-					36.00016276041674,
-					32.00002034505212
-				],
-				[
-					128.00008138020848,
-					20
-				],
-				[
-					161.33341471354174,
-					20
-				],
-				[
-					208.00008138020848,
-					29.333292643229242
-				],
-				[
-					310.666707356771,
-					90.66670735677087
-				],
-				[
-					337.3333740234375,
-					135.99995930989587
-				],
-				[
-					340,
-					152.00002034505212
-				],
-				[
-					340,
-					154.66664632161462
-				],
-				[
-					306.66666666666674,
-					249.33329264322924
-				],
-				[
-					277.3333740234375,
-					300
-				],
-				[
-					273.3333333333335,
-					304.00004069010424
-				],
-				[
-					258.66678873697924,
-					324.00004069010424
-				],
-				[
-					234.666748046875,
-					352.00002034505223
-				],
-				[
-					221.33341471354174,
-					364.00004069010424
-				],
-				[
-					201.33341471354174,
-					377.3333740234375
-				],
-				[
-					196.00016276041674,
-					378.66668701171875
-				],
-				[
-					108.00008138020848,
-					367.999979654948
-				],
-				[
-					58.66678873697924,
-					344.00004069010424
-				],
-				[
-					24.000040690104242,
-					320
-				],
-				[
-					9.33349609375,
-					304.00004069010424
-				],
-				[
-					-6.666666666666515,
-					281.33331298828125
-				],
-				[
-					-14.666544596354015,
-					206.66666666666674
-				],
-				[
-					8.000081380208485,
-					106.66666666666674
-				],
-				[
-					52.0001220703125,
-					25.333353678385492
-				],
-				[
-					78.66678873697924,
-					0
-				],
-				[
-					82.66682942708348,
-					-1.33331298828125
-				],
-				[
-					258.66678873697924,
-					4.0000406901042425
-				],
-				[
-					280,
-					20
-				],
-				[
-					317.3333740234375,
-					50.66670735677087
-				],
-				[
-					322.6668294270835,
-					55.99995930989587
-				],
-				[
-					361.33341471354174,
-					104.00004069010424
-				],
-				[
-					394.666748046875,
-					165.3333536783855
-				],
-				[
-					402.6668294270835,
-					198.66668701171875
-				],
-				[
-					404.00004069010424,
-					204.00004069010424
-				],
-				[
-					405.333455403646,
-					224.00004069010424
-				],
-				[
-					402.6668294270835,
-					233.33333333333348
-				],
-				[
-					386.66666666666674,
-					267.999979654948
-				],
-				[
-					381.33341471354174,
-					274.66664632161473
-				],
-				[
-					364.00004069010424,
-					289.33329264322924
-				],
-				[
-					274.666748046875,
-					313.3333333333335
-				],
-				[
-					252.0001220703125,
-					314.66664632161473
-				],
-				[
-					214.666748046875,
-					314.66664632161473
-				],
-				[
-					134.666748046875,
-					294.66664632161473
-				],
-				[
-					78.66678873697924,
-					272.00002034505223
-				],
-				[
-					58.66678873697924,
-					262.6666259765625
-				],
-				[
-					1.3334147135417425,
-					226.66666666666674
-				],
-				[
-					-34.666544596354015,
-					190.66670735677098
-				],
-				[
-					-38.66658528645826,
-					184.00004069010424
-				],
-				[
-					-54.666544596354015,
-					118.66668701171875
-				],
-				[
-					-51.999918619791515,
-					109.33329264322924
-				],
-				[
-					-43.99983723958326,
-					86.66666666666674
-				],
-				[
-					-20,
-					46.66666666666674
-				],
-				[
-					13.333333333333485,
-					5.3333536783854925
-				],
-				[
-					57.3333740234375,
-					-35.99995930989576
-				],
-				[
-					80,
-					-52.00002034505201
-				],
-				[
-					94.666748046875,
-					-61.33331298828125
-				],
-				[
-					256.00016276041674,
-					-61.33331298828125
-				],
-				[
-					282.6668294270835,
-					-34.66664632161451
-				],
-				[
-					297.3333740234375,
-					-18.66668701171875
-				],
-				[
-					313.3333333333335,
-					4.0000406901042425
-				],
-				[
-					340,
-					60
-				],
-				[
-					348.0000813802085,
-					135.99995930989587
-				],
-				[
-					337.3333740234375,
-					165.3333536783855
-				],
-				[
-					318.66678873697924,
-					193.33333333333348
-				],
-				[
-					289.33349609375,
-					220
-				],
-				[
-					118.66678873697924,
-					237.3333740234375
-				],
-				[
-					26.666666666666742,
-					204.00004069010424
-				],
-				[
-					-11.999918619791515,
-					170.66670735677087
-				],
-				[
-					-20,
-					157.3333740234375
-				],
-				[
-					-23.999837239583258,
-					146.66666666666674
-				],
-				[
-					-10.66650390625,
-					58.66668701171875
-				],
-				[
-					-6.666666666666515,
-					49.33329264322924
-				],
-				[
-					12.0001220703125,
-					25.333353678385492
-				],
-				[
-					29.33349609375,
-					7.9999796549479925
-				],
-				[
-					34.666748046875,
-					2.6666259765625
-				],
-				[
-					57.3333740234375,
-					-13.333333333333258
-				],
-				[
-					64.00004069010424,
-					-15.999959309895758
-				],
-				[
-					98.66678873697924,
-					-25.33335367838538
-				],
-				[
-					106.66666666666674,
-					-26.66666666666663
-				],
-				[
-					170.66670735677098,
-					-9.333292643229129
-				],
-				[
-					176.00016276041674,
-					-4.000040690104129
-				],
-				[
-					193.33333333333348,
-					13.333333333333371
-				],
-				[
-					201.33341471354174,
-					21.33331298828125
-				],
-				[
-					209.33349609375,
-					32.00002034505212
-				],
-				[
-					216.00016276041674,
-					41.33331298828125
-				],
-				[
-					220,
-					52.00002034505212
-				],
-				[
-					221.33341471354174,
-					57.3333740234375
-				],
-				[
-					221.33341471354174,
-					57.3333740234375
-				]
-			],
-			"pressures": [],
-			"simulatePressure": true,
-			"lastCommittedPoint": [
-				221.33341471354174,
-				57.3333740234375
-			]
-		},
-		{
-			"id": "WpA43YuWE63pZ-o_Q5FaN",
-			"type": "freedraw",
-			"x": -464.79324902121493,
-			"y": 606.4381126605953,
-			"width": 433.33343505859375,
-			"height": 216.00006103515625,
-			"angle": 0,
-			"strokeColor": "#B83E3E",
-			"backgroundColor": "#FF7C7C",
-			"fillStyle": "dashed",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"seed": 223505056,
-			"version": 78,
-			"versionNonce": 1350866592,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1705601317468,
-			"link": null,
-			"locked": false,
-			"customData": {
-				"strokeOptions": {
-					"highlighter": false,
-					"constantPressure": true,
-					"hasOutline": true,
-					"outlineWidth": 4,
-					"options": {
-						"thinning": 1,
-						"smoothing": 0.5,
-						"streamline": 0.5,
-						"easing": "linear",
-						"start": {
-							"taper": 0,
-							"cap": true,
-							"easing": "linear"
-						},
-						"end": {
-							"taper": 0,
-							"cap": true,
-							"easing": "linear"
-						}
-					}
-				}
-			},
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					4.0000406901042425,
-					0
-				],
-				[
-					9.333292643229242,
-					0
-				],
-				[
-					26.666666666666742,
-					0
-				],
-				[
-					29.333292643229242,
-					0
-				],
-				[
-					40,
-					-1.33331298828125
-				],
-				[
-					52.000020345052235,
-					-2.6666259765625
-				],
-				[
-					69.33329264322924,
-					-3.99993896484375
-				],
-				[
-					90.66670735677098,
-					-6.666666666666629
-				],
-				[
-					140.0001017252605,
-					-9.333292643229129
-				],
-				[
-					149.33339436848973,
-					-10.666605631510379
-				],
-				[
-					197.33327229817723,
-					-12.000020345052121
-				],
-				[
-					214.66664632161473,
-					-12.000020345052121
-				],
-				[
-					220.0001017252605,
-					-12.000020345052121
-				],
-				[
-					256.00006103515625,
-					-12.000020345052121
-				],
-				[
-					282.666727701823,
-					-12.000020345052121
-				],
-				[
-					307.999979654948,
-					-12.000020345052121
-				],
-				[
-					336.00006103515625,
-					-9.333292643229129
-				],
-				[
-					343.99993896484375,
-					-9.333292643229129
-				],
-				[
-					363.99993896484375,
-					-6.666666666666629
-				],
-				[
-					387.999979654948,
-					-3.99993896484375
-				],
-				[
-					410.6666056315105,
-					0
-				],
-				[
-					413.33343505859375,
-					0
-				],
-				[
-					430.6666056315105,
-					2.6667277018228788
-				],
-				[
-					432.00002034505223,
-					2.6667277018228788
-				],
-				[
-					433.33343505859375,
-					2.6667277018228788
-				],
-				[
-					433.33343505859375,
-					5.333353678385379
-				],
-				[
-					430.6666056315105,
-					9.333394368489621
-				],
-				[
-					426.66676839192723,
-					14.666646321614621
-				],
-				[
-					421.33331298828125,
-					22.66672770182288
-				],
-				[
-					410.6666056315105,
-					37.3333740234375
-				],
-				[
-					405.3333536783855,
-					44.00004069010413
-				],
-				[
-					383.99993896484375,
-					65.33335367838538
-				],
-				[
-					378.66668701171875,
-					70.66670735677087
-				],
-				[
-					365.3333536783855,
-					80
-				],
-				[
-					341.33331298828125,
-					97.3333740234375
-				],
-				[
-					313.33343505859375,
-					112.00002034505212
-				],
-				[
-					305.3333536783855,
-					114.66664632161462
-				],
-				[
-					267.999979654948,
-					125.33335367838538
-				],
-				[
-					258.66668701171875,
-					127.99997965494788
-				],
-				[
-					217.33327229817723,
-					133.33333333333337
-				],
-				[
-					210.6666056315105,
-					134.66664632161462
-				],
-				[
-					177.33327229817723,
-					138.66668701171875
-				],
-				[
-					170.6666056315105,
-					138.66668701171875
-				],
-				[
-					143.99993896484375,
-					140
-				],
-				[
-					138.66668701171875,
-					140
-				],
-				[
-					121.33331298828125,
-					134.66664632161462
-				],
-				[
-					118.66668701171875,
-					133.33333333333337
-				],
-				[
-					112.00002034505223,
-					127.99997965494788
-				],
-				[
-					102.6666259765625,
-					117.3333740234375
-				],
-				[
-					102.6666259765625,
-					114.66664632161462
-				],
-				[
-					100,
-					87.99997965494788
-				],
-				[
-					101.33331298828125,
-					84.00004069010413
-				],
-				[
-					101.33331298828125,
-					80
-				],
-				[
-					106.66666666666674,
-					66.66666666666663
-				],
-				[
-					113.33343505859375,
-					49.33339436848962
-				],
-				[
-					116.00006103515625,
-					45.33335367838538
-				],
-				[
-					125.33335367838549,
-					32.00002034505212
-				],
-				[
-					173.33343505859375,
-					4.000040690104129
-				],
-				[
-					189.33339436848973,
-					2.6667277018228788
-				],
-				[
-					225.3333536783855,
-					12.000020345052121
-				],
-				[
-					265.3333536783855,
-					57.3333740234375
-				],
-				[
-					277.33327229817723,
-					78.66668701171875
-				],
-				[
-					293.33343505859375,
-					121.33331298828125
-				],
-				[
-					298.66668701171875,
-					145.33335367838538
-				],
-				[
-					300.0001017252605,
-					181.33331298828136
-				],
-				[
-					303.99993896484375,
-					190.66670735677087
-				],
-				[
-					307.999979654948,
-					194.66664632161462
-				],
-				[
-					310.6666056315105,
-					197.3333740234376
-				],
-				[
-					316.00006103515625,
-					200.0000000000001
-				],
-				[
-					336.00006103515625,
-					204.00004069010413
-				],
-				[
-					387.999979654948,
-					182.66672770182288
-				],
-				[
-					416.00006103515625,
-					165.33335367838538
-				],
-				[
-					421.33331298828125,
-					162.66672770182288
-				],
-				[
-					423.99993896484375,
-					160.0000000000001
-				],
-				[
-					423.99993896484375,
-					160.0000000000001
-				]
-			],
-			"pressures": [
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				0
-			],
-			"simulatePressure": false,
-			"lastCommittedPoint": [
-				423.99993896484375,
-				160.0000000000001
-			]
 		}
 	],
 	"appState": {
 		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#000000",
+		"currentItemStrokeColor": "#e03131",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "hachure",
 		"currentItemStrokeWidth": 4,
@@ -3616,10 +1886,10 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 1300.4601598285067,
-		"scrollY": 362.0618085023281,
+		"scrollX": 2768.430630682522,
+		"scrollY": 2696.039716354466,
 		"zoom": {
-			"value": 0.6
+			"value": 0.25
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
