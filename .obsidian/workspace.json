@@ -83,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#330_사회학",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
