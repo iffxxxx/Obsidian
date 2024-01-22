@@ -121,14 +121,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/234_Palindrome_Linked_List.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "87ab7d5950505670",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000_총류/005 프로그래밍/Leetcode/326_Power_of_Three.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -194,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/234_Palindrome_Linked_List.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/326_Power_of_Three.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/234_Palindrome_Linked_List.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/326_Power_of_Three.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/234_Palindrome_Linked_List.md"
+                "file": "000_총류/005 프로그래밍/Leetcode/326_Power_of_Three.md"
               }
             }
           },
@@ -275,9 +287,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "15b66ea9fa6d30b9",
+  "active": "87ab7d5950505670",
   "lastOpenFiles": [
     "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+    "000_총류/005 프로그래밍/Leetcode/326_Power_of_Three.md",
     "000_총류/005 프로그래밍/Leetcode/234_Palindrome_Linked_List.md",
     "000_총류/005 프로그래밍/Leetcode/203_Remove_Linked_List_Elements.md",
     "000_총류/005 프로그래밍/Leetcode/21_Merge_Two_Sorted_Lists.md",
@@ -307,7 +320,6 @@
     "Untitled Diagram.svg",
     "MG_231124.md",
     "Book.md",
-    "2024-01-19.md",
     "무제 파일 1.canvas",
     "Attached file/image/Murphy.pdf",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",

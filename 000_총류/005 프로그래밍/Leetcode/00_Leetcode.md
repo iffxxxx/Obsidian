@@ -64,7 +64,7 @@
 [[21_Merge_Two_Sorted_Lists]]
 [[203_Remove_Linked_List_Elements]]
 [[234_Palindrome_Linked_List]]
-[[326]]
+[[326_Power_of_Three]]
 [[509]]
 [[70]]
 [[118]]
