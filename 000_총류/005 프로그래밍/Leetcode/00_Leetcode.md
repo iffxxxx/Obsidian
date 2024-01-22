@@ -59,7 +59,7 @@
 [[492_Construct_the_Rectangle]]
 [[706_Design_HashMap]]
 [[1002_Find_Common_Characters]]
-[[1603]]
+[[1603_Design_Parking_System]]
 [[2490]]
 [[21]]
 [[203]]
