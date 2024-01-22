@@ -47,9 +47,11 @@
             "id": "0bc8fd25240c70a9",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md"
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#330_사회학",
+                "query": "google",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -104,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f6878ac96d36097f",
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md"
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md"
               }
             }
           },
@@ -204,8 +205,17 @@
   },
   "active": "0bc8fd25240c70a9",
   "lastOpenFiles": [
-    "Attached file/image/Pasted Image 20240122020009_943.png",
+    "000_총류/005 프로그래밍/005_프로그래밍.md",
+    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+    "000_총류/004_컴퓨터과학/004_Linear_classifcation.md",
+    "000_총류/004_컴퓨터과학/004_Gradient_Vanishing.md",
+    "000_총류/004_컴퓨터과학/004_Gradient_Descent.md",
+    "000_총류/004_컴퓨터과학/004_컴퓨터과학.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Machine_Learning.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Deep_Learning.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
+    "Attached file/image/Pasted Image 20240122020009_943.png",
     "000_총류/005 프로그래밍/Coding_Interview/Facebook_coding_interview_guide.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/05_Matrix_Factorization_Method.md",
     "Attached file/image/Pasted Image 20240122001632_748.png",
@@ -216,7 +226,6 @@
     "Untitled Diagram.svg",
     "MG_231124.md",
     "Book.md",
-    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
     "2024-01-19.md",
     "000_총류/005 프로그래밍/Leetcode/1_Two_Sum.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics 1.md",
@@ -229,15 +238,8 @@
     "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
     "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Perceptron/00_Perceptron.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/00_Recommender_Systems.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/01_Introduction.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
-    "000_총류/000_총류.md",
     "Attached file/image/Pasted Image 20240118210956_301.png",
-    "000_총류/060 일반 학회, 단체, 협회, 기관/Image_Segmentation_Using_Deep_Learning_A_Survey.md",
-    "000_총류/060 일반 학회, 단체, 협회, 기관/Znet_ Deep Learning Approach for 2D MRI Brain Tumor Segmentation.md",
-    "Excalidraw/Drawing 2024-01-17 20.32.00.excalidraw.md",
-    "Excalidraw/Scripts/Downloaded/Create DrawIO file.md",
     "Excalidraw/Scripts/Downloaded/Create DrawIO file.svg",
     "Attached file/image/good diagram.svg",
     "Attached file/image/hi.svg",
@@ -253,7 +255,6 @@
     "Attached file/image/(외부용)P01_C05. Webui 운용1.pdf",
     "Attached file/image/(외부용)P01_C04. Extension 소개 및 설치.pdf",
     "Attached file/image/(외부용)P01_C03. Stable Diffusion Model의 이해_v002.pdf",
-    "Attached file/image/주파수_각속도_변환.gif",
     "000_총류/060 일반 학회, 단체, 협회, 기관/무제 파일.canvas",
     "무제 파일.canvas",
     "300_사회과학/무제 파일.canvas"
