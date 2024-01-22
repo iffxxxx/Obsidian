@@ -68,6 +68,6 @@
 [[509_Fibonacci_Number]]
 [[70_Climbing_Stairs]]
 [[118_Pascal's_Triangle]]
-[[338]]
+[[338_Counting_Bits]]
 [[746]]
 [[1025]]
