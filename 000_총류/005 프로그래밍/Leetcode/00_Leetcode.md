@@ -57,8 +57,8 @@
 
 ## Week 4
 [[492_Construct_the_Rectangle]]
-[[706]]
-[[1002]]
+[[706_Design_HashMap]]
+[[1002_Find_Common_Characters]]
 [[1603]]
 [[2490]]
 [[21]]
