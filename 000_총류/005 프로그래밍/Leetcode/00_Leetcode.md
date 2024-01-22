@@ -56,7 +56,7 @@
 [[231_Power_of_Two]]
 
 ## Week 4
-[[492]]
+[[492_Construct_the_Rectangle]]
 [[706]]
 [[1002]]
 [[1603]]
