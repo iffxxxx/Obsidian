@@ -60,7 +60,7 @@
 [[706_Design_HashMap]]
 [[1002_Find_Common_Characters]]
 [[1603_Design_Parking_System]]
-[[2490]]
+[[2490_Circular_Sentence]]
 [[21]]
 [[203]]
 [[234]]

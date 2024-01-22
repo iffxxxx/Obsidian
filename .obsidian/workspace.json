@@ -73,14 +73,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/1603_Design_Parking_System.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1a8faee3bbfd68ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000_총류/005 프로그래밍/Leetcode/2490_Circular_Sentence.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -146,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/1603_Design_Parking_System.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/2490_Circular_Sentence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/1603_Design_Parking_System.md",
+                "file": "000_총류/005 프로그래밍/Leetcode/2490_Circular_Sentence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/1603_Design_Parking_System.md"
+                "file": "000_총류/005 프로그래밍/Leetcode/2490_Circular_Sentence.md"
               }
             }
           },
@@ -227,9 +239,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cd335936069db6af",
+  "active": "1a8faee3bbfd68ec",
   "lastOpenFiles": [
     "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+    "000_총류/005 프로그래밍/Leetcode/2490_Circular_Sentence.md",
     "000_총류/005 프로그래밍/Leetcode/1603_Design_Parking_System.md",
     "000_총류/005 프로그래밍/Leetcode/1002_Find_Common_Characters.md",
     "000_총류/005 프로그래밍/Leetcode/706_Design_HashMap.md",
@@ -261,7 +274,6 @@
     "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md",
     "무제 파일 1.canvas",
     "Attached file/image/Murphy.pdf",
-    "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
     "Attached file/image/Pasted Image 20240118210956_301.png",
     "Excalidraw/Scripts/Downloaded/Create DrawIO file.svg",

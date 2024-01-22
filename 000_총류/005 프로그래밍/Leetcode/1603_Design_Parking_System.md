@@ -27,3 +27,20 @@ parkingSystem.addCar(1); // return false because there is no available slot for 
 - `0 <= big, medium, small <= 1000`
 - `carType` is `1`, `2`, or `3`
 - At most `1000` calls will be made to `addCar`
+
+```run-python
+class ParkingSystem:
+    def __init__(self, big: int, medium: int, small: int):
+        self.carTypes = {}
+
+        self.carTypes[1] = big
+        self.carTypes[2] = medium
+        self.carTypes[3] = small
+
+    def addCar(self, carType: int) -> bool:
+        if self.carTypes[carType] > 0:
+            self.carTypes[carType] -= 1
+            return True
+        else:
+            return False
+```
