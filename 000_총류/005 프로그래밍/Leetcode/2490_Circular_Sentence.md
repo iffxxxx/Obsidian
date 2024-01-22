@@ -49,3 +49,15 @@ The sentence is **not** circular.
 - The words in `sentence` are separated by a single space.
 - There are no leading or trailing spaces.
 ## Code
+```run-python
+class Solution:
+    def isCircularSentence(self, sentence: str) -> bool:
+        for i in range(len(sentence)):
+            if sentence[i] == ' ':
+                if sentence[i - 1] != sentence[(i + 1)]:
+                    return False
+        return sentence[0] == sentence[-1]
+```
+## Abstract
+문장 전체를 돌면서 공백을 발견할 경우, 공백의 전후를 비교한다.
+그리고 마지막으로 문장의 시작과 끝을 비교하며 코드가 끝난다.
