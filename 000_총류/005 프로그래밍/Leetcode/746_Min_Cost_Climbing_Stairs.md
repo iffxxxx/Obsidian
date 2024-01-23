@@ -32,3 +32,18 @@ The total cost is 6.
 - `2 <= cost.length <= 1000`
 - `0 <= cost[i] <= 999`
 ## Code
+```run-python
+class Solution:
+    def minCostClimbingStairs(self, cost: List[int]) -> int:
+        cnt = len(cost)
+        Dp = [0] * (cnt + 1)
+        
+        for i in range(2, cnt + 1):
+            Dp[i] = min(Dp[i-1] + cost[i-1], Dp[i-2] + cost[i-2])
+
+        return Dp[cnt]
+```
+## Abstract
+- ### Edge case
+	len(cost) == 1일 경우 답은 0이 나와야함
+	
