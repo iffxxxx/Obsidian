@@ -16,8 +16,21 @@
                 "file": "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md"
               }
             }
+          },
+          {
+            "id": "a9f1690d4dca6d4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -91,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -164,10 +177,27 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "83f980bde5f14f2a",
+  "active": "a9f1690d4dca6d4f",
   "lastOpenFiles": [
-    "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
     "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md",
+    "conflict-files-obsidian-git.md",
+    "Attached file/image/Pasted image 20240123091620.png",
+    "Attached file/image/Pasted image 20240123085940.png",
+    "Attached file/image/Pasted Image 20240122020009_943.png",
+    "Attached file/image/Pasted Image 20240122001632_748.png",
+    "000_총류/005 프로그래밍/Leetcode/746_Min_Cost_Climbing_Stairs.md",
+    "000_총류/005 프로그래밍/Leetcode/706_Design_HashMap.md",
+    "000_총류/005 프로그래밍/Leetcode/509_Fibonacci_Number.md",
+    "000_총류/005 프로그래밍/Leetcode/492_Construct_the_Rectangle.md",
+    "000_총류/005 프로그래밍/Leetcode/338_Counting_Bits.md",
+    "000_총류/005 프로그래밍/Leetcode/326_Power_of_Three.md",
+    "000_총류/005 프로그래밍/Leetcode/2490_Circular_Sentence.md",
+    "000_총류/005 프로그래밍/Leetcode/234_Palindrome_Linked_List.md",
+    "000_총류/005 프로그래밍/Leetcode/1603_Design_Parking_System.md",
+    "000_총류/005 프로그래밍/Leetcode/118_Pascal's_Triangle.md",
+    "000_총류/005 프로그래밍/Leetcode/1002_Find_Common_Characters.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics 1.md",
+    "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
     "Excalidraw/Drawing 2024-01-19 16.39.38.excalidraw.md",
     "300_사회과학/330_사회학/331_오리엔탈리즘.md",
     "300_사회과학/330_사회학/330 사회학.md",
@@ -184,36 +214,20 @@
     "000_총류/060 일반 학회, 단체, 협회, 기관/Best Prompts for Text-to-Image Models and How to Find Them.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics.md",
     "Attached file/Pasted image 20240102034737.png",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
     "Attached file/Cracking_the_Coding_Interview.pdf",
-    "000_총류/004_컴퓨터과학/004_Gradient_Vanishing.md",
-    "000_총류/004_컴퓨터과학/004_Gradient_Descent.md",
     "Excalidraw/Scripts/Downloaded/Rename Image.svg",
     "Excalidraw/Scripts/Downloaded/Text to Sticky Notes.svg",
-    "Excalidraw/Scripts/Downloaded/Text to Sticky Notes.md",
     "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.svg",
-    "Excalidraw/Scripts/Downloaded/Rename Image.md",
-    "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.md",
     "Excalidraw/Scripts/Downloaded/Create DrawIO file.svg",
-    "Excalidraw/Scripts/Downloaded/Create DrawIO file.md",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
     "Excalidraw",
     "Attached file/image/한국십진분류표(KDC).pdf",
-    "Attached file/image/주파수_각속도_변환.gif",
     "Attached file/image/밑바닥부터시작하는딥러닝1_noOCR.pdf",
     "Attached file/image/plain.ipynb",
-    "Attached file/image/hi.svg",
-    "Attached file/image/good diagram.svg",
     "Attached file/image/[존 번연] 천로역정.pdf",
     "Attached file/image/[오카다 다케시] 심리 조작의 비밀.epub",
     "Attached file/image/Znet_ Deep Learning Approach for 2D MRI Brain.pdf",
-    "Attached file/image/Sinc_interpolation.gif",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/07_Linear Algebra.md",
-    "000_총류/004_컴퓨터과학/004_Linear_classifcation.md",
-    "000_총류/004_컴퓨터과학/004_Support_Vector_Machine.md",
-    "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
-    "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas"
   ]

@@ -15,7 +15,9 @@ CTR ^GK3BKitr
 CTR이란 (Clikc-through rate)로 추천된 아이템을
 유저가 클릭할 확률
 
-추천시스템에 있어 CTR은 매우 중요한 요소 중 하나 ^woPkp4sQ
+추천시스템에 있어 CTR은 매우 중요한 요소 중 하나
+
+Ranking Sort 기준은 CTR   bid 값으로 조정 ^woPkp4sQ
 
 2017년 발표된 논문으로 Factorization Machine을
 신경망으로 확장한 DeepFM 모델 제안 ^oSXzoabA
@@ -35,7 +37,7 @@ CTR의 신호
 위의 예시들은 누구나 납득할만한 Interaction이며,
 전문가를 고용하여 모델링이 가능 ^phjZ7ZH6
 
-문제 정의: ^gtDauUeq
+CTR? ^gtDauUeq
 
 일반적인 접근법 ^ARPfDggG
 
@@ -49,11 +51,9 @@ space로 각각의 특성들을 매핑하여 내적을 통해 Interaction
 위의 식을 통해 order-2에서부터 order-n까지의 
 Interaction을 내적을 통해 모두 모델링 할 수 있습니다.   ^jdj2uvvr
 
-장점 ^zWORx80X
+해결방안 ^zWORx80X
 
-FM이 Linear complexity를 가지고 있다고 하지만
-실제로는 높은 복잡도로 인하여 High-order가 아닌
-order-2 모델링이 주로 사용됩니다. ^moCIA2oh
+피쳐 벡터들 간의 pairwise interaction을 직접 feature ^moCIA2oh
 
 기저귀를 구매하는 사람은 맥주를 함께 구매한다(order-2)
 와 같은 대부분의 Interaction들은 데이터 속에 숨겨짐.
@@ -62,11 +62,102 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 위와 같은 Interaction들은 전문가조차 찾기 힘들다.
  ^ebK8nqVk
 
-발전 ^xWE7M7SM
+결합 ^xWE7M7SM
+
+Bid? ^TTl5qHkx
+
+유저가 아이템을 클릭할 때마다 받는 보상값 ^Ub2G9d7i
+
+즉, 피쳐들간의 상호작용을 모델링하는 것이 목적 ^WmOy8sKw
+
+대부분의 피쳐 상호작용은 데이터 속에 숨겨져 있고
+이를 선험적(prior)으로 알기 어렵다. ^TJHlTldr
+
+문제정의: ^vde9RmJW
+
+일반화된 선형 모델 (FTRL)은 간단하지만 준수한 성능
+허나 선형 모델은 피쳐 상호작용을 학습하기는 어려움 ^Z2PtTnQu
+
+Why? ^hFKivGyP
+
+선형성 : 비선형 관계나 상호작용을 잘 표현하지 못함
+고차원 특성 : 데이터는 고차원, 복잡한 상호작용 모델링 힘듦
+계산 복잡성 : 많은 수의 매개변수 필요, 계산 비용 증가, 
+                과적합 위험 ^5o6LqlRY
+
+문제 정의: ^oZmfFkjL
+
+단점: ^ZIBw5s3D
+
+FM모델이 높은 차원의 Feature Interaction을 모델링 가능
+허나, 실제로는 높은 복잡도 때문에 거의 order-2 상호작용만 ^DjiJ7pBb
+
+CNN과 같이 ^UezxAaVr
+
+A Convolutional Click Prediction Model ^9jzL3QPr
+
+2015년 - 145회 인용 ^zRpClNm9
+
+단점 ^TzmSzFUw
+
+DNN과 같이 ^8tniQCKt
+
+Deep Learning over Multi-field 
+Categorical Data ^wGKWzQwR
+
+심층신경망(DNN)을 사용하여 범주형 특징 상호작용에서 
+효과적인 패턴을 자동으로 학습하고 사용자의 광고 클릭을 
+예측하는 새로운 모델
+FM supported Neural Network(FNN)을 제안 ^VbrkBKVs
+
+DNN이 효율적으로 작동하도록 하기 위해  
+세가지 특징 변환 방법, 
+
+인수분해 머신(FM), 
+제한 볼츠만 머신(RBM), 
+노이즈 제거 자동 인코더(DAE)를 활용 ^DReQyQrX
+
+단점 ^uPBL2LQM
+
+해결방안: ^RsONSwcR
+
+FM의 성능 제한을 받는다. ^7UQZUTAs
+
+feature interaction? ^huF5ai1E
+
+Product-based Neural Networks for 
+UserResponse Prediction ^vhgUMQ32
+
+카테고리 데이터의 분산 표현을 학습하기 위한 임베딩 레이어, 
+필드 간 카테고리 간의 상호작용 패턴을 포착하기 위한 제품 
+레이어, 그리고 고차 특징 상호작용을 탐색하기 위한 
+완전 연결 레이어가 포함된 제품 기반 신경망(PNN)을 제안 ^lMUCL69X
+
+CNN 기반 모델은 인접한 피쳐를 학습하는 편향성 ^efOBj3h2
+
+이미지 처리에 특화된 구조로 이미지 데이터 내에서
+근접한 픽셀 간의 패턴 및 공간적인 관계를 학습하는데 강점 ^bvOtmy6F
+
+RNN 기반 모델은 연속성이 있어 클릭 데이터에 적합 ^C3LVEl0z
+
+순차적인 데이터를 처리하는데 강점
+이전 시간 단계의 출력이 현재 시간의 입력으로 사용되기에
+시퀸스 데이터의 연속성을 잘 학습할 수 있다. ^6Y8njjCN
+
+완전 연결 레이어 포함 ^rRmfrMLn
+
+embedding layer와 fully-connected layer 사이에 
+product layer를 도입 ^4qJ40Lvf
+
+해결방안: ^V1Mvv5HF
 
 
 # Embedded files
+1acd85ab268aa15908884e70b2120d6f3eafdc60: $$\times
+$$
 13c9ee52728b723a0340730c28d19618c8be616b: [[Pasted Image 20240118210956_301.png]]
+238684eaf896cacd041c8ce3215c3c8f7b330ced: [[Pasted Image 20240122001632_748.png]]
+bdb9ea3364a7abdc205f780176b173ccf12a3a34: [[Pasted Image 20240122020009_943.png]]
 
 %%
 # Drawing
@@ -78,20 +169,49 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 	"elements": [
 		{
 			"type": "rectangle",
-			"version": 341,
-			"versionNonce": 1231955616,
+			"version": 760,
+			"versionNonce": 1651162595,
 			"isDeleted": false,
-			"id": "I0ZLWxhbtCMX1qgMrQ5_a",
-			"fillStyle": "hachure",
+			"id": "JU4jNdfb82S-nHV0dyrI1",
+			"fillStyle": "cross-hatch",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -164.53326416015625,
-			"y": -167.6721318562826,
+			"x": -2226.529234113279,
+			"y": 2635.087561653853,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#ffc9c9",
+			"width": 817.0666503906242,
+			"height": 461.0173870902813,
+			"seed": 654097347,
+			"groupIds": [],
+			"frameId": "0D2toMuhV6qy2w5Blvi6C",
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [],
+			"updated": 1705853331985,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "rectangle",
+			"version": 591,
+			"versionNonce": 1561511373,
+			"isDeleted": false,
+			"id": "I0ZLWxhbtCMX1qgMrQ5_a",
+			"fillStyle": "cross-hatch",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": 640.8005981445312,
+			"y": -951.6721216837562,
 			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
+			"backgroundColor": "#a5d8ff",
 			"width": 577.6000366210938,
 			"height": 572,
 			"seed": 1704014154,
@@ -114,14 +234,14 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"type": "arrow"
 				}
 			],
-			"updated": 1705601317467,
+			"updated": 1705853331985,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 112,
-			"versionNonce": 1759843168,
+			"version": 352,
+			"versionNonce": 1186924931,
 			"isDeleted": false,
 			"id": "q4HgIucT",
 			"fillStyle": "hachure",
@@ -130,8 +250,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -141.39990234375,
-			"y": -148.31663665771484,
+			"x": 663.9339599609375,
+			"y": -932.3166264851885,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 102.5279541015625,
@@ -141,7 +261,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": "xypwCSRmvveY3TFu7EULd",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317467,
+			"updated": 1705853331985,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -157,8 +277,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "embeddable",
-			"version": 760,
-			"versionNonce": 1378898592,
+			"version": 1005,
+			"versionNonce": 1337099309,
 			"isDeleted": false,
 			"id": "tR4AqLuUuRqxb5eVH3get",
 			"fillStyle": "hachure",
@@ -167,8 +287,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -140.16471556390132,
-			"y": -91.23504911503827,
+			"x": 665.1691467407861,
+			"y": -876.5684027934233,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 526.9284250926655,
@@ -180,7 +300,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1705601317467,
+			"updated": 1705853331985,
 			"link": "https://arxiv.org/pdf/1703.04247.pdf",
 			"locked": false,
 			"validated": true,
@@ -191,8 +311,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "arrow",
-			"version": 1518,
-			"versionNonce": 1705748320,
+			"version": 2202,
+			"versionNonce": 499704099,
 			"isDeleted": false,
 			"id": "ZBnbuoHoKJLjN2pLtabZh",
 			"fillStyle": "hachure",
@@ -201,9 +321,9 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 122.72600327511182,
-			"y": -184.56341455686368,
-			"strokeColor": "#000000",
+			"x": 928.0598655797993,
+			"y": -968.5634043843373,
+			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
 			"width": 4.668223294235432,
 			"height": 237.3846301002037,
@@ -219,17 +339,17 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"id": "gtDauUeq"
 				}
 			],
-			"updated": 1705601317467,
+			"updated": 1705853331985,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "I0ZLWxhbtCMX1qgMrQ5_a",
-				"focus": 0.014997662160467589,
+				"focus": 0.01499766216046745,
 				"gap": 16.891282700581087
 			},
 			"endBinding": {
 				"elementId": "MAy6wUQl",
-				"focus": 0.09419951504218285,
+				"focus": 0.09419951504218248,
 				"gap": 12.203209061410007
 			},
 			"lastCommittedPoint": null,
@@ -248,8 +368,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "text",
-			"version": 57,
-			"versionNonce": 1506606752,
+			"version": 89,
+			"versionNonce": 680228493,
 			"isDeleted": false,
 			"id": "gtDauUeq",
 			"fillStyle": "hachure",
@@ -258,35 +378,35 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 13.474795209595037,
-			"y": -319.3891239754552,
-			"strokeColor": "#000000",
+			"x": 94.3518983418613,
+			"y": -320.05572960696554,
+			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
-			"width": 90.38395690917969,
+			"width": 52.079986572265625,
 			"height": 33.6,
 			"seed": 897572704,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317467,
+			"updated": 1705853331986,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
 			"fontFamily": 4,
-			"text": "문제 정의:",
-			"rawText": "문제 정의:",
+			"text": "CTR?",
+			"rawText": "CTR?",
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "ZBnbuoHoKJLjN2pLtabZh",
-			"originalText": "문제 정의:",
+			"originalText": "CTR?",
 			"lineHeight": 1.2,
 			"baseline": 26
 		},
 		{
 			"type": "rectangle",
-			"version": 995,
-			"versionNonce": 880786272,
+			"version": 1236,
+			"versionNonce": 284607683,
 			"isDeleted": false,
 			"id": "MAy6wUQl",
 			"fillStyle": "hachure",
@@ -295,8 +415,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -148.87184912360442,
-			"y": -1006.1512537184774,
+			"x": 656.4620131810831,
+			"y": -1790.151243545951,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 577.6000366210938,
@@ -317,14 +437,14 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"type": "arrow"
 				}
 			],
-			"updated": 1705601317467,
+			"updated": 1705853331986,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 395,
-			"versionNonce": 552872608,
+			"version": 638,
+			"versionNonce": 844569837,
 			"isDeleted": false,
 			"id": "GK3BKitr",
 			"fillStyle": "hachure",
@@ -333,9 +453,9 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -116.51626169413419,
-			"y": -968.4178281542415,
-			"strokeColor": "#000000",
+			"x": 688.8176006105533,
+			"y": -1752.4178179817152,
+			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
 			"width": 56.37599182128906,
 			"height": 43.199999999999996,
@@ -344,7 +464,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": "DZh1jPdZmLUojklmLsu6x",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317467,
+			"updated": 1705853331986,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -360,8 +480,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "text",
-			"version": 571,
-			"versionNonce": 934367072,
+			"version": 895,
+			"versionNonce": 401028195,
 			"isDeleted": false,
 			"id": "woPkp4sQ",
 			"fillStyle": "hachure",
@@ -370,35 +490,109 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -111.1827384736481,
-			"y": -880.6845734884434,
+			"x": 694.1511238310394,
+			"y": -1664.684563315917,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 466.78778076171875,
-			"height": 134.4,
+			"height": 201.60000000000002,
 			"seed": 1065861792,
 			"groupIds": [],
 			"frameId": "DZh1jPdZmLUojklmLsu6x",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317467,
+			"updated": 1705853331986,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
 			"fontFamily": 4,
-			"text": "CTR이란 (Clikc-through rate)로 추천된 아이템을\n유저가 클릭할 확률\n\n추천시스템에 있어 CTR은 매우 중요한 요소 중 하나",
-			"rawText": "CTR이란 (Clikc-through rate)로 추천된 아이템을\n유저가 클릭할 확률\n\n추천시스템에 있어 CTR은 매우 중요한 요소 중 하나",
+			"text": "CTR이란 (Clikc-through rate)로 추천된 아이템을\n유저가 클릭할 확률\n\n추천시스템에 있어 CTR은 매우 중요한 요소 중 하나\n\nRanking Sort 기준은 CTR   bid 값으로 조정",
+			"rawText": "CTR이란 (Clikc-through rate)로 추천된 아이템을\n유저가 클릭할 확률\n\n추천시스템에 있어 CTR은 매우 중요한 요소 중 하나\n\nRanking Sort 기준은 CTR   bid 값으로 조정",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "CTR이란 (Clikc-through rate)로 추천된 아이템을\n유저가 클릭할 확률\n\n추천시스템에 있어 CTR은 매우 중요한 요소 중 하나",
+			"originalText": "CTR이란 (Clikc-through rate)로 추천된 아이템을\n유저가 클릭할 확률\n\n추천시스템에 있어 CTR은 매우 중요한 요소 중 하나\n\nRanking Sort 기준은 CTR   bid 값으로 조정",
 			"lineHeight": 1.2,
-			"baseline": 127
+			"baseline": 194
+		},
+		{
+			"type": "text",
+			"version": 298,
+			"versionNonce": 614397773,
+			"isDeleted": false,
+			"id": "TTl5qHkx",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": 695.3027270648732,
+			"y": -1452.7065457815456,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"width": 32.89997863769531,
+			"height": 33.6,
+			"seed": 19892877,
+			"groupIds": [],
+			"frameId": "DZh1jPdZmLUojklmLsu6x",
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705853331986,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "Bid?",
+			"rawText": "Bid?",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "Bid?",
+			"lineHeight": 1.2,
+			"baseline": 26
+		},
+		{
+			"type": "text",
+			"version": 403,
+			"versionNonce": 845721603,
+			"isDeleted": false,
+			"id": "Ub2G9d7i",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": 697.96939373154,
+			"y": -1399.106496953421,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 292.119873046875,
+			"height": 24,
+			"seed": 1807805741,
+			"groupIds": [],
+			"frameId": "DZh1jPdZmLUojklmLsu6x",
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705853331986,
+			"link": null,
+			"locked": false,
+			"fontSize": 20,
+			"fontFamily": 4,
+			"text": "유저가 아이템을 클릭할 때마다 받는 보상값",
+			"rawText": "유저가 아이템을 클릭할 때마다 받는 보상값",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "유저가 아이템을 클릭할 때마다 받는 보상값",
+			"lineHeight": 1.2,
+			"baseline": 18
 		},
 		{
 			"type": "frame",
-			"version": 563,
-			"versionNonce": 1381357216,
+			"version": 808,
+			"versionNonce": 153275053,
 			"isDeleted": false,
 			"id": "DZh1jPdZmLUojklmLsu6x",
 			"fillStyle": "solid",
@@ -407,8 +601,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -180.16926196414602,
-			"y": -1049.8117731503357,
+			"x": 625.1646003405415,
+			"y": -1833.8117629778094,
 			"strokeColor": "#bbb",
 			"backgroundColor": "transparent",
 			"width": 641.6000976562501,
@@ -423,22 +617,22 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"type": "arrow"
 				}
 			],
-			"updated": 1705601317467,
+			"updated": 1705854222745,
 			"link": null,
 			"locked": false,
 			"customData": {
 				"frameColor": {
-					"stroke": "#D4D4D4",
-					"fill": "#ADADAD",
-					"nameColor": "#949494"
+					"stroke": "#2B2B2B",
+					"fill": "#525252",
+					"nameColor": "#6B6B6B"
 				}
 			},
 			"name": null
 		},
 		{
 			"type": "text",
-			"version": 175,
-			"versionNonce": 126903136,
+			"version": 415,
+			"versionNonce": 1652144035,
 			"isDeleted": false,
 			"id": "oSXzoabA",
 			"fillStyle": "hachure",
@@ -447,8 +641,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -135.5023918469584,
-			"y": 232.45497082752877,
+			"x": 669.8314704577291,
+			"y": -551.5450189999449,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 455.4197692871094,
@@ -458,7 +652,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": "xypwCSRmvveY3TFu7EULd",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317467,
+			"updated": 1705853331986,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -474,8 +668,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "rectangle",
-			"version": 1167,
-			"versionNonce": 1117913760,
+			"version": 1407,
+			"versionNonce": 1691961357,
 			"isDeleted": false,
 			"id": "NSo4GmfTI0HwEEMwN-uQl",
 			"fillStyle": "hachure",
@@ -484,8 +678,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -165.52666441886913,
-			"y": -1884.017841709462,
+			"x": 639.8071978858184,
+			"y": -2668.017831536936,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 577.6000366210938,
@@ -502,14 +696,14 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"type": "arrow"
 				}
 			],
-			"updated": 1705601317467,
+			"updated": 1705853331986,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "arrow",
-			"version": 1107,
-			"versionNonce": 846002016,
+			"version": 1789,
+			"versionNonce": 1716046659,
 			"isDeleted": false,
 			"id": "I-9PL8fW6hvKsli_bTsN-",
 			"fillStyle": "hachure",
@@ -518,9 +712,9 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 128.5497425985784,
-			"y": -1024.5510787596834,
-			"strokeColor": "#000000",
+			"x": 933.8836049032659,
+			"y": -1808.551068587157,
+			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
 			"width": 3.4220611764685174,
 			"height": 278.1577835685641,
@@ -536,18 +730,18 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"id": "zILDYHwL"
 				}
 			],
-			"updated": 1705601317467,
+			"updated": 1705853331986,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "MAy6wUQl",
-				"focus": -0.026113704030584484,
+				"focus": -0.026113704030583943,
 				"gap": 18.399825041205986
 			},
 			"endBinding": {
 				"elementId": "NSo4GmfTI0HwEEMwN-uQl",
-				"focus": 0.006084929340291797,
-				"gap": 9.308979381214385
+				"focus": 0.006084929340292106,
+				"gap": 9.308979381214613
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -565,8 +759,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "text",
-			"version": 36,
-			"versionNonce": 814263968,
+			"version": 60,
+			"versionNonce": 401522285,
 			"isDeleted": false,
 			"id": "zILDYHwL",
 			"fillStyle": "hachure",
@@ -577,7 +771,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"angle": 0,
 			"x": 1302.5756721178855,
 			"y": -1186.0782261939553,
-			"strokeColor": "#000000",
+			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
 			"width": 105.4439697265625,
 			"height": 43.199999999999996,
@@ -586,7 +780,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317467,
+			"updated": 1705853331986,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -602,8 +796,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "text",
-			"version": 275,
-			"versionNonce": 2090273632,
+			"version": 516,
+			"versionNonce": 842296035,
 			"isDeleted": false,
 			"id": "GUTZRWIU",
 			"fillStyle": "hachure",
@@ -612,9 +806,9 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -137.12667052238476,
-			"y": -1843.6176463969618,
-			"strokeColor": "#000000",
+			"x": 668.2071917823027,
+			"y": -2627.6176362244355,
+			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
 			"width": 215.8918914794922,
 			"height": 43.199999999999996,
@@ -623,7 +817,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": "WzpDNumaP0gcIe9j0-SQy",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317467,
+			"updated": 1705853331986,
 			"link": "[[00_Recommender_Systems#Implicit_vs_Explicit]]",
 			"locked": false,
 			"fontSize": 36,
@@ -639,8 +833,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "text",
-			"version": 661,
-			"versionNonce": 79288992,
+			"version": 901,
+			"versionNonce": 163997901,
 			"isDeleted": false,
 			"id": "phjZ7ZH6",
 			"fillStyle": "hachure",
@@ -649,8 +843,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -136.32662169425976,
-			"y": -1754.4174266703994,
+			"x": 669.0072406104277,
+			"y": -2538.417416497873,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 502.7397766113281,
@@ -660,7 +854,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": "WzpDNumaP0gcIe9j0-SQy",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317467,
+			"updated": 1705853331986,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -676,8 +870,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "frame",
-			"version": 319,
-			"versionNonce": 236172128,
+			"version": 564,
+			"versionNonce": 154070285,
 			"isDeleted": false,
 			"id": "WzpDNumaP0gcIe9j0-SQy",
 			"fillStyle": "solid",
@@ -686,8 +880,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -191.12667052238476,
-			"y": -1910.4176525004775,
+			"x": 614.2071917823027,
+			"y": -2694.4176423279514,
 			"strokeColor": "#bbb",
 			"backgroundColor": "transparent",
 			"width": 640,
@@ -702,22 +896,22 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"type": "arrow"
 				}
 			],
-			"updated": 1705601317467,
+			"updated": 1705854222745,
 			"link": null,
 			"locked": false,
 			"customData": {
 				"frameColor": {
-					"stroke": "#D4D4D4",
-					"fill": "#ADADAD",
-					"nameColor": "#949494"
+					"stroke": "#2B2B2B",
+					"fill": "#525252",
+					"nameColor": "#6B6B6B"
 				}
 			},
 			"name": null
 		},
 		{
 			"type": "arrow",
-			"version": 874,
-			"versionNonce": 1421587104,
+			"version": 1837,
+			"versionNonce": 200918829,
 			"isDeleted": false,
 			"id": "N1Ri-QHvsohZgJLD2LkZf",
 			"fillStyle": "hachure",
@@ -726,12 +920,12 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -167.05137489208295,
-			"y": 54.49553429820948,
+			"x": 638.2824874126045,
+			"y": -741.9957532519502,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 398.454717589769,
-			"height": 27.78296609838236,
+			"width": 3163.788274718675,
+			"height": 27.29193587556756,
 			"seed": 1863007072,
 			"groupIds": [],
 			"frameId": null,
@@ -744,7 +938,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"id": "ARPfDggG"
 				}
 			],
-			"updated": 1705601317467,
+			"updated": 1705853331986,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -766,15 +960,15 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					0
 				],
 				[
-					-398.454717589769,
-					27.78296609838236
+					-3163.788274718675,
+					27.29193587556756
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 43,
-			"versionNonce": 738608992,
+			"version": 65,
+			"versionNonce": 516640291,
 			"isDeleted": false,
 			"id": "ARPfDggG",
 			"fillStyle": "hachure",
@@ -794,7 +988,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317467,
+			"updated": 1705853331986,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -810,20 +1004,20 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "rectangle",
-			"version": 1107,
-			"versionNonce": 871128736,
+			"version": 1279,
+			"versionNonce": 15882637,
 			"isDeleted": false,
 			"id": "o5lVJX8glv51z8dSGrXDp",
-			"fillStyle": "hachure",
+			"fillStyle": "cross-hatch",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1154.3061107923986,
-			"y": -151.04695677612267,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
+			"x": -3114.3058056166174,
+			"y": -968.1898575155201,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#b2f2bb",
 			"width": 577.6000366210938,
 			"height": 572,
 			"seed": 610524832,
@@ -840,16 +1034,24 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 				{
 					"id": "aXSV0EcqZGTyMsoC8MfDd",
 					"type": "arrow"
+				},
+				{
+					"id": "6sT5k8WgllKwZCSpIWlqa",
+					"type": "arrow"
+				},
+				{
+					"id": "-FkThbfgCU29iAl7HPxrv",
+					"type": "arrow"
 				}
 			],
-			"updated": 1705601317468,
+			"updated": 1705853331986,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 335,
-			"versionNonce": 377903968,
+			"version": 497,
+			"versionNonce": 19108291,
 			"isDeleted": false,
 			"id": "q1MjBx4p",
 			"fillStyle": "hachure",
@@ -858,9 +1060,9 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1121.869728845488,
-			"y": -97.11968404884988,
-			"strokeColor": "#000000",
+			"x": -3081.869423669707,
+			"y": -913.1197450840061,
+			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
 			"width": 208.97988891601562,
 			"height": 43.199999999999996,
@@ -869,7 +1071,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": "HEJ25XmHBNYjcTvpBbY1J",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317468,
+			"updated": 1705853331986,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -885,8 +1087,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "text",
-			"version": 504,
-			"versionNonce": 1076333216,
+			"version": 667,
+			"versionNonce": 1105829869,
 			"isDeleted": false,
 			"id": "vuHjbpWn",
 			"fillStyle": "hachure",
@@ -895,8 +1097,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1125.1425448966245,
-			"y": -16.683309315185284,
+			"x": -3085.1422397208435,
+			"y": -832.6833703503415,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 539.1677856445312,
@@ -906,7 +1108,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": "HEJ25XmHBNYjcTvpBbY1J",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317468,
+			"updated": 1705853331986,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -922,8 +1124,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "image",
-			"version": 354,
-			"versionNonce": 1608773472,
+			"version": 516,
+			"versionNonce": 1660051811,
 			"isDeleted": false,
 			"id": "IlfqHsXtKMtMaJJpFPVpd",
 			"fillStyle": "hachure",
@@ -932,8 +1134,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1124.5062034548632,
-			"y": 104.40753319191708,
+			"x": -3084.5058982790824,
+			"y": -719.5925583608173,
 			"strokeColor": "transparent",
 			"backgroundColor": "transparent",
 			"width": 518,
@@ -943,7 +1145,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": "HEJ25XmHBNYjcTvpBbY1J",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317468,
+			"updated": 1705853331986,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -955,8 +1157,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "text",
-			"version": 478,
-			"versionNonce": 1948071584,
+			"version": 639,
+			"versionNonce": 1156127309,
 			"isDeleted": false,
 			"id": "jdj2uvvr",
 			"fillStyle": "hachure",
@@ -965,8 +1167,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1129.8697732346923,
-			"y": 252.7711473609511,
+			"x": -3089.8694680589115,
+			"y": -563.2289136742052,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 513.4078369140625,
@@ -976,7 +1178,7 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": "HEJ25XmHBNYjcTvpBbY1J",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317468,
+			"updated": 1705853331986,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -992,8 +1194,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		},
 		{
 			"type": "frame",
-			"version": 434,
-			"versionNonce": 1349452640,
+			"version": 613,
+			"versionNonce": 1279771501,
 			"isDeleted": false,
 			"id": "HEJ25XmHBNYjcTvpBbY1J",
 			"fillStyle": "solid",
@@ -1002,12 +1204,12 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1177.14250050742,
-			"y": -171.2287638606398,
+			"x": -3137.142195331639,
+			"y": -987.228824895796,
 			"strokeColor": "#bbb",
 			"backgroundColor": "transparent",
-			"width": 629.8182262073861,
-			"height": 637.0909534801135,
+			"width": 624.4848386205805,
+			"height": 615.757538766572,
 			"seed": 1210615648,
 			"groupIds": [],
 			"frameId": null,
@@ -1020,24 +1222,28 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 				{
 					"id": "aXSV0EcqZGTyMsoC8MfDd",
 					"type": "arrow"
+				},
+				{
+					"id": "6sT5k8WgllKwZCSpIWlqa",
+					"type": "arrow"
 				}
 			],
-			"updated": 1705601317468,
+			"updated": 1705854222745,
 			"link": null,
 			"locked": false,
 			"customData": {
 				"frameColor": {
-					"stroke": "#D4D4D4",
-					"fill": "#ADADAD",
-					"nameColor": "#949494"
+					"stroke": "#2B2B2B",
+					"fill": "#525252",
+					"nameColor": "#6B6B6B"
 				}
 			},
 			"name": null
 		},
 		{
 			"type": "rectangle",
-			"version": 1817,
-			"versionNonce": 1954374304,
+			"version": 2057,
+			"versionNonce": 46811309,
 			"isDeleted": false,
 			"id": "7eeGwcY2N4JxWeYg35SW9",
 			"fillStyle": "hachure",
@@ -1046,8 +1252,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -173.45815676481948,
-			"y": -2709.228944885364,
+			"x": 631.875705539868,
+			"y": -3493.2289347128376,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 577.6000366210938,
@@ -1064,14 +1270,14 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"type": "arrow"
 				}
 			],
-			"updated": 1705601317468,
+			"updated": 1705853331986,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 1785,
-			"versionNonce": 645371744,
+			"version": 2442,
+			"versionNonce": 475899043,
 			"isDeleted": false,
 			"id": "qi0dYaEIknVYnd1rP-eWZ",
 			"fillStyle": "hachure",
@@ -1080,8 +1286,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1145.021429090613,
-			"y": 751.8251106318584,
+			"x": -3118.849769166878,
+			"y": -210.32753829392277,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 577.6000366210938,
@@ -1092,15 +1298,24 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roundness": {
 				"type": 3
 			},
-			"boundElements": [],
-			"updated": 1705601317468,
+			"boundElements": [
+				{
+					"id": "-FkThbfgCU29iAl7HPxrv",
+					"type": "arrow"
+				},
+				{
+					"id": "p-zllBP0pFRlpNKvPDwoj",
+					"type": "arrow"
+				}
+			],
+			"updated": 1705853331986,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 688,
-			"versionNonce": 1341656736,
+			"version": 1402,
+			"versionNonce": 490121997,
 			"isDeleted": false,
 			"id": "moCIA2oh",
 			"fillStyle": "hachure",
@@ -1109,35 +1324,129 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1118.008954743735,
-			"y": 808.5385109843486,
+			"x": -3091.8372948200004,
+			"y": -153.61413794143255,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 463.4837646484375,
-			"height": 100.80000000000001,
+			"width": 520.0717163085938,
+			"height": 33.6,
 			"seed": 203196256,
 			"groupIds": [],
 			"frameId": "RS4ehBEVEp216OCwhPj18",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317468,
+			"updated": 1705853331986,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
 			"fontFamily": 4,
-			"text": "FM이 Linear complexity를 가지고 있다고 하지만\n실제로는 높은 복잡도로 인하여 High-order가 아닌\norder-2 모델링이 주로 사용됩니다.",
-			"rawText": "FM이 Linear complexity를 가지고 있다고 하지만\n실제로는 높은 복잡도로 인하여 High-order가 아닌\norder-2 모델링이 주로 사용됩니다.",
+			"text": "피쳐 벡터들 간의 pairwise interaction을 직접 feature",
+			"rawText": "피쳐 벡터들 간의 pairwise interaction을 직접 feature",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "FM이 Linear complexity를 가지고 있다고 하지만\n실제로는 높은 복잡도로 인하여 High-order가 아닌\norder-2 모델링이 주로 사용됩니다.",
+			"originalText": "피쳐 벡터들 간의 pairwise interaction을 직접 feature",
 			"lineHeight": 1.2,
-			"baseline": 94
+			"baseline": 26
+		},
+		{
+			"type": "arrow",
+			"version": 2399,
+			"versionNonce": 1999050819,
+			"isDeleted": false,
+			"id": "p-zllBP0pFRlpNKvPDwoj",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -2848.2367800619727,
+			"y": 365.4617188022259,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#a5d8ff",
+			"width": 0.6421466177803268,
+			"height": 179.5348493626845,
+			"seed": 1042537261,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "ZIBw5s3D"
+				}
+			],
+			"updated": 1705853331986,
+			"link": null,
+			"locked": false,
+			"startBinding": {
+				"elementId": "qi0dYaEIknVYnd1rP-eWZ",
+				"focus": 0.05390800089196157,
+				"gap": 3.789257096148617
+			},
+			"endBinding": {
+				"elementId": "_NKlakUeYwbodt-tAHv0C",
+				"focus": -0.04135409796996193,
+				"gap": 8.864308014576295
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-0.6421466177803268,
+					179.5348493626845
+				]
+			]
+		},
+		{
+			"type": "text",
+			"version": 30,
+			"versionNonce": 1151844717,
+			"isDeleted": false,
+			"id": "ZIBw5s3D",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1518.0022194468063,
+			"y": 857.8453081984788,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#a5d8ff",
+			"width": 46.05998229980469,
+			"height": 33.6,
+			"seed": 440402499,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705853331986,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "단점:",
+			"rawText": "단점:",
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "p-zllBP0pFRlpNKvPDwoj",
+			"originalText": "단점:",
+			"lineHeight": 1.2,
+			"baseline": 26
 		},
 		{
 			"type": "frame",
-			"version": 694,
-			"versionNonce": 1447930720,
+			"version": 1387,
+			"versionNonce": 917949901,
 			"isDeleted": false,
 			"id": "RS4ehBEVEp216OCwhPj18",
 			"fillStyle": "solid",
@@ -1146,12 +1455,12 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1178.0089547437344,
-			"y": 727.2054777405359,
+			"x": -3151.8372948199994,
+			"y": -234.94717118524522,
 			"strokeColor": "#bbb",
 			"backgroundColor": "transparent",
 			"width": 637.142871675037,
-			"height": 649.3333435058595,
+			"height": 615.0476292201453,
 			"seed": 855777120,
 			"groupIds": [],
 			"frameId": null,
@@ -1162,22 +1471,22 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"type": "arrow"
 				}
 			],
-			"updated": 1705601317468,
+			"updated": 1705854222745,
 			"link": null,
 			"locked": false,
 			"customData": {
 				"frameColor": {
-					"stroke": "#D4D4D4",
-					"fill": "#ADADAD",
-					"nameColor": "#949494"
+					"stroke": "#2B2B2B",
+					"fill": "#525252",
+					"nameColor": "#6B6B6B"
 				}
 			},
 			"name": null
 		},
 		{
 			"type": "arrow",
-			"version": 1773,
-			"versionNonce": 1060977312,
+			"version": 3664,
+			"versionNonce": 1583811533,
 			"isDeleted": false,
 			"id": "-FkThbfgCU29iAl7HPxrv",
 			"fillStyle": "hachure",
@@ -1186,12 +1495,12 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -855.2422751561862,
-			"y": 481.84458274348157,
+			"x": -2830.1218500411014,
+			"y": -394.2732958828845,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 2.301583797649755,
-			"height": 232.02756166372097,
+			"width": 2.847484295202321,
+			"height": 164.40214379696982,
 			"seed": 722874208,
 			"groupIds": [],
 			"frameId": null,
@@ -1204,18 +1513,18 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					"id": "zWORx80X"
 				}
 			],
-			"updated": 1705601317468,
+			"updated": 1705853331987,
 			"link": null,
 			"locked": false,
 			"startBinding": {
-				"elementId": "HEJ25XmHBNYjcTvpBbY1J",
-				"gap": 15.982393124007729,
-				"focus": -0.010378460790382417
+				"elementId": "o5lVJX8glv51z8dSGrXDp",
+				"focus": 0.032690138812620506,
+				"gap": 1.9165616326355916
 			},
 			"endBinding": {
-				"elementId": "RS4ehBEVEp216OCwhPj18",
-				"gap": 13.333333333333485,
-				"focus": 0.030608593073469265
+				"elementId": "qi0dYaEIknVYnd1rP-eWZ",
+				"focus": 0.027463401682161066,
+				"gap": 19.543613791991902
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -1226,15 +1535,15 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					0
 				],
 				[
-					2.301583797649755,
-					232.02756166372097
+					2.847484295202321,
+					164.40214379696982
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 36,
-			"versionNonce": 1245790048,
+			"version": 73,
+			"versionNonce": 1748640643,
 			"isDeleted": false,
 			"id": "zWORx80X",
 			"fillStyle": "hachure",
@@ -1243,96 +1552,101 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1526.31931267163,
-			"y": 686.0718420472365,
+			"x": -1520.128053077974,
+			"y": 53.0903699973244,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 43.343994140625,
+			"width": 83.57998657226562,
 			"height": 33.6,
 			"seed": 31626912,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317468,
+			"updated": 1705853331987,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
 			"fontFamily": 4,
-			"text": "장점",
-			"rawText": "장점",
+			"text": "해결방안",
+			"rawText": "해결방안",
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "-FkThbfgCU29iAl7HPxrv",
-			"originalText": "장점",
+			"originalText": "해결방안",
 			"lineHeight": 1.2,
 			"baseline": 26
 		},
 		{
-			"id": "ebK8nqVk",
 			"type": "text",
-			"x": -143.55053796978893,
-			"y": -2666.071486200023,
-			"width": 526.2317504882812,
-			"height": 201.60000000000002,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
+			"version": 608,
+			"versionNonce": 1787693613,
+			"isDeleted": false,
+			"id": "ebK8nqVk",
 			"fillStyle": "hachure",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
+			"angle": 0,
+			"x": 661.7833243348986,
+			"y": -3450.071476027497,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 526.2317504882812,
+			"height": 201.60000000000002,
+			"seed": 1078522720,
 			"groupIds": [],
 			"frameId": "45xFR6gTILwISZ2FOkroU",
 			"roundness": null,
-			"seed": 1078522720,
-			"version": 368,
-			"versionNonce": 1694295712,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1705601317468,
+			"boundElements": [],
+			"updated": 1705853331987,
 			"link": null,
 			"locked": false,
-			"text": "기저귀를 구매하는 사람은 맥주를 함께 구매한다(order-2)\n와 같은 대부분의 Interaction들은 데이터 속에 숨겨짐.\n\n(아버지들이 기저귀를 기저귀를 자주 구매하는 듯 한다)\n위와 같은 Interaction들은 전문가조차 찾기 힘들다.\n",
-			"rawText": "기저귀를 구매하는 사람은 맥주를 함께 구매한다(order-2)\n와 같은 대부분의 Interaction들은 데이터 속에 숨겨짐.\n\n(아버지들이 기저귀를 기저귀를 자주 구매하는 듯 한다)\n위와 같은 Interaction들은 전문가조차 찾기 힘들다.\n",
 			"fontSize": 28,
 			"fontFamily": 4,
+			"text": "기저귀를 구매하는 사람은 맥주를 함께 구매한다(order-2)\n와 같은 대부분의 Interaction들은 데이터 속에 숨겨짐.\n\n(아버지들이 기저귀를 기저귀를 자주 구매하는 듯 한다)\n위와 같은 Interaction들은 전문가조차 찾기 힘들다.\n",
+			"rawText": "기저귀를 구매하는 사람은 맥주를 함께 구매한다(order-2)\n와 같은 대부분의 Interaction들은 데이터 속에 숨겨짐.\n\n(아버지들이 기저귀를 기저귀를 자주 구매하는 듯 한다)\n위와 같은 Interaction들은 전문가조차 찾기 힘들다.\n",
 			"textAlign": "left",
 			"verticalAlign": "top",
-			"baseline": 194,
 			"containerId": null,
 			"originalText": "기저귀를 구매하는 사람은 맥주를 함께 구매한다(order-2)\n와 같은 대부분의 Interaction들은 데이터 속에 숨겨짐.\n\n(아버지들이 기저귀를 기저귀를 자주 구매하는 듯 한다)\n위와 같은 Interaction들은 전문가조차 찾기 힘들다.\n",
-			"lineHeight": 1.2
+			"lineHeight": 1.2,
+			"baseline": 194
 		},
 		{
-			"id": "PH0Mu60CGHYivYu0S6MVs",
 			"type": "arrow",
-			"x": 91.87819040632746,
-			"y": -2564.0716693054933,
-			"width": 0,
-			"height": 25.142909458705162,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
+			"version": 319,
+			"versionNonce": 1422965539,
+			"isDeleted": false,
+			"id": "PH0Mu60CGHYivYu0S6MVs",
 			"fillStyle": "hachure",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
+			"angle": 0,
+			"x": 897.212052711015,
+			"y": -3348.071659132967,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 0,
+			"height": 25.142909458705162,
+			"seed": 1238132576,
 			"groupIds": [],
 			"frameId": "45xFR6gTILwISZ2FOkroU",
 			"roundness": {
 				"type": 2
 			},
-			"seed": 1238132576,
-			"version": 79,
-			"versionNonce": 581063520,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1705601317468,
+			"boundElements": [],
+			"updated": 1705853331987,
 			"link": null,
 			"locked": false,
+			"startBinding": null,
+			"endBinding": null,
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
 			"points": [
 				[
 					0,
@@ -1342,17 +1656,86 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					0,
 					-25.142909458705162
 				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": null,
-			"endBinding": null,
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			]
+		},
+		{
+			"type": "text",
+			"version": 420,
+			"versionNonce": 705051789,
+			"isDeleted": false,
+			"id": "WmOy8sKw",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": 671.0365324034155,
+			"y": -2178.8396756643624,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"width": 417.39581298828125,
+			"height": 33.6,
+			"seed": 851176077,
+			"groupIds": [],
+			"frameId": "WzpDNumaP0gcIe9j0-SQy",
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705853331987,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "즉, 피쳐들간의 상호작용을 모델링하는 것이 목적",
+			"rawText": "즉, 피쳐들간의 상호작용을 모델링하는 것이 목적",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "즉, 피쳐들간의 상호작용을 모델링하는 것이 목적",
+			"lineHeight": 1.2,
+			"baseline": 26
+		},
+		{
+			"type": "text",
+			"version": 350,
+			"versionNonce": 234053315,
+			"isDeleted": false,
+			"id": "TJHlTldr",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": 662.236564955499,
+			"y": -3233.773033411757,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"width": 441.58782958984375,
+			"height": 67.2,
+			"seed": 629761315,
+			"groupIds": [],
+			"frameId": "45xFR6gTILwISZ2FOkroU",
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705853331987,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "대부분의 피쳐 상호작용은 데이터 속에 숨겨져 있고\n이를 선험적(prior)으로 알기 어렵다.",
+			"rawText": "대부분의 피쳐 상호작용은 데이터 속에 숨겨져 있고\n이를 선험적(prior)으로 알기 어렵다.",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "대부분의 피쳐 상호작용은 데이터 속에 숨겨져 있고\n이를 선험적(prior)으로 알기 어렵다.",
+			"lineHeight": 1.2,
+			"baseline": 60
 		},
 		{
 			"type": "frame",
-			"version": 290,
-			"versionNonce": 233247392,
+			"version": 535,
+			"versionNonce": 1737853997,
 			"isDeleted": false,
 			"id": "45xFR6gTILwISZ2FOkroU",
 			"fillStyle": "solid",
@@ -1361,8 +1744,8 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -202.4940122277551,
-			"y": -2731.582462313693,
+			"x": 602.8398500769324,
+			"y": -3515.582452141167,
 			"strokeColor": "#bbb",
 			"backgroundColor": "transparent",
 			"width": 633.3333333333335,
@@ -1372,22 +1755,22 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705601317468,
+			"updated": 1705854222745,
 			"link": null,
 			"locked": false,
 			"customData": {
 				"frameColor": {
-					"stroke": "#D4D4D4",
-					"fill": "#ADADAD",
-					"nameColor": "#949494"
+					"stroke": "#2B2B2B",
+					"fill": "#525252",
+					"nameColor": "#6B6B6B"
 				}
 			},
 			"name": null
 		},
 		{
 			"type": "arrow",
-			"version": 904,
-			"versionNonce": 1975576416,
+			"version": 1588,
+			"versionNonce": 1044418147,
 			"isDeleted": false,
 			"id": "-2j90jjP8ljRqBCwnqMQD",
 			"fillStyle": "hachure",
@@ -1396,9 +1779,9 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 118.8545044692716,
-			"y": -1918.4442316935451,
-			"strokeColor": "#000000",
+			"x": 924.1883667739592,
+			"y": -2702.444221521019,
+			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
 			"width": 1.0796819866448288,
 			"height": 216.4155243955497,
@@ -1408,18 +1791,23 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1705601317468,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "oZmfFkjL"
+				}
+			],
+			"updated": 1705853331987,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "WzpDNumaP0gcIe9j0-SQy",
-				"focus": -0.03053705795282291,
+				"focus": -0.02612839815595885,
 				"gap": 8.026579193067391
 			},
 			"endBinding": {
 				"elementId": "7eeGwcY2N4JxWeYg35SW9",
-				"focus": -0.0034259653060493217,
+				"focus": -0.0034259653060498205,
 				"gap": 2.3691887962691
 			},
 			"lastCommittedPoint": null,
@@ -1437,71 +1825,2311 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			]
 		},
 		{
-			"id": "xypwCSRmvveY3TFu7EULd",
-			"type": "frame",
-			"x": -183.79747317705142,
-			"y": -187.0923495224929,
-			"width": 629.333292643229,
-			"height": 640,
-			"angle": 0,
-			"strokeColor": "#bbb",
-			"backgroundColor": "transparent",
-			"fillStyle": "solid",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"seed": 1100530336,
-			"version": 161,
-			"versionNonce": 1890303648,
+			"type": "text",
+			"version": 55,
+			"versionNonce": 782253389,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1705601317468,
-			"link": null,
-			"locked": false,
-			"customData": {
-				"frameColor": {
-					"stroke": "#D4D4D4",
-					"fill": "#ADADAD",
-					"nameColor": "#949494"
-				}
-			},
-			"name": null
-		},
-		{
-			"id": "aXSV0EcqZGTyMsoC8MfDd",
-			"type": "arrow",
-			"x": -567.3556026425285,
-			"y": 182.7811774022531,
-			"width": 392.72727272727275,
-			"height": 49.45456764914775,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
+			"id": "oZmfFkjL",
 			"fillStyle": "hachure",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
+			"angle": 0,
+			"x": 73.12268502135935,
+			"y": -2043.45199389132,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"width": 90.38395690917969,
+			"height": 33.6,
+			"seed": 346712749,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705853331987,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "문제 정의:",
+			"rawText": "문제 정의:",
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "-2j90jjP8ljRqBCwnqMQD",
+			"originalText": "문제 정의:",
+			"lineHeight": 1.2,
+			"baseline": 26
+		},
+		{
+			"type": "frame",
+			"version": 406,
+			"versionNonce": 1590525581,
+			"isDeleted": false,
+			"id": "xypwCSRmvveY3TFu7EULd",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": 621.5363891276361,
+			"y": -971.0923393499666,
+			"strokeColor": "#bbb",
+			"backgroundColor": "transparent",
+			"width": 629.333292643229,
+			"height": 640,
+			"seed": 1100530336,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705854222745,
+			"link": null,
+			"locked": false,
+			"customData": {
+				"frameColor": {
+					"stroke": "#2B2B2B",
+					"fill": "#525252",
+					"nameColor": "#6B6B6B"
+				}
+			},
+			"name": null
+		},
+		{
+			"type": "arrow",
+			"version": 985,
+			"versionNonce": 262474669,
+			"isDeleted": false,
+			"id": "aXSV0EcqZGTyMsoC8MfDd",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -2534.212422885274,
+			"y": -665.3239563854373,
+			"strokeColor": "#2f9e44",
+			"backgroundColor": "transparent",
+			"width": 3164.9179552747055,
+			"height": 128.43940384266102,
+			"seed": 660233888,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
-			"seed": 660233888,
-			"version": 229,
-			"versionNonce": 1845160608,
-			"isDeleted": false,
 			"boundElements": [
 				{
 					"type": "text",
 					"id": "xWE7M7SM"
 				}
 			],
-			"updated": 1705601317468,
+			"updated": 1705853331987,
+			"link": null,
+			"locked": false,
+			"startBinding": {
+				"elementId": "o5lVJX8glv51z8dSGrXDp",
+				"focus": 0.018547988964543294,
+				"gap": 2.493346110249604
+			},
+			"endBinding": {
+				"elementId": "I0ZLWxhbtCMX1qgMrQ5_a",
+				"focus": -0.4733216663831023,
+				"gap": 10.09506575509954
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					3164.9179552747055,
+					128.43940384266102
+				]
+			]
+		},
+		{
+			"type": "text",
+			"version": 48,
+			"versionNonce": 1908707747,
+			"isDeleted": false,
+			"id": "xWE7M7SM",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -707.1264921229211,
+			"y": -22.573501358844556,
+			"strokeColor": "#2f9e44",
+			"backgroundColor": "transparent",
+			"width": 41.4119873046875,
+			"height": 33.6,
+			"seed": 429070176,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705853331987,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "결합",
+			"rawText": "결합",
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "aXSV0EcqZGTyMsoC8MfDd",
+			"originalText": "결합",
+			"lineHeight": 1.2,
+			"baseline": 26
+		},
+		{
+			"type": "image",
+			"version": 266,
+			"versionNonce": 1740705293,
+			"isDeleted": false,
+			"id": "hsfrpMP9",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 937.6693449034151,
+			"y": -1481.1398241832385,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 23,
+			"height": 9,
+			"seed": 3470,
+			"groupIds": [],
+			"frameId": "DZh1jPdZmLUojklmLsu6x",
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705853331987,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "1acd85ab268aa15908884e70b2120d6f3eafdc60",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"type": "arrow",
+			"version": 713,
+			"versionNonce": 992503107,
+			"isDeleted": false,
+			"id": "6sT5k8WgllKwZCSpIWlqa",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -2825.2275688009895,
+			"y": -971.3944996585152,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"width": 0.9306431494812841,
+			"height": 293.7142399379185,
+			"seed": 723757603,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "vde9RmJW"
+				}
+			],
+			"updated": 1705853331987,
+			"link": null,
+			"locked": false,
+			"startBinding": {
+				"elementId": "o5lVJX8glv51z8dSGrXDp",
+				"focus": 0.004123393872829235,
+				"gap": 3.2046421429951124
+			},
+			"endBinding": {
+				"elementId": "6ISOuwRavITLKEmlLc4vT",
+				"focus": 0.022135015138255287,
+				"gap": 8.156352221124052
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-0.9306431494812841,
+					-293.7142399379185
+				]
+			]
+		},
+		{
+			"type": "text",
+			"version": 33,
+			"versionNonce": 904774765,
+			"isDeleted": false,
+			"id": "vde9RmJW",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -907.0984450840017,
+			"y": -289.7793753520163,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"width": 81.98396301269531,
+			"height": 33.6,
+			"seed": 2034702285,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705853331987,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "문제정의:",
+			"rawText": "문제정의:",
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "6sT5k8WgllKwZCSpIWlqa",
+			"originalText": "문제정의:",
+			"lineHeight": 1.2,
+			"baseline": 26
+		},
+		{
+			"type": "rectangle",
+			"version": 1487,
+			"versionNonce": 1007731939,
+			"isDeleted": false,
+			"id": "6ISOuwRavITLKEmlLc4vT",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -3109.4776227224647,
+			"y": -1845.2650918175577,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 577.6000366210938,
+			"height": 572,
+			"seed": 436902317,
+			"groupIds": [],
+			"frameId": "AJvZPsGCOkLncTrNKPzSx",
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [
+				{
+					"id": "6sT5k8WgllKwZCSpIWlqa",
+					"type": "arrow"
+				},
+				{
+					"id": "-FkThbfgCU29iAl7HPxrv",
+					"type": "arrow"
+				}
+			],
+			"updated": 1705853331987,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "text",
+			"version": 343,
+			"versionNonce": 1576316621,
+			"isDeleted": false,
+			"id": "Z2PtTnQu",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -3084.801087252318,
+			"y": -1804.7343112069743,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 491.45574951171875,
+			"height": 67.2,
+			"seed": 857898179,
+			"groupIds": [],
+			"frameId": "AJvZPsGCOkLncTrNKPzSx",
+			"roundness": null,
+			"boundElements": [
+				{
+					"id": "EpJDI1EiCl_2O1tafyulJ",
+					"type": "arrow"
+				}
+			],
+			"updated": 1705853331987,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "일반화된 선형 모델 (FTRL)은 간단하지만 준수한 성능\n허나 선형 모델은 피쳐 상호작용을 학습하기는 어려움",
+			"rawText": "일반화된 선형 모델 (FTRL)은 간단하지만 준수한 성능\n허나 선형 모델은 피쳐 상호작용을 학습하기는 어려움",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "일반화된 선형 모델 (FTRL)은 간단하지만 준수한 성능\n허나 선형 모델은 피쳐 상호작용을 학습하기는 어려움",
+			"lineHeight": 1.2,
+			"baseline": 60
+		},
+		{
+			"type": "arrow",
+			"version": 494,
+			"versionNonce": 738996355,
+			"isDeleted": false,
+			"id": "EpJDI1EiCl_2O1tafyulJ",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -2846.03193160328,
+			"y": -1724.118935981614,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 1.2308443509615472,
+			"height": 104.61538461538464,
+			"seed": 1996296963,
+			"groupIds": [],
+			"frameId": "AJvZPsGCOkLncTrNKPzSx",
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "hFKivGyP"
+				}
+			],
+			"updated": 1705853331987,
+			"link": null,
+			"locked": false,
+			"startBinding": {
+				"elementId": "Z2PtTnQu",
+				"focus": 0.03350660125124554,
+				"gap": 13.415375225360549
+			},
+			"endBinding": null,
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					1.2308443509615472,
+					44.307720477764406
+				],
+				[
+					1.2306565504807168,
+					104.61538461538464
+				]
+			]
+		},
+		{
+			"type": "text",
+			"version": 21,
+			"versionNonce": 242175277,
+			"isDeleted": false,
+			"id": "hFKivGyP",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -907.2049169736221,
+			"y": -850.4574339064184,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 51.57598876953125,
+			"height": 33.6,
+			"seed": 1571748717,
+			"groupIds": [],
+			"frameId": "AJvZPsGCOkLncTrNKPzSx",
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705853331987,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "Why?",
+			"rawText": "Why?",
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "EpJDI1EiCl_2O1tafyulJ",
+			"originalText": "Why?",
+			"lineHeight": 1.2,
+			"baseline": 26
+		},
+		{
+			"type": "text",
+			"version": 559,
+			"versionNonce": 1289300003,
+			"isDeleted": false,
+			"id": "5o6LqlRY",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -3084.801087252318,
+			"y": -1570.8881573608205,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 531.6358032226562,
+			"height": 134.4,
+			"seed": 454631277,
+			"groupIds": [],
+			"frameId": "AJvZPsGCOkLncTrNKPzSx",
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705853331987,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "선형성 : 비선형 관계나 상호작용을 잘 표현하지 못함\n고차원 특성 : 데이터는 고차원, 복잡한 상호작용 모델링 힘듦\n계산 복잡성 : 많은 수의 매개변수 필요, 계산 비용 증가, \n                과적합 위험",
+			"rawText": "선형성 : 비선형 관계나 상호작용을 잘 표현하지 못함\n고차원 특성 : 데이터는 고차원, 복잡한 상호작용 모델링 힘듦\n계산 복잡성 : 많은 수의 매개변수 필요, 계산 비용 증가, \n                과적합 위험",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "선형성 : 비선형 관계나 상호작용을 잘 표현하지 못함\n고차원 특성 : 데이터는 고차원, 복잡한 상호작용 모델링 힘듦\n계산 복잡성 : 많은 수의 매개변수 필요, 계산 비용 증가, \n                과적합 위험",
+			"lineHeight": 1.2,
+			"baseline": 127
+		},
+		{
+			"type": "frame",
+			"version": 346,
+			"versionNonce": 1662526701,
+			"isDeleted": false,
+			"id": "AJvZPsGCOkLncTrNKPzSx",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -3135.8203394844622,
+			"y": -1866.693637088205,
+			"strokeColor": "#bbb",
+			"backgroundColor": "transparent",
+			"width": 625.142822265625,
+			"height": 618.2857622419085,
+			"seed": 1967800739,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705854222745,
+			"link": null,
+			"locked": false,
+			"customData": {
+				"frameColor": {
+					"stroke": "#2B2B2B",
+					"fill": "#525252",
+					"nameColor": "#6B6B6B"
+				}
+			},
+			"name": null
+		},
+		{
+			"type": "rectangle",
+			"version": 2851,
+			"versionNonce": 610675651,
+			"isDeleted": false,
+			"id": "_NKlakUeYwbodt-tAHv0C",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -3126.748226119747,
+			"y": 553.8608761794867,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 577.6000366210938,
+			"height": 572,
+			"seed": 764669357,
+			"groupIds": [],
+			"frameId": "VzkAOlYFXQlBboCKm9Kzr",
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [
+				{
+					"id": "p-zllBP0pFRlpNKvPDwoj",
+					"type": "arrow"
+				},
+				{
+					"id": "5kGwZHFLTUbDIfTVehCVt",
+					"type": "arrow"
+				},
+				{
+					"id": "iXGTn-gR3FBR-dx6GrPq5",
+					"type": "arrow"
+				}
+			],
+			"updated": 1705853331987,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "text",
+			"version": 290,
+			"versionNonce": 1563796973,
+			"isDeleted": false,
+			"id": "DjiJ7pBb",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -3105.55625188508,
+			"y": 610.9629201790538,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 549.9476928710938,
+			"height": 67.2,
+			"seed": 2038754637,
+			"groupIds": [],
+			"frameId": "VzkAOlYFXQlBboCKm9Kzr",
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705853331987,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "FM모델이 높은 차원의 Feature Interaction을 모델링 가능\n허나, 실제로는 높은 복잡도 때문에 거의 order-2 상호작용만",
+			"rawText": "FM모델이 높은 차원의 Feature Interaction을 모델링 가능\n허나, 실제로는 높은 복잡도 때문에 거의 order-2 상호작용만",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "FM모델이 높은 차원의 Feature Interaction을 모델링 가능\n허나, 실제로는 높은 복잡도 때문에 거의 order-2 상호작용만",
+			"lineHeight": 1.2,
+			"baseline": 60
+		},
+		{
+			"type": "arrow",
+			"version": 208,
+			"versionNonce": 1993456483,
+			"isDeleted": false,
+			"id": "5kGwZHFLTUbDIfTVehCVt",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -2548.148189498653,
+			"y": 831.1466888294466,
+			"strokeColor": "#2f9e44",
+			"backgroundColor": "#a5d8ff",
+			"width": 485.83357237687915,
+			"height": 1.453118412666072,
+			"seed": 2045964173,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "UezxAaVr"
+				}
+			],
+			"updated": 1705853331987,
+			"link": null,
+			"locked": false,
+			"startBinding": {
+				"elementId": "_NKlakUeYwbodt-tAHv0C",
+				"focus": -0.033399033003767155,
+				"gap": 1
+			},
+			"endBinding": {
+				"elementId": "b_W4ATtroabrMqZ_ztwCr",
+				"focus": 0.006298813082892034,
+				"gap": 12.315691390089341
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					485.83357237687915,
+					1.453118412666072
+				]
+			]
+		},
+		{
+			"type": "text",
+			"version": 34,
+			"versionNonce": 1690591309,
+			"isDeleted": false,
+			"id": "UezxAaVr",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -2372.1107978468717,
+			"y": 815.0725456121411,
+			"strokeColor": "#2f9e44",
+			"backgroundColor": "#a5d8ff",
+			"width": 114.37995910644531,
+			"height": 33.6,
+			"seed": 101000035,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705853331987,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "CNN과 같이",
+			"rawText": "CNN과 같이",
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "5kGwZHFLTUbDIfTVehCVt",
+			"originalText": "CNN과 같이",
+			"lineHeight": 1.2,
+			"baseline": 26
+		},
+		{
+			"type": "frame",
+			"version": 942,
+			"versionNonce": 671022925,
+			"isDeleted": false,
+			"id": "VzkAOlYFXQlBboCKm9Kzr",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -3144.718047364989,
+			"y": 534.236506876101,
+			"strokeColor": "#bbb",
+			"backgroundColor": "transparent",
+			"width": 628.6060680042623,
+			"height": 607.9998779296877,
+			"seed": 1363106851,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705854222745,
+			"link": null,
+			"locked": false,
+			"customData": {
+				"frameColor": {
+					"stroke": "#2B2B2B",
+					"fill": "#525252",
+					"nameColor": "#6B6B6B"
+				}
+			},
+			"name": null
+		},
+		{
+			"type": "rectangle",
+			"version": 2541,
+			"versionNonce": 389563533,
+			"isDeleted": false,
+			"id": "b_W4ATtroabrMqZ_ztwCr",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -2049.9989257316847,
+			"y": 549.3073396795626,
+			"strokeColor": "#000000",
+			"backgroundColor": "#e7f5ff",
+			"width": 577.6000366210938,
+			"height": 572,
+			"seed": 883328525,
+			"groupIds": [],
+			"frameId": "C5GCRCbtj5DsP8OwngzmS",
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [
+				{
+					"id": "5kGwZHFLTUbDIfTVehCVt",
+					"type": "arrow"
+				},
+				{
+					"id": "kEgk5WAtvWtPBPIjFJXDp",
+					"type": "arrow"
+				}
+			],
+			"updated": 1705854234527,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "text",
+			"version": 99,
+			"versionNonce": 1873706659,
+			"isDeleted": false,
+			"id": "9jzL3QPr",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -2027.3556057779092,
+			"y": 592.774275530474,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#a5d8ff",
+			"width": 478.9077453613281,
+			"height": 43.199999999999996,
+			"seed": 1634490509,
+			"groupIds": [],
+			"frameId": "C5GCRCbtj5DsP8OwngzmS",
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705853331988,
+			"link": null,
+			"locked": false,
+			"fontSize": 36,
+			"fontFamily": 4,
+			"text": "A Convolutional Click Prediction Model",
+			"rawText": "A Convolutional Click Prediction Model",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "A Convolutional Click Prediction Model",
+			"lineHeight": 1.2,
+			"baseline": 34
+		},
+		{
+			"type": "embeddable",
+			"version": 98,
+			"versionNonce": 125333773,
+			"isDeleted": false,
+			"id": "HW6ttsK6Sl00o28gZAlZE",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -2025.1991006991345,
+			"y": 676.9742352280648,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 526.6666666666667,
+			"height": 240.00002543131518,
+			"seed": 941473325,
+			"groupIds": [],
+			"frameId": "C5GCRCbtj5DsP8OwngzmS",
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [],
+			"updated": 1705853331988,
+			"link": "https://wnzhang.net/share/rtb-papers/cnn-ctr.pdf",
+			"locked": false,
+			"validated": true,
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"type": "text",
+			"version": 45,
+			"versionNonce": 525120067,
+			"isDeleted": false,
+			"id": "zRpClNm9",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -2022.532474722572,
+			"y": 957.9742199692757,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 228.31192016601562,
+			"height": 43.199999999999996,
+			"seed": 799437155,
+			"groupIds": [],
+			"frameId": "C5GCRCbtj5DsP8OwngzmS",
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705853331988,
+			"link": null,
+			"locked": false,
+			"fontSize": 36,
+			"fontFamily": 4,
+			"text": "2015년 - 145회 인용",
+			"rawText": "2015년 - 145회 인용",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "2015년 - 145회 인용",
+			"lineHeight": 1.2,
+			"baseline": 34
+		},
+		{
+			"type": "arrow",
+			"version": 187,
+			"versionNonce": 1321256813,
+			"isDeleted": false,
+			"id": "kEgk5WAtvWtPBPIjFJXDp",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1758.5324340324678,
+			"y": 1126.3074515773485,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#a5d8ff",
+			"width": 0,
+			"height": 216.24253706498598,
+			"seed": 1504820045,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "TzmSzFUw"
+				}
+			],
+			"updated": 1705853331988,
+			"link": null,
+			"locked": false,
+			"startBinding": {
+				"elementId": "b_W4ATtroabrMqZ_ztwCr",
+				"focus": -0.009232940511114495,
+				"gap": 5.000111897785928
+			},
+			"endBinding": {
+				"elementId": "LNXFX37bWu96gSDqzmJKj",
+				"focus": -0.0046163821969961985,
+				"gap": 1.0000203450524623
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0,
+					216.24253706498598
+				]
+			]
+		},
+		{
+			"type": "text",
+			"version": 22,
+			"versionNonce": 270758371,
+			"isDeleted": false,
+			"id": "TzmSzFUw",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1785.3704314689912,
+			"y": 1211.3741691066457,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#a5d8ff",
+			"width": 53.675994873046875,
+			"height": 43.199999999999996,
+			"seed": 810167053,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705853331988,
+			"link": null,
+			"locked": false,
+			"fontSize": 36,
+			"fontFamily": 4,
+			"text": "단점",
+			"rawText": "단점",
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "kEgk5WAtvWtPBPIjFJXDp",
+			"originalText": "단점",
+			"lineHeight": 1.2,
+			"baseline": 34
+		},
+		{
+			"type": "frame",
+			"version": 83,
+			"versionNonce": 870026669,
+			"isDeleted": false,
+			"id": "C5GCRCbtj5DsP8OwngzmS",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -2071.9875967334406,
+			"y": 533.654927377645,
+			"strokeColor": "#bbb",
+			"backgroundColor": "transparent",
+			"width": 622.5454989346592,
+			"height": 606.5454656427557,
+			"seed": 502688067,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705854222745,
+			"link": null,
+			"locked": false,
+			"customData": {
+				"frameColor": {
+					"stroke": "#2B2B2B",
+					"fill": "#525252",
+					"nameColor": "#6B6B6B"
+				}
+			},
+			"name": null
+		},
+		{
+			"type": "arrow",
+			"version": 809,
+			"versionNonce": 1318900803,
+			"isDeleted": false,
+			"id": "k-RJEMkxhROcPERLTZItb",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1472.895295589095,
+			"y": 1876.6530050671895,
+			"strokeColor": "#2f9e44",
+			"backgroundColor": "#a5d8ff",
+			"width": 372.7215647966309,
+			"height": 353.4920952188704,
+			"seed": 1551943171,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "8tniQCKt"
+				}
+			],
+			"updated": 1705854320112,
+			"link": null,
+			"locked": false,
+			"startBinding": {
+				"elementId": "Q6zErHlFbWQg0NCJcLwpq",
+				"focus": -0.09249606504033256,
+				"gap": 3.836091700063207
+			},
+			"endBinding": {
+				"elementId": "1U7X_641_ArMRhIPnkT8X",
+				"focus": 0.07978086488415116,
+				"gap": 5.502849232066637
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					372.7215647966309,
+					353.4920952188704
+				]
+			]
+		},
+		{
+			"type": "text",
+			"version": 42,
+			"versionNonce": 1504045155,
+			"isDeleted": false,
+			"id": "8tniQCKt",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1327.7910866658488,
+			"y": 1601.212852054876,
+			"strokeColor": "#2f9e44",
+			"backgroundColor": "#a5d8ff",
+			"width": 113.87596130371094,
+			"height": 33.6,
+			"seed": 2099187107,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705853331988,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "DNN과 같이",
+			"rawText": "DNN과 같이",
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "k-RJEMkxhROcPERLTZItb",
+			"originalText": "DNN과 같이",
+			"lineHeight": 1.2,
+			"baseline": 26
+		},
+		{
+			"type": "arrow",
+			"version": 847,
+			"versionNonce": 1123936611,
+			"isDeleted": false,
+			"id": "nLRUh-OftKEybrydAZ5yj",
+			"fillStyle": "cross-hatch",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1472.36101854918,
+			"y": 1415.0818766717352,
+			"strokeColor": "#2f9e44",
+			"backgroundColor": "#b2f2bb",
+			"width": 342.3786700020171,
+			"height": 286.2861591875785,
+			"seed": 45342669,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "huF5ai1E"
+				}
+			],
+			"updated": 1705857566461,
+			"link": null,
+			"locked": false,
+			"startBinding": {
+				"elementId": "Q6zErHlFbWQg0NCJcLwpq",
+				"focus": 0.021851555661256825,
+				"gap": 4.370368739978176
+			},
+			"endBinding": {
+				"elementId": "lMUCL69X",
+				"focus": 0.5396493517691572,
+				"gap": 21.70817628285255
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					342.3786700020171,
+					-286.2861591875785
+				]
+			]
+		},
+		{
+			"type": "text",
+			"version": 29,
+			"versionNonce": 842064899,
+			"isDeleted": false,
+			"id": "huF5ai1E",
+			"fillStyle": "cross-hatch",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1409.2282818234496,
+			"y": 1338.632956774874,
+			"strokeColor": "#2f9e44",
+			"backgroundColor": "#b2f2bb",
+			"width": 220.55587768554688,
+			"height": 33.6,
+			"seed": 1371456387,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705853331988,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "feature interaction?",
+			"rawText": "feature interaction?",
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "nLRUh-OftKEybrydAZ5yj",
+			"originalText": "feature interaction?",
+			"lineHeight": 1.2,
+			"baseline": 26
+		},
+		{
+			"type": "rectangle",
+			"version": 3251,
+			"versionNonce": 588999587,
+			"isDeleted": false,
+			"id": "1U7X_641_ArMRhIPnkT8X",
+			"fillStyle": "cross-hatch",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1128.712830427439,
+			"y": 2235.6479495181266,
+			"strokeColor": "#000000",
+			"backgroundColor": "#a5d8ff",
+			"width": 577.6000366210938,
+			"height": 572,
+			"seed": 1677047331,
+			"groupIds": [],
+			"frameId": "Fbrkk4-wvBR1HnRrBO1Vo",
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [
+				{
+					"id": "k-RJEMkxhROcPERLTZItb",
+					"type": "arrow"
+				},
+				{
+					"id": "40HrDZzFRrM4nXpOFDuo3",
+					"type": "arrow"
+				}
+			],
+			"updated": 1705853331988,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "embeddable",
+			"version": 315,
+			"versionNonce": 1063048205,
+			"isDeleted": false,
+			"id": "n8zKXpYkFYC9k5W1WaIbU",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1102.458422024562,
+			"y": 2393.647960615427,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 525.0907759232955,
+			"height": 234.1818514737215,
+			"seed": 1545798147,
+			"groupIds": [],
+			"frameId": "Fbrkk4-wvBR1HnRrBO1Vo",
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [],
+			"updated": 1705853331988,
+			"link": "https://arxiv.org/pdf/1601.02376.pdf",
+			"locked": false,
+			"validated": true,
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"type": "text",
+			"version": 383,
+			"versionNonce": 278134595,
+			"isDeleted": false,
+			"id": "wGKWzQwR",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1097.5486139523848,
+			"y": 2282.2297344080407,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#a5d8ff",
+			"width": 407.69976806640625,
+			"height": 86.39999999999999,
+			"seed": 1756384109,
+			"groupIds": [],
+			"frameId": "Fbrkk4-wvBR1HnRrBO1Vo",
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705853331988,
+			"link": null,
+			"locked": false,
+			"fontSize": 36,
+			"fontFamily": 4,
+			"text": "Deep Learning over Multi-field \nCategorical Data",
+			"rawText": "Deep Learning over Multi-field \nCategorical Data",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "Deep Learning over Multi-field \nCategorical Data",
+			"lineHeight": 1.2,
+			"baseline": 77
+		},
+		{
+			"type": "text",
+			"version": 327,
+			"versionNonce": 1914751597,
+			"isDeleted": false,
+			"id": "VbrkBKVs",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1107.1336745081367,
+			"y": 2647.6429112179712,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 521.0238037109375,
+			"height": 134.4,
+			"seed": 1493713965,
+			"groupIds": [],
+			"frameId": "Fbrkk4-wvBR1HnRrBO1Vo",
+			"roundness": null,
+			"boundElements": [
+				{
+					"id": "40HrDZzFRrM4nXpOFDuo3",
+					"type": "arrow"
+				}
+			],
+			"updated": 1705853331988,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "심층신경망(DNN)을 사용하여 범주형 특징 상호작용에서 \n효과적인 패턴을 자동으로 학습하고 사용자의 광고 클릭을 \n예측하는 새로운 모델\nFM supported Neural Network(FNN)을 제안",
+			"rawText": "심층신경망(DNN)을 사용하여 범주형 특징 상호작용에서 \n효과적인 패턴을 자동으로 학습하고 사용자의 광고 클릭을 \n예측하는 새로운 모델\nFM supported Neural Network(FNN)을 제안",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "심층신경망(DNN)을 사용하여 범주형 특징 상호작용에서 \n효과적인 패턴을 자동으로 학습하고 사용자의 광고 클릭을 \n예측하는 새로운 모델\nFM supported Neural Network(FNN)을 제안",
+			"lineHeight": 1.2,
+			"baseline": 127
+		},
+		{
+			"type": "arrow",
+			"version": 794,
+			"versionNonce": 1425612515,
+			"isDeleted": false,
+			"id": "40HrDZzFRrM4nXpOFDuo3",
+			"fillStyle": "cross-hatch",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -847.0520825104202,
+			"y": 2808.647949518127,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 3.610226438300856,
+			"height": 238.8209197382089,
+			"seed": 581881997,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "RsONSwcR"
+				}
+			],
+			"updated": 1705853331988,
+			"link": null,
+			"locked": false,
+			"startBinding": {
+				"elementId": "VbrkBKVs",
+				"focus": -0.003776766838996936,
+				"gap": 26.60503830015591
+			},
+			"endBinding": {
+				"elementId": "9zQwxKuHoos68YXPBKpUH",
+				"focus": -0.03935144653520327,
+				"gap": 4.705105903821277
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-3.610226438300856,
+					238.8209197382089
+				]
+			]
+		},
+		{
+			"type": "text",
+			"version": 31,
+			"versionNonce": 1775695053,
+			"isDeleted": false,
+			"id": "RsONSwcR",
+			"fillStyle": "cross-hatch",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -833.0624101672349,
+			"y": 2030.9380812455186,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#ffc9c9",
+			"width": 87.89198303222656,
+			"height": 33.6,
+			"seed": 676869379,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705853331988,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "해결방안:",
+			"rawText": "해결방안:",
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "40HrDZzFRrM4nXpOFDuo3",
+			"originalText": "해결방안:",
+			"lineHeight": 1.2,
+			"baseline": 26
+		},
+		{
+			"type": "rectangle",
+			"version": 3310,
+			"versionNonce": 2061060739,
+			"isDeleted": false,
+			"id": "9zQwxKuHoos68YXPBKpUH",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1132.3220489735581,
+			"y": 3052.173975160157,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 577.6000366210938,
+			"height": 572,
+			"seed": 1522224227,
+			"groupIds": [],
+			"frameId": "nMSmPjcQW0NJVApyAAqTo",
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [
+				{
+					"id": "iXGTn-gR3FBR-dx6GrPq5",
+					"type": "arrow"
+				},
+				{
+					"id": "40HrDZzFRrM4nXpOFDuo3",
+					"type": "arrow"
+				}
+			],
+			"updated": 1705853331988,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "text",
+			"version": 512,
+			"versionNonce": 840487725,
+			"isDeleted": false,
+			"id": "DReQyQrX",
+			"fillStyle": "cross-hatch",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1111.022106956957,
+			"y": 3085.6738988662114,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 372.371826171875,
+			"height": 201.60000000000002,
+			"seed": 711431725,
+			"groupIds": [],
+			"frameId": "nMSmPjcQW0NJVApyAAqTo",
+			"roundness": null,
+			"boundElements": [
+				{
+					"id": "iXGTn-gR3FBR-dx6GrPq5",
+					"type": "arrow"
+				}
+			],
+			"updated": 1705853331988,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "DNN이 효율적으로 작동하도록 하기 위해  \n세가지 특징 변환 방법, \n\n인수분해 머신(FM), \n제한 볼츠만 머신(RBM), \n노이즈 제거 자동 인코더(DAE)를 활용",
+			"rawText": "DNN이 효율적으로 작동하도록 하기 위해  \n세가지 특징 변환 방법, \n\n인수분해 머신(FM), \n제한 볼츠만 머신(RBM), \n노이즈 제거 자동 인코더(DAE)를 활용",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "DNN이 효율적으로 작동하도록 하기 위해  \n세가지 특징 변환 방법, \n\n인수분해 머신(FM), \n제한 볼츠만 머신(RBM), \n노이즈 제거 자동 인코더(DAE)를 활용",
+			"lineHeight": 1.2,
+			"baseline": 194
+		},
+		{
+			"type": "frame",
+			"version": 321,
+			"versionNonce": 2079049325,
+			"isDeleted": false,
+			"id": "nMSmPjcQW0NJVApyAAqTo",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1151.0551030864647,
+			"y": 3036.7732255682904,
+			"strokeColor": "#bbb",
+			"backgroundColor": "transparent",
+			"width": 619.6364524147727,
+			"height": 610.909146395597,
+			"seed": 236496845,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705854222745,
+			"link": null,
+			"locked": false,
+			"customData": {
+				"frameColor": {
+					"stroke": "#2B2B2B",
+					"fill": "#525252",
+					"nameColor": "#6B6B6B"
+				}
+			},
+			"name": null
+		},
+		{
+			"type": "frame",
+			"version": 280,
+			"versionNonce": 2028105933,
+			"isDeleted": false,
+			"id": "Fbrkk4-wvBR1HnRrBO1Vo",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1145.9329577156418,
+			"y": 2218.2278043147394,
+			"strokeColor": "#bbb",
+			"backgroundColor": "transparent",
+			"width": 616.7271839488637,
+			"height": 605.090886896307,
+			"seed": 1134266883,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705854222745,
+			"link": null,
+			"locked": false,
+			"customData": {
+				"frameColor": {
+					"stroke": "#2B2B2B",
+					"fill": "#525252",
+					"nameColor": "#6B6B6B"
+				}
+			},
+			"name": null
+		},
+		{
+			"type": "arrow",
+			"version": 1272,
+			"versionNonce": 573883843,
+			"isDeleted": false,
+			"id": "iXGTn-gR3FBR-dx6GrPq5",
+			"fillStyle": "cross-hatch",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1118.4318282952993,
+			"y": 3209.3526257381322,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#a5d8ff",
+			"width": 1738.4275828691568,
+			"height": 2071.9762270097226,
+			"seed": 925056973,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "uPBL2LQM"
+				}
+			],
+			"updated": 1705853331988,
+			"link": null,
+			"locked": false,
+			"startBinding": {
+				"elementId": "DReQyQrX",
+				"focus": -0.6493614783434879,
+				"gap": 7.409721338342251
+			},
+			"endBinding": {
+				"elementId": "_NKlakUeYwbodt-tAHv0C",
+				"focus": 0.21503930710013355,
+				"gap": 11.515522548922945
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-1522.4276090270812,
+					-891.6905606802025
+				],
+				[
+					-1738.4275828691568,
+					-2071.9762270097226
+				]
+			]
+		},
+		{
+			"type": "text",
+			"version": 25,
+			"versionNonce": 1555409901,
+			"isDeleted": false,
+			"id": "uPBL2LQM",
+			"fillStyle": "cross-hatch",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -2931.6973737237477,
+			"y": 2430.0621566106643,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#a5d8ff",
+			"width": 53.675994873046875,
+			"height": 43.199999999999996,
+			"seed": 1808203875,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705853331989,
+			"link": null,
+			"locked": false,
+			"fontSize": 36,
+			"fontFamily": 4,
+			"text": "단점",
+			"rawText": "단점",
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "iXGTn-gR3FBR-dx6GrPq5",
+			"originalText": "단점",
+			"lineHeight": 1.2,
+			"baseline": 34
+		},
+		{
+			"type": "image",
+			"version": 762,
+			"versionNonce": 868029795,
+			"isDeleted": false,
+			"id": "mguVuSrYmxjKTH4fsVyJO",
+			"fillStyle": "cross-hatch",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -2200.996061505858,
+			"y": 2647.4207830893997,
+			"strokeColor": "transparent",
+			"backgroundColor": "#a5d8ff",
+			"width": 758,
+			"height": 400,
+			"seed": 535392227,
+			"groupIds": [],
+			"frameId": "0D2toMuhV6qy2w5Blvi6C",
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705853331989,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "238684eaf896cacd041c8ce3215c3c8f7b330ced",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"type": "frame",
+			"version": 756,
+			"versionNonce": 1247072045,
+			"isDeleted": false,
+			"id": "0D2toMuhV6qy2w5Blvi6C",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -2249.570699267051,
+			"y": 2619.3907891541644,
+			"strokeColor": "#bbb",
+			"backgroundColor": "transparent",
+			"width": 852.2666015625,
+			"height": 494.9062848358844,
+			"seed": 379161827,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705854222745,
+			"link": null,
+			"locked": false,
+			"customData": {
+				"frameColor": {
+					"stroke": "#2B2B2B",
+					"fill": "#525252",
+					"nameColor": "#6B6B6B"
+				}
+			},
+			"name": null
+		},
+		{
+			"type": "text",
+			"version": 414,
+			"versionNonce": 2061136131,
+			"isDeleted": false,
+			"id": "7UQZUTAs",
+			"fillStyle": "cross-hatch",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1943.760421853735,
+			"y": 3050.896620651086,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#ffc9c9",
+			"width": 229.62789916992188,
+			"height": 33.6,
+			"seed": 2087459469,
+			"groupIds": [],
+			"frameId": "0D2toMuhV6qy2w5Blvi6C",
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705853331989,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "FM의 성능 제한을 받는다.",
+			"rawText": "FM의 성능 제한을 받는다.",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "FM의 성능 제한을 받는다.",
+			"lineHeight": 1.2,
+			"baseline": 26
+		},
+		{
+			"type": "rectangle",
+			"version": 2923,
+			"versionNonce": 1537823555,
+			"isDeleted": false,
+			"id": "irIGDMpyJWGyB_jajDFb6",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1127.827701255064,
+			"y": 566.0531351380524,
+			"strokeColor": "#000000",
+			"backgroundColor": "#e7f5ff",
+			"width": 577.6000366210938,
+			"height": 572,
+			"seed": 1722715789,
+			"groupIds": [
+				"2yMuDS6TxMpxiiUs3ooWC"
+			],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [
+				{
+					"id": "nLRUh-OftKEybrydAZ5yj",
+					"type": "arrow"
+				},
+				{
+					"id": "wQ8CYLuKT4M-27GeEwBTk",
+					"type": "arrow"
+				}
+			],
+			"updated": 1705857566460,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "text",
+			"version": 490,
+			"versionNonce": 396992131,
+			"isDeleted": false,
+			"id": "vhgUMQ32",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1105.184381301288,
+			"y": 611.1200465749013,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#a5d8ff",
+			"width": 492.4437561035156,
+			"height": 86.39999999999999,
+			"seed": 1817654509,
+			"groupIds": [
+				"2yMuDS6TxMpxiiUs3ooWC"
+			],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705857566460,
+			"link": null,
+			"locked": false,
+			"fontSize": 36,
+			"fontFamily": 4,
+			"text": "Product-based Neural Networks for \nUserResponse Prediction",
+			"rawText": "Product-based Neural Networks for \nUserResponse Prediction",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "Product-based Neural Networks for \nUserResponse Prediction",
+			"lineHeight": 1.2,
+			"baseline": 77
+		},
+		{
+			"type": "text",
+			"version": 466,
+			"versionNonce": 2123945507,
+			"isDeleted": false,
+			"id": "lMUCL69X",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1115.4200594141496,
+			"y": 978.296504685578,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 557.955810546875,
+			"height": 134.4,
+			"seed": 1457262413,
+			"groupIds": [
+				"2yMuDS6TxMpxiiUs3ooWC"
+			],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [
+				{
+					"id": "nLRUh-OftKEybrydAZ5yj",
+					"type": "arrow"
+				}
+			],
+			"updated": 1705857566460,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "카테고리 데이터의 분산 표현을 학습하기 위한 임베딩 레이어, \n필드 간 카테고리 간의 상호작용 패턴을 포착하기 위한 제품 \n레이어, 그리고 고차 특징 상호작용을 탐색하기 위한 \n완전 연결 레이어가 포함된 제품 기반 신경망(PNN)을 제안",
+			"rawText": "카테고리 데이터의 분산 표현을 학습하기 위한 임베딩 레이어, \n필드 간 카테고리 간의 상호작용 패턴을 포착하기 위한 제품 \n레이어, 그리고 고차 특징 상호작용을 탐색하기 위한 \n완전 연결 레이어가 포함된 제품 기반 신경망(PNN)을 제안",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "카테고리 데이터의 분산 표현을 학습하기 위한 임베딩 레이어, \n필드 간 카테고리 간의 상호작용 패턴을 포착하기 위한 제품 \n레이어, 그리고 고차 특징 상호작용을 탐색하기 위한 \n완전 연결 레이어가 포함된 제품 기반 신경망(PNN)을 제안",
+			"lineHeight": 1.2,
+			"baseline": 127
+		},
+		{
+			"id": "CxyLJQJypMhTBy57WGuNt",
+			"type": "embeddable",
+			"x": -1102.9687947896462,
+			"y": 713.6086669577138,
+			"width": 521.9999694824221,
+			"height": 248.000030517578,
+			"angle": 0,
+			"strokeColor": "#2f9e44",
+			"backgroundColor": "#b2f2bb",
+			"fillStyle": "cross-hatch",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 1660972163,
+			"version": 340,
+			"versionNonce": 316720387,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1705857566462,
+			"link": "https://arxiv.org/pdf/1611.00144.pdf",
+			"locked": false,
+			"validated": true,
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"type": "rectangle",
+			"version": 3107,
+			"versionNonce": 1227411053,
+			"isDeleted": false,
+			"id": "Q6zErHlFbWQg0NCJcLwpq",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -2054.331423910252,
+			"y": 1364.9031602529508,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 577.6000366210938,
+			"height": 572,
+			"seed": 1232267747,
+			"groupIds": [
+				"1F9QKe7UV2erSs3MPQ4WM"
+			],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [
+				{
+					"id": "k-RJEMkxhROcPERLTZItb",
+					"type": "arrow"
+				},
+				{
+					"id": "nLRUh-OftKEybrydAZ5yj",
+					"type": "arrow"
+				}
+			],
+			"updated": 1705854323867,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "text",
+			"version": 306,
+			"versionNonce": 80135427,
+			"isDeleted": false,
+			"id": "efOBj3h2",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -2022.531324219497,
+			"y": 1437.4607045681728,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#a5d8ff",
+			"width": 440.63580322265625,
+			"height": 33.6,
+			"seed": 1944171907,
+			"groupIds": [
+				"1F9QKe7UV2erSs3MPQ4WM"
+			],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705854315611,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "CNN 기반 모델은 인접한 피쳐를 학습하는 편향성",
+			"rawText": "CNN 기반 모델은 인접한 피쳐를 학습하는 편향성",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "CNN 기반 모델은 인접한 피쳐를 학습하는 편향성",
+			"lineHeight": 1.2,
+			"baseline": 26
+		},
+		{
+			"type": "text",
+			"version": 297,
+			"versionNonce": 1246571683,
+			"isDeleted": false,
+			"id": "bvOtmy6F",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -2021.1979908861636,
+			"y": 1497.660704568173,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 541.2398071289062,
+			"height": 67.2,
+			"seed": 1773538595,
+			"groupIds": [
+				"1F9QKe7UV2erSs3MPQ4WM"
+			],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705854315611,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "이미지 처리에 특화된 구조로 이미지 데이터 내에서\n근접한 픽셀 간의 패턴 및 공간적인 관계를 학습하는데 강점",
+			"rawText": "이미지 처리에 특화된 구조로 이미지 데이터 내에서\n근접한 픽셀 간의 패턴 및 공간적인 관계를 학습하는데 강점",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "이미지 처리에 특화된 구조로 이미지 데이터 내에서\n근접한 픽셀 간의 패턴 및 공간적인 관계를 학습하는데 강점",
+			"lineHeight": 1.2,
+			"baseline": 60
+		},
+		{
+			"type": "text",
+			"version": 364,
+			"versionNonce": 1306894403,
+			"isDeleted": false,
+			"id": "C3LVEl0z",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -2020.5158518073881,
+			"y": 1625.5273508897876,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#a5d8ff",
+			"width": 463.7358093261719,
+			"height": 33.6,
+			"seed": 1046376643,
+			"groupIds": [
+				"1F9QKe7UV2erSs3MPQ4WM"
+			],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705854315611,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "RNN 기반 모델은 연속성이 있어 클릭 데이터에 적합",
+			"rawText": "RNN 기반 모델은 연속성이 있어 클릭 데이터에 적합",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "RNN 기반 모델은 연속성이 있어 클릭 데이터에 적합",
+			"lineHeight": 1.2,
+			"baseline": 26
+		},
+		{
+			"type": "text",
+			"version": 600,
+			"versionNonce": 426680291,
+			"isDeleted": false,
+			"id": "6Y8njjCN",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -2024.2223506714836,
+			"y": 1675.6190546755029,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 525.391845703125,
+			"height": 100.80000000000001,
+			"seed": 326721635,
+			"groupIds": [
+				"1F9QKe7UV2erSs3MPQ4WM"
+			],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705854315611,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "순차적인 데이터를 처리하는데 강점\n이전 시간 단계의 출력이 현재 시간의 입력으로 사용되기에\n시퀸스 데이터의 연속성을 잘 학습할 수 있다.",
+			"rawText": "순차적인 데이터를 처리하는데 강점\n이전 시간 단계의 출력이 현재 시간의 입력으로 사용되기에\n시퀸스 데이터의 연속성을 잘 학습할 수 있다.",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "순차적인 데이터를 처리하는데 강점\n이전 시간 단계의 출력이 현재 시간의 입력으로 사용되기에\n시퀸스 데이터의 연속성을 잘 학습할 수 있다.",
+			"lineHeight": 1.2,
+			"baseline": 94
+		},
+		{
+			"type": "rectangle",
+			"version": 3529,
+			"versionNonce": 86453411,
+			"isDeleted": false,
+			"id": "2KSWDIsYbvis5RtptusnV",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1133.4620812698,
+			"y": 1362.3431494317367,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 577.6000366210938,
+			"height": 572,
+			"seed": 954015245,
+			"groupIds": [
+				"tVclKK95h3wDHWO4_GQNi"
+			],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [
+				{
+					"id": "wQ8CYLuKT4M-27GeEwBTk",
+					"type": "arrow"
+				}
+			],
+			"updated": 1705857566462,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "text",
+			"version": 792,
+			"versionNonce": 1707646947,
+			"isDeleted": false,
+			"id": "rRmfrMLn",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1106.1215318121303,
+			"y": 1400.116201928894,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#a5d8ff",
+			"width": 207.64791870117188,
+			"height": 33.6,
+			"seed": 688378989,
+			"groupIds": [
+				"tVclKK95h3wDHWO4_GQNi"
+			],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705857566462,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "완전 연결 레이어 포함",
+			"rawText": "완전 연결 레이어 포함",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "완전 연결 레이어 포함",
+			"lineHeight": 1.2,
+			"baseline": 26
+		},
+		{
+			"type": "text",
+			"version": 799,
+			"versionNonce": 672181123,
+			"isDeleted": false,
+			"id": "4qJ40Lvf",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1107.4639286186477,
+			"y": 1462.9919320687452,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 487.19976806640625,
+			"height": 67.2,
+			"seed": 55361229,
+			"groupIds": [
+				"tVclKK95h3wDHWO4_GQNi"
+			],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705857566462,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "embedding layer와 fully-connected layer 사이에 \nproduct layer를 도입",
+			"rawText": "embedding layer와 fully-connected layer 사이에 \nproduct layer를 도입",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "embedding layer와 fully-connected layer 사이에 \nproduct layer를 도입",
+			"lineHeight": 1.2,
+			"baseline": 60
+		},
+		{
+			"id": "wQ8CYLuKT4M-27GeEwBTk",
+			"type": "arrow",
+			"x": -841.0652497176306,
+			"y": 1145.204174736529,
+			"width": 1.0235919977076264,
+			"height": 211.6046684602161,
+			"angle": 0,
+			"strokeColor": "#1971c2",
+			"backgroundColor": "#e7f5ff",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 260347779,
+			"version": 652,
+			"versionNonce": 496960429,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "V1Mvv5HF"
+				}
+			],
+			"updated": 1705857567289,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1510,35 +4138,35 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 					0
 				],
 				[
-					392.72727272727275,
-					49.45456764914775
+					1.0235919977076264,
+					211.6046684602161
 				]
 			],
 			"lastCommittedPoint": null,
 			"startBinding": {
-				"elementId": "o5lVJX8glv51z8dSGrXDp",
-				"focus": 0.03189913123947394,
-				"gap": 9.350471528776325
+				"elementId": "irIGDMpyJWGyB_jajDFb6",
+				"focus": 0.011908402757667701,
+				"gap": 7.151039598476757
 			},
 			"endBinding": {
-				"elementId": "I0ZLWxhbtCMX1qgMrQ5_a",
-				"focus": -0.4701049851076974,
-				"gap": 10.09506575509954
+				"elementId": "2KSWDIsYbvis5RtptusnV",
+				"focus": 0.020782160325808013,
+				"gap": 5.534306234991618
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow"
 		},
 		{
-			"id": "xWE7M7SM",
+			"id": "V1Mvv5HF",
 			"type": "text",
-			"x": -391.0259628609234,
-			"y": 190.70846122682696,
-			"width": 40.0679931640625,
+			"x": -861.6220071311486,
+			"y": 1204.2169262332598,
+			"width": 87.89198303222656,
 			"height": 33.6,
 			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
+			"strokeColor": "#1971c2",
+			"backgroundColor": "#e7f5ff",
+			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
 			"roughness": 0,
@@ -1546,2067 +4174,452 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
-			"seed": 429070176,
-			"version": 12,
-			"versionNonce": 863407968,
+			"seed": 841873965,
+			"version": 15,
+			"versionNonce": 1918608675,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1705601317468,
+			"updated": 1705854368334,
 			"link": null,
 			"locked": false,
-			"text": "발전",
-			"rawText": "발전",
+			"text": "해결방안:",
+			"rawText": "해결방안:",
 			"fontSize": 28,
 			"fontFamily": 4,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"baseline": 26,
-			"containerId": "aXSV0EcqZGTyMsoC8MfDd",
-			"originalText": "발전",
+			"containerId": "wQ8CYLuKT4M-27GeEwBTk",
+			"originalText": "해결방안:",
 			"lineHeight": 1.2
 		},
 		{
-			"id": "he3drCvW",
-			"type": "text",
-			"x": 90.55283180496826,
-			"y": -1785.4741026265556,
-			"width": 8.399993896484375,
-			"height": 33.6,
+			"id": "vzR0V9BWtxmopwo_DR5-h",
+			"type": "image",
+			"x": -1053.9273657726496,
+			"y": 1585.0714087202832,
+			"width": 408.9726754451125,
+			"height": 313.95233640919935,
 			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
+			"strokeColor": "transparent",
+			"backgroundColor": "#e7f5ff",
+			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"groupIds": [],
-			"frameId": "WzpDNumaP0gcIe9j0-SQy",
+			"frameId": null,
 			"roundness": null,
-			"seed": 1127200608,
-			"version": 8,
-			"versionNonce": 543072096,
-			"isDeleted": true,
+			"seed": 453133635,
+			"version": 263,
+			"versionNonce": 533194435,
+			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1705601317467,
+			"updated": 1705857566462,
 			"link": null,
 			"locked": false,
-			"text": "",
-			"rawText": "",
-			"fontSize": 28,
-			"fontFamily": 4,
-			"textAlign": "left",
-			"verticalAlign": "top",
-			"baseline": 26,
-			"containerId": null,
-			"originalText": "",
-			"lineHeight": 1.2
+			"status": "pending",
+			"fileId": "bdb9ea3364a7abdc205f780176b173ccf12a3a34",
+			"scale": [
+				1,
+				1
+			]
 		},
 		{
-			"id": "Jg0YdGmR",
 			"type": "text",
-			"x": 60.552831804968264,
-			"y": -1782.616959769413,
-			"width": 8.399993896484375,
-			"height": 33.6,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
+			"version": 603,
+			"versionNonce": 258631843,
+			"isDeleted": true,
+			"id": "AsVoy7tb",
+			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
-			"groupIds": [],
-			"frameId": "WzpDNumaP0gcIe9j0-SQy",
+			"angle": 0,
+			"x": -1076.7691105807792,
+			"y": 1592.4641419536977,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#a5d8ff",
+			"width": 463.7358093261719,
+			"height": 33.6,
+			"seed": 1850039597,
+			"groupIds": [
+				"tVclKK95h3wDHWO4_GQNi"
+			],
+			"frameId": null,
 			"roundness": null,
-			"seed": 1701381984,
-			"version": 16,
-			"versionNonce": 300254880,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1705601317467,
+			"boundElements": [],
+			"updated": 1705854373202,
 			"link": null,
 			"locked": false,
-			"text": "",
-			"rawText": "",
 			"fontSize": 28,
 			"fontFamily": 4,
+			"text": "RNN 기반 모델은 연속성이 있어 클릭 데이터에 적합",
+			"rawText": "RNN 기반 모델은 연속성이 있어 클릭 데이터에 적합",
 			"textAlign": "left",
 			"verticalAlign": "top",
-			"baseline": 26,
 			"containerId": null,
-			"originalText": "",
-			"lineHeight": 1.2
+			"originalText": "RNN 기반 모델은 연속성이 있어 클릭 데이터에 적합",
+			"lineHeight": 1.2,
+			"baseline": 26
 		},
 		{
-			"id": "FZOVEHwnp5m2Mas5N5p8_",
-			"type": "arrow",
-			"x": -557.1738288499148,
-			"y": 162.41751884401447,
-			"width": 362.1818403764205,
-			"height": 7.272727272727252,
+			"type": "text",
+			"version": 839,
+			"versionNonce": 93751821,
+			"isDeleted": true,
+			"id": "Vnk1MYYD",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
 			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
+			"x": -1080.4756094448746,
+			"y": 1642.555845739413,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 525.391845703125,
+			"height": 100.80000000000001,
+			"seed": 22753165,
+			"groupIds": [
+				"tVclKK95h3wDHWO4_GQNi"
+			],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705854377612,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "순차적인 데이터를 처리하는데 강점\n이전 시간 단계의 출력이 현재 시간의 입력으로 사용되기에\n시퀸스 데이터의 연속성을 잘 학습할 수 있다.",
+			"rawText": "순차적인 데이터를 처리하는데 강점\n이전 시간 단계의 출력이 현재 시간의 입력으로 사용되기에\n시퀸스 데이터의 연속성을 잘 학습할 수 있다.",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "순차적인 데이터를 처리하는데 강점\n이전 시간 단계의 출력이 현재 시간의 입력으로 사용되기에\n시퀸스 데이터의 연속성을 잘 학습할 수 있다.",
+			"lineHeight": 1.2,
+			"baseline": 94
+		},
+		{
+			"type": "rectangle",
+			"version": 2981,
+			"versionNonce": 461393453,
+			"isDeleted": true,
+			"id": "LNXFX37bWu96gSDqzmJKj",
 			"fillStyle": "hachure",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
-			"groupIds": [],
-			"frameId": "HEJ25XmHBNYjcTvpBbY1J",
+			"angle": 0,
+			"x": -2045.9992410799937,
+			"y": 1343.550008987387,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 577.6000366210938,
+			"height": 572,
+			"seed": 445282851,
+			"groupIds": [
+				"k3zxWCxeg-JEu7k5dnnxl"
+			],
+			"frameId": "sMKjJw5gg2PYgNSfBg2J5",
 			"roundness": {
-				"type": 2
+				"type": 3
 			},
-			"seed": 609411936,
-			"version": 86,
-			"versionNonce": 267189088,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1705601317468,
-			"link": null,
-			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					362.1818403764205,
-					7.272727272727252
-				]
+			"boundElements": [
+				{
+					"id": "kEgk5WAtvWtPBPIjFJXDp",
+					"type": "arrow"
+				},
+				{
+					"id": "k-RJEMkxhROcPERLTZItb",
+					"type": "arrow"
+				},
+				{
+					"id": "nLRUh-OftKEybrydAZ5yj",
+					"type": "arrow"
+				}
 			],
-			"lastCommittedPoint": null,
-			"startBinding": {
-				"elementId": "o5lVJX8glv51z8dSGrXDp",
-				"focus": 0.07290309677536565,
-				"gap": 19.532245321390064
-			},
-			"endBinding": {
-				"elementId": "xypwCSRmvveY3TFu7EULd",
-				"focus": -0.1327720550794567,
-				"gap": 11.194515296442887
-			},
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			"updated": 1705854312860,
+			"link": null,
+			"locked": false
 		},
 		{
-			"id": "ct1PYQzTUAWhxQ1y34FSm",
-			"type": "freedraw",
-			"x": -55.4598546527252,
-			"y": 242.43812283312127,
-			"width": 251.99991861979152,
-			"height": 3.9999898274739962,
+			"type": "text",
+			"version": 182,
+			"versionNonce": 370456355,
+			"isDeleted": true,
+			"id": "jDOGxzzJ",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
 			"angle": 0,
-			"strokeColor": "#FFC47C",
-			"backgroundColor": "#FFC47C",
+			"x": -2014.1991413892388,
+			"y": 1416.107553302609,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#a5d8ff",
+			"width": 440.63580322265625,
+			"height": 33.6,
+			"seed": 1754963853,
+			"groupIds": [
+				"k3zxWCxeg-JEu7k5dnnxl"
+			],
+			"frameId": "sMKjJw5gg2PYgNSfBg2J5",
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705854312860,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "CNN 기반 모델은 인접한 피쳐를 학습하는 편향성",
+			"rawText": "CNN 기반 모델은 인접한 피쳐를 학습하는 편향성",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "CNN 기반 모델은 인접한 피쳐를 학습하는 편향성",
+			"lineHeight": 1.2,
+			"baseline": 26
+		},
+		{
+			"type": "text",
+			"version": 173,
+			"versionNonce": 202375309,
+			"isDeleted": true,
+			"id": "JR6MwGl0",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -2012.8658080559053,
+			"y": 1476.307553302609,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 541.2398071289062,
+			"height": 67.2,
+			"seed": 470619437,
+			"groupIds": [
+				"k3zxWCxeg-JEu7k5dnnxl"
+			],
+			"frameId": "sMKjJw5gg2PYgNSfBg2J5",
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705854312860,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "이미지 처리에 특화된 구조로 이미지 데이터 내에서\n근접한 픽셀 간의 패턴 및 공간적인 관계를 학습하는데 강점",
+			"rawText": "이미지 처리에 특화된 구조로 이미지 데이터 내에서\n근접한 픽셀 간의 패턴 및 공간적인 관계를 학습하는데 강점",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "이미지 처리에 특화된 구조로 이미지 데이터 내에서\n근접한 픽셀 간의 패턴 및 공간적인 관계를 학습하는데 강점",
+			"lineHeight": 1.2,
+			"baseline": 60
+		},
+		{
+			"type": "text",
+			"version": 240,
+			"versionNonce": 2102909635,
+			"isDeleted": true,
+			"id": "HMRK9ozB",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -2012.1836689771299,
+			"y": 1604.1741996242238,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#a5d8ff",
+			"width": 463.7358093261719,
+			"height": 33.6,
+			"seed": 1182171587,
+			"groupIds": [
+				"k3zxWCxeg-JEu7k5dnnxl"
+			],
+			"frameId": "sMKjJw5gg2PYgNSfBg2J5",
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705854312860,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "RNN 기반 모델은 연속성이 있어 클릭 데이터에 적합",
+			"rawText": "RNN 기반 모델은 연속성이 있어 클릭 데이터에 적합",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "RNN 기반 모델은 연속성이 있어 클릭 데이터에 적합",
+			"lineHeight": 1.2,
+			"baseline": 26
+		},
+		{
+			"type": "text",
+			"version": 476,
+			"versionNonce": 146433773,
+			"isDeleted": true,
+			"id": "4ZQdGjPn",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -2015.8901678412253,
+			"y": 1654.265903409939,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 525.391845703125,
+			"height": 100.80000000000001,
+			"seed": 1665807309,
+			"groupIds": [
+				"k3zxWCxeg-JEu7k5dnnxl"
+			],
+			"frameId": "sMKjJw5gg2PYgNSfBg2J5",
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705854312860,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "순차적인 데이터를 처리하는데 강점\n이전 시간 단계의 출력이 현재 시간의 입력으로 사용되기에\n시퀸스 데이터의 연속성을 잘 학습할 수 있다.",
+			"rawText": "순차적인 데이터를 처리하는데 강점\n이전 시간 단계의 출력이 현재 시간의 입력으로 사용되기에\n시퀸스 데이터의 연속성을 잘 학습할 수 있다.",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "순차적인 데이터를 처리하는데 강점\n이전 시간 단계의 출력이 현재 시간의 입력으로 사용되기에\n시퀸스 데이터의 연속성을 잘 학습할 수 있다.",
+			"lineHeight": 1.2,
+			"baseline": 94
+		},
+		{
+			"type": "frame",
+			"version": 141,
+			"versionNonce": 1135970915,
+			"isDeleted": true,
+			"id": "sMKjJw5gg2PYgNSfBg2J5",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
-			"roughness": null,
+			"roughness": 0,
 			"opacity": 100,
+			"angle": 0,
+			"x": -2061.398704824363,
+			"y": 1331.8297787972458,
+			"strokeColor": "#bbb",
+			"backgroundColor": "transparent",
+			"width": 608.0000443892047,
+			"height": 602.1818403764205,
+			"seed": 2053976237,
 			"groupIds": [],
-			"frameId": "xypwCSRmvveY3TFu7EULd",
+			"frameId": null,
 			"roundness": null,
-			"seed": 1806280352,
-			"version": 34,
-			"versionNonce": 1764868768,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1705601309949,
+			"boundElements": [],
+			"updated": 1705854312860,
 			"link": null,
 			"locked": false,
 			"customData": {
-				"strokeOptions": {
-					"highlighter": true,
-					"constantPressure": true,
-					"hasOutline": true,
-					"outlineWidth": 4,
-					"options": {
-						"thinning": 1,
-						"smoothing": 0.5,
-						"streamline": 0.5,
-						"easing": "linear",
-						"start": {
-							"taper": 0,
-							"cap": true,
-							"easing": "linear"
-						},
-						"end": {
-							"taper": 0,
-							"cap": true,
-							"easing": "linear"
-						}
-					}
+				"frameColor": {
+					"stroke": "#2B2B2B",
+					"fill": "#525252",
+					"nameColor": "#6B6B6B"
 				}
 			},
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					1.3332112630207575,
-					0
-				],
-				[
-					6.666666666666515,
-					1.33331298828125
-				],
-				[
-					10.666707356770758,
-					1.33331298828125
-				],
-				[
-					15.999959309895758,
-					2.6666768391927462
-				],
-				[
-					22.6666259765625,
-					3.9999898274739962
-				],
-				[
-					34.666544596354015,
-					3.9999898274739962
-				],
-				[
-					37.3333740234375,
-					3.9999898274739962
-				],
-				[
-					44.000040690104015,
-					3.9999898274739962
-				],
-				[
-					53.33333333333326,
-					3.9999898274739962
-				],
-				[
-					62.6666259765625,
-					3.9999898274739962
-				],
-				[
-					64.00004069010402,
-					3.9999898274739962
-				],
-				[
-					107.9998779296875,
-					2.6666768391927462
-				],
-				[
-					118.66658528645826,
-					2.6666768391927462
-				],
-				[
-					131.99991861979152,
-					2.6666768391927462
-				],
-				[
-					137.3333740234375,
-					2.6666768391927462
-				],
-				[
-					169.33329264322902,
-					1.33331298828125
-				],
-				[
-					191.99991861979152,
-					1.33331298828125
-				],
-				[
-					200,
-					1.33331298828125
-				],
-				[
-					220,
-					1.33331298828125
-				],
-				[
-					237.3333740234375,
-					1.33331298828125
-				],
-				[
-					242.6666259765625,
-					1.33331298828125
-				],
-				[
-					244.00004069010402,
-					1.33331298828125
-				],
-				[
-					245.333251953125,
-					1.33331298828125
-				],
-				[
-					246.66666666666652,
-					1.33331298828125
-				],
-				[
-					247.9998779296875,
-					1.33331298828125
-				],
-				[
-					249.33329264322902,
-					1.33331298828125
-				],
-				[
-					249.33329264322902,
-					2.6666768391927462
-				],
-				[
-					250.66670735677076,
-					2.6666768391927462
-				],
-				[
-					250.66670735677076,
-					3.9999898274739962
-				],
-				[
-					251.99991861979152,
-					3.9999898274739962
-				],
-				[
-					251.99991861979152,
-					3.9999898274739962
-				]
-			],
-			"pressures": [
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				0
-			],
-			"simulatePressure": false,
-			"lastCommittedPoint": [
-				251.99991861979152,
-				3.9999898274739962
-			]
+			"name": null
 		},
 		{
-			"id": "rVJZaoSAEBdnpfoYOXD72",
-			"type": "freedraw",
-			"x": -491.45991568788156,
-			"y": 546.4381126605953,
-			"width": 338.66668701171886,
-			"height": 5.333251953125,
+			"id": "AoexUnsP",
+			"type": "text",
+			"x": -821.8760125632775,
+			"y": 1204.2169262332598,
+			"width": 8.399993896484375,
+			"height": 33.6,
 			"angle": 0,
-			"strokeColor": "#FFC47C",
-			"backgroundColor": "#FFC47C",
+			"strokeColor": "#1971c2",
+			"backgroundColor": "#e7f5ff",
 			"fillStyle": "solid",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": null,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"seed": 1320184480,
-			"version": 17,
-			"versionNonce": 1931713184,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1705601305088,
-			"link": null,
-			"locked": false,
-			"customData": {
-				"strokeOptions": {
-					"highlighter": true,
-					"constantPressure": true,
-					"hasOutline": true,
-					"outlineWidth": 4,
-					"options": {
-						"thinning": 1,
-						"smoothing": 0.5,
-						"streamline": 0.5,
-						"easing": "linear",
-						"start": {
-							"taper": 0,
-							"cap": true,
-							"easing": "linear"
-						},
-						"end": {
-							"taper": 0,
-							"cap": true,
-							"easing": "linear"
-						}
-					}
-				}
-			},
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					1.33331298828125,
-					0
-				],
-				[
-					4.000040690104129,
-					0
-				],
-				[
-					7.999979654947879,
-					-1.33331298828125
-				],
-				[
-					21.33331298828125,
-					-2.6666259765625
-				],
-				[
-					45.33335367838538,
-					-3.99993896484375
-				],
-				[
-					81.33331298828136,
-					-3.99993896484375
-				],
-				[
-					92.00002034505212,
-					-3.99993896484375
-				],
-				[
-					126.66666666666663,
-					-3.99993896484375
-				],
-				[
-					165.33335367838538,
-					-1.33331298828125
-				],
-				[
-					205.33335367838538,
-					0
-				],
-				[
-					314.6666463216146,
-					1.33331298828125
-				],
-				[
-					337.3332722981771,
-					0
-				],
-				[
-					338.66668701171886,
-					0
-				],
-				[
-					338.66668701171886,
-					0
-				]
-			],
-			"pressures": [
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				0
-			],
-			"simulatePressure": false,
-			"lastCommittedPoint": [
-				338.66668701171886,
-				0
-			]
-		},
-		{
-			"id": "7kB-thnlFeoI4UirAKrdr",
-			"type": "freedraw",
-			"x": -395.4599563779857,
-			"y": 522.4381736957515,
-			"width": 258.66668701171875,
-			"height": 78.66658528645837,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
-			"strokeWidth": 2,
+			"strokeWidth": 4,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
-			"seed": 219629216,
-			"version": 52,
-			"versionNonce": 1283586720,
+			"seed": 1451865901,
+			"version": 3,
+			"versionNonce": 586986659,
 			"isDeleted": true,
 			"boundElements": null,
-			"updated": 1705601307425,
+			"updated": 1705854359137,
 			"link": null,
 			"locked": false,
-			"customData": {
-				"strokeOptions": {
-					"highlighter": false,
-					"constantPressure": false,
-					"hasOutline": false,
-					"outlineWidth": 0,
-					"options": {
-						"thinning": 0.6,
-						"smoothing": 0.5,
-						"streamline": 0.5,
-						"easing": "easeOutSine",
-						"start": {
-							"cap": true,
-							"taper": 0,
-							"easing": "linear"
-						},
-						"end": {
-							"cap": true,
-							"taper": 0,
-							"easing": "linear"
-						}
-					}
-				}
-			},
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					-5.333251953125,
-					5.333251953125
-				],
-				[
-					-6.6666666666667425,
-					6.666666666666629
-				],
-				[
-					-9.333292643229242,
-					7.999979654947879
-				],
-				[
-					-14.666646321614508,
-					15.999959309895871
-				],
-				[
-					-17.333272298177008,
-					18.66658528645837
-				],
-				[
-					-18.666585286458258,
-					21.33331298828125
-				],
-				[
-					-23.99993896484375,
-					27.99997965494788
-				],
-				[
-					-23.99993896484375,
-					29.33329264322913
-				],
-				[
-					-26.666666666666742,
-					34.66664632161462
-				],
-				[
-					-26.666666666666742,
-					37.33327229817712
-				],
-				[
-					-26.666666666666742,
-					40
-				],
-				[
-					-25.333251953125,
-					41.33331298828125
-				],
-				[
-					-17.333272298177008,
-					42.6666259765625
-				],
-				[
-					-2.6666259765625,
-					42.6666259765625
-				],
-				[
-					25.333353678385492,
-					42.6666259765625
-				],
-				[
-					49.33339436848951,
-					38.66658528645837
-				],
-				[
-					84.00014241536451,
-					27.99997965494788
-				],
-				[
-					82.66672770182299,
-					27.99997965494788
-				],
-				[
-					80.00010172526049,
-					30.66660563151038
-				],
-				[
-					76.00006103515625,
-					33.33333333333337
-				],
-				[
-					73.33343505859375,
-					37.33327229817712
-				],
-				[
-					69.33339436848951,
-					41.33331298828125
-				],
-				[
-					69.33339436848951,
-					42.6666259765625
-				],
-				[
-					66.66676839192701,
-					46.66666666666663
-				],
-				[
-					65.33335367838549,
-					49.33329264322913
-				],
-				[
-					66.66676839192701,
-					53.33333333333337
-				],
-				[
-					69.33339436848951,
-					55.99995930989587
-				],
-				[
-					74.66664632161451,
-					57.33327229817712
-				],
-				[
-					96.00006103515625,
-					57.33327229817712
-				],
-				[
-					121.33331298828125,
-					55.99995930989587
-				],
-				[
-					152.000020345052,
-					43.99993896484375
-				],
-				[
-					154.6666463216145,
-					41.33331298828125
-				],
-				[
-					157.333475748698,
-					35.99995930989587
-				],
-				[
-					154.6666463216145,
-					40
-				],
-				[
-					152.000020345052,
-					43.99993896484375
-				],
-				[
-					146.666768391927,
-					51.99991861979163
-				],
-				[
-					142.666727701823,
-					65.333251953125
-				],
-				[
-					142.666727701823,
-					69.33329264322913
-				],
-				[
-					144.0001424153645,
-					73.33333333333337
-				],
-				[
-					174.6666463216145,
-					78.66658528645837
-				],
-				[
-					185.3333536783855,
-					78.66658528645837
-				],
-				[
-					190.66680908203125,
-					77.33327229817712
-				],
-				[
-					196.00006103515625,
-					73.33333333333337
-				],
-				[
-					198.66668701171875,
-					70.66660563151038
-				],
-				[
-					198.66668701171875,
-					67.99997965494788
-				],
-				[
-					218.66668701171875,
-					63.99993896484375
-				],
-				[
-					230.66680908203125,
-					62.6666259765625
-				],
-				[
-					232.000020345052,
-					61.33331298828125
-				],
-				[
-					232.000020345052,
-					61.33331298828125
-				]
-			],
-			"pressures": [],
-			"simulatePressure": true,
-			"lastCommittedPoint": [
-				232.000020345052,
-				61.33331298828125
-			]
+			"text": "",
+			"rawText": "",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"baseline": 26,
+			"containerId": "wQ8CYLuKT4M-27GeEwBTk",
+			"originalText": "",
+			"lineHeight": 1.2
 		},
 		{
-			"id": "8skkgSzlFzumNvwgMr60J",
-			"type": "freedraw",
-			"x": -280.7933100563712,
-			"y": 571.7714663389806,
-			"width": 488.0000813802085,
-			"height": 440,
+			"id": "l3IxZZUE",
+			"type": "text",
+			"x": -797.4607323191071,
+			"y": 1744.5450505348376,
+			"width": 8.399993896484375,
+			"height": 33.6,
 			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
-			"strokeWidth": 2,
+			"strokeColor": "#1971c2",
+			"backgroundColor": "#e7f5ff",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
-			"seed": 1864396448,
-			"version": 201,
-			"versionNonce": 83050144,
+			"seed": 1949502253,
+			"version": 2,
+			"versionNonce": 2014383555,
 			"isDeleted": true,
 			"boundElements": null,
-			"updated": 1705601314540,
+			"updated": 1705856418930,
 			"link": null,
 			"locked": false,
-			"customData": {
-				"strokeOptions": {
-					"highlighter": false,
-					"constantPressure": false,
-					"hasOutline": false,
-					"outlineWidth": 1,
-					"options": {
-						"smoothing": 0.2,
-						"thinning": 0.6,
-						"streamline": 0.2,
-						"easing": "easeInOutSine",
-						"start": {
-							"taper": 150,
-							"cap": true,
-							"easing": "linear"
-						},
-						"end": {
-							"taper": 1,
-							"cap": true,
-							"easing": "linear"
-						}
-					}
-				}
-			},
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					-1.3332112630207575,
-					1.33331298828125
-				],
-				[
-					-5.333251953125,
-					4.0000406901042425
-				],
-				[
-					-10.66650390625,
-					10.666707356770871
-				],
-				[
-					-18.666585286458258,
-					22.6666259765625
-				],
-				[
-					-20,
-					25.333353678385492
-				],
-				[
-					-22.6666259765625,
-					30.66670735677087
-				],
-				[
-					-26.666666666666515,
-					41.33331298828125
-				],
-				[
-					-27.9998779296875,
-					45.33335367838549
-				],
-				[
-					-27.9998779296875,
-					54.66664632161462
-				],
-				[
-					-27.9998779296875,
-					61.33331298828125
-				],
-				[
-					-20,
-					70.66670735677087
-				],
-				[
-					-13.333333333333258,
-					75.99995930989587
-				],
-				[
-					-6.666666666666515,
-					78.66668701171875
-				],
-				[
-					6.6666666666667425,
-					85.33335367838549
-				],
-				[
-					36.00016276041674,
-					89.33329264322924
-				],
-				[
-					69.33349609375,
-					89.33329264322924
-				],
-				[
-					77.3333740234375,
-					87.99997965494799
-				],
-				[
-					102.66682942708348,
-					78.66668701171875
-				],
-				[
-					108.00008138020848,
-					75.99995930989587
-				],
-				[
-					112.0001220703125,
-					73.33333333333337
-				],
-				[
-					122.66682942708348,
-					62.6666259765625
-				],
-				[
-					128.00008138020848,
-					38.66668701171875
-				],
-				[
-					126.66666666666674,
-					34.66664632161462
-				],
-				[
-					125.33345540364598,
-					32.00002034505212
-				],
-				[
-					120,
-					26.666666666666742
-				],
-				[
-					104.00004069010424,
-					20
-				],
-				[
-					92.0001220703125,
-					17.3333740234375
-				],
-				[
-					78.66678873697924,
-					17.3333740234375
-				],
-				[
-					50.666707356770985,
-					32.00002034505212
-				],
-				[
-					50.666707356770985,
-					34.66664632161462
-				],
-				[
-					50.666707356770985,
-					41.33331298828125
-				],
-				[
-					50.666707356770985,
-					47.99997965494799
-				],
-				[
-					62.666829427083485,
-					64.00004069010424
-				],
-				[
-					73.33333333333348,
-					70.66670735677087
-				],
-				[
-					144.00004069010424,
-					82.6666259765625
-				],
-				[
-					189.33349609375,
-					74.66664632161462
-				],
-				[
-					193.33333333333348,
-					70.66670735677087
-				],
-				[
-					193.33333333333348,
-					69.33329264322924
-				],
-				[
-					185.33345540364598,
-					77.3333740234375
-				],
-				[
-					184.00004069010424,
-					81.33331298828125
-				],
-				[
-					180,
-					97.3333740234375
-				],
-				[
-					180,
-					101.33331298828125
-				],
-				[
-					178.66678873697924,
-					104.00004069010424
-				],
-				[
-					180,
-					105.33335367838549
-				],
-				[
-					182.66682942708348,
-					106.66666666666674
-				],
-				[
-					186.66666666666674,
-					106.66666666666674
-				],
-				[
-					193.33333333333348,
-					106.66666666666674
-				],
-				[
-					200,
-					106.66666666666674
-				],
-				[
-					209.33349609375,
-					106.66666666666674
-				],
-				[
-					220,
-					105.33335367838549
-				],
-				[
-					238.66678873697924,
-					101.33331298828125
-				],
-				[
-					242.66682942708348,
-					101.33331298828125
-				],
-				[
-					250.66670735677098,
-					98.66668701171875
-				],
-				[
-					252.0001220703125,
-					98.66668701171875
-				],
-				[
-					252.0001220703125,
-					97.3333740234375
-				],
-				[
-					250.66670735677098,
-					98.66668701171875
-				],
-				[
-					250.66670735677098,
-					101.33331298828125
-				],
-				[
-					250.66670735677098,
-					106.66666666666674
-				],
-				[
-					250.66670735677098,
-					107.99997965494799
-				],
-				[
-					252.0001220703125,
-					112.00002034505212
-				],
-				[
-					260,
-					117.3333740234375
-				],
-				[
-					262.6668294270835,
-					118.66668701171875
-				],
-				[
-					274.666748046875,
-					124.00004069010424
-				],
-				[
-					289.33349609375,
-					130.66670735677087
-				],
-				[
-					292.0001220703125,
-					132.00002034505212
-				],
-				[
-					293.3333333333335,
-					132.00002034505212
-				],
-				[
-					298.66678873697924,
-					134.66664632161462
-				],
-				[
-					298.66678873697924,
-					135.99995930989587
-				],
-				[
-					298.66678873697924,
-					138.66668701171875
-				],
-				[
-					297.3333740234375,
-					140
-				],
-				[
-					289.33349609375,
-					146.66666666666674
-				],
-				[
-					268.0000813802085,
-					165.3333536783855
-				],
-				[
-					262.6668294270835,
-					169.33329264322924
-				],
-				[
-					249.33349609375,
-					181.33331298828125
-				],
-				[
-					237.3333740234375,
-					190.66670735677098
-				],
-				[
-					226.66666666666674,
-					197.3333740234375
-				],
-				[
-					192.0001220703125,
-					210.66670735677098
-				],
-				[
-					186.66666666666674,
-					212.00002034505223
-				],
-				[
-					169.33349609375,
-					215.99995930989598
-				],
-				[
-					112.0001220703125,
-					220
-				],
-				[
-					78.66678873697924,
-					209.33329264322924
-				],
-				[
-					76.00016276041674,
-					209.33329264322924
-				],
-				[
-					70.66670735677098,
-					206.66666666666674
-				],
-				[
-					28.000081380208485,
-					181.33331298828125
-				],
-				[
-					14.666748046875,
-					167.999979654948
-				],
-				[
-					6.6666666666667425,
-					150.66670735677087
-				],
-				[
-					4.0000406901042425,
-					146.66666666666674
-				],
-				[
-					0,
-					114.66664632161462
-				],
-				[
-					0,
-					109.33329264322924
-				],
-				[
-					2.666829427083485,
-					102.6666259765625
-				],
-				[
-					81.33341471354174,
-					49.33329264322924
-				],
-				[
-					121.33341471354174,
-					45.33335367838549
-				],
-				[
-					128.00008138020848,
-					45.33335367838549
-				],
-				[
-					136.00016276041674,
-					45.33335367838549
-				],
-				[
-					204.00004069010424,
-					58.66668701171875
-				],
-				[
-					222.66682942708348,
-					65.33335367838549
-				],
-				[
-					254.666748046875,
-					90.66670735677087
-				],
-				[
-					261.33341471354174,
-					98.66668701171875
-				],
-				[
-					266.66666666666674,
-					106.66666666666674
-				],
-				[
-					249.33349609375,
-					184.00004069010424
-				],
-				[
-					226.66666666666674,
-					207.999979654948
-				],
-				[
-					222.66682942708348,
-					213.33333333333348
-				],
-				[
-					200,
-					233.33333333333348
-				],
-				[
-					177.3333740234375,
-					247.999979654948
-				],
-				[
-					152.0001220703125,
-					264.00004069010424
-				],
-				[
-					96.00016276041674,
-					275.999959309896
-				],
-				[
-					-77.33327229817701,
-					193.33333333333348
-				],
-				[
-					-82.6666259765625,
-					164.00004069010424
-				],
-				[
-					-81.33331298828125,
-					144.00004069010424
-				],
-				[
-					-67.9998779296875,
-					109.33329264322924
-				],
-				[
-					36.00016276041674,
-					32.00002034505212
-				],
-				[
-					128.00008138020848,
-					20
-				],
-				[
-					161.33341471354174,
-					20
-				],
-				[
-					208.00008138020848,
-					29.333292643229242
-				],
-				[
-					310.666707356771,
-					90.66670735677087
-				],
-				[
-					337.3333740234375,
-					135.99995930989587
-				],
-				[
-					340,
-					152.00002034505212
-				],
-				[
-					340,
-					154.66664632161462
-				],
-				[
-					306.66666666666674,
-					249.33329264322924
-				],
-				[
-					277.3333740234375,
-					300
-				],
-				[
-					273.3333333333335,
-					304.00004069010424
-				],
-				[
-					258.66678873697924,
-					324.00004069010424
-				],
-				[
-					234.666748046875,
-					352.00002034505223
-				],
-				[
-					221.33341471354174,
-					364.00004069010424
-				],
-				[
-					201.33341471354174,
-					377.3333740234375
-				],
-				[
-					196.00016276041674,
-					378.66668701171875
-				],
-				[
-					108.00008138020848,
-					367.999979654948
-				],
-				[
-					58.66678873697924,
-					344.00004069010424
-				],
-				[
-					24.000040690104242,
-					320
-				],
-				[
-					9.33349609375,
-					304.00004069010424
-				],
-				[
-					-6.666666666666515,
-					281.33331298828125
-				],
-				[
-					-14.666544596354015,
-					206.66666666666674
-				],
-				[
-					8.000081380208485,
-					106.66666666666674
-				],
-				[
-					52.0001220703125,
-					25.333353678385492
-				],
-				[
-					78.66678873697924,
-					0
-				],
-				[
-					82.66682942708348,
-					-1.33331298828125
-				],
-				[
-					258.66678873697924,
-					4.0000406901042425
-				],
-				[
-					280,
-					20
-				],
-				[
-					317.3333740234375,
-					50.66670735677087
-				],
-				[
-					322.6668294270835,
-					55.99995930989587
-				],
-				[
-					361.33341471354174,
-					104.00004069010424
-				],
-				[
-					394.666748046875,
-					165.3333536783855
-				],
-				[
-					402.6668294270835,
-					198.66668701171875
-				],
-				[
-					404.00004069010424,
-					204.00004069010424
-				],
-				[
-					405.333455403646,
-					224.00004069010424
-				],
-				[
-					402.6668294270835,
-					233.33333333333348
-				],
-				[
-					386.66666666666674,
-					267.999979654948
-				],
-				[
-					381.33341471354174,
-					274.66664632161473
-				],
-				[
-					364.00004069010424,
-					289.33329264322924
-				],
-				[
-					274.666748046875,
-					313.3333333333335
-				],
-				[
-					252.0001220703125,
-					314.66664632161473
-				],
-				[
-					214.666748046875,
-					314.66664632161473
-				],
-				[
-					134.666748046875,
-					294.66664632161473
-				],
-				[
-					78.66678873697924,
-					272.00002034505223
-				],
-				[
-					58.66678873697924,
-					262.6666259765625
-				],
-				[
-					1.3334147135417425,
-					226.66666666666674
-				],
-				[
-					-34.666544596354015,
-					190.66670735677098
-				],
-				[
-					-38.66658528645826,
-					184.00004069010424
-				],
-				[
-					-54.666544596354015,
-					118.66668701171875
-				],
-				[
-					-51.999918619791515,
-					109.33329264322924
-				],
-				[
-					-43.99983723958326,
-					86.66666666666674
-				],
-				[
-					-20,
-					46.66666666666674
-				],
-				[
-					13.333333333333485,
-					5.3333536783854925
-				],
-				[
-					57.3333740234375,
-					-35.99995930989576
-				],
-				[
-					80,
-					-52.00002034505201
-				],
-				[
-					94.666748046875,
-					-61.33331298828125
-				],
-				[
-					256.00016276041674,
-					-61.33331298828125
-				],
-				[
-					282.6668294270835,
-					-34.66664632161451
-				],
-				[
-					297.3333740234375,
-					-18.66668701171875
-				],
-				[
-					313.3333333333335,
-					4.0000406901042425
-				],
-				[
-					340,
-					60
-				],
-				[
-					348.0000813802085,
-					135.99995930989587
-				],
-				[
-					337.3333740234375,
-					165.3333536783855
-				],
-				[
-					318.66678873697924,
-					193.33333333333348
-				],
-				[
-					289.33349609375,
-					220
-				],
-				[
-					118.66678873697924,
-					237.3333740234375
-				],
-				[
-					26.666666666666742,
-					204.00004069010424
-				],
-				[
-					-11.999918619791515,
-					170.66670735677087
-				],
-				[
-					-20,
-					157.3333740234375
-				],
-				[
-					-23.999837239583258,
-					146.66666666666674
-				],
-				[
-					-10.66650390625,
-					58.66668701171875
-				],
-				[
-					-6.666666666666515,
-					49.33329264322924
-				],
-				[
-					12.0001220703125,
-					25.333353678385492
-				],
-				[
-					29.33349609375,
-					7.9999796549479925
-				],
-				[
-					34.666748046875,
-					2.6666259765625
-				],
-				[
-					57.3333740234375,
-					-13.333333333333258
-				],
-				[
-					64.00004069010424,
-					-15.999959309895758
-				],
-				[
-					98.66678873697924,
-					-25.33335367838538
-				],
-				[
-					106.66666666666674,
-					-26.66666666666663
-				],
-				[
-					170.66670735677098,
-					-9.333292643229129
-				],
-				[
-					176.00016276041674,
-					-4.000040690104129
-				],
-				[
-					193.33333333333348,
-					13.333333333333371
-				],
-				[
-					201.33341471354174,
-					21.33331298828125
-				],
-				[
-					209.33349609375,
-					32.00002034505212
-				],
-				[
-					216.00016276041674,
-					41.33331298828125
-				],
-				[
-					220,
-					52.00002034505212
-				],
-				[
-					221.33341471354174,
-					57.3333740234375
-				],
-				[
-					221.33341471354174,
-					57.3333740234375
-				]
-			],
-			"pressures": [],
-			"simulatePressure": true,
-			"lastCommittedPoint": [
-				221.33341471354174,
-				57.3333740234375
-			]
-		},
-		{
-			"id": "WpA43YuWE63pZ-o_Q5FaN",
-			"type": "freedraw",
-			"x": -464.79324902121493,
-			"y": 606.4381126605953,
-			"width": 433.33343505859375,
-			"height": 216.00006103515625,
-			"angle": 0,
-			"strokeColor": "#B83E3E",
-			"backgroundColor": "#FF7C7C",
-			"fillStyle": "dashed",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"seed": 223505056,
-			"version": 78,
-			"versionNonce": 1350866592,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1705601317468,
-			"link": null,
-			"locked": false,
-			"customData": {
-				"strokeOptions": {
-					"highlighter": false,
-					"constantPressure": true,
-					"hasOutline": true,
-					"outlineWidth": 4,
-					"options": {
-						"thinning": 1,
-						"smoothing": 0.5,
-						"streamline": 0.5,
-						"easing": "linear",
-						"start": {
-							"taper": 0,
-							"cap": true,
-							"easing": "linear"
-						},
-						"end": {
-							"taper": 0,
-							"cap": true,
-							"easing": "linear"
-						}
-					}
-				}
-			},
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					4.0000406901042425,
-					0
-				],
-				[
-					9.333292643229242,
-					0
-				],
-				[
-					26.666666666666742,
-					0
-				],
-				[
-					29.333292643229242,
-					0
-				],
-				[
-					40,
-					-1.33331298828125
-				],
-				[
-					52.000020345052235,
-					-2.6666259765625
-				],
-				[
-					69.33329264322924,
-					-3.99993896484375
-				],
-				[
-					90.66670735677098,
-					-6.666666666666629
-				],
-				[
-					140.0001017252605,
-					-9.333292643229129
-				],
-				[
-					149.33339436848973,
-					-10.666605631510379
-				],
-				[
-					197.33327229817723,
-					-12.000020345052121
-				],
-				[
-					214.66664632161473,
-					-12.000020345052121
-				],
-				[
-					220.0001017252605,
-					-12.000020345052121
-				],
-				[
-					256.00006103515625,
-					-12.000020345052121
-				],
-				[
-					282.666727701823,
-					-12.000020345052121
-				],
-				[
-					307.999979654948,
-					-12.000020345052121
-				],
-				[
-					336.00006103515625,
-					-9.333292643229129
-				],
-				[
-					343.99993896484375,
-					-9.333292643229129
-				],
-				[
-					363.99993896484375,
-					-6.666666666666629
-				],
-				[
-					387.999979654948,
-					-3.99993896484375
-				],
-				[
-					410.6666056315105,
-					0
-				],
-				[
-					413.33343505859375,
-					0
-				],
-				[
-					430.6666056315105,
-					2.6667277018228788
-				],
-				[
-					432.00002034505223,
-					2.6667277018228788
-				],
-				[
-					433.33343505859375,
-					2.6667277018228788
-				],
-				[
-					433.33343505859375,
-					5.333353678385379
-				],
-				[
-					430.6666056315105,
-					9.333394368489621
-				],
-				[
-					426.66676839192723,
-					14.666646321614621
-				],
-				[
-					421.33331298828125,
-					22.66672770182288
-				],
-				[
-					410.6666056315105,
-					37.3333740234375
-				],
-				[
-					405.3333536783855,
-					44.00004069010413
-				],
-				[
-					383.99993896484375,
-					65.33335367838538
-				],
-				[
-					378.66668701171875,
-					70.66670735677087
-				],
-				[
-					365.3333536783855,
-					80
-				],
-				[
-					341.33331298828125,
-					97.3333740234375
-				],
-				[
-					313.33343505859375,
-					112.00002034505212
-				],
-				[
-					305.3333536783855,
-					114.66664632161462
-				],
-				[
-					267.999979654948,
-					125.33335367838538
-				],
-				[
-					258.66668701171875,
-					127.99997965494788
-				],
-				[
-					217.33327229817723,
-					133.33333333333337
-				],
-				[
-					210.6666056315105,
-					134.66664632161462
-				],
-				[
-					177.33327229817723,
-					138.66668701171875
-				],
-				[
-					170.6666056315105,
-					138.66668701171875
-				],
-				[
-					143.99993896484375,
-					140
-				],
-				[
-					138.66668701171875,
-					140
-				],
-				[
-					121.33331298828125,
-					134.66664632161462
-				],
-				[
-					118.66668701171875,
-					133.33333333333337
-				],
-				[
-					112.00002034505223,
-					127.99997965494788
-				],
-				[
-					102.6666259765625,
-					117.3333740234375
-				],
-				[
-					102.6666259765625,
-					114.66664632161462
-				],
-				[
-					100,
-					87.99997965494788
-				],
-				[
-					101.33331298828125,
-					84.00004069010413
-				],
-				[
-					101.33331298828125,
-					80
-				],
-				[
-					106.66666666666674,
-					66.66666666666663
-				],
-				[
-					113.33343505859375,
-					49.33339436848962
-				],
-				[
-					116.00006103515625,
-					45.33335367838538
-				],
-				[
-					125.33335367838549,
-					32.00002034505212
-				],
-				[
-					173.33343505859375,
-					4.000040690104129
-				],
-				[
-					189.33339436848973,
-					2.6667277018228788
-				],
-				[
-					225.3333536783855,
-					12.000020345052121
-				],
-				[
-					265.3333536783855,
-					57.3333740234375
-				],
-				[
-					277.33327229817723,
-					78.66668701171875
-				],
-				[
-					293.33343505859375,
-					121.33331298828125
-				],
-				[
-					298.66668701171875,
-					145.33335367838538
-				],
-				[
-					300.0001017252605,
-					181.33331298828136
-				],
-				[
-					303.99993896484375,
-					190.66670735677087
-				],
-				[
-					307.999979654948,
-					194.66664632161462
-				],
-				[
-					310.6666056315105,
-					197.3333740234376
-				],
-				[
-					316.00006103515625,
-					200.0000000000001
-				],
-				[
-					336.00006103515625,
-					204.00004069010413
-				],
-				[
-					387.999979654948,
-					182.66672770182288
-				],
-				[
-					416.00006103515625,
-					165.33335367838538
-				],
-				[
-					421.33331298828125,
-					162.66672770182288
-				],
-				[
-					423.99993896484375,
-					160.0000000000001
-				],
-				[
-					423.99993896484375,
-					160.0000000000001
-				]
-			],
-			"pressures": [
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				1,
-				0
-			],
-			"simulatePressure": false,
-			"lastCommittedPoint": [
-				423.99993896484375,
-				160.0000000000001
-			]
+			"text": "",
+			"rawText": "",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 26,
+			"containerId": null,
+			"originalText": "",
+			"lineHeight": 1.2
 		}
 	],
 	"appState": {
-		"theme": "light",
+		"theme": "dark",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#000000",
-		"currentItemBackgroundColor": "transparent",
-		"currentItemFillStyle": "hachure",
+		"currentItemStrokeColor": "#1971c2",
+		"currentItemBackgroundColor": "#e7f5ff",
+		"currentItemFillStyle": "solid",
 		"currentItemStrokeWidth": 4,
 		"currentItemStrokeStyle": "solid",
 		"currentItemRoughness": 0,
@@ -3616,10 +4629,10 @@ order-2 모델링이 주로 사용됩니다. ^moCIA2oh
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 1300.4601598285067,
-		"scrollY": 362.0618085023281,
+		"scrollX": 2477.5468817025503,
+		"scrollY": 595.918328890493,
 		"zoom": {
-			"value": 0.6
+			"value": 0.26226758157855373
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
