@@ -11,14 +11,9 @@
             "id": "83f980bde5f14f2a",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "excalidraw",
               "state": {
-                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
-                "viewState": {
-                  "x": -414.79978515040125,
-                  "y": 143.11063785906975,
-                  "zoom": 0.14464105528645851
-                }
+                "file": "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md"
               }
             }
           }
@@ -96,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
+                "file": "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
+                "file": "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas"
+                "file": "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md"
               }
             }
           },
@@ -171,6 +166,7 @@
   },
   "active": "83f980bde5f14f2a",
   "lastOpenFiles": [
+    "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
     "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md",
     "Excalidraw/Drawing 2024-01-19 16.39.38.excalidraw.md",
     "300_사회과학/330_사회학/331_오리엔탈리즘.md",
@@ -218,9 +214,7 @@
     "000_총류/004_컴퓨터과학/004_Support_Vector_Machine.md",
     "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
     "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
-    "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
-    "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas"
   ]
 }
