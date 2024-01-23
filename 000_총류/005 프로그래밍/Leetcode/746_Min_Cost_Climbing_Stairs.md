@@ -46,4 +46,8 @@ class Solution:
 ## Abstract
 - ### Edge case
 	len(cost) == 1일 경우 답은 0이 나와야함
-	
+- **풀이과정:**
+	Pay 1 and climb two steps to reach index 2.
+	비용을 먼저 지불하고 오름
+	Dp에는 특정 칸을 밟기 전의 비용이 청구됨. --> `return Dp[cnt]`는 목적지에 도달하는 최적의 비용
+	한칸 오른 비용이 좋은지 두칸 오른 비용이 나은지 비교
