@@ -36,17 +36,15 @@ Given an integer `n`, return _an array_ `ans` _of length_ `n + 1` _such th
 class Solution:
     def countBits(self, n: int) -> List[int]:
         dp = [0] * (n + 1)
-        dp[1] = 1
+        if n > 0:
+            dp[1] = 1
 
-        for i in range(2, n + 1):
-            dp[i] = dp[i // 2] + (i % 2)
+            for i in range(2, n + 1):
+                dp[i] = dp[i // 2] + (i % 2)
 
         return dp
 ```
 ## Abstract
-Output을 보면 `[1], [1, 2], [1, 2, 3] ...`과 같이 증가하는 줄 알았다.
-![[Pasted image 20240123085940.png]]
-
 ```
 0 --> 0 --> 0
 1 --> 1 --> 1
@@ -66,3 +64,18 @@ Output을 보면 `[1], [1, 2], [1, 2, 3] ...`과 같이 증가하는 줄 알았�
 15 --> 1111 --> 4
 16 --> 10000 --> 1
 ```
+
+```run-python
+class Solution:
+    def countBits(self, n: int) -> List[int]:
+        dp = [0] * (n + 1)
+        dp[1] = 1
+
+        for i in range(2, n + 1):
+            dp[i] = dp[i // 2] + (i % 2)
+
+        return dp
+```
+- ### Edge Case:
+	  0일때를 고려하지 못했다.
+	![[Pasted image 20240123091620.png]]

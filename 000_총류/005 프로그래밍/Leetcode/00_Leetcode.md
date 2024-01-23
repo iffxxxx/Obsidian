@@ -69,5 +69,5 @@
 [[70_Climbing_Stairs]]
 [[118_Pascal's_Triangle]]
 [[338_Counting_Bits]]
-[[746]]
+[[746_Min_Cost_Climbing_Stairs]]
 [[1025]]
