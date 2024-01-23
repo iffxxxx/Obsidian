@@ -33,4 +33,9 @@ Given an integer `n`, return _an array_ `ans` _of length_ `n + 1` _such th
 - Can you do it without using any built-in function (i.e., like `__builtin_popcount` in C++)?
 ## Code
 ## Abstract
-Output을 보면 `[1], [1, 2], [1, 2, 3] ...`과 같이 증가하는 것을 볼 수 있다.
+Output을 보면 `[1], [1, 2], [1, 2, 3] ...`과 같이 증가하는 줄 알았다.
+![[Pasted image 20240123085940.png]]
+
+```
+
+```
