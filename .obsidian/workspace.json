@@ -116,8 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f6878ac96d36097f",
@@ -216,9 +215,10 @@
   },
   "active": "11e196d48c8f7c84",
   "lastOpenFiles": [
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
+    "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
     "Attached file/image/Pasted Image 20240125205539_651.png",
     "Attached file/image/Pasted Image 20240125204524_697.png",
-    "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/00_Recommender_Systems.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/01_Introduction.md",
@@ -256,7 +256,6 @@
     "Attached file/image/Pasted Image 20240118210956_301.png",
     "Excalidraw/Scripts/Downloaded/Create DrawIO file.svg",
     "Attached file/image/good diagram.svg",
-    "Attached file/image/hi.svg",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
     "Attached file/font/나눔손글씨 다행체.ttf",
