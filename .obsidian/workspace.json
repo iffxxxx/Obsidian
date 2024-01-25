@@ -95,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "google",
+                "query": "long tail",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -112,7 +112,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -215,12 +216,17 @@
   },
   "active": "11e196d48c8f7c84",
   "lastOpenFiles": [
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md",
+    "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
+    "400_순수과학/410 수학/414_Fourier_Analysis.md",
+    "400_순수과학/410 수학/413 Euler's formula.md",
+    "400_순수과학/410 수학/412_Orthogonal_Functions.md",
+    "400_순수과학/410 수학/412 Periodic Functions.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/00_Recommender_Systems.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/Model-based methods.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/Neighborhood-based collaborative filtering.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/Deep learning with artificial neural networks.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/05_Matrix_Factorization_Method.md",
-    "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
     "000_총류/005 프로그래밍/005_프로그래밍.md",
     "000_총류/005 프로그래밍/Coding_Interview/07_Object-Oriented_Design.md",
     "000_총류/005 프로그래밍/().md",
@@ -238,11 +244,6 @@
     "000_총류/005 프로그래밍/Leetcode/203_Remove_Linked_List_Elements.md",
     "000_총류/005 프로그래밍/Leetcode/21_Merge_Two_Sorted_Lists.md",
     "000_총류/005 프로그래밍/Leetcode/2490_Circular_Sentence.md",
-    "000_총류/005 프로그래밍/Leetcode/1603_Design_Parking_System.md",
-    "000_총류/005 프로그래밍/Leetcode/1002_Find_Common_Characters.md",
-    "000_총류/005 프로그래밍/Leetcode/706_Design_HashMap.md",
-    "000_총류/005 프로그래밍/Leetcode/492_Construct_the_Rectangle.md",
-    "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
     "Attached file/image/Pasted Image 20240122020009_943.png",
     "Attached file/image/Pasted Image 20240122001632_748.png",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",

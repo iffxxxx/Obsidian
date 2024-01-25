@@ -71,15 +71,15 @@ $$\frac{\sum_{i=1}^n{\frac{1}{rank_i}}}{Users}$$
 	- So you end up getting more credit for successfully recommending an item in the top slot than in the bottom slot.
 	- The only difference is that instead of summing up the number of hits, we sum up the reciprocal rank of each hit.
 	
-![[Pasted image 20231111134319.png|300]]
+	![[Pasted image 20231111134319.png|300]]
 - If the user has to scroll or paginate to see the lower items in your top-n list, then it makes sense to penalize good recommendations that appear too low in the list, where the user has to work to find them.
 
 ### cumulative hit rate (cHR)
-![[Pasted image 20231111134547.png]]
+	![[Pasted image 20231111134547.png]]
 - It means is that we throw away hits if our predicted rating is below some threshold.
 	 if we had a cutoff of three stars we throw away the hits for the second and fourth items in these test results and our hit rate metric wouldn't count them at all.
 	 
-![[Pasted image 20231111134556.png]]
+	![[Pasted image 20231111134556.png]]
 ### rating hit rate (rHR)
 ![[Pasted image 20231111135056.png]]
 - hit rate is to break it down by predicted rating score.
@@ -121,7 +121,7 @@ $$\frac{\sum_{i=1}^n{\frac{1}{rank_i}}}{Users}$$
 	
 - This is an important point. You need to strike a balance between familiar, popular items and what we call **serendipitous** discovery of new items the user has never heard of before.
 	
-![[Pasted image 20231111160648.png|500]]
+	![[Pasted image 20231111160648.png|500]]
 - Novelty is important, 
 	though, because the whole point of recommender systems is to surface items in what we call "the long tail."
 	
