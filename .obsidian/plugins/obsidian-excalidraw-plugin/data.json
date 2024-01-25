@@ -272,7 +272,7 @@
             "containerId": null,
             "originalText": "순차적인 데이터를 처리하는데 강점\n이전 시간 단계의 출력이 현재 시간의 입력으로 사용되기에\n시퀸스 데이터의 연속성을 잘 학습할 수 있다.",
             "lineHeight": 1.2,
-            "baseline": 93
+            "baseline": 94
           }
         ],
         "created": 1705854332114
