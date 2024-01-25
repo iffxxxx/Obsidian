@@ -311,6 +311,9 @@ Continuous feature와 concatenate되어 심츰 신경망의
 랜덤으로 초기화되며 모델 학습과정에서
 같이 학습 ^8VmV4Khf
 
+각각의 hidden layer에서는 위와 같은 일반적인 신경망
+연산이 진행됩니다. ^A8ezqNKX
+
 
 # Embedded files
 1acd85ab268aa15908884e70b2120d6f3eafdc60: $$\times
@@ -321,6 +324,7 @@ b51a612cdf93b53423fbf3c025058dad0b22cf32: $$\color{blue}w = [w_1, w_2, \cdots, w
 ca39c8b8fe5df873e923654a8772e2839ebb28bd: $$\color{blue}\phi_k(x)=\Pi^{d}_{i=1}{x_{i}^{C_{ki}}}, \; C_{ki} \in \{0,1\}$$
 e524c6521ab1fc19ece619fff3c8e36677ab71f9: $$\color{blue}x=[유저, 아이템, 나이]$$
 ce33e7389bcda96c6d9ad59d4743095f443c641a: $$\color{blue}\phi_k(x)=x_{유저}^{1}x_{아이템}^{0}x_{나이}^{1}$$
+49f769bd60e56cba873d5bdcb465f52f4c8a887c: $$\color{blue}a^{(l+1)}=f(W^{(l)}a^{(l)}+b^{(l)})$$
 13c9ee52728b723a0340730c28d19618c8be616b: [[Pasted Image 20240118210956_301.png]]
 238684eaf896cacd041c8ce3215c3c8f7b330ced: [[Pasted Image 20240122001632_748.png]]
 bdb9ea3364a7abdc205f780176b173ccf12a3a34: [[Pasted Image 20240122020009_943.png]]
@@ -8838,6 +8842,76 @@ b55d921621d8d0f82b8935e205bb73902fe0c971: [[Pasted Image 20240125205539_651.png]
 			"containerId": null,
 			"originalText": "랜덤으로 초기화되며 모델 학습과정에서\n같이 학습",
 			"lineHeight": 1.2
+		},
+		{
+			"id": "A8ezqNKX",
+			"type": "text",
+			"x": 1247.2400533983703,
+			"y": 4554.368808535894,
+			"width": 495.96380615234375,
+			"height": 67.2,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#1e1e1e",
+			"fillStyle": "cross-hatch",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 969873026,
+			"version": 161,
+			"versionNonce": 946946946,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1706189181919,
+			"link": null,
+			"locked": false,
+			"text": "각각의 hidden layer에서는 위와 같은 일반적인 신경망\n연산이 진행됩니다.",
+			"rawText": "각각의 hidden layer에서는 위와 같은 일반적인 신경망\n연산이 진행됩니다.",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "center",
+			"verticalAlign": "top",
+			"baseline": 60,
+			"containerId": null,
+			"originalText": "각각의 hidden layer에서는 위와 같은 일반적인 신경망\n연산이 진행됩니다.",
+			"lineHeight": 1.2
+		},
+		{
+			"type": "image",
+			"version": 211,
+			"versionNonce": 729563330,
+			"isDeleted": false,
+			"id": "BpTj1lIm",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 1405.5125059504535,
+			"y": 4529.168817444097,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 229.09083510890565,
+			"height": 25.19999186197962,
+			"seed": 95557,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1706189172521,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "49f769bd60e56cba873d5bdcb465f52f4c8a887c",
+			"scale": [
+				1,
+				1
+			]
 		}
 	],
 	"appState": {
@@ -8856,7 +8930,7 @@ b55d921621d8d0f82b8935e205bb73902fe0c971: [[Pasted Image 20240125205539_651.png]
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"scrollX": -579.1179967317037,
-		"scrollY": -4070.3477608347216,
+		"scrollY": -3903.681094168055,
 		"zoom": {
 			"value": 0.7500000000000001
 		},
