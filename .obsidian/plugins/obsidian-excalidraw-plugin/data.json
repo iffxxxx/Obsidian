@@ -461,6 +461,12 @@
         "value": "10",
         "description": "Gap between rows and columns"
       }
+    },
+    "Downloaded/Normalize Selected Arrows": {
+      "Gap": {
+        "value": 8,
+        "description": "The value of the gap between the connection line and the element, which must be greater than 0. If you want the connector to be next to the element, set it to 1."
+      }
     }
   },
   "defaultTrayMode": false,
