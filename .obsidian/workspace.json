@@ -116,7 +116,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f6878ac96d36097f",
@@ -215,6 +216,7 @@
   },
   "active": "11e196d48c8f7c84",
   "lastOpenFiles": [
+    "Attached file/image/Pasted Image 20240125205539_651.png",
     "Attached file/image/Pasted Image 20240125204524_697.png",
     "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md",
