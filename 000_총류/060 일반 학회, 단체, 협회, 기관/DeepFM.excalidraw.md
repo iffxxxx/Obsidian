@@ -294,6 +294,12 @@ k번째 cross-product transformation
 
 i번째 특성이 포함되면 해당 C_ki는 1로 세팅된다. ^9pqqUvSZ
 
+이는 cross-product feature를 계산하기 위해
+선택된 개별 boolen 특성의 곱을 의미합니다. ^3j2LPRXE
+
+Wide part는 새로운 특성을 기존의 raw특성에 concatenate하여
+모델을 학습합니다. 이는 linear 모델 자체에 비선형성 추가 ^2ngxSaiL
+
 
 # Embedded files
 1acd85ab268aa15908884e70b2120d6f3eafdc60: $$\times
@@ -303,11 +309,13 @@ b51a612cdf93b53423fbf3c025058dad0b22cf32: $$\color{blue}w = [w_1, w_2, \cdots, w
 0e93d87ec0160be7094417aff18edee3e0a43426: $$\color{blue}x=[x_1, x_2, \cdots, x_d]$$
 ca39c8b8fe5df873e923654a8772e2839ebb28bd: $$\color{blue}\phi_k(x)=\Pi^{d}_{i=1}{x_{i}^{C_{ki}}}, \; C_{ki} \in \{0,1\}$$
 e524c6521ab1fc19ece619fff3c8e36677ab71f9: $$\color{blue}x=[유저, 아이템, 나이]$$
+ce33e7389bcda96c6d9ad59d4743095f443c641a: $$\color{blue}\phi_k(x)=x_{유저}^{1}x_{아이템}^{0}x_{나이}^{1}$$
 13c9ee52728b723a0340730c28d19618c8be616b: [[Pasted Image 20240118210956_301.png]]
 238684eaf896cacd041c8ce3215c3c8f7b330ced: [[Pasted Image 20240122001632_748.png]]
 bdb9ea3364a7abdc205f780176b173ccf12a3a34: [[Pasted Image 20240122020009_943.png]]
 6df3d62f89062b41d078fce5b944b233e9d6542d: [[Pasted Image 20240125204524_697.png]]
 b55d921621d8d0f82b8935e205bb73902fe0c971: [[Pasted Image 20240125205539_651.png]]
+972b5e540823051b0ba3f9ac4102f48db34dc098: [[Pasted Image 20240125215542_172.png]]
 
 %%
 # Drawing
@@ -8039,16 +8047,16 @@ b55d921621d8d0f82b8935e205bb73902fe0c971: [[Pasted Image 20240125205539_651.png]
 		{
 			"id": "0QPlNlXl4TL8vQvrkU6xH",
 			"type": "arrow",
-			"x": 432.06411181479683,
-			"y": 4286.385545484816,
-			"width": 0,
-			"height": 91.30736515960962,
+			"x": 647.8814771949674,
+			"y": 4287.423112987722,
+			"width": 48.689982665651215,
+			"height": 59.39837729942428,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
-			"strokeStyle": "dashed",
+			"strokeStyle": "solid",
 			"roughness": 2,
 			"opacity": 100,
 			"groupIds": [],
@@ -8057,11 +8065,11 @@ b55d921621d8d0f82b8935e205bb73902fe0c971: [[Pasted Image 20240125205539_651.png]
 				"type": 2
 			},
 			"seed": 1950991070,
-			"version": 37,
-			"versionNonce": 542040578,
+			"version": 632,
+			"versionNonce": 1839427102,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1706186894050,
+			"updated": 1706186989812,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -8070,19 +8078,209 @@ b55d921621d8d0f82b8935e205bb73902fe0c971: [[Pasted Image 20240125205539_651.png]
 					0
 				],
 				[
-					0,
-					91.30736515960962
+					48.689982665651215,
+					27.910744795970125
+				],
+				[
+					2.0752141671384834,
+					59.39837729942428
 				]
 			],
 			"lastCommittedPoint": null,
 			"startBinding": {
 				"elementId": "9pqqUvSZ",
-				"focus": 0.29700119248128337,
-				"gap": 11.007742740877802
+				"focus": -0.4066116197747498,
+				"gap": 12.045310243783206
 			},
-			"endBinding": null,
+			"endBinding": {
+				"elementId": "NtmNq6wo",
+				"focus": 0.9006223530636696,
+				"gap": 10.429872066557465
+			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow"
+		},
+		{
+			"type": "image",
+			"version": 126,
+			"versionNonce": 1317951966,
+			"isDeleted": false,
+			"id": "NtmNq6wo",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 351.1326845269596,
+			"y": 4328.942356725109,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 288.39413476858874,
+			"height": 36.41340085461979,
+			"seed": 55519,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [
+				{
+					"id": "0QPlNlXl4TL8vQvrkU6xH",
+					"type": "arrow"
+				}
+			],
+			"updated": 1706186989812,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "ce33e7389bcda96c6d9ad59d4743095f443c641a",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "3j2LPRXE",
+			"type": "text",
+			"x": 281.61444905362526,
+			"y": 4366.5389214558645,
+			"width": 438.9277648925781,
+			"height": 67.2,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1358658270,
+			"version": 190,
+			"versionNonce": 1628035074,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1706187041155,
+			"link": null,
+			"locked": false,
+			"text": "이는 cross-product feature를 계산하기 위해\n선택된 개별 boolen 특성의 곱을 의미합니다.",
+			"rawText": "이는 cross-product feature를 계산하기 위해\n선택된 개별 boolen 특성의 곱을 의미합니다.",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 60,
+			"containerId": null,
+			"originalText": "이는 cross-product feature를 계산하기 위해\n선택된 개별 boolen 특성의 곱을 의미합니다.",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "e0NYpWq1htVibVlxDYtmt",
+			"type": "image",
+			"x": -29.80025739734839,
+			"y": 4700.570831186059,
+			"width": 876,
+			"height": 438,
+			"angle": 0,
+			"strokeColor": "transparent",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 886148958,
+			"version": 129,
+			"versionNonce": 1315696606,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1706187337165,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "972b5e540823051b0ba3f9ac4102f48db34dc098",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "2ngxSaiL",
+			"type": "text",
+			"x": 142.57834546972578,
+			"y": 4465.755582523072,
+			"width": 587.7757568359375,
+			"height": 67.2,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1377651778,
+			"version": 204,
+			"versionNonce": 77695646,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1706187384180,
+			"link": null,
+			"locked": false,
+			"text": "Wide part는 새로운 특성을 기존의 raw특성에 concatenate하여\n모델을 학습합니다. 이는 linear 모델 자체에 비선형성 추가",
+			"rawText": "Wide part는 새로운 특성을 기존의 raw특성에 concatenate하여\n모델을 학습합니다. 이는 linear 모델 자체에 비선형성 추가",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 60,
+			"containerId": null,
+			"originalText": "Wide part는 새로운 특성을 기존의 raw특성에 concatenate하여\n모델을 학습합니다. 이는 linear 모델 자체에 비선형성 추가",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "5iyHW3OI",
+			"type": "text",
+			"x": 552.4237628624078,
+			"y": 4356.6818322749405,
+			"width": 8.399993896484375,
+			"height": 33.6,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 2060586462,
+			"version": 2,
+			"versionNonce": 353932994,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1706187055896,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 26,
+			"containerId": null,
+			"originalText": "",
+			"lineHeight": 1.2
 		}
 	],
 	"appState": {
@@ -8092,7 +8290,7 @@ b55d921621d8d0f82b8935e205bb73902fe0c971: [[Pasted Image 20240125205539_651.png]
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "solid",
 		"currentItemStrokeWidth": 4,
-		"currentItemStrokeStyle": "dashed",
+		"currentItemStrokeStyle": "solid",
 		"currentItemRoughness": 2,
 		"currentItemOpacity": 100,
 		"currentItemFontFamily": 4,
@@ -8101,7 +8299,7 @@ b55d921621d8d0f82b8935e205bb73902fe0c971: [[Pasted Image 20240125205539_651.png]
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"scrollX": 437.17134305726444,
-		"scrollY": -3572.1391309894725,
+		"scrollY": -4382.751111592087,
 		"zoom": {
 			"value": 0.77102240647291
 		},
