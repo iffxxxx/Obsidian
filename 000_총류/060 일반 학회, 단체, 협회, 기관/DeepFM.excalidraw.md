@@ -366,13 +366,18 @@ wide & deep은 output layer를 통하여 동시에 역전파가 진행 ^HKrrBEhC
 3. 모델의 목적: "Wide & Deep" 모델은 넓은 범주의 특성과 깊은 
 특성을 함께 모델링하여 다양한 데이터 패턴을 캡처하는 것이 
 목적입니다. 이는 앙상블과는 조금 다르게 모델이 전체적으로 
-하나의 목적을 가지고 학습되는 것을 의미합니다.
+하나의 목적을 가지고 학습되는 것을 의미합니다. 앙상블은 각 
+모델이 독립적으로 학습하고 예측하므로, 각 모델에 대한 역전파가 
+직접 적용되지 않습니다. 즉, 전체 앙상블에 대해서는 하나의 큰 
+모델로 간주되어 역전파가 적용되지 않습니다.
 
 앙상블 모델은 여러 개의 독립적인 모델을 결합하여 최종 예측을 
 생성하는 반면, "Wide & Deep" 모델은 하나의 통합된 모델 구조 
 안에서 다양한 특성과 패턴을 학습하고 결합하여 최종 예측을 
-생성합니다. 따라서 "Wide & Deep" 모델은 앙상블이 아닌, 
-하나의 모델로 간주됩니다. ^lZ15AlMC
+생성합니다. 따라서 "Wide & Deep" 모델은 앙상블이 아닌,
+하나의 모델로 간주됩니다.  ^lZ15AlMC
+
+GPT ^HcTBRhIG
 
 
 # Embedded files
@@ -6601,8 +6606,8 @@ adfd9929ab4e3487582554fca6b4b6e27845c8ad: [[Pasted Image 20240125223116_516.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 689,
-			"versionNonce": 957038082,
+			"version": 889,
+			"versionNonce": 1038048542,
 			"isDeleted": false,
 			"id": "LLUrhDxTngrRcfH_ivYRD",
 			"fillStyle": "cross-hatch",
@@ -6611,8 +6616,8 @@ adfd9929ab4e3487582554fca6b4b6e27845c8ad: [[Pasted Image 20240125223116_516.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2217.2921819135922,
-			"y": 2050.1197153974667,
+			"x": 2095.6920839135923,
+			"y": 2468.174466397467,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#1e1e1e",
 			"width": 561.4469278933819,
@@ -6626,14 +6631,14 @@ adfd9929ab4e3487582554fca6b4b6e27845c8ad: [[Pasted Image 20240125223116_516.png]
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1706191937995,
+			"updated": 1706192479265,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "image",
-			"version": 749,
-			"versionNonce": 517020446,
+			"version": 949,
+			"versionNonce": 712116574,
 			"isDeleted": false,
 			"id": "xyTMQ9rrtHBXGvfDhbftt",
 			"fillStyle": "solid",
@@ -6642,8 +6647,8 @@ adfd9929ab4e3487582554fca6b4b6e27845c8ad: [[Pasted Image 20240125223116_516.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2238.246136614113,
-			"y": 2076.8674234308883,
+			"x": 2116.646038614113,
+			"y": 2494.9221744308884,
 			"strokeColor": "transparent",
 			"backgroundColor": "#a5d8ff",
 			"width": 513.5494187466128,
@@ -6660,7 +6665,7 @@ adfd9929ab4e3487582554fca6b4b6e27845c8ad: [[Pasted Image 20240125223116_516.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1706191937996,
+			"updated": 1706192479265,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -6672,8 +6677,8 @@ adfd9929ab4e3487582554fca6b4b6e27845c8ad: [[Pasted Image 20240125223116_516.png]
 		},
 		{
 			"type": "arrow",
-			"version": 583,
-			"versionNonce": 1186475458,
+			"version": 1057,
+			"versionNonce": 753519070,
 			"isDeleted": false,
 			"id": "iM_hYrewAdl9zwYNb3NTS",
 			"fillStyle": "cross-hatch",
@@ -6683,11 +6688,11 @@ adfd9929ab4e3487582554fca6b4b6e27845c8ad: [[Pasted Image 20240125223116_516.png]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1894.981395799016,
-			"y": 2348.169669407328,
+			"y": 2495.379794703168,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#1e1e1e",
-			"width": 317.8666178385415,
-			"height": 60.73975546664633,
+			"width": 196.26651983854163,
+			"height": 66.22520888246254,
 			"seed": 1718979906,
 			"groupIds": [],
 			"frameId": null,
@@ -6700,7 +6705,7 @@ adfd9929ab4e3487582554fca6b4b6e27845c8ad: [[Pasted Image 20240125223116_516.png]
 					"id": "Zd7jPvlx"
 				}
 			],
-			"updated": 1706191937996,
+			"updated": 1706192479265,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -6722,8 +6727,8 @@ adfd9929ab4e3487582554fca6b4b6e27845c8ad: [[Pasted Image 20240125223116_516.png]
 					0
 				],
 				[
-					317.8666178385415,
-					-60.73975546664633
+					196.26651983854163,
+					66.22520888246254
 				]
 			]
 		},
@@ -9159,8 +9164,8 @@ adfd9929ab4e3487582554fca6b4b6e27845c8ad: [[Pasted Image 20240125223116_516.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 1200,
-			"versionNonce": 475076290,
+			"version": 1201,
+			"versionNonce": 1558884290,
 			"isDeleted": false,
 			"id": "4nUkjbE_uJ8JO1PQHT_7T",
 			"fillStyle": "solid",
@@ -9193,9 +9198,13 @@ adfd9929ab4e3487582554fca6b4b6e27845c8ad: [[Pasted Image 20240125223116_516.png]
 				{
 					"id": "vmMC5EFaAMr0xaX7ouTJu",
 					"type": "arrow"
+				},
+				{
+					"id": "aBPP8b4uruHPLhiqBTuHz",
+					"type": "arrow"
 				}
 			],
-			"updated": 1706191937997,
+			"updated": 1706192439367,
 			"link": null,
 			"locked": false
 		},
@@ -10343,7 +10352,7 @@ adfd9929ab4e3487582554fca6b4b6e27845c8ad: [[Pasted Image 20240125223116_516.png]
 			"x": 681.1253807042409,
 			"y": 6602.007867494198,
 			"width": 606.2386122957589,
-			"height": 870.6285313197543,
+			"height": 967.628500802176,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -10358,21 +10367,26 @@ adfd9929ab4e3487582554fca6b4b6e27845c8ad: [[Pasted Image 20240125223116_516.png]
 				"type": 3
 			},
 			"seed": 1242762590,
-			"version": 218,
-			"versionNonce": 1689710530,
+			"version": 271,
+			"versionNonce": 164691742,
 			"isDeleted": false,
-			"boundElements": [],
-			"updated": 1706192251139,
+			"boundElements": [
+				{
+					"id": "aBPP8b4uruHPLhiqBTuHz",
+					"type": "arrow"
+				}
+			],
+			"updated": 1706192446129,
 			"link": null,
 			"locked": false
 		},
 		{
 			"id": "lZ15AlMC",
 			"type": "text",
-			"x": 688.2793755399184,
-			"y": 6635.8650013463175,
-			"width": 601.8876953125,
-			"height": 806.4000000000001,
+			"x": 685.4762975399183,
+			"y": 6634.122133346317,
+			"width": 608.1318359375,
+			"height": 907.2,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#a5d8ff",
@@ -10385,34 +10399,96 @@ adfd9929ab4e3487582554fca6b4b6e27845c8ad: [[Pasted Image 20240125223116_516.png]
 			"frameId": null,
 			"roundness": null,
 			"seed": 1077069918,
-			"version": 116,
-			"versionNonce": 780624770,
+			"version": 149,
+			"versionNonce": 556738370,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1706192261904,
+			"boundElements": [
+				{
+					"id": "aBPP8b4uruHPLhiqBTuHz",
+					"type": "arrow"
+				}
+			],
+			"updated": 1706192439367,
 			"link": null,
 			"locked": false,
-			"text": "\"Wide & Deep\" 모델은 일반적으로 하나의 통합된 모델로 간주되며, \n엄밀한 의미에서는 앙상블 모델이 아닙니다. \n\n1. 통합된 아키텍처: \"Wide & Deep\" 모델은 Wide 부분과 Deep \n부분을 하나의 통합된 아키텍처로 결합한 구조입니다. Wide 부분은 \n선형 모델에 해당하고, Deep 부분은 신경망 모델에 해당합니다. \n하지만 이 두 부분은 하나의 통합된 모델 안에서 함께 학습되고 \n통합된 출력을 생성합니다.\n\n2. 가중합(Weighted Sum): 최종 예측은 Wide 부분과 Deep \n부분의 출력을 가중합하여 생성됩니다. 가중합의 가중치는 모델이 \n학습하는 파라미터로, 두 부분의 출력을 조합하여 최종 예측을 \n만듭니다.\n\n3. 모델의 목적: \"Wide & Deep\" 모델은 넓은 범주의 특성과 깊은 \n특성을 함께 모델링하여 다양한 데이터 패턴을 캡처하는 것이 \n목적입니다. 이는 앙상블과는 조금 다르게 모델이 전체적으로 \n하나의 목적을 가지고 학습되는 것을 의미합니다.\n\n앙상블 모델은 여러 개의 독립적인 모델을 결합하여 최종 예측을 \n생성하는 반면, \"Wide & Deep\" 모델은 하나의 통합된 모델 구조 \n안에서 다양한 특성과 패턴을 학습하고 결합하여 최종 예측을 \n생성합니다. 따라서 \"Wide & Deep\" 모델은 앙상블이 아닌, \n하나의 모델로 간주됩니다.",
-			"rawText": "\"Wide & Deep\" 모델은 일반적으로 하나의 통합된 모델로 간주되며, \n엄밀한 의미에서는 앙상블 모델이 아닙니다. \n\n1. 통합된 아키텍처: \"Wide & Deep\" 모델은 Wide 부분과 Deep \n부분을 하나의 통합된 아키텍처로 결합한 구조입니다. Wide 부분은 \n선형 모델에 해당하고, Deep 부분은 신경망 모델에 해당합니다. \n하지만 이 두 부분은 하나의 통합된 모델 안에서 함께 학습되고 \n통합된 출력을 생성합니다.\n\n2. 가중합(Weighted Sum): 최종 예측은 Wide 부분과 Deep \n부분의 출력을 가중합하여 생성됩니다. 가중합의 가중치는 모델이 \n학습하는 파라미터로, 두 부분의 출력을 조합하여 최종 예측을 \n만듭니다.\n\n3. 모델의 목적: \"Wide & Deep\" 모델은 넓은 범주의 특성과 깊은 \n특성을 함께 모델링하여 다양한 데이터 패턴을 캡처하는 것이 \n목적입니다. 이는 앙상블과는 조금 다르게 모델이 전체적으로 \n하나의 목적을 가지고 학습되는 것을 의미합니다.\n\n앙상블 모델은 여러 개의 독립적인 모델을 결합하여 최종 예측을 \n생성하는 반면, \"Wide & Deep\" 모델은 하나의 통합된 모델 구조 \n안에서 다양한 특성과 패턴을 학습하고 결합하여 최종 예측을 \n생성합니다. 따라서 \"Wide & Deep\" 모델은 앙상블이 아닌, \n하나의 모델로 간주됩니다.",
+			"text": "\"Wide & Deep\" 모델은 일반적으로 하나의 통합된 모델로 간주되며, \n엄밀한 의미에서는 앙상블 모델이 아닙니다. \n\n1. 통합된 아키텍처: \"Wide & Deep\" 모델은 Wide 부분과 Deep \n부분을 하나의 통합된 아키텍처로 결합한 구조입니다. Wide 부분은 \n선형 모델에 해당하고, Deep 부분은 신경망 모델에 해당합니다. \n하지만 이 두 부분은 하나의 통합된 모델 안에서 함께 학습되고 \n통합된 출력을 생성합니다.\n\n2. 가중합(Weighted Sum): 최종 예측은 Wide 부분과 Deep \n부분의 출력을 가중합하여 생성됩니다. 가중합의 가중치는 모델이 \n학습하는 파라미터로, 두 부분의 출력을 조합하여 최종 예측을 \n만듭니다.\n\n3. 모델의 목적: \"Wide & Deep\" 모델은 넓은 범주의 특성과 깊은 \n특성을 함께 모델링하여 다양한 데이터 패턴을 캡처하는 것이 \n목적입니다. 이는 앙상블과는 조금 다르게 모델이 전체적으로 \n하나의 목적을 가지고 학습되는 것을 의미합니다. 앙상블은 각 \n모델이 독립적으로 학습하고 예측하므로, 각 모델에 대한 역전파가 \n직접 적용되지 않습니다. 즉, 전체 앙상블에 대해서는 하나의 큰 \n모델로 간주되어 역전파가 적용되지 않습니다.\n\n앙상블 모델은 여러 개의 독립적인 모델을 결합하여 최종 예측을 \n생성하는 반면, \"Wide & Deep\" 모델은 하나의 통합된 모델 구조 \n안에서 다양한 특성과 패턴을 학습하고 결합하여 최종 예측을 \n생성합니다. 따라서 \"Wide & Deep\" 모델은 앙상블이 아닌,\n하나의 모델로 간주됩니다. ",
+			"rawText": "\"Wide & Deep\" 모델은 일반적으로 하나의 통합된 모델로 간주되며, \n엄밀한 의미에서는 앙상블 모델이 아닙니다. \n\n1. 통합된 아키텍처: \"Wide & Deep\" 모델은 Wide 부분과 Deep \n부분을 하나의 통합된 아키텍처로 결합한 구조입니다. Wide 부분은 \n선형 모델에 해당하고, Deep 부분은 신경망 모델에 해당합니다. \n하지만 이 두 부분은 하나의 통합된 모델 안에서 함께 학습되고 \n통합된 출력을 생성합니다.\n\n2. 가중합(Weighted Sum): 최종 예측은 Wide 부분과 Deep \n부분의 출력을 가중합하여 생성됩니다. 가중합의 가중치는 모델이 \n학습하는 파라미터로, 두 부분의 출력을 조합하여 최종 예측을 \n만듭니다.\n\n3. 모델의 목적: \"Wide & Deep\" 모델은 넓은 범주의 특성과 깊은 \n특성을 함께 모델링하여 다양한 데이터 패턴을 캡처하는 것이 \n목적입니다. 이는 앙상블과는 조금 다르게 모델이 전체적으로 \n하나의 목적을 가지고 학습되는 것을 의미합니다. 앙상블은 각 \n모델이 독립적으로 학습하고 예측하므로, 각 모델에 대한 역전파가 \n직접 적용되지 않습니다. 즉, 전체 앙상블에 대해서는 하나의 큰 \n모델로 간주되어 역전파가 적용되지 않습니다.\n\n앙상블 모델은 여러 개의 독립적인 모델을 결합하여 최종 예측을 \n생성하는 반면, \"Wide & Deep\" 모델은 하나의 통합된 모델 구조 \n안에서 다양한 특성과 패턴을 학습하고 결합하여 최종 예측을 \n생성합니다. 따라서 \"Wide & Deep\" 모델은 앙상블이 아닌,\n하나의 모델로 간주됩니다. ",
 			"fontSize": 28,
 			"fontFamily": 4,
 			"textAlign": "left",
 			"verticalAlign": "top",
-			"baseline": 799,
+			"baseline": 900,
 			"containerId": null,
-			"originalText": "\"Wide & Deep\" 모델은 일반적으로 하나의 통합된 모델로 간주되며, \n엄밀한 의미에서는 앙상블 모델이 아닙니다. \n\n1. 통합된 아키텍처: \"Wide & Deep\" 모델은 Wide 부분과 Deep \n부분을 하나의 통합된 아키텍처로 결합한 구조입니다. Wide 부분은 \n선형 모델에 해당하고, Deep 부분은 신경망 모델에 해당합니다. \n하지만 이 두 부분은 하나의 통합된 모델 안에서 함께 학습되고 \n통합된 출력을 생성합니다.\n\n2. 가중합(Weighted Sum): 최종 예측은 Wide 부분과 Deep \n부분의 출력을 가중합하여 생성됩니다. 가중합의 가중치는 모델이 \n학습하는 파라미터로, 두 부분의 출력을 조합하여 최종 예측을 \n만듭니다.\n\n3. 모델의 목적: \"Wide & Deep\" 모델은 넓은 범주의 특성과 깊은 \n특성을 함께 모델링하여 다양한 데이터 패턴을 캡처하는 것이 \n목적입니다. 이는 앙상블과는 조금 다르게 모델이 전체적으로 \n하나의 목적을 가지고 학습되는 것을 의미합니다.\n\n앙상블 모델은 여러 개의 독립적인 모델을 결합하여 최종 예측을 \n생성하는 반면, \"Wide & Deep\" 모델은 하나의 통합된 모델 구조 \n안에서 다양한 특성과 패턴을 학습하고 결합하여 최종 예측을 \n생성합니다. 따라서 \"Wide & Deep\" 모델은 앙상블이 아닌, \n하나의 모델로 간주됩니다.",
+			"originalText": "\"Wide & Deep\" 모델은 일반적으로 하나의 통합된 모델로 간주되며, \n엄밀한 의미에서는 앙상블 모델이 아닙니다. \n\n1. 통합된 아키텍처: \"Wide & Deep\" 모델은 Wide 부분과 Deep \n부분을 하나의 통합된 아키텍처로 결합한 구조입니다. Wide 부분은 \n선형 모델에 해당하고, Deep 부분은 신경망 모델에 해당합니다. \n하지만 이 두 부분은 하나의 통합된 모델 안에서 함께 학습되고 \n통합된 출력을 생성합니다.\n\n2. 가중합(Weighted Sum): 최종 예측은 Wide 부분과 Deep \n부분의 출력을 가중합하여 생성됩니다. 가중합의 가중치는 모델이 \n학습하는 파라미터로, 두 부분의 출력을 조합하여 최종 예측을 \n만듭니다.\n\n3. 모델의 목적: \"Wide & Deep\" 모델은 넓은 범주의 특성과 깊은 \n특성을 함께 모델링하여 다양한 데이터 패턴을 캡처하는 것이 \n목적입니다. 이는 앙상블과는 조금 다르게 모델이 전체적으로 \n하나의 목적을 가지고 학습되는 것을 의미합니다. 앙상블은 각 \n모델이 독립적으로 학습하고 예측하므로, 각 모델에 대한 역전파가 \n직접 적용되지 않습니다. 즉, 전체 앙상블에 대해서는 하나의 큰 \n모델로 간주되어 역전파가 적용되지 않습니다.\n\n앙상블 모델은 여러 개의 독립적인 모델을 결합하여 최종 예측을 \n생성하는 반면, \"Wide & Deep\" 모델은 하나의 통합된 모델 구조 \n안에서 다양한 특성과 패턴을 학습하고 결합하여 최종 예측을 \n생성합니다. 따라서 \"Wide & Deep\" 모델은 앙상블이 아닌,\n하나의 모델로 간주됩니다. ",
 			"lineHeight": 1.2
 		},
 		{
-			"id": "qP7TKwUP",
+			"id": "aBPP8b4uruHPLhiqBTuHz",
+			"type": "arrow",
+			"x": 983.8684172640935,
+			"y": 6506.14925999336,
+			"width": 2.0000457763671875,
+			"height": 98.9999771118164,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "cross-hatch",
+			"strokeWidth": 2,
+			"strokeStyle": "dashed",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 101575454,
+			"version": 83,
+			"versionNonce": 2136998686,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "HcTBRhIG"
+				}
+			],
+			"updated": 1706192453002,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0.057029618686556205,
+					87.85860750083975
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "4nUkjbE_uJ8JO1PQHT_7T",
+				"focus": 0,
+				"gap": 8
+			},
+			"endBinding": {
+				"elementId": "UYxJvMipADIKU26bHJhZp",
+				"focus": 5.250598349499171e-15,
+				"gap": 7.999999999998636
+			},
+			"startArrowhead": null,
+			"endArrowhead": null
+		},
+		{
+			"id": "HcTBRhIG",
 			"type": "text",
-			"x": 980.0446899038782,
-			"y": 6814.922157568138,
-			"width": 8.399993896484375,
+			"x": 960.236936040722,
+			"y": 6533.27856374378,
+			"width": 47.31999206542969,
 			"height": 33.6,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#a5d8ff",
+			"backgroundColor": "transparent",
 			"fillStyle": "cross-hatch",
 			"strokeWidth": 2,
 			"strokeStyle": "dashed",
@@ -10421,97 +10497,23 @@ adfd9929ab4e3487582554fca6b4b6e27845c8ad: [[Pasted Image 20240125223116_516.png]
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
-			"seed": 1189633246,
-			"version": 2,
-			"versionNonce": 705761090,
-			"isDeleted": true,
+			"seed": 1114296386,
+			"version": 8,
+			"versionNonce": 427396830,
+			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1706192174945,
+			"updated": 1706192452102,
 			"link": null,
 			"locked": false,
-			"text": "",
-			"rawText": "",
+			"text": "GPT",
+			"rawText": "GPT",
 			"fontSize": 28,
 			"fontFamily": 4,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"baseline": 26,
-			"containerId": "UYxJvMipADIKU26bHJhZp",
-			"originalText": "",
-			"lineHeight": 1.2
-		},
-		{
-			"id": "lWrFFqgC",
-			"type": "text",
-			"x": 980.0446899038782,
-			"y": 6814.922157568138,
-			"width": 8.399993896484375,
-			"height": 33.6,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#a5d8ff",
-			"fillStyle": "cross-hatch",
-			"strokeWidth": 2,
-			"strokeStyle": "dashed",
-			"roughness": 1,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"seed": 37881566,
-			"version": 2,
-			"versionNonce": 452642114,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1706192158819,
-			"link": null,
-			"locked": false,
-			"text": "",
-			"rawText": "",
-			"fontSize": 28,
-			"fontFamily": 4,
-			"textAlign": "center",
-			"verticalAlign": "middle",
-			"baseline": 26,
-			"containerId": "UYxJvMipADIKU26bHJhZp",
-			"originalText": "",
-			"lineHeight": 1.2
-		},
-		{
-			"id": "410ci5Ha",
-			"type": "text",
-			"x": 980.0446899038782,
-			"y": 6814.922157568138,
-			"width": 8.399993896484375,
-			"height": 33.6,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#a5d8ff",
-			"fillStyle": "cross-hatch",
-			"strokeWidth": 2,
-			"strokeStyle": "dashed",
-			"roughness": 1,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"seed": 1817847134,
-			"version": 2,
-			"versionNonce": 414465730,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1706192152611,
-			"link": null,
-			"locked": false,
-			"text": "",
-			"rawText": "",
-			"fontSize": 28,
-			"fontFamily": 4,
-			"textAlign": "center",
-			"verticalAlign": "middle",
-			"baseline": 26,
-			"containerId": "UYxJvMipADIKU26bHJhZp",
-			"originalText": "",
+			"containerId": "aBPP8b4uruHPLhiqBTuHz",
+			"originalText": "GPT",
 			"lineHeight": 1.2
 		}
 	],
@@ -10529,11 +10531,11 @@ adfd9929ab4e3487582554fca6b4b6e27845c8ad: [[Pasted Image 20240125223116_516.png]
 		"currentItemFontSize": 28,
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
-		"currentItemEndArrowhead": "arrow",
-		"scrollX": 810.1388376359062,
-		"scrollY": -6135.460602975878,
+		"currentItemEndArrowhead": null,
+		"scrollX": 2716.769675156743,
+		"scrollY": -5013.450421003919,
 		"zoom": {
-			"value": 0.49999999999999994
+			"value": 0.2
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
