@@ -44,127 +44,7 @@
             }
           },
           {
-            "id": "0bc8fd25240c70a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c53050b6042e7971",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd335936069db6af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a8faee3bbfd68ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "195eb1dabbaad568",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "56d5d7d1ce90f4f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "15b66ea9fa6d30b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "87ab7d5950505670",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c643824f15c47544",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ff5d16b29b68bf87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a843f431fa5f5615",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -186,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
