@@ -59,9 +59,11 @@
             "id": "11e196d48c8f7c84",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md"
+                "file": "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -128,8 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f6878ac96d36097f",
@@ -145,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md"
+                "file": "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md"
               }
             }
           },
@@ -228,19 +229,19 @@
   },
   "active": "11e196d48c8f7c84",
   "lastOpenFiles": [
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
+    "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
     "Attached file/image/Pasted Image 20240125235140_523.png",
     "Attached file/image/Pasted Image 20240125234953_497.png",
     "Attached file/image/Pasted Image 20240125234448_409.png",
     "Attached file/image/Pasted Image 20240125225539_812.gif",
     "Book.md",
-    "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
     "Attached file/image/Pasted Image 20240125223116_516.png",
     "Attached file/image/Pasted Image 20240125221240_328.png",
     "Attached file/image/Pasted Image 20240125215542_172.png",
     "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.svg",
     "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.md",
     "400_순수과학/410 수학/410 수학.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
     "Attached file/image/Pasted Image 20240125205539_651.png",
     "Attached file/image/Pasted Image 20240125204524_697.png",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md",
@@ -260,7 +261,6 @@
     "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
     "000_총류/005 프로그래밍/Leetcode/746_Min_Cost_Climbing_Stairs.md",
     "000_총류/005 프로그래밍/Leetcode/338_Counting_Bits.md",
-    "Attached file/image/Pasted image 20240123091620.png",
     "000_총류/005 프로그래밍/Leetcode/118_Pascal's_Triangle.md",
     "000_총류/005 프로그래밍/Leetcode/119_Pascal's_Triangle_2.md",
     "000_총류/005 프로그래밍/Leetcode/70_Climbing_Stairs.md",
