@@ -38,8 +38,12 @@ Chora 추천 시스템 ^ujr1Dh8g
 A 유저가 생성한 이미지를 A 유저가 좋아한다고 가정
 
 실제로는 A 유저가 1번 게시물을 만들었지만
-A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
- ^YB1ECsed
+A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다. ^YB1ECsed
+
+Post.csv   게시글 - 이미지 정보 ^4H45wEZd
+
+Stable Diffusion
+세부 파라미터 ^IaQDY5Oh
 
 
 # Embedded files
@@ -55,8 +59,8 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 	"elements": [
 		{
 			"type": "rectangle",
-			"version": 2740,
-			"versionNonce": 1256440322,
+			"version": 2742,
+			"versionNonce": 1291780802,
 			"isDeleted": false,
 			"id": "E1JliHnVY-ljTiq3akL2Y",
 			"fillStyle": "cross-hatch",
@@ -85,14 +89,14 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 					"type": "arrow"
 				}
 			],
-			"updated": 1706343574334,
+			"updated": 1706344352716,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 322,
-			"versionNonce": 397596446,
+			"version": 324,
+			"versionNonce": 1215890014,
 			"isDeleted": false,
 			"id": "kKDcKOza",
 			"fillStyle": "solid",
@@ -114,7 +118,7 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706343574334,
+			"updated": 1706344352716,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -130,8 +134,8 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 		},
 		{
 			"type": "text",
-			"version": 456,
-			"versionNonce": 316682690,
+			"version": 458,
+			"versionNonce": 1498765954,
 			"isDeleted": false,
 			"id": "KZaZB3e0",
 			"fillStyle": "solid",
@@ -153,7 +157,7 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706343574334,
+			"updated": 1706344352716,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -169,8 +173,8 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 		},
 		{
 			"type": "arrow",
-			"version": 225,
-			"versionNonce": 801522526,
+			"version": 227,
+			"versionNonce": 354748062,
 			"isDeleted": false,
 			"id": "7klwlC3sJKtg7hdxsUBhB",
 			"fillStyle": "solid",
@@ -192,7 +196,7 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706343574334,
+			"updated": 1706344352716,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -221,8 +225,8 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 		},
 		{
 			"type": "rectangle",
-			"version": 3285,
-			"versionNonce": 1370627166,
+			"version": 3287,
+			"versionNonce": 9091650,
 			"isDeleted": false,
 			"id": "EyOOb0E8h5rKy3eioRrvT",
 			"fillStyle": "hachure",
@@ -259,14 +263,14 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 					"type": "arrow"
 				}
 			],
-			"updated": 1706343770566,
+			"updated": 1706344352716,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 534,
-			"versionNonce": 52570014,
+			"version": 536,
+			"versionNonce": 776372958,
 			"isDeleted": false,
 			"id": "e0K7DeFC",
 			"fillStyle": "solid",
@@ -288,7 +292,7 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706343574334,
+			"updated": 1706344352716,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -304,8 +308,8 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 		},
 		{
 			"type": "text",
-			"version": 679,
-			"versionNonce": 1428957506,
+			"version": 681,
+			"versionNonce": 561914370,
 			"isDeleted": false,
 			"id": "dH2EfTUy",
 			"fillStyle": "solid",
@@ -327,7 +331,7 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706343574334,
+			"updated": 1706344352716,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -343,8 +347,8 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 		},
 		{
 			"type": "text",
-			"version": 846,
-			"versionNonce": 32998366,
+			"version": 851,
+			"versionNonce": 1857516482,
 			"isDeleted": false,
 			"id": "eGvwCpol",
 			"fillStyle": "solid",
@@ -365,8 +369,13 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 			],
 			"frameId": null,
 			"roundness": null,
-			"boundElements": [],
-			"updated": 1706343574334,
+			"boundElements": [
+				{
+					"id": "JLLIIZdJm-ER-3afWK97e",
+					"type": "arrow"
+				}
+			],
+			"updated": 1706344374033,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -382,8 +391,8 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 		},
 		{
 			"type": "image",
-			"version": 206,
-			"versionNonce": 1578742018,
+			"version": 208,
+			"versionNonce": 1731105218,
 			"isDeleted": false,
 			"id": "UtDWN-ME5ERuj4ZnpSTd3",
 			"fillStyle": "hachure",
@@ -405,7 +414,7 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706343574334,
+			"updated": 1706344352716,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -417,8 +426,8 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 		},
 		{
 			"type": "arrow",
-			"version": 173,
-			"versionNonce": 1851217950,
+			"version": 175,
+			"versionNonce": 1443750750,
 			"isDeleted": false,
 			"id": "wWNo48aO5STwcu6ropDal",
 			"fillStyle": "hachure",
@@ -440,7 +449,7 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706343574334,
+			"updated": 1706344352717,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -465,8 +474,8 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 		},
 		{
 			"type": "rectangle",
-			"version": 2943,
-			"versionNonce": 1035474526,
+			"version": 2945,
+			"versionNonce": 1153108354,
 			"isDeleted": false,
 			"id": "SRSJrA7vOziWU-qQV9cyd",
 			"fillStyle": "cross-hatch",
@@ -490,14 +499,14 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1706343584955,
+			"updated": 1706344352717,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 530,
-			"versionNonce": 1715141086,
+			"version": 532,
+			"versionNonce": 1064683422,
 			"isDeleted": false,
 			"id": "6yo6DJHb",
 			"fillStyle": "solid",
@@ -519,7 +528,7 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706343591322,
+			"updated": 1706344352717,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -535,8 +544,8 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 		},
 		{
 			"type": "text",
-			"version": 631,
-			"versionNonce": 1462284034,
+			"version": 633,
+			"versionNonce": 1902283074,
 			"isDeleted": false,
 			"id": "9GhuBvcC",
 			"fillStyle": "solid",
@@ -558,7 +567,7 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706343636216,
+			"updated": 1706344352717,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -575,10 +584,10 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 		{
 			"id": "2SEOIU77USKBheoqjytm5",
 			"type": "arrow",
-			"x": 1107.1940552886067,
+			"x": 1111.0514268311492,
 			"y": 251.70162463139556,
-			"width": 4.742398061483982,
-			"height": 201.93385025618866,
+			"width": 2.0138413679983387,
+			"height": 204.29567025618874,
 			"angle": 0,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
@@ -593,11 +602,11 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 				"type": 2
 			},
 			"seed": 1658193218,
-			"version": 667,
-			"versionNonce": 1544487810,
+			"version": 717,
+			"versionNonce": 852960222,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1706343787977,
+			"updated": 1706344352717,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -606,8 +615,8 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 					0
 				],
 				[
-					-4.742398061483982,
-					201.93385025618866
+					-2.0138413679983387,
+					204.29567025618874
 				]
 			],
 			"lastCommittedPoint": null,
@@ -626,8 +635,8 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 		},
 		{
 			"type": "rectangle",
-			"version": 3356,
-			"versionNonce": 1526494274,
+			"version": 3374,
+			"versionNonce": 1686376706,
 			"isDeleted": false,
 			"id": "L4jVp50oZd40kENBg_TMy",
 			"fillStyle": "hachure",
@@ -636,8 +645,8 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 803.0856739489636,
-			"y": 456.02529115855316,
+			"x": 813.6516389489638,
+			"y": 458.3871111585532,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 577.6000366210938,
@@ -656,14 +665,14 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 					"type": "arrow"
 				}
 			],
-			"updated": 1706343787712,
+			"updated": 1706344352717,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 585,
-			"versionNonce": 438722818,
+			"version": 603,
+			"versionNonce": 574814238,
 			"isDeleted": false,
 			"id": "Hpq1Sc88",
 			"fillStyle": "solid",
@@ -672,8 +681,8 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 834.8857736397185,
-			"y": 528.5828354737752,
+			"x": 845.4517386397187,
+			"y": 530.9446554737751,
 			"strokeColor": "#e03131",
 			"backgroundColor": "#a5d8ff",
 			"width": 156.5479278564453,
@@ -685,7 +694,7 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706343800945,
+			"updated": 1706344352717,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -701,8 +710,8 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 		},
 		{
 			"type": "text",
-			"version": 648,
-			"versionNonce": 1392982622,
+			"version": 666,
+			"versionNonce": 1369350338,
 			"isDeleted": false,
 			"id": "3cCbUuIp",
 			"fillStyle": "solid",
@@ -711,8 +720,8 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 836.219106973052,
-			"y": 565.7828354737754,
+			"x": 846.7850719730521,
+			"y": 568.1446554737754,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#a5d8ff",
 			"width": 219.68788146972656,
@@ -729,7 +738,7 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 					"type": "arrow"
 				}
 			],
-			"updated": 1706344128653,
+			"updated": 1706344352717,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -745,8 +754,8 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 		},
 		{
 			"type": "text",
-			"version": 684,
-			"versionNonce": 2029595970,
+			"version": 702,
+			"versionNonce": 363480158,
 			"isDeleted": false,
 			"id": "ujr1Dh8g",
 			"fillStyle": "solid",
@@ -755,8 +764,8 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 836.9012460518275,
-			"y": 670.64948179539,
+			"x": 847.4672110518276,
+			"y": 673.01130179539,
 			"strokeColor": "#e03131",
 			"backgroundColor": "#a5d8ff",
 			"width": 172.6199188232422,
@@ -768,7 +777,7 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706344093381,
+			"updated": 1706344352717,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -784,8 +793,8 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 		},
 		{
 			"type": "text",
-			"version": 1165,
-			"versionNonce": 1707771586,
+			"version": 1226,
+			"versionNonce": 609302658,
 			"isDeleted": false,
 			"id": "YB1ECsed",
 			"fillStyle": "solid",
@@ -794,12 +803,12 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 833.194747187732,
-			"y": 706.6744538102719,
+			"x": 843.7607121877321,
+			"y": 709.036273810272,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#a5d8ff",
 			"width": 485.77178955078125,
-			"height": 168,
+			"height": 134.4,
 			"seed": 1351110594,
 			"groupIds": [
 				"ohXmdobWGQ1WxgDPrCubw"
@@ -807,19 +816,204 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706344135585,
+			"updated": 1706344352717,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
 			"fontFamily": 4,
-			"text": "A 유저가 생성한 이미지를 A 유저가 좋아한다고 가정\n\n실제로는 A 유저가 1번 게시물을 만들었지만\nA 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.\n",
-			"rawText": "A 유저가 생성한 이미지를 A 유저가 좋아한다고 가정\n\n실제로는 A 유저가 1번 게시물을 만들었지만\nA 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.\n",
+			"text": "A 유저가 생성한 이미지를 A 유저가 좋아한다고 가정\n\n실제로는 A 유저가 1번 게시물을 만들었지만\nA 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.",
+			"rawText": "A 유저가 생성한 이미지를 A 유저가 좋아한다고 가정\n\n실제로는 A 유저가 1번 게시물을 만들었지만\nA 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "A 유저가 생성한 이미지를 A 유저가 좋아한다고 가정\n\n실제로는 A 유저가 1번 게시물을 만들었지만\nA 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.\n",
+			"originalText": "A 유저가 생성한 이미지를 A 유저가 좋아한다고 가정\n\n실제로는 A 유저가 1번 게시물을 만들었지만\nA 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.",
 			"lineHeight": 1.2,
-			"baseline": 161
+			"baseline": 127
+		},
+		{
+			"id": "4H45wEZd",
+			"type": "text",
+			"x": 843.7851529626357,
+			"y": 864.6538346767823,
+			"width": 295.287841796875,
+			"height": 33.6,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [
+				"ohXmdobWGQ1WxgDPrCubw"
+			],
+			"frameId": null,
+			"roundness": null,
+			"seed": 159132226,
+			"version": 299,
+			"versionNonce": 1905978178,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "JLLIIZdJm-ER-3afWK97e",
+					"type": "arrow"
+				}
+			],
+			"updated": 1706344374033,
+			"link": null,
+			"locked": false,
+			"text": "Post.csv   게시글 - 이미지 정보",
+			"rawText": "Post.csv   게시글 - 이미지 정보",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 26,
+			"containerId": null,
+			"originalText": "Post.csv   게시글 - 이미지 정보",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "JLLIIZdJm-ER-3afWK97e",
+			"type": "arrow",
+			"x": 1376.9524240303438,
+			"y": 134.82538067678257,
+			"width": 402.1334635416663,
+			"height": 748.8000488281248,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 860813598,
+			"version": 501,
+			"versionNonce": 626650242,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "IaQDY5Oh"
+				}
+			],
+			"updated": 1706344395150,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					171.73339843749977,
+					414.93334960937483
+				],
+				[
+					171.73339843749977,
+					748.8000488281248
+				],
+				[
+					-230.40006510416652,
+					746.6667480468748
+				]
+			],
+			"lastCommittedPoint": [
+				-230.40006510416652,
+				746.6667480468748
+			],
+			"startBinding": {
+				"elementId": "eGvwCpol",
+				"focus": -0.9703213546292626,
+				"gap": 6.714907332591167
+			},
+			"endBinding": {
+				"elementId": "4H45wEZd",
+				"focus": -0.0446236370874459,
+				"gap": 7.479364166666528
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "IaQDY5Oh",
+			"type": "text",
+			"x": 1498.3964445431718,
+			"y": 688.4794510668625,
+			"width": 168.25189208984375,
+			"height": 67.2,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1120859934,
+			"version": 51,
+			"versionNonce": 1387123906,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1706344394148,
+			"link": null,
+			"locked": false,
+			"text": "Stable Diffusion\n세부 파라미터",
+			"rawText": "Stable Diffusion\n세부 파라미터",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"baseline": 60,
+			"containerId": "JLLIIZdJm-ER-3afWK97e",
+			"originalText": "Stable Diffusion\n세부 파라미터",
+			"lineHeight": 1.2
+		},
+		{
+			"text": "A 유저가 생성한 이미지를 A 유저가 좋아한다고 가정\r\n\r\n실제로는 A 유저가 1번 게시물을 만들었지만\r\nA 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.\r\n\r\nPost.csv   게시글 - 이미지 정보",
+			"fontSize": 28,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 199,
+			"id": "caO5g2nV",
+			"type": "text",
+			"x": 1052.685822467844,
+			"y": 897.4920473434489,
+			"width": 694.7359619140625,
+			"height": 210,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"roundness": null,
+			"seed": 1649,
+			"version": 4,
+			"versionNonce": 1860044958,
+			"updated": 1706344352717,
+			"isDeleted": true,
+			"groupIds": [],
+			"boundElements": [],
+			"link": null,
+			"locked": false,
+			"containerId": null,
+			"originalText": "A 유저가 생성한 이미지를 A 유저가 좋아한다고 가정\r\n\r\n실제로는 A 유저가 1번 게시물을 만들었지만\r\nA 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.\r\n\r\nPost.csv   게시글 - 이미지 정보",
+			"rawText": "A 유저가 생성한 이미지를 A 유저가 좋아한다고 가정\r\n\r\n실제로는 A 유저가 1번 게시물을 만들었지만\r\nA 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.\r\n\r\nPost.csv   게시글 - 이미지 정보",
+			"lineHeight": 1.25
 		}
 	],
 	"appState": {
@@ -832,13 +1026,13 @@ A 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.
 		"currentItemStrokeStyle": "solid",
 		"currentItemRoughness": 0,
 		"currentItemOpacity": 100,
-		"currentItemFontFamily": 1,
+		"currentItemFontFamily": 4,
 		"currentItemFontSize": 28,
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -382.0191558011774,
-		"scrollY": -52.292045308944054,
+		"scrollX": -368.1522938220108,
+		"scrollY": -102.4254274704023,
 		"zoom": {
 			"value": 0.7500000000000002
 		},
