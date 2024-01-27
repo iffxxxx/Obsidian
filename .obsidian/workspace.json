@@ -71,7 +71,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2024-01-27 17.15.05.excalidraw.md"
+                "file": "Project/Project_Chora.excalidraw.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-01-27 17.15.05.excalidraw.md",
+                "file": "Project/Project_Chora.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-01-27 17.15.05.excalidraw.md",
+                "file": "Project/Project_Chora.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-01-27 17.15.05.excalidraw.md"
+                "file": "Project/Project_Chora.excalidraw.md"
               }
             }
           },
@@ -237,9 +237,12 @@
   },
   "active": "f6e63f385ae258b3",
   "lastOpenFiles": [
+    "Project/Project.md",
+    "Project/SSUspot/SSUspot_FineTuning.md",
+    "Project/Project_Chora.excalidraw.md",
+    "Project/졸업전시회.md",
     "Attached file/image/Pasted Image 20240127171816_598.png",
     "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
-    "Excalidraw/Drawing 2024-01-27 17.15.05.excalidraw.md",
     "000_총류/005 프로그래밍/Leetcode/20_Valid_Parentheses.md",
     "000_총류/005 프로그래밍/Leetcode/14_Longest_Common_Prefix.md",
     "000_총류/005 프로그래밍/Leetcode/9_Palindrome_Number.md",
@@ -257,7 +260,6 @@
     "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.md",
     "400_순수과학/410 수학/410 수학.md",
     "Attached file/image/Pasted Image 20240125205539_651.png",
-    "Attached file/image/Pasted Image 20240125204524_697.png",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/00_Recommender_Systems.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/01_Introduction.md",
@@ -271,8 +273,6 @@
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/Deep learning with artificial neural networks.md",
     "000_총류/005 프로그래밍/005_프로그래밍.md",
     "000_총류/005 프로그래밍/Coding_Interview/07_Object-Oriented_Design.md",
-    "000_총류/005 프로그래밍/().md",
-    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
     "무제 파일 1.canvas",
