@@ -45,6 +45,21 @@ Post.csv   게시글 - 이미지 정보 ^4H45wEZd
 Stable Diffusion
 세부 파라미터 ^IaQDY5Oh
 
+CNN 기반 모델은 인접한 피쳐를 학습하는 편향성 ^aGoPzmwV
+
+이미지 처리에 특화된 구조로 이미지 데이터 내에서
+근접한 픽셀 간의 패턴 및 공간적인 관계를 학습하는데 강점 ^WiqvB36K
+
+RNN 기반 모델은 연속성이 있어 클릭 데이터에 적합 ^OHqtqtaT
+
+순차적인 데이터를 처리하는데 강점
+이전 시간 단계의 출력이 현재 시간의 입력으로 사용되기에
+시퀸스 데이터의 연속성을 잘 학습할 수 있다. ^tkQHwFex
+
+Front ^z0W3vwoF
+
+Back ^QhJu0asf
+
 
 # Embedded files
 768448a53630f6e8826f9d4bcbfa426c8700465d: [[Pasted Image 20240127171816_598.png]]
@@ -59,8 +74,8 @@ Stable Diffusion
 	"elements": [
 		{
 			"type": "rectangle",
-			"version": 2743,
-			"versionNonce": 766133250,
+			"version": 2744,
+			"versionNonce": 414228742,
 			"isDeleted": false,
 			"id": "E1JliHnVY-ljTiq3akL2Y",
 			"fillStyle": "cross-hatch",
@@ -87,9 +102,13 @@ Stable Diffusion
 				{
 					"id": "7klwlC3sJKtg7hdxsUBhB",
 					"type": "arrow"
+				},
+				{
+					"id": "1rTEu8CnUKf2csFE4OMi1",
+					"type": "arrow"
 				}
 			],
-			"updated": 1706344966192,
+			"updated": 1706440111668,
 			"link": null,
 			"locked": false
 		},
@@ -173,8 +192,8 @@ Stable Diffusion
 		},
 		{
 			"type": "arrow",
-			"version": 227,
-			"versionNonce": 354748062,
+			"version": 229,
+			"versionNonce": 2044704774,
 			"isDeleted": false,
 			"id": "7klwlC3sJKtg7hdxsUBhB",
 			"fillStyle": "solid",
@@ -195,8 +214,13 @@ Stable Diffusion
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1706344352716,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "QhJu0asf"
+				}
+			],
+			"updated": 1706440128731,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -222,6 +246,43 @@ Stable Diffusion
 					8.610472603955536
 				]
 			]
+		},
+		{
+			"id": "QhJu0asf",
+			"type": "text",
+			"x": 476.76728220800777,
+			"y": -59.93724146328036,
+			"width": 42.02796936035156,
+			"height": 33.6,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "#ffc9c9",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1360253082,
+			"version": 7,
+			"versionNonce": 499630278,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1706440125791,
+			"link": null,
+			"locked": false,
+			"text": "Back",
+			"rawText": "Back",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"baseline": 26,
+			"containerId": "7klwlC3sJKtg7hdxsUBhB",
+			"originalText": "Back",
+			"lineHeight": 1.2
 		},
 		{
 			"type": "rectangle",
@@ -591,44 +652,33 @@ Stable Diffusion
 			"baseline": 94
 		},
 		{
-			"id": "2SEOIU77USKBheoqjytm5",
 			"type": "arrow",
-			"x": 1111.0514268311492,
-			"y": 251.70162463139556,
-			"width": 2.0138413679983387,
-			"height": 204.29567025618874,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
+			"version": 717,
+			"versionNonce": 852960222,
+			"isDeleted": false,
+			"id": "2SEOIU77USKBheoqjytm5",
 			"fillStyle": "hachure",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
+			"angle": 0,
+			"x": 1111.0514268311492,
+			"y": 251.70162463139556,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 2.0138413679983387,
+			"height": 204.29567025618874,
+			"seed": 1658193218,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
-			"seed": 1658193218,
-			"version": 717,
-			"versionNonce": 852960222,
-			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1706344352717,
 			"link": null,
 			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					-2.0138413679983387,
-					204.29567025618874
-				]
-			],
-			"lastCommittedPoint": null,
 			"startBinding": {
 				"elementId": "EyOOb0E8h5rKy3eioRrvT",
 				"focus": -0.024397619190989654,
@@ -639,8 +689,19 @@ Stable Diffusion
 				"focus": 0.012835675271209906,
 				"gap": 2.389816270968879
 			},
+			"lastCommittedPoint": null,
 			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-2.0138413679983387,
+					204.29567025618874
+				]
+			]
 		},
 		{
 			"type": "rectangle",
@@ -844,29 +905,29 @@ Stable Diffusion
 			"baseline": 127
 		},
 		{
-			"id": "4H45wEZd",
 			"type": "text",
-			"x": 843.7851529626357,
-			"y": 864.6538346767823,
-			"width": 295.287841796875,
-			"height": 33.6,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
+			"version": 299,
+			"versionNonce": 1905978178,
+			"isDeleted": false,
+			"id": "4H45wEZd",
 			"fillStyle": "hachure",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
+			"angle": 0,
+			"x": 843.7851529626357,
+			"y": 864.6538346767823,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 295.287841796875,
+			"height": 33.6,
+			"seed": 159132226,
 			"groupIds": [
 				"ohXmdobWGQ1WxgDPrCubw"
 			],
 			"frameId": null,
 			"roundness": null,
-			"seed": 159132226,
-			"version": 299,
-			"versionNonce": 1905978178,
-			"isDeleted": false,
 			"boundElements": [
 				{
 					"id": "JLLIIZdJm-ER-3afWK97e",
@@ -876,41 +937,41 @@ Stable Diffusion
 			"updated": 1706344374033,
 			"link": null,
 			"locked": false,
-			"text": "Post.csv   게시글 - 이미지 정보",
-			"rawText": "Post.csv   게시글 - 이미지 정보",
 			"fontSize": 28,
 			"fontFamily": 4,
+			"text": "Post.csv   게시글 - 이미지 정보",
+			"rawText": "Post.csv   게시글 - 이미지 정보",
 			"textAlign": "left",
 			"verticalAlign": "top",
-			"baseline": 26,
 			"containerId": null,
 			"originalText": "Post.csv   게시글 - 이미지 정보",
-			"lineHeight": 1.2
+			"lineHeight": 1.2,
+			"baseline": 26
 		},
 		{
-			"id": "JLLIIZdJm-ER-3afWK97e",
 			"type": "arrow",
-			"x": 1376.9524240303438,
-			"y": 134.82538067678257,
-			"width": 402.1334635416663,
-			"height": 748.8000488281248,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
+			"version": 501,
+			"versionNonce": 626650242,
+			"isDeleted": false,
+			"id": "JLLIIZdJm-ER-3afWK97e",
 			"fillStyle": "hachure",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
+			"angle": 0,
+			"x": 1376.9524240303438,
+			"y": 134.82538067678257,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 402.1334635416663,
+			"height": 748.8000488281248,
+			"seed": 860813598,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
-			"seed": 860813598,
-			"version": 501,
-			"versionNonce": 626650242,
-			"isDeleted": false,
 			"boundElements": [
 				{
 					"type": "text",
@@ -920,6 +981,19 @@ Stable Diffusion
 			"updated": 1706344395150,
 			"link": null,
 			"locked": false,
+			"startBinding": {
+				"elementId": "eGvwCpol",
+				"focus": -0.9703213546292626,
+				"gap": 6.714907332591167
+			},
+			"endBinding": {
+				"elementId": "4H45wEZd",
+				"focus": -0.0446236370874459,
+				"gap": 7.479364166666528
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
 			"points": [
 				[
 					0,
@@ -937,34 +1011,112 @@ Stable Diffusion
 					-230.40006510416652,
 					746.6667480468748
 				]
+			]
+		},
+		{
+			"type": "text",
+			"version": 51,
+			"versionNonce": 1387123906,
+			"isDeleted": false,
+			"id": "IaQDY5Oh",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": 1498.3964445431718,
+			"y": 688.4794510668625,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 168.25189208984375,
+			"height": 67.2,
+			"seed": 1120859934,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1706344394148,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "Stable Diffusion\n세부 파라미터",
+			"rawText": "Stable Diffusion\n세부 파라미터",
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "JLLIIZdJm-ER-3afWK97e",
+			"originalText": "Stable Diffusion\n세부 파라미터",
+			"lineHeight": 1.2,
+			"baseline": 60
+		},
+		{
+			"id": "1rTEu8CnUKf2csFE4OMi1",
+			"type": "arrow",
+			"x": -392.3969579835191,
+			"y": 247.856213385273,
+			"width": 340.0801464768015,
+			"height": 309.16382313191366,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "#ffc9c9",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1351207386,
+			"version": 89,
+			"versionNonce": 1637699354,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "z0W3vwoF"
+				}
 			],
-			"lastCommittedPoint": [
-				-230.40006510416652,
-				746.6667480468748
+			"updated": 1706440122949,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-340.0801464768015,
+					309.16382313191366
+				]
 			],
+			"lastCommittedPoint": null,
 			"startBinding": {
-				"elementId": "eGvwCpol",
-				"focus": -0.9703213546292626,
-				"gap": 6.714907332591167
+				"elementId": "E1JliHnVY-ljTiq3akL2Y",
+				"focus": -0.04839217023575996,
+				"gap": 1
 			},
 			"endBinding": {
-				"elementId": "4H45wEZd",
-				"focus": -0.0446236370874459,
-				"gap": 7.479364166666528
+				"elementId": "R8Rod677coigkwxa0p6ZJ",
+				"focus": -0.3925112628379036,
+				"gap": 12.12217678821304
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow"
 		},
 		{
-			"id": "IaQDY5Oh",
+			"id": "z0W3vwoF",
 			"type": "text",
-			"x": 1498.3964445431718,
-			"y": 688.4794510668625,
-			"width": 168.25189208984375,
-			"height": 67.2,
+			"x": -591.5150188928183,
+			"y": 385.6381249512298,
+			"width": 58.155975341796875,
+			"height": 33.6,
 			"angle": 0,
 			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
+			"backgroundColor": "#ffc9c9",
 			"fillStyle": "hachure",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
@@ -973,60 +1125,216 @@ Stable Diffusion
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
-			"seed": 1120859934,
-			"version": 51,
-			"versionNonce": 1387123906,
+			"seed": 709506822,
+			"version": 8,
+			"versionNonce": 1234152026,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1706344394148,
+			"updated": 1706440121400,
 			"link": null,
 			"locked": false,
-			"text": "Stable Diffusion\n세부 파라미터",
-			"rawText": "Stable Diffusion\n세부 파라미터",
+			"text": "Front",
+			"rawText": "Front",
 			"fontSize": 28,
 			"fontFamily": 4,
 			"textAlign": "center",
 			"verticalAlign": "middle",
-			"baseline": 60,
-			"containerId": "JLLIIZdJm-ER-3afWK97e",
-			"originalText": "Stable Diffusion\n세부 파라미터",
+			"baseline": 26,
+			"containerId": "1rTEu8CnUKf2csFE4OMi1",
+			"originalText": "Front",
 			"lineHeight": 1.2
 		},
 		{
-			"text": "A 유저가 생성한 이미지를 A 유저가 좋아한다고 가정\r\n\r\n실제로는 A 유저가 1번 게시물을 만들었지만\r\nA 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.\r\n\r\nPost.csv   게시글 - 이미지 정보",
-			"fontSize": 28,
-			"fontFamily": 1,
-			"textAlign": "left",
-			"verticalAlign": "top",
-			"baseline": 199,
-			"id": "caO5g2nV",
-			"type": "text",
-			"x": 1052.685822467844,
-			"y": 897.4920473434489,
-			"width": 694.7359619140625,
-			"height": 210,
+			"type": "rectangle",
+			"version": 3195,
+			"versionNonce": 1049912858,
+			"isDeleted": false,
+			"id": "R8Rod677coigkwxa0p6ZJ",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
 			"angle": 0,
+			"x": -1112.3701786036884,
+			"y": 569.1422133053997,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"width": 577.6000366210938,
+			"height": 572,
+			"seed": 1312829830,
+			"groupIds": [
+				"1Z8ZG5z6ViPEDbTjGhDW6"
+			],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [
+				{
+					"id": "1rTEu8CnUKf2csFE4OMi1",
+					"type": "arrow"
+				}
+			],
+			"updated": 1706440117611,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "text",
+			"version": 393,
+			"versionNonce": 1213996294,
+			"isDeleted": false,
+			"id": "aGoPzmwV",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
 			"strokeStyle": "solid",
-			"roughness": 1,
+			"roughness": 0,
 			"opacity": 100,
+			"angle": 0,
+			"x": -1080.5700789129335,
+			"y": 641.6997576206217,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#a5d8ff",
+			"width": 440.63580322265625,
+			"height": 33.6,
+			"seed": 193728710,
+			"groupIds": [
+				"1Z8ZG5z6ViPEDbTjGhDW6"
+			],
+			"frameId": null,
 			"roundness": null,
-			"seed": 1649,
-			"version": 4,
-			"versionNonce": 1860044958,
-			"updated": 1706344352717,
-			"isDeleted": true,
-			"groupIds": [],
 			"boundElements": [],
+			"updated": 1706440117212,
 			"link": null,
 			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "CNN 기반 모델은 인접한 피쳐를 학습하는 편향성",
+			"rawText": "CNN 기반 모델은 인접한 피쳐를 학습하는 편향성",
+			"textAlign": "left",
+			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "A 유저가 생성한 이미지를 A 유저가 좋아한다고 가정\r\n\r\n실제로는 A 유저가 1번 게시물을 만들었지만\r\nA 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.\r\n\r\nPost.csv   게시글 - 이미지 정보",
-			"rawText": "A 유저가 생성한 이미지를 A 유저가 좋아한다고 가정\r\n\r\n실제로는 A 유저가 1번 게시물을 만들었지만\r\nA 유저가 1번 게시물에 좋아요를 눌렀다고 가정한다.\r\n\r\nPost.csv   게시글 - 이미지 정보",
-			"lineHeight": 1.25
+			"originalText": "CNN 기반 모델은 인접한 피쳐를 학습하는 편향성",
+			"lineHeight": 1.2,
+			"baseline": 26
+		},
+		{
+			"type": "text",
+			"version": 384,
+			"versionNonce": 1109298246,
+			"isDeleted": false,
+			"id": "WiqvB36K",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1079.2367455796,
+			"y": 701.8997576206219,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 541.2398071289062,
+			"height": 67.2,
+			"seed": 1251608582,
+			"groupIds": [
+				"1Z8ZG5z6ViPEDbTjGhDW6"
+			],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1706440117212,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "이미지 처리에 특화된 구조로 이미지 데이터 내에서\n근접한 픽셀 간의 패턴 및 공간적인 관계를 학습하는데 강점",
+			"rawText": "이미지 처리에 특화된 구조로 이미지 데이터 내에서\n근접한 픽셀 간의 패턴 및 공간적인 관계를 학습하는데 강점",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "이미지 처리에 특화된 구조로 이미지 데이터 내에서\n근접한 픽셀 간의 패턴 및 공간적인 관계를 학습하는데 강점",
+			"lineHeight": 1.2,
+			"baseline": 60
+		},
+		{
+			"type": "text",
+			"version": 451,
+			"versionNonce": 273748870,
+			"isDeleted": false,
+			"id": "OHqtqtaT",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1078.5546065008245,
+			"y": 829.7664039422365,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#a5d8ff",
+			"width": 463.7358093261719,
+			"height": 33.6,
+			"seed": 996611910,
+			"groupIds": [
+				"1Z8ZG5z6ViPEDbTjGhDW6"
+			],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1706440117212,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "RNN 기반 모델은 연속성이 있어 클릭 데이터에 적합",
+			"rawText": "RNN 기반 모델은 연속성이 있어 클릭 데이터에 적합",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "RNN 기반 모델은 연속성이 있어 클릭 데이터에 적합",
+			"lineHeight": 1.2,
+			"baseline": 26
+		},
+		{
+			"type": "text",
+			"version": 687,
+			"versionNonce": 1563472582,
+			"isDeleted": false,
+			"id": "tkQHwFex",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1082.26110536492,
+			"y": 879.8581077279517,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 525.391845703125,
+			"height": 100.80000000000001,
+			"seed": 105922182,
+			"groupIds": [
+				"1Z8ZG5z6ViPEDbTjGhDW6"
+			],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1706440117212,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "순차적인 데이터를 처리하는데 강점\n이전 시간 단계의 출력이 현재 시간의 입력으로 사용되기에\n시퀸스 데이터의 연속성을 잘 학습할 수 있다.",
+			"rawText": "순차적인 데이터를 처리하는데 강점\n이전 시간 단계의 출력이 현재 시간의 입력으로 사용되기에\n시퀸스 데이터의 연속성을 잘 학습할 수 있다.",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "순차적인 데이터를 처리하는데 강점\n이전 시간 단계의 출력이 현재 시간의 입력으로 사용되기에\n시퀸스 데이터의 연속성을 잘 학습할 수 있다.",
+			"lineHeight": 1.2,
+			"baseline": 94
 		}
 	],
 	"appState": {
@@ -1044,10 +1352,10 @@ Stable Diffusion
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 881.1813243420521,
-		"scrollY": 367.37449420114694,
+		"scrollX": 1619.6666868501825,
+		"scrollY": 766.5873259125043,
 		"zoom": {
-			"value": 0.30000000000000004
+			"value": 0.36226758157855393
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
