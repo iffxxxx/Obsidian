@@ -140,8 +140,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f6878ac96d36097f",
@@ -240,6 +239,7 @@
   },
   "active": "f6e63f385ae258b3",
   "lastOpenFiles": [
+    "Attached file/image/Pasted image 20240128230826.png",
     "Attached file/image/Pasted image 20240128225411.png",
     "Attached file/image/Pasted image 20240128225046.png",
     "Book.md",
@@ -265,7 +265,6 @@
     "Attached file/image/Pasted Image 20240125235140_523.png",
     "Attached file/image/Pasted Image 20240125234953_497.png",
     "Attached file/image/Pasted Image 20240125234448_409.png",
-    "Attached file/image/Pasted Image 20240125225539_812.gif",
     "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.md",
     "400_순수과학/410 수학/410 수학.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/01_Evaluating_Recommender_Systems.md",
