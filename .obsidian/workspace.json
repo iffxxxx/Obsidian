@@ -69,9 +69,11 @@
             "id": "f6e63f385ae258b3",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Project/Project_Chora.excalidraw.md"
+                "file": "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -154,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/Project_Chora.excalidraw.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/Project_Chora.excalidraw.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/Project_Chora.excalidraw.md"
+                "file": "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md"
               }
             }
           },
@@ -237,6 +239,7 @@
   },
   "active": "f6e63f385ae258b3",
   "lastOpenFiles": [
+    "Project/Project_Chora.excalidraw.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
     "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
     "Attached file/image/Pasted image 20240128184523.png",
@@ -245,7 +248,6 @@
     "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
     "000_총류/005 프로그래밍/Coding_Interview/07_Object-Oriented_Design.md",
     "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
-    "Project/Project_Chora.excalidraw.md",
     "Project/Project.md",
     "Project/SSUspot/SSUspot_FineTuning.md",
     "Project/졸업전시회.md",
