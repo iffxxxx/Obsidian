@@ -386,6 +386,8 @@ DEEPFM ^F9TxmliF
 2017년 발표된 논문으로 Factorization Machine을
 신경망으로 확장한 DeepFM 모델 제안 ^djm5ojVK
 
+[[Wide_and_Deep#카테고리컬 특성 교차 함수]] ^EFO6rgx3
+
 
 # Embedded files
 6aa9fd2d74590eb9cbe3391d3dec3b6ea0bd1a59: $$\color{blue}y=W^{T}x+b$$
@@ -6922,8 +6924,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 788,
-			"versionNonce": 776393999,
+			"version": 789,
+			"versionNonce": 1335186107,
 			"isDeleted": false,
 			"id": "_qhlWlzBN-Y5xqBFiboo2",
 			"fillStyle": "solid",
@@ -6952,9 +6954,13 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 				{
 					"id": "NsjHvNldd5hG6CR7NPr-F",
 					"type": "arrow"
+				},
+				{
+					"id": "JOGUA6Q0oPDx8B_oGxGCW",
+					"type": "arrow"
 				}
 			],
-			"updated": 1706528846229,
+			"updated": 1706539814577,
 			"link": null,
 			"locked": false
 		},
@@ -10953,14 +10959,14 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			]
 		},
 		{
-			"id": "3dvDFq_bgJ0EwIOLlyo0H",
+			"id": "JOGUA6Q0oPDx8B_oGxGCW",
 			"type": "arrow",
-			"x": 1697.6965439690118,
-			"y": 1005.6873758049088,
-			"width": 380.0000000000002,
-			"height": 145.99998474121094,
+			"x": 971.8878087750497,
+			"y": 3653.0077470125843,
+			"width": 233.41179342830878,
+			"height": 0,
 			"angle": 0,
-			"strokeColor": "#B83E3E",
+			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#FF7C7C",
 			"fillStyle": "dashed",
 			"strokeWidth": 2,
@@ -10972,12 +10978,12 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"roundness": {
 				"type": 2
 			},
-			"seed": 1090153211,
-			"version": 68,
-			"versionNonce": 197563893,
-			"isDeleted": true,
-			"boundElements": [],
-			"updated": 1706535082551,
+			"seed": 1793666421,
+			"version": 58,
+			"versionNonce": 1688576091,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1706539848993,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -10986,58 +10992,77 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					0
 				],
 				[
-					380.0000000000002,
-					-145.99998474121094
+					-233.41179342830878,
+					0
 				]
 			],
 			"lastCommittedPoint": null,
-			"startBinding": null,
-			"endBinding": null,
+			"startBinding": {
+				"elementId": "_qhlWlzBN-Y5xqBFiboo2",
+				"focus": 0.8138145499669054,
+				"gap": 3.459439066083064
+			},
+			"endBinding": {
+				"elementId": "EFO6rgx3",
+				"focus": 0.36363644006405405,
+				"gap": 14.470573874081111
+			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow"
 		},
 		{
-			"id": "4BknIRj7",
-			"type": "text",
-			"x": 1617.496562279559,
-			"y": 926.8874063224869,
-			"width": 8.399993896484375,
-			"height": 33.6,
+			"id": "EFO6rgx3",
+			"type": "embeddable",
+			"x": 224.00544147265992,
+			"y": 3478.301864659644,
+			"width": 500,
+			"height": 256.2352797564339,
 			"angle": 0,
-			"strokeColor": "#B83E3E",
-			"backgroundColor": "#FF7C7C",
-			"fillStyle": "dashed",
-			"strokeWidth": 2,
+			"strokeColor": "transparent",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
 			"strokeStyle": "solid",
-			"roughness": 2,
+			"roughness": 1,
 			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
 			"roundness": null,
-			"seed": 1644242453,
-			"version": 11,
-			"versionNonce": 265410901,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1706535075438,
-			"link": null,
+			"seed": 27524,
+			"version": 70,
+			"versionNonce": 1567022331,
+			"updated": 1706539848993,
+			"isDeleted": false,
+			"groupIds": [],
+			"boundElements": [
+				{
+					"id": "JOGUA6Q0oPDx8B_oGxGCW",
+					"type": "arrow"
+				}
+			],
+			"link": "[[Wide_and_Deep#카테고리컬 특성 교차 함수]]",
 			"locked": false,
-			"text": "",
-			"rawText": "",
-			"fontSize": 28,
-			"fontFamily": 4,
-			"textAlign": "center",
-			"verticalAlign": "middle",
-			"baseline": 26,
-			"containerId": "3dvDFq_bgJ0EwIOLlyo0H",
-			"originalText": "",
-			"lineHeight": 1.2
+			"scale": [
+				1,
+				1
+			],
+			"customData": {
+				"mdProps": {
+					"useObsidianDefaults": false,
+					"backgroundMatchCanvas": false,
+					"backgroundMatchElement": true,
+					"backgroundColor": "#fff",
+					"backgroundOpacity": 60,
+					"borderMatchElement": true,
+					"borderColor": "#fff",
+					"borderOpacity": 0,
+					"filenameVisible": false
+				}
+			}
 		}
 	],
 	"appState": {
 		"theme": "dark",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#B83E3E",
+		"currentItemStrokeColor": "#1e1e1e",
 		"currentItemBackgroundColor": "#FF7C7C",
 		"currentItemFillStyle": "dashed",
 		"currentItemStrokeWidth": 2,
@@ -11049,10 +11074,10 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -865.744193534209,
-		"scrollY": -5526.601734761382,
+		"scrollX": 15.171014754362034,
+		"scrollY": -3162.301848503279,
 		"zoom": {
-			"value": 0.49999999999999994
+			"value": 0.8500000000000002
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

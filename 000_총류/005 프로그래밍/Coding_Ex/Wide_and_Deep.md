@@ -569,6 +569,7 @@ def wide(df_train, df_test, wide_cols, x_cols, target, model_type, method):
 - **Wide 모델 구성 및 훈련:**
 	
 	- `fit_param` 딕셔너리에서 적절한 활성화 함수, 손실 함수, 메트릭을 가져옵니다.
+		 `fit_param['logistic'] = ('sigmoid', 'binary_crossentropy', 'accuracy')`
 	- 'wide' 모델의 입력 레이어를 정의하고, Dense 레이어를 사용하여 출력 레이어를 연결합니다.
 	- 모델을 컴파일하고 훈련합니다. 훈련은 Adam 옵티마이저를 사용하여 10 에포크 동안 이루어집니다.
 	- 훈련이 끝난 후, 테스트 데이터에서 모델을 평가하고 결과를 출력합니다.
