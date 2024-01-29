@@ -130,6 +130,7 @@
 	      
 - ### Database_Denormalization_and_NoSQL
     - **데이터베이스 정규화:**  [출처](https://velog.io/@bsjp400/Database-DB-%EC%A0%95%EA%B7%9C%ED%99%94-%EB%B9%84%EC%A0%95%EA%B7%9C%ED%99%94%EB%9E%80)
+	    - **NF?**  [출처](https://rebro.kr/160)
 	    - **요약:**
 		    SQL과 같은 관계형 데이터베이스에서의 조인은 시스템이 커질수록 느려질 수 있습니다. 이를 피하기 위해 불필요한 정보를 데이터베이스에 추가하여 읽기 속도를 향상시키는 것입니다.
 		    
