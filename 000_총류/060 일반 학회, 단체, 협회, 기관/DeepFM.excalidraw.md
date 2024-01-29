@@ -2015,8 +2015,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "embeddable",
-			"version": 209,
-			"versionNonce": 772964034,
+			"version": 210,
+			"versionNonce": 193245402,
 			"isDeleted": false,
 			"id": "HW6ttsK6Sl00o28gZAlZE",
 			"fillStyle": "solid",
@@ -2038,7 +2038,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1706336962252,
+			"updated": 1706527147426,
 			"link": "https://wnzhang.net/share/rtb-papers/cnn-ctr.pdf",
 			"locked": false,
 			"validated": true,
@@ -3036,8 +3036,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "embeddable",
-			"version": 451,
-			"versionNonce": 1365984862,
+			"version": 452,
+			"versionNonce": 1627316678,
 			"isDeleted": false,
 			"id": "CxyLJQJypMhTBy57WGuNt",
 			"fillStyle": "cross-hatch",
@@ -3059,7 +3059,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1706336962252,
+			"updated": 1706527147426,
 			"link": "https://arxiv.org/pdf/1611.00144.pdf",
 			"locked": false,
 			"validated": true,
@@ -3583,8 +3583,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 1124.6793830946797,
 			"strokeColor": "#e03131",
 			"backgroundColor": "#e7f5ff",
-			"width": 41.74798583984375,
-			"height": 33.6,
+			"width": 41.74799601236979,
+			"height": 33.599999999999994,
 			"seed": 352974878,
 			"groupIds": [],
 			"frameId": null,
@@ -3744,8 +3744,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "embeddable",
-			"version": 825,
-			"versionNonce": 1117345410,
+			"version": 826,
+			"versionNonce": 1546487194,
 			"isDeleted": false,
 			"id": "WAvtRm6ZfDe6Ihgn9a__p",
 			"fillStyle": "solid",
@@ -3774,7 +3774,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1706336962252,
+			"updated": 1706527147426,
 			"link": "https://dl.acm.org/doi/pdf/10.1145/2988450.2988454",
 			"locked": false,
 			"validated": true,
@@ -3829,8 +3829,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "embeddable",
-			"version": 541,
-			"versionNonce": 1328466590,
+			"version": 542,
+			"versionNonce": 1804253446,
 			"isDeleted": false,
 			"id": "oaJnKwK4UVk0nafV3-dol",
 			"fillStyle": "solid",
@@ -3854,7 +3854,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1706336962252,
+			"updated": 1706527147426,
 			"link": "https://arxiv.org/pdf/1601.02376.pdf",
 			"locked": false,
 			"validated": true,
@@ -4738,8 +4738,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "arrow",
-			"version": 884,
-			"versionNonce": 226629552,
+			"version": 886,
+			"versionNonce": 1574137350,
 			"isDeleted": false,
 			"id": "kGcBufpeNOALPbBQRugYX",
 			"fillStyle": "solid",
@@ -4749,11 +4749,11 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"opacity": 100,
 			"angle": 0,
 			"x": 341.44884559896616,
-			"y": 1640.49265902572,
+			"y": 1640.612945984337,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "#a5d8ff",
 			"width": 1246.0548127412108,
-			"height": 2.2443774898747506,
+			"height": 2.148652341762727,
 			"seed": 1548187038,
 			"groupIds": [],
 			"frameId": null,
@@ -4766,7 +4766,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					"id": "yhQrI37Y"
 				}
 			],
-			"updated": 1706280062760,
+			"updated": 1706527191886,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -4789,7 +4789,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 				],
 				[
 					1246.0548127412108,
-					2.2443774898747506
+					2.148652341762727
 				]
 			]
 		},
@@ -5050,8 +5050,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "arrow",
-			"version": 1257,
-			"versionNonce": 698400688,
+			"version": 1259,
+			"versionNonce": 1310800646,
 			"isDeleted": false,
 			"id": "183-VcNu2YeNEPUHgHqF9",
 			"fillStyle": "solid",
@@ -5060,12 +5060,12 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1792.4553926716235,
-			"y": 1954.877696146196,
+			"x": 1792.5524852422018,
+			"y": 1954.8776961461963,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "#a5d8ff",
-			"width": 224.85328858673165,
-			"height": 251.12603293572215,
+			"width": 224.89985510373617,
+			"height": 251.12603293572192,
 			"seed": 1383247134,
 			"groupIds": [],
 			"frameId": null,
@@ -5078,7 +5078,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					"id": "cG8mTWhz"
 				}
 			],
-			"updated": 1706280062767,
+			"updated": 1706527191889,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -5100,8 +5100,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					0
 				],
 				[
-					-224.85328858673165,
-					251.12603293572215
+					-224.89985510373617,
+					251.12603293572192
 				]
 			]
 		},
@@ -5488,8 +5488,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "arrow",
-			"version": 913,
-			"versionNonce": 1665395632,
+			"version": 915,
+			"versionNonce": 2062034054,
 			"isDeleted": false,
 			"id": "eSzSzP_hi_HBn7joshpsk",
 			"fillStyle": "solid",
@@ -5498,11 +5498,11 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1989.5184310995662,
+			"x": 1989.4156192625312,
 			"y": 1959.176408013757,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "#a5d8ff",
-			"width": 230.7982283559238,
+			"width": 230.84721041707894,
 			"height": 245.3117450914881,
 			"seed": 764516930,
 			"groupIds": [],
@@ -5516,7 +5516,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					"id": "COtzUc1j"
 				}
 			],
-			"updated": 1706280062763,
+			"updated": 1706527191888,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -5538,7 +5538,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					0
 				],
 				[
-					230.7982283559238,
+					230.84721041707894,
 					245.3117450914881
 				]
 			]
@@ -8617,8 +8617,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "embeddable",
-			"version": 379,
-			"versionNonce": 401552962,
+			"version": 380,
+			"versionNonce": 1918747226,
 			"isDeleted": false,
 			"id": "l-zt4_e3xGJ7DdTu7KRGm",
 			"fillStyle": "cross-hatch",
@@ -8642,7 +8642,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1706336962252,
+			"updated": 1706527147426,
 			"link": "https://dos-tacos.github.io/paper%20review/FTRL/#ftrl",
 			"locked": false,
 			"validated": true,
@@ -8685,8 +8685,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "embeddable",
-			"version": 366,
-			"versionNonce": 175621854,
+			"version": 367,
+			"versionNonce": 1025091654,
 			"isDeleted": false,
 			"id": "4If8ODapLX3FNg00uD876",
 			"fillStyle": "cross-hatch",
@@ -8710,7 +8710,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1706336962252,
+			"updated": 1706527147426,
 			"link": "https://heytech.tistory.com/383",
 			"locked": false,
 			"validated": true,
@@ -10003,8 +10003,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "arrow",
-			"version": 403,
-			"versionNonce": 903386032,
+			"version": 405,
+			"versionNonce": 568766854,
 			"isDeleted": false,
 			"id": "-JIMYy7wJ97oOXAnTbkgR",
 			"fillStyle": "cross-hatch",
@@ -10014,11 +10014,11 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"opacity": 100,
 			"angle": 0,
 			"x": 2186.4347615957004,
-			"y": 1393.3888632676435,
+			"y": 1393.3990785388116,
 			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
 			"width": 2236.7236456742494,
-			"height": 2008.1878317970463,
+			"height": 2008.1968503583857,
 			"seed": 358940318,
 			"groupIds": [],
 			"frameId": null,
@@ -10031,7 +10031,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					"id": "FTmpspo7"
 				}
 			],
-			"updated": 1706280062769,
+			"updated": 1706527191891,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -10054,7 +10054,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 				],
 				[
 					2236.7236456742494,
-					-2008.1878317970463
+					-2008.1968503583857
 				]
 			]
 		},
@@ -10834,8 +10834,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "embeddable",
-			"version": 1723,
-			"versionNonce": 1324555778,
+			"version": 1724,
+			"versionNonce": 2028496666,
 			"isDeleted": false,
 			"id": "7UAx9ZgOj1OdDIaFFVDb_",
 			"fillStyle": "hachure",
@@ -10859,7 +10859,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1706336962252,
+			"updated": 1706527147426,
 			"link": "https://arxiv.org/pdf/1703.04247.pdf",
 			"locked": false,
 			"validated": true,
@@ -10923,10 +10923,10 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 899.7174260094421,
-		"scrollY": -2053.1987707294966,
+		"scrollX": -771.594731911847,
+		"scrollY": -1154.0813443292636,
 		"zoom": {
-			"value": 0.25
+			"value": 0.5499999999999999
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
