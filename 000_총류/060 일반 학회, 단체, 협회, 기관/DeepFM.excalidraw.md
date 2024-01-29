@@ -9837,8 +9837,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "arrow",
-			"version": 558,
-			"versionNonce": 1819681103,
+			"version": 562,
+			"versionNonce": 992663425,
 			"isDeleted": false,
 			"id": "u2nK_pGUJ4TRoO493X1PP",
 			"fillStyle": "cross-hatch",
@@ -9865,7 +9865,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					"id": "mjfI7rog"
 				}
 			],
-			"updated": 1706528846230,
+			"updated": 1706529587847,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -11610,10 +11610,10 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -677.5060982961138,
-		"scrollY": -1640.4374482841567,
+		"scrollX": -958.0511920912072,
+		"scrollY": -6079.751659305237,
 		"zoom": {
-			"value": 0.39999999999999997
+			"value": 0.6
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
