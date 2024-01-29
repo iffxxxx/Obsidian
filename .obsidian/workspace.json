@@ -47,9 +47,11 @@
             "id": "87ab7d5950505670",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md"
+                "file": "000_총류/005 프로그래밍/Coding_Ex/Wide_and_Deep.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -132,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
+                "file": "000_총류/005 프로그래밍/Coding_Ex/Wide_and_Deep.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
+                "file": "000_총류/005 프로그래밍/Coding_Ex/Wide_and_Deep.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md"
+                "file": "000_총류/005 프로그래밍/Coding_Ex/Wide_and_Deep.md"
               }
             }
           },
@@ -215,13 +217,14 @@
   },
   "active": "87ab7d5950505670",
   "lastOpenFiles": [
+    "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
+    "000_총류/005 프로그래밍/Coding_Ex/Wide_and_Deep.md",
     "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
     "000_총류/005 프로그래밍/Coding_Interview/07_Object-Oriented_Design.md",
     "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
     "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",
     "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
     "000_총류/005 프로그래밍/Coding_Interview/Facebook_coding_interview_guide.md",
-    "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Best Prompts for Text-to-Image Models and How to Find Them.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Diffusion Explainer_ Visual Explanation for Text-to-image Stable Diffusion.md",
@@ -253,7 +256,6 @@
     "000_총류/005 프로그래밍/Leetcode/20_Valid_Parentheses.md",
     "000_총류/005 프로그래밍/Leetcode/14_Longest_Common_Prefix.md",
     "000_총류/005 프로그래밍/Leetcode/9_Palindrome_Number.md",
-    "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
     "무제 파일 1.canvas",
     "Attached file/image/Murphy.pdf",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
