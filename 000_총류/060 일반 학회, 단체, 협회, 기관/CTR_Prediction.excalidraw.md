@@ -386,7 +386,13 @@ DEEPFM ^F9TxmliF
 2017년 발표된 논문으로 Factorization Machine을
 신경망으로 확장한 DeepFM 모델 제안 ^djm5ojVK
 
+입력데이터 구축 ^zLMn8puD
+
 [[Wide_and_Deep#카테고리컬 특성 교차 함수]] ^EFO6rgx3
+
+[[Wide_and_Deep#연속 특성의 입력을 정의하는 함수]] ^BkbaLkkh
+
+[[Wide_and_Deep#Wide 모델 훈련 함수]] ^1j0vTGrl
 
 
 # Embedded files
@@ -6470,8 +6476,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "image",
-			"version": 830,
-			"versionNonce": 2097429103,
+			"version": 831,
+			"versionNonce": 1798292699,
 			"isDeleted": false,
 			"id": "mKCjaDqA",
 			"fillStyle": "hachure",
@@ -6490,8 +6496,13 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
-			"boundElements": [],
-			"updated": 1706528846228,
+			"boundElements": [
+				{
+					"id": "JOGUA6Q0oPDx8B_oGxGCW",
+					"type": "arrow"
+				}
+			],
+			"updated": 1706540204512,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -10961,10 +10972,10 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		{
 			"id": "JOGUA6Q0oPDx8B_oGxGCW",
 			"type": "arrow",
-			"x": 971.8878087750497,
-			"y": 3653.0077470125843,
-			"width": 233.41179342830878,
-			"height": 0,
+			"x": 973.4877843609871,
+			"y": 3591.9389452071982,
+			"width": 264.18822524126824,
+			"height": 3.7973776637763876,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#FF7C7C",
@@ -10979,11 +10990,16 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 				"type": 2
 			},
 			"seed": 1793666421,
-			"version": 58,
-			"versionNonce": 1688576091,
+			"version": 472,
+			"versionNonce": 264828565,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1706539848993,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "zLMn8puD"
+				}
+			],
+			"updated": 1706540214071,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -10992,29 +11008,66 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					0
 				],
 				[
-					-233.41179342830878,
-					0
+					-264.18822524126824,
+					-3.7973776637763876
 				]
 			],
 			"lastCommittedPoint": null,
 			"startBinding": {
 				"elementId": "_qhlWlzBN-Y5xqBFiboo2",
-				"focus": 0.8138145499669054,
-				"gap": 3.459439066083064
+				"focus": 0.9184913140060718,
+				"gap": 1.8594634801456777
 			},
 			"endBinding": {
 				"elementId": "EFO6rgx3",
-				"focus": 0.36363644006405405,
-				"gap": 14.470573874081111
+				"focus": -0.102809613435926,
+				"gap": 9.764691521139895
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow"
 		},
 		{
+			"id": "zLMn8puD",
+			"type": "text",
+			"x": 772.1757075679898,
+			"y": 3602.0402746858567,
+			"width": 136.83595275878906,
+			"height": 33.6,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#FF7C7C",
+			"fillStyle": "dashed",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 624882971,
+			"version": 34,
+			"versionNonce": 148235163,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1706540005613,
+			"link": null,
+			"locked": false,
+			"text": "입력데이터 구축",
+			"rawText": "입력데이터 구축",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"baseline": 26,
+			"containerId": "JOGUA6Q0oPDx8B_oGxGCW",
+			"originalText": "입력데이터 구축",
+			"lineHeight": 1.2
+		},
+		{
 			"id": "EFO6rgx3",
 			"type": "embeddable",
-			"x": 224.00544147265992,
-			"y": 3478.301864659644,
+			"x": 199.53486759857907,
+			"y": 3469.8312979661696,
 			"width": 500,
 			"height": 256.2352797564339,
 			"angle": 0,
@@ -11027,9 +11080,9 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"opacity": 100,
 			"roundness": null,
 			"seed": 27524,
-			"version": 70,
-			"versionNonce": 1567022331,
-			"updated": 1706539848993,
+			"version": 138,
+			"versionNonce": 2023049179,
+			"updated": 1706539850773,
 			"isDeleted": false,
 			"groupIds": [],
 			"boundElements": [
@@ -11039,6 +11092,92 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 				}
 			],
 			"link": "[[Wide_and_Deep#카테고리컬 특성 교차 함수]]",
+			"locked": false,
+			"scale": [
+				1,
+				1
+			],
+			"customData": {
+				"mdProps": {
+					"useObsidianDefaults": false,
+					"backgroundMatchCanvas": false,
+					"backgroundMatchElement": true,
+					"backgroundColor": "#fff",
+					"backgroundOpacity": 60,
+					"borderMatchElement": true,
+					"borderColor": "#fff",
+					"borderOpacity": 0,
+					"filenameVisible": false
+				}
+			}
+		},
+		{
+			"id": "BkbaLkkh",
+			"type": "embeddable",
+			"x": 200.0053409441673,
+			"y": 3719.7136796297723,
+			"width": 500,
+			"height": 136.70586081112168,
+			"angle": 0,
+			"strokeColor": "transparent",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"roundness": null,
+			"seed": 52314,
+			"version": 133,
+			"versionNonce": 902856155,
+			"updated": 1706540139427,
+			"isDeleted": false,
+			"groupIds": [],
+			"boundElements": [],
+			"link": "[[Wide_and_Deep#연속 특성의 입력을 정의하는 함수]]",
+			"locked": false,
+			"scale": [
+				1,
+				1
+			],
+			"customData": {
+				"mdProps": {
+					"useObsidianDefaults": false,
+					"backgroundMatchCanvas": false,
+					"backgroundMatchElement": true,
+					"backgroundColor": "#fff",
+					"backgroundOpacity": 60,
+					"borderMatchElement": true,
+					"borderColor": "#fff",
+					"borderOpacity": 0,
+					"filenameVisible": false
+				}
+			}
+		},
+		{
+			"id": "1j0vTGrl",
+			"type": "embeddable",
+			"x": 204.65390655271733,
+			"y": 3871.344643784122,
+			"width": 500,
+			"height": 1961.3333129882812,
+			"angle": 0,
+			"strokeColor": "transparent",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"roundness": null,
+			"seed": 73202,
+			"version": 547,
+			"versionNonce": 1045613915,
+			"updated": 1706540398459,
+			"isDeleted": false,
+			"groupIds": [],
+			"boundElements": [],
+			"link": "[[Wide_and_Deep#Wide 모델 훈련 함수]]",
 			"locked": false,
 			"scale": [
 				1,
@@ -11074,10 +11213,10 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 15.171014754362034,
-		"scrollY": -3162.301848503279,
+		"scrollX": 623.4796688867358,
+		"scrollY": -2823.2776017512447,
 		"zoom": {
-			"value": 0.8500000000000002
+			"value": 0.3
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
