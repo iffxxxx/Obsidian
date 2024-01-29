@@ -542,6 +542,7 @@ def wide(df_train, df_test, wide_cols, x_cols, target, model_type, method):
 	- 훈련 및 테스트 데이터를 합쳐 `df_wide` 데이터프레임을 생성합니다.
 	- `cross_columns` 함수를 사용하여 교차 열을 생성합니다.
 	- 더미(dummy) 열을 만들기 위해 범주형 열들을 원-핫 인코딩합니다.
+
 ```run-python
     if model_type == 'wide':
 
@@ -564,6 +565,12 @@ def wide(df_train, df_test, wide_cols, x_cols, target, model_type, method):
 
         return X_train, y_train, X_test, y_test
 ```
+- **Wide 모델 구성 및 훈련:**
+	
+	- `fit_param` 딕셔너리에서 적절한 활성화 함수, 손실 함수, 메트릭을 가져옵니다.
+	- 'wide' 모델의 입력 레이어를 정의하고, Dense 레이어를 사용하여 출력 레이어를 연결합니다.
+	- 모델을 컴파일하고 훈련합니다. 훈련은 Adam 옵티마이저를 사용하여 10 에포크 동안 이루어집니다.
+	- 훈련이 끝난 후, 테스트 데이터에서 모델을 평가하고 결과를 출력합니다.
 ### Deep 모델 훈련 함수
 ```run-python
 def deep(df_train, df_test, embedding_cols, cont_cols, target, model_type, method):
