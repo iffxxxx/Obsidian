@@ -3604,8 +3604,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 3564,
-			"versionNonce": 1061605455,
+			"version": 3566,
+			"versionNonce": 1275073985,
 			"isDeleted": false,
 			"id": "ULjGn0ZQE-nIW6gBvQbiC",
 			"fillStyle": "cross-hatch",
@@ -3647,7 +3647,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1706528869973,
+			"updated": 1706532400055,
 			"link": null,
 			"locked": false
 		},
@@ -10901,12 +10901,12 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"baseline": 60
 		},
 		{
-			"id": "-9flVMSSY_b_J2LfDlVKu",
+			"id": "6wIJ7w3AYaO5LNiekUzEZ",
 			"type": "arrow",
-			"x": -1826.993901703886,
-			"y": 5680.687452098854,
-			"width": 1184.000244140625,
-			"height": 616.0000610351562,
+			"x": 1835.3834181909806,
+			"y": 1360.801905704533,
+			"width": 300.9999847412107,
+			"height": 327.99999237060547,
 			"angle": 0,
 			"strokeColor": "#B83E3E",
 			"backgroundColor": "#FF7C7C",
@@ -10920,12 +10920,12 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"roundness": {
 				"type": 2
 			},
-			"seed": 410052129,
-			"version": 31,
-			"versionNonce": 1457120783,
+			"seed": 1688737953,
+			"version": 151,
+			"versionNonce": 75878575,
 			"isDeleted": true,
 			"boundElements": null,
-			"updated": 1706531641639,
+			"updated": 1706532400054,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -10934,12 +10934,16 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					0
 				],
 				[
-					1184.000244140625,
-					-616.0000610351562
+					-300.9999847412107,
+					-327.99999237060547
 				]
 			],
 			"lastCommittedPoint": null,
-			"startBinding": null,
+			"startBinding": {
+				"elementId": "ULjGn0ZQE-nIW6gBvQbiC",
+				"focus": 0.40088332209866945,
+				"gap": 13.930611817574572
+			},
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow"
@@ -10960,10 +10964,10 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 5016.993901703886,
-		"scrollY": -1621.687436840065,
+		"scrollX": -903.6333876734028,
+		"scrollY": -537.4269190559737,
 		"zoom": {
-			"value": 0.1
+			"value": 0.8000000000000002
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
