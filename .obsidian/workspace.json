@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Ex/Wide_and_Deep.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
                 "mode": "source",
                 "source": false
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Ex/Wide_and_Deep.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Ex/Wide_and_Deep.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Ex/Wide_and_Deep.md"
+                "file": "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md"
               }
             }
           },
@@ -215,14 +215,16 @@
   },
   "active": "87ab7d5950505670",
   "lastOpenFiles": [
-    "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
-    "400_순수과학/410 수학/410 수학.md",
-    "000_총류/005 프로그래밍/Coding_Ex/Wide_and_Deep.md",
-    "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
-    "000_총류/005 프로그래밍/Coding_Interview/07_Object-Oriented_Design.md",
     "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
+    "000_총류/005 프로그래밍/Coding_Interview/07_Object-Oriented_Design.md",
+    "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
+    "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
+    "000_총류/005 프로그래밍/Coding_Interview/04_Tree_and_Graphs.md",
     "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",
     "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
+    "000_총류/005 프로그래밍/Coding_Ex/Wide_and_Deep.md",
+    "000_총류/060 일반 학회, 단체, 협회, 기관/DeepFM.excalidraw.md",
+    "400_순수과학/410 수학/410 수학.md",
     "000_총류/005 프로그래밍/Coding_Interview/Facebook_coding_interview_guide.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Best Prompts for Text-to-Image Models and How to Find Them.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
@@ -231,7 +233,6 @@
     "000_총류/060 일반 학회, 단체, 협회, 기관/Znet_ Deep Learning Approach for 2D MRI Brain Tumor Segmentation.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Image_Segmentation_Using_Deep_Learning_A_Survey.md",
     "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
-    "000_총류/005 프로그래밍/Coding_Interview/04_Tree_and_Graphs.md",
     "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md",
     "000_총류/005 프로그래밍/005_프로그래밍.md",
     "000_총류/005 프로그래밍/Coding_Ex/Sync_vs._Async.md",
@@ -247,7 +248,6 @@
     "Project/Project_Chora.excalidraw.md",
     "Attached file/image/Pasted image 20240128184523.png",
     "Attached file/image/Pasted image 20240128184459.png",
-    "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
     "Project/Project.md",
     "Project/SSUspot/SSUspot_FineTuning.md",
     "Project/졸업전시회.md",
