@@ -11,9 +11,11 @@
             "id": "83f980bde5f14f2a",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction1.excalidraw.md"
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -83,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5,
-    "collapsed": true
+    "width": 335.5
   },
   "right": {
     "id": "d6fcffc1ef5a2d78",
@@ -100,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction1.excalidraw.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction1.excalidraw.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction1.excalidraw.md"
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md"
               }
             }
           },
@@ -174,9 +175,10 @@
   },
   "active": "83f980bde5f14f2a",
   "lastOpenFiles": [
+    "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction1.excalidraw.md",
+    "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction1.excalidraw.png",
     "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction.excalidraw.md",
     "Project/Project_Chora.excalidraw.md",
-    "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction1.excalidraw.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction.excalidraw.png",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
     "000_총류/060 일반 학회, 단체, 협회, 기관/무제 파일.md",
@@ -195,7 +197,6 @@
     "Attached file/image/Pasted image 20240128225046.png",
     "Attached file/image/Pasted image 20240128223927.png",
     "Attached file/image/Pasted image 20240128223717.png",
-    "Attached file/image/Pasted image 20240128184523.png",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/05_Decision Theory.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/06_Entropy.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/07_Linear Algebra.md",
