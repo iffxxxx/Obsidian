@@ -8,21 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "83f980bde5f14f2a",
+            "id": "6380ac6145eed11a",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
                 "file": "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction1.excalidraw.md"
               }
-            }
-          },
-          {
-            "id": "6380ac6145eed11a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ]
@@ -83,7 +75,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5
+    "width": 335.5,
+    "collapsed": true
   },
   "right": {
     "id": "d6fcffc1ef5a2d78",
@@ -171,10 +164,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "83f980bde5f14f2a",
+  "active": "6380ac6145eed11a",
   "lastOpenFiles": [
-    "000_총류/005 프로그래밍/Leetcode/2073_Time_Needed_to_Buy_Tickets.md",
+    "500_기술과학/550 기계공학/567_Multimedia/01.1_Nyquist's_Sampling Theorem.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction1.excalidraw.md",
+    "000_총류/005 프로그래밍/Leetcode/2073_Time_Needed_to_Buy_Tickets.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/00_Murphy.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction1.excalidraw.png",
     "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction.excalidraw.md",
@@ -211,7 +205,6 @@
     "conflict-files-obsidian-git.md",
     "000_총류/005 프로그래밍/Leetcode/746_Min_Cost_Climbing_Stairs.md",
     "000_총류/005 프로그래밍/Leetcode/706_Design_HashMap.md",
-    "000_총류/005 프로그래밍/Leetcode/509_Fibonacci_Number.md",
     "무제 파일.canvas",
     "무제 파일 1.canvas",
     "Attached file/Cracking_the_Coding_Interview.pdf",
