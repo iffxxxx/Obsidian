@@ -13,7 +13,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Project/Project_Chora.excalidraw.md"
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction1.excalidraw.md"
               }
             }
           },
@@ -25,8 +25,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5
+    "width": 335.5,
+    "collapsed": true
   },
   "right": {
     "id": "d6fcffc1ef5a2d78",
@@ -100,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction1.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,6 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction1.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +139,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction1.excalidraw.md"
+              }
             }
           },
           {
@@ -168,12 +172,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6380ac6145eed11a",
+  "active": "83f980bde5f14f2a",
   "lastOpenFiles": [
+    "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction.excalidraw.md",
     "Project/Project_Chora.excalidraw.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction1.excalidraw.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction.excalidraw.png",
-    "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction.excalidraw.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
     "000_총류/060 일반 학회, 단체, 협회, 기관/무제 파일.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
