@@ -354,7 +354,7 @@
             "containerId": null,
             "originalText": "논문 제목",
             "lineHeight": 1.2,
-            "baseline": 34
+            "baseline": 33
           },
           {
             "type": "text",
@@ -393,7 +393,7 @@
             "containerId": null,
             "originalText": "논문 설명",
             "lineHeight": 1.2,
-            "baseline": 34
+            "baseline": 33
           }
         ],
         "created": 1705853385848
