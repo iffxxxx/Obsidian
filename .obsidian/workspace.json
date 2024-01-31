@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "205289902aedbec4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -215,8 +227,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8eee4ecc7b955093",
+  "active": "205289902aedbec4",
   "lastOpenFiles": [
+    "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
+    "conflict-files-obsidian-git.md",
+    "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction1.excalidraw.png",
+    "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction1.excalidraw.md",
     "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
     "000_총류/005 프로그래밍/Coding_Interview/09.0_Sync_vs._Async.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction.excalidraw.md",
@@ -227,7 +243,6 @@
     "000_총류/060 일반 학회, 단체, 협회, 기관/일반 학회, 단체, 협회, 기관.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Best Prompts for Text-to-Image Models and How to Find Them.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Attention Res-UNet with Guided Decoder for semantic segmentation of brain tumors.md",
-    "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
     "000_총류/005 프로그래밍/Coding_Interview/07_Object-Oriented_Design.md",
     "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
     "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
@@ -251,11 +266,8 @@
     "Book.md",
     "Attached file/image/Pasted image 20240128223927.png",
     "Attached file/image/Pasted image 20240128223717.png",
-    "Project/Project_Chora.excalidraw.md",
     "Attached file/image/Pasted image 20240128184523.png",
     "Attached file/image/Pasted image 20240128184459.png",
-    "Project/Project.md",
-    "Attached file/image/Pasted Image 20240127171816_598.png",
     "무제 파일 1.canvas",
     "Attached file/image/Murphy.pdf",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
