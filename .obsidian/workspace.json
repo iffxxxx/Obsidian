@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md",
                 "mode": "source",
                 "source": false
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md"
+                "file": "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md"
               }
             }
           },
@@ -227,18 +227,18 @@
   },
   "active": "87ab7d5950505670",
   "lastOpenFiles": [
+    "000_총류/005 프로그래밍/Coding_Interview/04_Tree_and_Graphs.md",
+    "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",
+    "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md",
+    "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
     "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction.excalidraw.md",
-    "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
     "000_총류/005 프로그래밍/Coding_Interview/09.0_Sync_vs._Async.md",
     "Attached file/image/Pasted image 20240201205503.png",
     "Attached file/image/Pasted image 20240201205457.png",
     "Attached file/image/Pasted image 20240201205134.png",
-    "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md",
     "000_총류/005 프로그래밍/Coding_Ex/Wide_and_Deep.md",
-    "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",
-    "000_총류/005 프로그래밍/Coding_Interview/04_Tree_and_Graphs.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction1.excalidraw.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction1.excalidraw.png",
     "conflict-files-obsidian-git.md",
