@@ -71,11 +71,9 @@
             "id": "205289902aedbec4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
-                "mode": "source",
-                "source": false
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction.excalidraw.md"
               }
             }
           }
@@ -146,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md"
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction.excalidraw.md"
               }
             }
           },
@@ -229,9 +227,9 @@
   },
   "active": "205289902aedbec4",
   "lastOpenFiles": [
+    "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction.excalidraw.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
-    "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
     "000_총류/005 프로그래밍/Coding_Interview/09.0_Sync_vs._Async.md",
     "Attached file/image/Pasted image 20240201205503.png",
     "Attached file/image/Pasted image 20240201205457.png",

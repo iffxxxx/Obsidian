@@ -3268,7 +3268,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "순차적인 데이터를 처리하는데 강점\n이전 시간 단계의 출력이 현재 시간의 입력으로 사용되기에\n시퀸스 데이터의 연속성을 잘 학습할 수 있다.",
 			"lineHeight": 1.2,
-			"baseline": 93
+			"baseline": 94
 		},
 		{
 			"type": "arrow",
@@ -4148,7 +4148,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "PNN과 FNN은 다른 딥러닝 모델처럼 낮은 차원의 특징 \n상호작용을 거의 포착하지 못하는데, 이는 CTR 예측에 \n필수적인 요소이기도 합니다.",
 			"lineHeight": 1.2,
-			"baseline": 93
+			"baseline": 94
 		},
 		{
 			"type": "arrow",
@@ -4448,7 +4448,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "임베딩을 통해 얻은 벡터는 일반적으로 저차원의 공간에 \n위치하게 됩니다. 예를 들어, 성별을 나타내는 피처를 2차원의 \n벡터로 임베딩할 경우, 남성과 여성은 각각 다른 2차원 \n벡터에 매핑됩니다. 이러한 저차원 특성 공간에서는 피처 간의\n 상호작용을 표현하기가 한계가 있습니다.",
 			"lineHeight": 1.2,
-			"baseline": 160
+			"baseline": 161
 		},
 		{
 			"type": "arrow",
@@ -4971,7 +4971,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "일반적인 regression은 종종 One-hot vector를 사용하여 \n학습합니다. Memorization은 기존의 특성들을 사용하여 새로운 \n특성을 만들어 학습하는 것을 의미합니다. 일반적으로 \n간단하게 Memorization은 동시출현(co-occurrence)빈도를 \n표현하는 Cross-product로 생성이 가능합니다.",
 			"lineHeight": 1.2,
-			"baseline": 160
+			"baseline": 161
 		},
 		{
 			"type": "text",
@@ -5166,7 +5166,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 1964.8611891370024,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "#a5d8ff",
-			"width": 109.11726379394531,
+			"width": 107.16218566894531,
 			"height": 33.6,
 			"seed": 978300766,
 			"groupIds": [],
@@ -5402,8 +5402,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "arrow",
-			"version": 1509,
-			"versionNonce": 1032845522,
+			"version": 1511,
+			"versionNonce": 1815703594,
 			"isDeleted": false,
 			"id": "WOXx1AX-uzoeCJHtu_Q8l",
 			"fillStyle": "solid",
@@ -5416,7 +5416,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 2360.036106887429,
 			"strokeColor": "#e03131",
 			"backgroundColor": "#a5d8ff",
-			"width": 511.9999999999999,
+			"width": 512,
 			"height": 60.268717030005064,
 			"seed": 138182430,
 			"groupIds": [],
@@ -5430,7 +5430,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					"id": "v8uVkL26"
 				}
 			],
-			"updated": 1706587325708,
+			"updated": 1706791119536,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -5452,7 +5452,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					0
 				],
 				[
-					511.9999999999999,
+					512,
 					60.268717030005064
 				]
 			]
@@ -5496,8 +5496,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "arrow",
-			"version": 935,
-			"versionNonce": 1719471762,
+			"version": 937,
+			"versionNonce": 1623649706,
 			"isDeleted": false,
 			"id": "eSzSzP_hi_HBn7joshpsk",
 			"fillStyle": "solid",
@@ -5506,11 +5506,11 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1989.4156192625312,
+			"x": 1989.3910743797242,
 			"y": 1959.176408013757,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "#a5d8ff",
-			"width": 230.84721041707894,
+			"width": 230.85890419656334,
 			"height": 245.3117450914881,
 			"seed": 764516930,
 			"groupIds": [],
@@ -5524,7 +5524,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					"id": "COtzUc1j"
 				}
 			],
-			"updated": 1706587325708,
+			"updated": 1706791119538,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -5546,7 +5546,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					0
 				],
 				[
-					230.84721041707894,
+					230.85890419656334,
 					245.3117450914881
 				]
 			]
@@ -5604,7 +5604,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 2737.0244764010904,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "#a5d8ff",
-			"width": 151.8732452392578,
+			"width": 136.1505889892578,
 			"height": 33.6,
 			"seed": 1768959042,
 			"groupIds": [],
@@ -5698,8 +5698,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "arrow",
-			"version": 1676,
-			"versionNonce": 1549488142,
+			"version": 1678,
+			"versionNonce": 1325868586,
 			"isDeleted": false,
 			"id": "iM_hYrewAdl9zwYNb3NTS",
 			"fillStyle": "cross-hatch",
@@ -5726,7 +5726,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					"id": "Zd7jPvlx"
 				}
 			],
-			"updated": 1706587325708,
+			"updated": 1706791119542,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -5792,8 +5792,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "arrow",
-			"version": 1865,
-			"versionNonce": 1825709646,
+			"version": 1867,
+			"versionNonce": 1746871210,
 			"isDeleted": false,
 			"id": "yYxUXjdoLPM5ciT4v4Vr2",
 			"fillStyle": "solid",
@@ -5803,7 +5803,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"opacity": 100,
 			"angle": 0,
 			"x": 2152.6341298348343,
-			"y": 2496.785209093522,
+			"y": 2496.7852090935226,
 			"strokeColor": "#e03131",
 			"backgroundColor": "#a5d8ff",
 			"width": 496.99993896484375,
@@ -5820,7 +5820,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					"id": "01xPaPQ0"
 				}
 			],
-			"updated": 1706587325708,
+			"updated": 1706791119543,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -5886,8 +5886,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "arrow",
-			"version": 909,
-			"versionNonce": 1507140750,
+			"version": 911,
+			"versionNonce": 456330026,
 			"isDeleted": false,
 			"id": "jUvUBOKHI3PZ32Y9aYzsz",
 			"fillStyle": "cross-hatch",
@@ -5900,7 +5900,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 2674.115107106576,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "#1e1e1e",
-			"width": 484.5695021969617,
+			"width": 484.5695021969616,
 			"height": 1.461898738880791,
 			"seed": 2108961118,
 			"groupIds": [],
@@ -5914,7 +5914,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					"id": "9U1ItVqy"
 				}
 			],
-			"updated": 1706587325708,
+			"updated": 1706791119540,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -5936,7 +5936,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					0
 				],
 				[
-					484.5695021969617,
+					484.5695021969616,
 					-1.461898738880791
 				]
 			]
@@ -6163,8 +6163,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "arrow",
-			"version": 720,
-			"versionNonce": 1170310990,
+			"version": 722,
+			"versionNonce": 1817561258,
 			"isDeleted": false,
 			"id": "gWHSX1w9v1q1KW0WzgI-Z",
 			"fillStyle": "solid",
@@ -6177,7 +6177,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 2791.643452959893,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#FFC47C",
-			"width": 96.00008877840924,
+			"width": 96.00008877840901,
 			"height": 196.3636363636365,
 			"seed": 1822858434,
 			"groupIds": [],
@@ -6191,7 +6191,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					"id": "aXtAVXR4"
 				}
 			],
-			"updated": 1706587325708,
+			"updated": 1706791119541,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -6213,7 +6213,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					0
 				],
 				[
-					-96.00008877840924,
+					-96.00008877840901,
 					196.3636363636365
 				]
 			]
@@ -6384,7 +6384,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "Wide는 memorization을 담당",
 			"lineHeight": 1.2,
-			"baseline": 27
+			"baseline": 26
 		},
 		{
 			"type": "text",
@@ -6552,7 +6552,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "모델의 파라미터",
 			"lineHeight": 1.2,
-			"baseline": 27
+			"baseline": 26
 		},
 		{
 			"type": "arrow",
@@ -6698,7 +6698,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "bias",
 			"lineHeight": 1.2,
-			"baseline": 27
+			"baseline": 26
 		},
 		{
 			"type": "arrow",
@@ -6792,7 +6792,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "feature vector에 대한 예측값 ",
 			"lineHeight": 1.2,
-			"baseline": 27
+			"baseline": 26
 		},
 		{
 			"type": "image",
@@ -10344,7 +10344,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "식사시간(시간)에 음식 배달 앱(앱 종류)을 자주 다운로드\n앱 종류와 시간 사이의 order-2 Interaction이 \nCTR의 신호\n\n남자(성별) 아이들(나이)이 슈팅게임 어플(앱 종류)을 선호\n성별, 나이, 앱 종류 사이의 order-3 Interaction이\nCTR의 신호\n\n위의 예시들은 누구나 납득할만한 Interaction이며,\n전문가를 고용하여 모델링이 가능",
 			"lineHeight": 1.2,
-			"baseline": 328
+			"baseline": 329
 		},
 		{
 			"type": "text",
@@ -10579,7 +10579,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "유저가 아이템을 클릭할 때마다 받는 보상값",
 			"lineHeight": 1.2,
-			"baseline": 19
+			"baseline": 18
 		},
 		{
 			"type": "text",
@@ -10735,7 +10735,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "유저가 아이템을 클릭할 때마다 받는 보상값",
 			"lineHeight": 1.2,
-			"baseline": 19
+			"baseline": 18
 		},
 		{
 			"type": "image",
@@ -11216,10 +11216,10 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 7406.106194063782,
-		"scrollY": 4102.040798293339,
+		"scrollX": 652.7513025333075,
+		"scrollY": -1256.7816296057804,
 		"zoom": {
-			"value": 0.1
+			"value": 0.65
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
