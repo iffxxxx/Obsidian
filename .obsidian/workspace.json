@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md"
+                "file": "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md"
               }
             }
           },
@@ -225,17 +225,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "87ab7d5950505670",
+  "active": "6480f4013c936c3d",
   "lastOpenFiles": [
-    "000_총류/005 프로그래밍/005_프로그래밍.md",
-    "000_총류/060 일반 학회, 단체, 협회, 기관/일반 학회, 단체, 협회, 기관.md",
+    "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
     "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
     "000_총류/005 프로그래밍/Coding_Interview/09.0_Sync_vs._Async.md",
+    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
+    "000_총류/005 프로그래밍/005_프로그래밍.md",
+    "000_총류/060 일반 학회, 단체, 협회, 기관/일반 학회, 단체, 협회, 기관.md",
     "000_총류/005 프로그래밍/Coding_Interview/07_Object-Oriented_Design.md",
     "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md",
     "000_총류/005 프로그래밍/Coding_Interview/04_Tree_and_Graphs.md",
     "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",
-    "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction.excalidraw.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
     "Attached file/image/Pasted image 20240201205503.png",
@@ -257,7 +258,6 @@
     "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Znet_ Deep Learning Approach for 2D MRI Brain Tumor Segmentation.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Image_Segmentation_Using_Deep_Learning_A_Survey.md",
-    "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
     "Attached file/image/Pasted image 20240128231731.png",
     "Attached file/image/Pasted image 20240128231656.png",
     "000_총류/005 프로그래밍/Coding_Ex",
