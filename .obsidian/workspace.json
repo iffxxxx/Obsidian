@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/07_Object-Oriented_Design.md",
                 "mode": "source",
                 "source": false
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/07_Object-Oriented_Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/07_Object-Oriented_Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md"
+                "file": "000_총류/005 프로그래밍/Coding_Interview/07_Object-Oriented_Design.md"
               }
             }
           },
@@ -227,18 +227,19 @@
   },
   "active": "8eee4ecc7b955093",
   "lastOpenFiles": [
-    "Attached file/image/Pasted image 20240205213636.png",
-    "000_총류/005 프로그래밍/Coding_Interview/07_Object-Oriented_Design.md",
+    "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",
+    "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md",
+    "000_총류/005 프로그래밍/Coding_Interview/04_Tree_and_Graphs.md",
+    "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
     "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
+    "000_총류/005 프로그래밍/Coding_Interview/07_Object-Oriented_Design.md",
     "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
+    "Attached file/image/Pasted image 20240205213636.png",
     "000_총류/005 프로그래밍/Coding_Interview/09.0_Sync_vs._Async.md",
     "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
     "000_총류/005 프로그래밍/Leetcode/00_Leetcode.md",
     "000_총류/005 프로그래밍/005_프로그래밍.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/일반 학회, 단체, 협회, 기관.md",
-    "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md",
-    "000_총류/005 프로그래밍/Coding_Interview/04_Tree_and_Graphs.md",
-    "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction.excalidraw.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
     "Attached file/image/Pasted image 20240201205503.png",
@@ -252,7 +253,6 @@
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/03_Content-based_filtering.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Best Prompts for Text-to-Image Models and How to Find Them.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Attention Res-UNet with Guided Decoder for semantic segmentation of brain tumors.md",
-    "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
     "400_순수과학/410 수학/410 수학.md",
     "000_총류/005 프로그래밍/Coding_Interview/Facebook_coding_interview_guide.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Diffusion Explainer_ Visual Explanation for Text-to-image Stable Diffusion.md",
@@ -265,7 +265,6 @@
     "Attached file/image/Pasted image 20240128230826.png",
     "Attached file/image/Pasted image 20240128225411.png",
     "Attached file/image/Pasted image 20240128225046.png",
-    "Attached file/image/Pasted image 20240128223927.png",
     "무제 파일 1.canvas",
     "Attached file/image/Murphy.pdf",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
