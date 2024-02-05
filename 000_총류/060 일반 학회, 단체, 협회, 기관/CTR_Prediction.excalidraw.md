@@ -3233,8 +3233,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "text",
-			"version": 724,
-			"versionNonce": 449977038,
+			"version": 725,
+			"versionNonce": 250400423,
 			"isDeleted": false,
 			"id": "6Y8njjCN",
 			"fillStyle": "solid",
@@ -3256,7 +3256,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706587325707,
+			"updated": 1707167278271,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -3268,7 +3268,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "순차적인 데이터를 처리하는데 강점\n이전 시간 단계의 출력이 현재 시간의 입력으로 사용되기에\n시퀸스 데이터의 연속성을 잘 학습할 수 있다.",
 			"lineHeight": 1.2,
-			"baseline": 94
+			"baseline": 93
 		},
 		{
 			"type": "arrow",
@@ -4112,8 +4112,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "text",
-			"version": 922,
-			"versionNonce": 1744663186,
+			"version": 923,
+			"versionNonce": 1040847689,
 			"isDeleted": false,
 			"id": "XksToshA",
 			"fillStyle": "solid",
@@ -4136,7 +4136,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706587325708,
+			"updated": 1707167278285,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -4148,7 +4148,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "PNN과 FNN은 다른 딥러닝 모델처럼 낮은 차원의 특징 \n상호작용을 거의 포착하지 못하는데, 이는 CTR 예측에 \n필수적인 요소이기도 합니다.",
 			"lineHeight": 1.2,
-			"baseline": 94
+			"baseline": 93
 		},
 		{
 			"type": "arrow",
@@ -4407,8 +4407,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "text",
-			"version": 1519,
-			"versionNonce": 2033678926,
+			"version": 1520,
+			"versionNonce": 231367111,
 			"isDeleted": false,
 			"id": "gbbYd5ie",
 			"fillStyle": "solid",
@@ -4436,7 +4436,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1706587325708,
+			"updated": 1707167278290,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -4448,7 +4448,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "임베딩을 통해 얻은 벡터는 일반적으로 저차원의 공간에 \n위치하게 됩니다. 예를 들어, 성별을 나타내는 피처를 2차원의 \n벡터로 임베딩할 경우, 남성과 여성은 각각 다른 2차원 \n벡터에 매핑됩니다. 이러한 저차원 특성 공간에서는 피처 간의\n 상호작용을 표현하기가 한계가 있습니다.",
 			"lineHeight": 1.2,
-			"baseline": 161
+			"baseline": 160
 		},
 		{
 			"type": "arrow",
@@ -4931,8 +4931,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "text",
-			"version": 932,
-			"versionNonce": 901179342,
+			"version": 933,
+			"versionNonce": 1406845481,
 			"isDeleted": false,
 			"id": "H40TDvkU",
 			"fillStyle": "solid",
@@ -4959,7 +4959,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1706587325708,
+			"updated": 1707167278308,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -4971,7 +4971,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "일반적인 regression은 종종 One-hot vector를 사용하여 \n학습합니다. Memorization은 기존의 특성들을 사용하여 새로운 \n특성을 만들어 학습하는 것을 의미합니다. 일반적으로 \n간단하게 Memorization은 동시출현(co-occurrence)빈도를 \n표현하는 Cross-product로 생성이 가능합니다.",
 			"lineHeight": 1.2,
-			"baseline": 161
+			"baseline": 160
 		},
 		{
 			"type": "text",
@@ -6388,8 +6388,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "text",
-			"version": 1654,
-			"versionNonce": 1817403410,
+			"version": 1655,
+			"versionNonce": 2110296295,
 			"isDeleted": false,
 			"id": "fEnRUueM",
 			"fillStyle": "solid",
@@ -6414,7 +6414,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1706587325708,
+			"updated": 1707167278326,
 			"link": null,
 			"locked": false,
 			"fontSize": 28.588081709040896,
@@ -6426,7 +6426,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "feature set x는 개별적인 raw 특성과 cross-product\ntransformation으로 생성된 새로운 특성을 함께 포함",
 			"lineHeight": 1.2,
-			"baseline": 61
+			"baseline": 60
 		},
 		{
 			"type": "image",
@@ -10309,8 +10309,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "text",
-			"version": 1837,
-			"versionNonce": 613118798,
+			"version": 1838,
+			"versionNonce": 225613065,
 			"isDeleted": false,
 			"id": "mpgQlnrm",
 			"fillStyle": "hachure",
@@ -10332,7 +10332,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706587325710,
+			"updated": 1707167278382,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -10344,7 +10344,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "식사시간(시간)에 음식 배달 앱(앱 종류)을 자주 다운로드\n앱 종류와 시간 사이의 order-2 Interaction이 \nCTR의 신호\n\n남자(성별) 아이들(나이)이 슈팅게임 어플(앱 종류)을 선호\n성별, 나이, 앱 종류 사이의 order-3 Interaction이\nCTR의 신호\n\n위의 예시들은 누구나 납득할만한 Interaction이며,\n전문가를 고용하여 모델링이 가능",
 			"lineHeight": 1.2,
-			"baseline": 329
+			"baseline": 328
 		},
 		{
 			"type": "text",
@@ -11216,10 +11216,10 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 652.7513025333075,
-		"scrollY": -1256.7816296057804,
+		"scrollX": 6746.993901703886,
+		"scrollY": 1268.8124410896226,
 		"zoom": {
-			"value": 0.65
+			"value": 0.1
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
