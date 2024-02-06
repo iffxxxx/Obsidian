@@ -815,8 +815,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "text",
-			"version": 622,
-			"versionNonce": 611546543,
+			"version": 623,
+			"versionNonce": 132237071,
 			"isDeleted": false,
 			"id": "q1MjBx4p",
 			"fillStyle": "hachure",
@@ -836,7 +836,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"frameId": "HEJ25XmHBNYjcTvpBbY1J",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707187367521,
+			"updated": 1707196596117,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -848,7 +848,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "Related Studies",
 			"lineHeight": 1.2,
-			"baseline": 33
+			"baseline": 34
 		},
 		{
 			"type": "text",
@@ -1986,8 +1986,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "text",
-			"version": 224,
-			"versionNonce": 417762401,
+			"version": 225,
+			"versionNonce": 894252385,
 			"isDeleted": false,
 			"id": "9jzL3QPr",
 			"fillStyle": "solid",
@@ -2007,7 +2007,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"frameId": "C5GCRCbtj5DsP8OwngzmS",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707187367553,
+			"updated": 1707196596130,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -2019,7 +2019,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "A Convolutional Click Prediction Model",
 			"lineHeight": 1.2,
-			"baseline": 33
+			"baseline": 34
 		},
 		{
 			"type": "embeddable",
@@ -2056,8 +2056,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "text",
-			"version": 170,
-			"versionNonce": 937403951,
+			"version": 171,
+			"versionNonce": 2035551535,
 			"isDeleted": false,
 			"id": "zRpClNm9",
 			"fillStyle": "solid",
@@ -2077,7 +2077,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"frameId": "C5GCRCbtj5DsP8OwngzmS",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707187367555,
+			"updated": 1707196596131,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -2089,7 +2089,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "2015년 - 145회 인용",
 			"lineHeight": 1.2,
-			"baseline": 33
+			"baseline": 34
 		},
 		{
 			"type": "arrow",
@@ -3233,8 +3233,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "text",
-			"version": 726,
-			"versionNonce": 1701811887,
+			"version": 727,
+			"versionNonce": 2141315393,
 			"isDeleted": false,
 			"id": "6Y8njjCN",
 			"fillStyle": "solid",
@@ -3256,7 +3256,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707187367579,
+			"updated": 1707196596140,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -3268,7 +3268,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "순차적인 데이터를 처리하는데 강점\n이전 시간 단계의 출력이 현재 시간의 입력으로 사용되기에\n시퀸스 데이터의 연속성을 잘 학습할 수 있다.",
 			"lineHeight": 1.2,
-			"baseline": 93
+			"baseline": 94
 		},
 		{
 			"type": "arrow",
@@ -4112,8 +4112,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "text",
-			"version": 924,
-			"versionNonce": 1120962895,
+			"version": 925,
+			"versionNonce": 752389967,
 			"isDeleted": false,
 			"id": "XksToshA",
 			"fillStyle": "solid",
@@ -4136,7 +4136,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707187367600,
+			"updated": 1707196596148,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -4148,7 +4148,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "PNN과 FNN은 다른 딥러닝 모델처럼 낮은 차원의 특징 \n상호작용을 거의 포착하지 못하는데, 이는 CTR 예측에 \n필수적인 요소이기도 합니다.",
 			"lineHeight": 1.2,
-			"baseline": 93
+			"baseline": 94
 		},
 		{
 			"type": "arrow",
@@ -10270,8 +10270,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "text",
-			"version": 1453,
-			"versionNonce": 595333089,
+			"version": 1454,
+			"versionNonce": 372642081,
 			"isDeleted": false,
 			"id": "1WHi0A5v",
 			"fillStyle": "hachure",
@@ -10293,7 +10293,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707187367682,
+			"updated": 1707196596186,
 			"link": "[[00_Recommender_Systems#Implicit_vs_Explicit]]",
 			"locked": false,
 			"fontSize": 36,
@@ -10305,7 +10305,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "Implicit feature",
 			"lineHeight": 1.2,
-			"baseline": 33
+			"baseline": 34
 		},
 		{
 			"type": "text",
@@ -10427,8 +10427,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "text",
-			"version": 1533,
-			"versionNonce": 752676047,
+			"version": 1534,
+			"versionNonce": 482856303,
 			"isDeleted": false,
 			"id": "sW2yLgJ2",
 			"fillStyle": "hachure",
@@ -10450,7 +10450,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707187367687,
+			"updated": 1707196596188,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -10462,7 +10462,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "CTR",
 			"lineHeight": 1.2,
-			"baseline": 33
+			"baseline": 34
 		},
 		{
 			"type": "text",
@@ -10544,8 +10544,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "text",
-			"version": 1298,
-			"versionNonce": 1265119105,
+			"version": 1299,
+			"versionNonce": 1316570369,
 			"isDeleted": false,
 			"id": "ZIkiFRqx",
 			"fillStyle": "hachure",
@@ -10567,7 +10567,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707187367694,
+			"updated": 1707196596191,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -10579,12 +10579,12 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "유저가 아이템을 클릭할 때마다 받는 보상값",
 			"lineHeight": 1.2,
-			"baseline": 18
+			"baseline": 19
 		},
 		{
 			"type": "text",
-			"version": 1533,
-			"versionNonce": 571819279,
+			"version": 1534,
+			"versionNonce": 1684686735,
 			"isDeleted": false,
 			"id": "pTJAxxmh",
 			"fillStyle": "hachure",
@@ -10606,7 +10606,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707187367694,
+			"updated": 1707196596191,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -10618,7 +10618,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "CTR",
 			"lineHeight": 1.2,
-			"baseline": 33
+			"baseline": 34
 		},
 		{
 			"type": "text",
@@ -10700,8 +10700,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "text",
-			"version": 1298,
-			"versionNonce": 1999700801,
+			"version": 1299,
+			"versionNonce": 602602721,
 			"isDeleted": false,
 			"id": "Miexk4B6",
 			"fillStyle": "hachure",
@@ -10723,7 +10723,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707187367695,
+			"updated": 1707196596191,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -10735,7 +10735,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "유저가 아이템을 클릭할 때마다 받는 보상값",
 			"lineHeight": 1.2,
-			"baseline": 18
+			"baseline": 19
 		},
 		{
 			"type": "image",
@@ -10810,8 +10810,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "text",
-			"version": 1418,
-			"versionNonce": 314871119,
+			"version": 1419,
+			"versionNonce": 569933231,
 			"isDeleted": false,
 			"id": "F9TxmliF",
 			"fillStyle": "hachure",
@@ -10833,7 +10833,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707187367695,
+			"updated": 1707196596192,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -10845,7 +10845,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "DEEPFM",
 			"lineHeight": 1.2,
-			"baseline": 33
+			"baseline": 34
 		},
 		{
 			"type": "embeddable",
