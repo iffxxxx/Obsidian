@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/10_.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,8 +128,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f6878ac96d36097f",
@@ -145,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/10_.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
+                "file": "000_총류/005 프로그래밍/Coding_Interview/10_.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md"
+                "file": "000_총류/005 프로그래밍/Coding_Interview/10_.md"
               }
             }
           },
@@ -229,6 +228,7 @@
   "active": "8eee4ecc7b955093",
   "lastOpenFiles": [
     "000_총류/005 프로그래밍/Coding_Interview/09.0_Sync_vs._Async.md",
+    "000_총류/005 프로그래밍/Coding_Interview/10_.md",
     "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
     "000_총류/005 프로그래밍/Coding_Interview/07_Object-Oriented_Design.md",
     "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",

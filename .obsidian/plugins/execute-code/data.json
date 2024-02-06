@@ -3,6 +3,8 @@
   "timeout": 10000,
   "allowInput": true,
   "wslMode": false,
+  "shellWSLMode": false,
+  "onlyCurrentBlock": false,
   "nodePath": "node",
   "nodeArgs": "",
   "jsFileExtension": "js",
@@ -25,7 +27,7 @@
   "csArgs": "",
   "csFileExtension": "csx",
   "csInject": "",
-  "pythonPath": "C:/Users/iffxx/AppData/Local/Programs/Python/Python311/python.exe",
+  "pythonPath": "C:/Python310/python.exe",
   "pythonArgs": "",
   "pythonEmbedPlots": true,
   "pythonFileExtension": "py",
@@ -121,6 +123,9 @@
   "applescriptArgs": "",
   "applescriptFileExtension": "scpt",
   "applescriptInject": "",
+  "zigPath": "zig",
+  "zigArgs": "run",
+  "zigInject": "",
   "jsInteractive": true,
   "tsInteractive": false,
   "csInteractive": false,
@@ -150,5 +155,6 @@
   "sqlInteractive": false,
   "octaveInteractive": false,
   "maximaInteractive": false,
-  "applescriptInteractive": false
+  "applescriptInteractive": false,
+  "zigInteractive": false
 }
