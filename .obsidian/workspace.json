@@ -71,11 +71,9 @@
             "id": "3686ae328c3b5579",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "규칙.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md"
               }
             }
           },
@@ -156,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "규칙.md",
+                "file": "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "규칙.md",
+                "file": "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "규칙.md"
+                "file": "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md"
               }
             }
           },
@@ -239,9 +237,9 @@
   },
   "active": "3686ae328c3b5579",
   "lastOpenFiles": [
+    "규칙.md",
     "Book.md",
     "Project/Project_Chora.excalidraw.md",
-    "규칙.md",
     "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
     "000_총류/005 프로그래밍/Coding_Interview/10_.md",
     "000_총류/005 프로그래밍/Coding_Interview/09.0_Sync_vs._Async.md",
