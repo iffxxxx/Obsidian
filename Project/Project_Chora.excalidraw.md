@@ -76,7 +76,8 @@ TMND-Mix ^CEl5bYly
 
 일본 애니 풍 ^HpOlFQJn
 
-Model hash: 0bcee2e498 ^pPs8ewS6
+Model hash: 0bcee2e498
+Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 
 
 # Embedded files
@@ -1360,8 +1361,8 @@ Model hash: 0bcee2e498 ^pPs8ewS6
 		},
 		{
 			"type": "arrow",
-			"version": 92,
-			"versionNonce": 2117134034,
+			"version": 94,
+			"versionNonce": 829406570,
 			"isDeleted": false,
 			"id": "F3HGOinQDQjKS1ePDCTLt",
 			"fillStyle": "hachure",
@@ -1370,11 +1371,11 @@ Model hash: 0bcee2e498 ^pPs8ewS6
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1088.301587283488,
+			"x": 1088.2962725823295,
 			"y": 1039.2666078036868,
 			"strokeColor": "#000000",
 			"backgroundColor": "#ffc9c9",
-			"width": 0.27256405476509826,
+			"width": 0.2700642728434559,
 			"height": 261.9999694824219,
 			"seed": 1972724050,
 			"groupIds": [],
@@ -1383,7 +1384,7 @@ Model hash: 0bcee2e498 ^pPs8ewS6
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1707918110354,
+			"updated": 1707993363843,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1405,7 +1406,7 @@ Model hash: 0bcee2e498 ^pPs8ewS6
 					0
 				],
 				[
-					-0.27256405476509826,
+					-0.2700642728434559,
 					261.9999694824219
 				]
 			]
@@ -1760,8 +1761,8 @@ Model hash: 0bcee2e498 ^pPs8ewS6
 		},
 		{
 			"type": "text",
-			"version": 111,
-			"versionNonce": 1754290702,
+			"version": 116,
+			"versionNonce": 1873615850,
 			"isDeleted": false,
 			"id": "pPs8ewS6",
 			"fillStyle": "hachure",
@@ -1771,11 +1772,11 @@ Model hash: 0bcee2e498 ^pPs8ewS6
 			"opacity": 100,
 			"angle": 0,
 			"x": 836.7649586387026,
-			"y": 1430.6169164746436,
+			"y": 1429.5502660840186,
 			"strokeColor": "#000000",
 			"backgroundColor": "#ffc9c9",
-			"width": 230.46788024902344,
-			"height": 33.6,
+			"width": 349.2438659667969,
+			"height": 67.2,
 			"seed": 597946834,
 			"groupIds": [
 				"bC7nfAJOVXiU4jvtg3QhG"
@@ -1783,19 +1784,19 @@ Model hash: 0bcee2e498 ^pPs8ewS6
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707918113059,
+			"updated": 1707993384377,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
 			"fontFamily": 4,
-			"text": "Model hash: 0bcee2e498",
-			"rawText": "Model hash: 0bcee2e498",
+			"text": "Model hash: 0bcee2e498\nModel: chilloutmix_NiPrunedFp32Fix",
+			"rawText": "Model hash: 0bcee2e498\nModel: chilloutmix_NiPrunedFp32Fix",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Model hash: 0bcee2e498",
+			"originalText": "Model hash: 0bcee2e498\nModel: chilloutmix_NiPrunedFp32Fix",
 			"lineHeight": 1.2,
-			"baseline": 26
+			"baseline": 60
 		}
 	],
 	"appState": {
