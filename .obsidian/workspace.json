@@ -71,9 +71,11 @@
             "id": "3686ae328c3b5579",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Project/Project_Chora.excalidraw.md"
+                "file": "규칙.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -154,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/Project_Chora.excalidraw.md",
+                "file": "규칙.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/Project_Chora.excalidraw.md",
+                "file": "규칙.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/Project_Chora.excalidraw.md"
+                "file": "규칙.md"
               }
             }
           },
@@ -237,9 +239,9 @@
   },
   "active": "3686ae328c3b5579",
   "lastOpenFiles": [
-    "규칙.md",
     "Book.md",
     "Project/Project_Chora.excalidraw.md",
+    "규칙.md",
     "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
     "000_총류/005 프로그래밍/Coding_Interview/10_.md",
     "000_총류/005 프로그래밍/Coding_Interview/09.0_Sync_vs._Async.md",
