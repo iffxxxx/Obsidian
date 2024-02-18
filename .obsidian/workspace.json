@@ -71,9 +71,14 @@
             "id": "3686ae328c3b5579",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "canvas",
               "state": {
-                "file": "Project/Project_Chora.excalidraw.md"
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
+                "viewState": {
+                  "x": -413.5,
+                  "y": 128.5,
+                  "zoom": 0
+                }
               }
             }
           },
@@ -138,8 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f6878ac96d36097f",
@@ -155,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/Project_Chora.excalidraw.md",
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/Project_Chora.excalidraw.md",
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/Project_Chora.excalidraw.md"
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas"
               }
             }
           },
@@ -238,10 +242,11 @@
   },
   "active": "3686ae328c3b5579",
   "lastOpenFiles": [
+    "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
+    "Project/Project_Chora.excalidraw.md",
     "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md",
     "규칙.md",
     "Book.md",
-    "Project/Project_Chora.excalidraw.md",
     "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
     "000_총류/005 프로그래밍/Coding_Interview/10_.md",
     "000_총류/005 프로그래밍/Coding_Interview/09.0_Sync_vs._Async.md",
@@ -257,7 +262,6 @@
     "000_총류/005 프로그래밍/005_프로그래밍.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/일반 학회, 단체, 협회, 기관.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction.excalidraw.md",
-    "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
     "Attached file/image/Pasted image 20240201205503.png",
     "Attached file/image/Pasted image 20240201205457.png",
     "Attached file/image/Pasted image 20240201205134.png",
@@ -269,7 +273,6 @@
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/03_Content-based_filtering.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Best Prompts for Text-to-Image Models and How to Find Them.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Attention Res-UNet with Guided Decoder for semantic segmentation of brain tumors.md",
-    "400_순수과학/410 수학/410 수학.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
     "Attached file/image/Pasted image 20240128231731.png",
     "Attached file/image/Pasted image 20240128231656.png",
