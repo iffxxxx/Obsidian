@@ -71,9 +71,11 @@
             "id": "3686ae328c3b5579",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Project/Project_Chora.excalidraw.md"
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -154,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/Project_Chora.excalidraw.md",
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/Project_Chora.excalidraw.md",
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/Project_Chora.excalidraw.md"
+                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md"
               }
             }
           },
@@ -237,9 +239,12 @@
   },
   "active": "3686ae328c3b5579",
   "lastOpenFiles": [
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/03_WebUi_Setting.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/01_Install.md",
+    "Project/Project_Chora.excalidraw.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
-    "Project/Project_Chora.excalidraw.md",
     "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md",
     "규칙.md",
     "Book.md",
@@ -267,8 +272,6 @@
     "conflict-files-obsidian-git.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/04_Statistics 1.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/03_Content-based_filtering.md",
-    "000_총류/060 일반 학회, 단체, 협회, 기관/Best Prompts for Text-to-Image Models and How to Find Them.md",
-    "000_총류/060 일반 학회, 단체, 협회, 기관/Attention Res-UNet with Guided Decoder for semantic segmentation of brain tumors.md",
     "Attached file/image/Pasted image 20240128231731.png",
     "Attached file/image/Pasted image 20240128231656.png",
     "000_총류/005 프로그래밍/Coding_Ex",
