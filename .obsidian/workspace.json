@@ -83,11 +83,14 @@
             "id": "2dc4c2d97cd54940",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
-                "mode": "source",
-                "source": false
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
+                "viewState": {
+                  "x": -430,
+                  "y": 423.00000000000006,
+                  "zoom": -0.31311323014731884
+                }
               }
             }
           },
@@ -168,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md"
+                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas"
               }
             }
           },
@@ -251,12 +254,18 @@
   },
   "active": "2dc4c2d97cd54940",
   "lastOpenFiles": [
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/03_WebUi_Setting.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/01_Install.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
+    "000_총류/005 프로그래밍/Leetcode/119_Pascal's_Triangle_2.md",
+    "000_총류/005 프로그래밍/Leetcode/83_Remove_Duplicates_from_Sorted_List.md",
+    "000_총류/005 프로그래밍/Leetcode/66_Plus_One.md",
+    "000_총류/005 프로그래밍/Leetcode/21_Merge_Two_Sorted_Lists.md",
+    "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
+    "000_총류/005 프로그래밍/Leetcode/9_Palindrome_Number.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md",
     "Attached file/image/Pasted image 20240224203316.png",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Deep_Learning.md",
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/03_WebUi_Setting.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_2",
     "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",
     "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
@@ -267,19 +276,14 @@
     "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md",
     "000_총류/005 프로그래밍/Coding_Interview/00_Cracking_the_Coding_interview.md",
     "000_총류/005 프로그래밍/Leetcode/133_Clone_Graph.md",
-    "000_총류/005 프로그래밍/Leetcode/119_Pascal's_Triangle_2.md",
     "000_총류/005 프로그래밍/Leetcode/118_Pascal's_Triangle.md",
     "000_총류/005 프로그래밍/Leetcode/58_Length_of_Last_Word.md",
     "000_총류/005 프로그래밍/Leetcode/28_Find_the_Index_of_the_First_Occurrence_in_a_String.md",
-    "000_총류/005 프로그래밍/Leetcode/21_Merge_Two_Sorted_Lists.md",
     "000_총류/005 프로그래밍/Leetcode/20_Valid_Parentheses.md",
-    "000_총류/005 프로그래밍/Leetcode/9_Palindrome_Number.md",
     "000_총류/005 프로그래밍/Leetcode/171_Excel_Sheet_Column_Number.md",
     "000_총류/005 프로그래밍/Leetcode/1002_Find_Common_Characters.md",
-    "Project/Project_Chora.excalidraw.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
-    "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md",
     "Attached file/image/Pasted image 20240205213636.png",
     "Attached file/image/Pasted image 20240201205503.png",
     "Attached file/image/Pasted image 20240201205457.png",
