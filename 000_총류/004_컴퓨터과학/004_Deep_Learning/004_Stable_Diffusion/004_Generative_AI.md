@@ -59,3 +59,4 @@ Webui의 기본적인 Setting 및 Extension 설치 시 Extension과 관련된 Op
 	8x_NMKD-Faces_160000_G https://huggingface.co/gemasai/8x_NMKD-Faces_160000_G/tree/main
 	
 	ESRGAN https://huggingface.co/uwg/upscaler/tree/main/ESRGAN
+	![[Pasted image 20240224203316.png]]
