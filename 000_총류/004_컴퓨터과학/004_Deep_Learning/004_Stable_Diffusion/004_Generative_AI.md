@@ -47,3 +47,15 @@ Webui의 기본적인 Setting 및 Extension 설치 시 Extension과 관련된 Op
 ## Extensions
 추가적인 기능들을 활용하기 위한 **Extension들을 설치 및 Update**하는 Tab
 ## VAE & Upscaler
+- ### VAE
+	vae-ft-mse-840000-ema-pruned https://huggingface.co/stabilityai/sd-vae-ft-mse-original/blob/main/vae-ft-mse-840000-ema-pruned.ckpt
+	
+	vae-ft-ema-560000-ema-pruned https://huggingface.co/stabilityai/sd-vae-ft-ema-original/blob/main/vae-ft-ema-560000-ema-pruned.safetensors
+	
+	kl-f8-anime2 https://civitai.com/models/23906
+	
+	kl-f8-anime https://huggingface.co/hakurei/waifu-diffusion-v1-4/blob/main/vae/kl-f8-
+- ### Upscaler
+	8x_NMKD-Faces_160000_G https://huggingface.co/gemasai/8x_NMKD-Faces_160000_G/tree/main
+	
+	ESRGAN https://huggingface.co/uwg/upscaler/tree/main/ESRGAN
