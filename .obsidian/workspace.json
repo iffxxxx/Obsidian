@@ -83,11 +83,9 @@
             "id": "2dc4c2d97cd54940",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/03_WebUi_Setting.md",
-                "mode": "source",
-                "source": false
+                "file": "Project/Project_Chora.excalidraw.md"
               }
             }
           },
@@ -168,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/03_WebUi_Setting.md",
+                "file": "Project/Project_Chora.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/03_WebUi_Setting.md",
+                "file": "Project/Project_Chora.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/03_WebUi_Setting.md"
+                "file": "Project/Project_Chora.excalidraw.md"
               }
             }
           },
@@ -251,8 +249,10 @@
   },
   "active": "2dc4c2d97cd54940",
   "lastOpenFiles": [
-    "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
+    "Attached file/image/Pasted Image 20240226225216_112.png",
+    "Attached file/image/Pasted Image 20240226225214_256.png",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/03_WebUi_Setting.md",
+    "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/01_Install.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/02_Various_Models.md",
     "000_총류/005 프로그래밍/Leetcode/119_Pascal's_Triangle_2.md",
@@ -289,7 +289,6 @@
     "Attached file/image/Pasted image 20240128231656.png",
     "000_총류/005 프로그래밍/Coding_Ex",
     "Attached file/image/Pasted image 20240128230826.png",
-    "Attached file/image/Pasted image 20240128225411.png",
     "무제 파일 1.canvas",
     "Attached file/image/Murphy.pdf",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",

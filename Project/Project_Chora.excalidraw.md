@@ -45,16 +45,15 @@ Post.csv   게시글 - 이미지 정보 ^4H45wEZd
 Stable Diffusion
 세부 파라미터 ^IaQDY5Oh
 
-CNN 기반 모델은 인접한 피쳐를 학습하는 편향성 ^aGoPzmwV
+SNS ^aGoPzmwV
 
-이미지 처리에 특화된 구조로 이미지 데이터 내에서
-근접한 픽셀 간의 패턴 및 공간적인 관계를 학습하는데 강점 ^WiqvB36K
+테마별로 좋아하는 게시물에 좋아요를 눌러
+이 게시물안에 있는 세부 파라미터들을 학습
+어 너 step 20쪽 ㅇㅋ 이후에 이미지 생성할때 반영 ^WiqvB36K
 
-RNN 기반 모델은 연속성이 있어 클릭 데이터에 적합 ^OHqtqtaT
+이상형 월드컵 ^OHqtqtaT
 
-순차적인 데이터를 처리하는데 강점
-이전 시간 단계의 출력이 현재 시간의 입력으로 사용되기에
-시퀸스 데이터의 연속성을 잘 학습할 수 있다. ^tkQHwFex
+2가지 방법 - step 같은데 cfg s을 다르게 ^tkQHwFex
 
 Front ^z0W3vwoF
 
@@ -79,9 +78,18 @@ TMND-Mix ^CEl5bYly
 Model hash: 0bcee2e498
 Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 
+프롬프트 있어? 없어? ^mRIHETol
+
+평점 먹이기 (넷플릭스) ^z1KfhaRy
+
+1점부터 5점까지 점수 먹이기
+-> 이거는 바로 만들수 있음 기존에 한게 있음 ^fSu4MXjn
+
 
 # Embedded files
 768448a53630f6e8826f9d4bcbfa426c8700465d: [[Pasted Image 20240127171816_598.png]]
+9fb3e0de467da1590dcc802610fd21666ce511a4: [[Pasted Image 20240226225214_256.png]]
+7d49c7fd989c182b7d77fa623413ad45e394fc18: [[Pasted Image 20240226225216_112.png]]
 
 %%
 # Drawing
@@ -282,7 +290,7 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 			"y": -59.93724146328036,
 			"strokeColor": "#000000",
 			"backgroundColor": "#ffc9c9",
-			"width": 58.296875,
+			"width": 42.02796936035156,
 			"height": 33.6,
 			"seed": 1360253082,
 			"groupIds": [],
@@ -301,7 +309,7 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 			"containerId": "7klwlC3sJKtg7hdxsUBhB",
 			"originalText": "Back",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "rectangle",
@@ -1052,7 +1060,7 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 			"y": 688.4794510668625,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 199.841796875,
+			"width": 168.25189208984375,
 			"height": 67.2,
 			"seed": 1120859934,
 			"groupIds": [],
@@ -1071,12 +1079,12 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 			"containerId": "JLLIIZdJm-ER-3afWK97e",
 			"originalText": "Stable Diffusion\n세부 파라미터",
 			"lineHeight": 1.2,
-			"baseline": 62
+			"baseline": 60
 		},
 		{
 			"type": "arrow",
-			"version": 90,
-			"versionNonce": 1538506318,
+			"version": 92,
+			"versionNonce": 1152730276,
 			"isDeleted": false,
 			"id": "1rTEu8CnUKf2csFE4OMi1",
 			"fillStyle": "hachure",
@@ -1085,12 +1093,12 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -392.3969579835191,
-			"y": 247.856213385273,
+			"x": -392.5001114925649,
+			"y": 247.94998931884766,
 			"strokeColor": "#000000",
 			"backgroundColor": "#ffc9c9",
-			"width": 340.0801464768015,
-			"height": 309.16382313191366,
+			"width": 339.45932803795824,
+			"height": 307.8200471983391,
 			"seed": 1351207386,
 			"groupIds": [],
 			"frameId": null,
@@ -1103,7 +1111,7 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 					"id": "z0W3vwoF"
 				}
 			],
-			"updated": 1707918110354,
+			"updated": 1708955425949,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1125,8 +1133,8 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 					0
 				],
 				[
-					-340.0801464768015,
-					309.16382313191366
+					-339.45932803795824,
+					307.8200471983391
 				]
 			]
 		},
@@ -1146,7 +1154,7 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 			"y": 385.6381249512298,
 			"strokeColor": "#000000",
 			"backgroundColor": "#ffc9c9",
-			"width": 66.076171875,
+			"width": 58.155975341796875,
 			"height": 33.6,
 			"seed": 709506822,
 			"groupIds": [],
@@ -1165,12 +1173,12 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 			"containerId": "1rTEu8CnUKf2csFE4OMi1",
 			"originalText": "Front",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "rectangle",
-			"version": 3196,
-			"versionNonce": 998425742,
+			"version": 3197,
+			"versionNonce": 96296356,
 			"isDeleted": false,
 			"id": "R8Rod677coigkwxa0p6ZJ",
 			"fillStyle": "hachure",
@@ -1180,7 +1188,7 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 			"opacity": 100,
 			"angle": 0,
 			"x": -1112.3701786036884,
-			"y": 569.1422133053997,
+			"y": 567.8922133053997,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 577.6000366210938,
@@ -1199,14 +1207,14 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 					"type": "arrow"
 				}
 			],
-			"updated": 1707918110354,
+			"updated": 1708955425948,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 395,
-			"versionNonce": 1065993397,
+			"version": 399,
+			"versionNonce": 2121076772,
 			"isDeleted": false,
 			"id": "aGoPzmwV",
 			"fillStyle": "solid",
@@ -1216,10 +1224,10 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 			"opacity": 100,
 			"angle": 0,
 			"x": -1080.5700789129335,
-			"y": 641.6997576206217,
+			"y": 640.4497576206217,
 			"strokeColor": "#e03131",
 			"backgroundColor": "#a5d8ff",
-			"width": 440.63580322265625,
+			"width": 39.67597961425781,
 			"height": 33.6,
 			"seed": 193728710,
 			"groupIds": [
@@ -1228,24 +1236,24 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1708163728410,
+			"updated": 1708955425949,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
 			"fontFamily": 4,
-			"text": "CNN 기반 모델은 인접한 피쳐를 학습하는 편향성",
-			"rawText": "CNN 기반 모델은 인접한 피쳐를 학습하는 편향성",
+			"text": "SNS",
+			"rawText": "SNS",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "CNN 기반 모델은 인접한 피쳐를 학습하는 편향성",
+			"originalText": "SNS",
 			"lineHeight": 1.2,
 			"baseline": 26
 		},
 		{
 			"type": "text",
-			"version": 386,
-			"versionNonce": 711576859,
+			"version": 606,
+			"versionNonce": 101391012,
 			"isDeleted": false,
 			"id": "WiqvB36K",
 			"fillStyle": "solid",
@@ -1255,11 +1263,11 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 			"opacity": 100,
 			"angle": 0,
 			"x": -1079.2367455796,
-			"y": 701.8997576206219,
+			"y": 700.6497576206219,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#a5d8ff",
-			"width": 541.2398071289062,
-			"height": 67.2,
+			"width": 456.79180908203125,
+			"height": 100.80000000000001,
 			"seed": 1251608582,
 			"groupIds": [
 				"1Z8ZG5z6ViPEDbTjGhDW6"
@@ -1267,24 +1275,24 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1708163728411,
+			"updated": 1708955476106,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
 			"fontFamily": 4,
-			"text": "이미지 처리에 특화된 구조로 이미지 데이터 내에서\n근접한 픽셀 간의 패턴 및 공간적인 관계를 학습하는데 강점",
-			"rawText": "이미지 처리에 특화된 구조로 이미지 데이터 내에서\n근접한 픽셀 간의 패턴 및 공간적인 관계를 학습하는데 강점",
+			"text": "테마별로 좋아하는 게시물에 좋아요를 눌러\n이 게시물안에 있는 세부 파라미터들을 학습\n어 너 step 20쪽 ㅇㅋ 이후에 이미지 생성할때 반영",
+			"rawText": "테마별로 좋아하는 게시물에 좋아요를 눌러\n이 게시물안에 있는 세부 파라미터들을 학습\n어 너 step 20쪽 ㅇㅋ 이후에 이미지 생성할때 반영",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "이미지 처리에 특화된 구조로 이미지 데이터 내에서\n근접한 픽셀 간의 패턴 및 공간적인 관계를 학습하는데 강점",
+			"originalText": "테마별로 좋아하는 게시물에 좋아요를 눌러\n이 게시물안에 있는 세부 파라미터들을 학습\n어 너 step 20쪽 ㅇㅋ 이후에 이미지 생성할때 반영",
 			"lineHeight": 1.2,
-			"baseline": 60
+			"baseline": 93
 		},
 		{
 			"type": "text",
-			"version": 453,
-			"versionNonce": 1673094677,
+			"version": 476,
+			"versionNonce": 113835172,
 			"isDeleted": false,
 			"id": "OHqtqtaT",
 			"fillStyle": "solid",
@@ -1294,10 +1302,10 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 			"opacity": 100,
 			"angle": 0,
 			"x": -1078.5546065008245,
-			"y": 829.7664039422365,
+			"y": 828.5164039422365,
 			"strokeColor": "#e03131",
 			"backgroundColor": "#a5d8ff",
-			"width": 463.7358093261719,
+			"width": 122.35993957519531,
 			"height": 33.6,
 			"seed": 996611910,
 			"groupIds": [
@@ -1306,24 +1314,24 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1708163728411,
+			"updated": 1708955482001,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
 			"fontFamily": 4,
-			"text": "RNN 기반 모델은 연속성이 있어 클릭 데이터에 적합",
-			"rawText": "RNN 기반 모델은 연속성이 있어 클릭 데이터에 적합",
+			"text": "이상형 월드컵",
+			"rawText": "이상형 월드컵",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "RNN 기반 모델은 연속성이 있어 클릭 데이터에 적합",
+			"originalText": "이상형 월드컵",
 			"lineHeight": 1.2,
 			"baseline": 26
 		},
 		{
 			"type": "text",
-			"version": 689,
-			"versionNonce": 1535603131,
+			"version": 753,
+			"versionNonce": 466982684,
 			"isDeleted": false,
 			"id": "tkQHwFex",
 			"fillStyle": "solid",
@@ -1333,11 +1341,11 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 			"opacity": 100,
 			"angle": 0,
 			"x": -1082.26110536492,
-			"y": 879.8581077279517,
+			"y": 878.6081077279517,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#a5d8ff",
-			"width": 525.391845703125,
-			"height": 100.80000000000001,
+			"width": 390.039794921875,
+			"height": 33.6,
 			"seed": 105922182,
 			"groupIds": [
 				"1Z8ZG5z6ViPEDbTjGhDW6"
@@ -1345,19 +1353,19 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1708163728411,
+			"updated": 1708955502237,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
 			"fontFamily": 4,
-			"text": "순차적인 데이터를 처리하는데 강점\n이전 시간 단계의 출력이 현재 시간의 입력으로 사용되기에\n시퀸스 데이터의 연속성을 잘 학습할 수 있다.",
-			"rawText": "순차적인 데이터를 처리하는데 강점\n이전 시간 단계의 출력이 현재 시간의 입력으로 사용되기에\n시퀸스 데이터의 연속성을 잘 학습할 수 있다.",
+			"text": "2가지 방법 - step 같은데 cfg s을 다르게",
+			"rawText": "2가지 방법 - step 같은데 cfg s을 다르게",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "순차적인 데이터를 처리하는데 강점\n이전 시간 단계의 출력이 현재 시간의 입력으로 사용되기에\n시퀸스 데이터의 연속성을 잘 학습할 수 있다.",
+			"originalText": "2가지 방법 - step 같은데 cfg s을 다르게",
 			"lineHeight": 1.2,
-			"baseline": 93
+			"baseline": 26
 		},
 		{
 			"type": "arrow",
@@ -1797,6 +1805,187 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 			"originalText": "Model hash: 0bcee2e498\nModel: chilloutmix_NiPrunedFp32Fix",
 			"lineHeight": 1.2,
 			"baseline": 60
+		},
+		{
+			"id": "wD_CKuvnCYa8eKvaMsV8f",
+			"type": "image",
+			"x": -1478.273686230136,
+			"y": 678.7138206475884,
+			"width": 214.4953745209458,
+			"height": 145.78982486970534,
+			"angle": 0,
+			"strokeColor": "transparent",
+			"backgroundColor": "#ffc9c9",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 612975652,
+			"version": 272,
+			"versionNonce": 79057060,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1708955546200,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "9fb3e0de467da1590dcc802610fd21666ce511a4",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "yNzoKYd6rWAJ3CRXFMHba",
+			"type": "image",
+			"x": -1702.4695513750223,
+			"y": 677.2040841819663,
+			"width": 216.00511098656827,
+			"height": 146.81597387368313,
+			"angle": 0,
+			"strokeColor": "transparent",
+			"backgroundColor": "#ffc9c9",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1763217948,
+			"version": 184,
+			"versionNonce": 1362687772,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1708955537503,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "7d49c7fd989c182b7d77fa623413ad45e394fc18",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "mRIHETol",
+			"type": "text",
+			"x": -1691.4675637979599,
+			"y": 837.2361495379121,
+			"width": 186.87191772460938,
+			"height": 33.6,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "#ffc9c9",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1485234980,
+			"version": 27,
+			"versionNonce": 219024284,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1708955556973,
+			"link": null,
+			"locked": false,
+			"text": "프롬프트 있어? 없어?",
+			"rawText": "프롬프트 있어? 없어?",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 26,
+			"containerId": null,
+			"originalText": "프롬프트 있어? 없어?",
+			"lineHeight": 1.2
+		},
+		{
+			"type": "text",
+			"version": 549,
+			"versionNonce": 1351620508,
+			"isDeleted": false,
+			"id": "z1KfhaRy",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1080.0599381509,
+			"y": 935.1761209251939,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#a5d8ff",
+			"width": 203.55990600585938,
+			"height": 33.6,
+			"seed": 1346303396,
+			"groupIds": [
+				"oFeP4veNq24KFIuSc9iDg"
+			],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1708955597082,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "평점 먹이기 (넷플릭스)",
+			"rawText": "평점 먹이기 (넷플릭스)",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "평점 먹이기 (넷플릭스)",
+			"lineHeight": 1.2,
+			"baseline": 26
+		},
+		{
+			"type": "text",
+			"version": 950,
+			"versionNonce": 1042971428,
+			"isDeleted": false,
+			"id": "fSu4MXjn",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1087.836870944792,
+			"y": 979.7133466610463,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 408.4918518066406,
+			"height": 67.2,
+			"seed": 1546217884,
+			"groupIds": [
+				"8Vuy_hqxr2v1Bzz_Nv3Yj"
+			],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1708955648738,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "1점부터 5점까지 점수 먹이기\n-> 이거는 바로 만들수 있음 기존에 한게 있음",
+			"rawText": "1점부터 5점까지 점수 먹이기\n-> 이거는 바로 만들수 있음 기존에 한게 있음",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "1점부터 5점까지 점수 먹이기\n-> 이거는 바로 만들수 있음 기존에 한게 있음",
+			"lineHeight": 1.2,
+			"baseline": 60
 		}
 	],
 	"appState": {
@@ -1814,10 +2003,10 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 1505.1486346121928,
-		"scrollY": 2398.2771181053986,
+		"scrollX": 1892.2625137257028,
+		"scrollY": -245.32509648493652,
 		"zoom": {
-			"value": 0.15000000000000002
+			"value": 1.3247345119771257
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
