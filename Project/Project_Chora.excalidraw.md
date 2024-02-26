@@ -89,6 +89,10 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 
 2 1 5  ^gcfBhTtb
 
+user based --->
+item based --->
+게시물 보여주는 곳은 있어야돼 -- 필수 ^oIvqAUE7
+
 
 # Embedded files
 768448a53630f6e8826f9d4bcbfa426c8700465d: [[Pasted Image 20240127171816_598.png]]
@@ -1862,8 +1866,8 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 			"frameId": null,
 			"roundness": null,
 			"seed": 1763217948,
-			"version": 363,
-			"versionNonce": 200681252,
+			"version": 365,
+			"versionNonce": 2055921828,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1873,9 +1877,17 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 				{
 					"id": "hCQrv1D6VMIkag0u_N-23",
 					"type": "arrow"
+				},
+				{
+					"id": "6JsC_xXd2PiKCiHsh0Mmz",
+					"type": "arrow"
+				},
+				{
+					"id": "5GnRkyhlf3bxfDaQ7UNn7",
+					"type": "arrow"
 				}
 			],
-			"updated": 1708956090357,
+			"updated": 1708956978899,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -4104,6 +4116,206 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 			"lineHeight": 1.2
 		},
 		{
+			"id": "ycUr9eF9PJeFe6VPgTihs",
+			"type": "ellipse",
+			"x": -2021.8579174047745,
+			"y": -243.80967466537908,
+			"width": 80.13687285556944,
+			"height": 80.13687285556944,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "#ffc9c9",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 675481380,
+			"version": 51,
+			"versionNonce": 688519588,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "5GnRkyhlf3bxfDaQ7UNn7",
+					"type": "arrow"
+				}
+			],
+			"updated": 1708956978899,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "HA274CEZEJpqBf7kWmjvL",
+			"type": "ellipse",
+			"x": -1717.3378005536113,
+			"y": -243.80967466537908,
+			"width": 87.0057476717609,
+			"height": 87.0057476717609,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "#ffc9c9",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1641428516,
+			"version": 100,
+			"versionNonce": 245187484,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1708956972631,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "6JsC_xXd2PiKCiHsh0Mmz",
+			"type": "arrow",
+			"x": -1672.6901142483657,
+			"y": -161.38317687107929,
+			"width": 146.53599607875503,
+			"height": 323.9819288303727,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "#ffc9c9",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 742993828,
+			"version": 93,
+			"versionNonce": 1025904156,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1708956975907,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					146.53599607875503,
+					323.9819288303727
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": {
+				"elementId": "yNzoKYd6rWAJ3CRXFMHba",
+				"focus": -0.2743372631162618,
+				"gap": 1
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "5GnRkyhlf3bxfDaQ7UNn7",
+			"type": "arrow",
+			"x": -1946.3002944266664,
+			"y": -170.5416766260015,
+			"width": 396.105114400385,
+			"height": 348.0229906870434,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "#ffc9c9",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 966145820,
+			"version": 112,
+			"versionNonce": 1080239396,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1708956978899,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					396.105114400385,
+					348.0229906870434
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "ycUr9eF9PJeFe6VPgTihs",
+				"focus": 0.037840659548433436,
+				"gap": 8.528819186144844
+			},
+			"endBinding": {
+				"elementId": "yNzoKYd6rWAJ3CRXFMHba",
+				"focus": -0.31597038710454894,
+				"gap": 3.983352843149305
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "oIvqAUE7",
+			"type": "text",
+			"x": -1858.14973428554,
+			"y": -402.93860790715223,
+			"width": 340.45184326171875,
+			"height": 100.80000000000001,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "#ffc9c9",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1671871652,
+			"version": 97,
+			"versionNonce": 56481052,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1708957065283,
+			"link": null,
+			"locked": false,
+			"text": "user based --->\nitem based --->\n게시물 보여주는 곳은 있어야돼 -- 필수",
+			"rawText": "user based --->\nitem based --->\n게시물 보여주는 곳은 있어야돼 -- 필수",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 93,
+			"containerId": null,
+			"originalText": "user based --->\nitem based --->\n게시물 보여주는 곳은 있어야돼 -- 필수",
+			"lineHeight": 1.2
+		},
+		{
 			"id": "7hNB14LA",
 			"type": "text",
 			"x": -1052.0941706069887,
@@ -4139,6 +4351,35 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 			"containerId": null,
 			"originalText": "",
 			"lineHeight": 1.2
+		},
+		{
+			"id": "bjSYnBG986TFn-s1TZjU2",
+			"type": "rectangle",
+			"x": -1889.0596709584024,
+			"y": -443.0070443349368,
+			"width": 121.3501217527189,
+			"height": 462.5042376235709,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "#ffc9c9",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 523185188,
+			"version": 132,
+			"versionNonce": 1345115556,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1708956998057,
+			"link": null,
+			"locked": false
 		}
 	],
 	"appState": {
@@ -4156,10 +4397,10 @@ Model: chilloutmix_NiPrunedFp32Fix ^pPs8ewS6
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 1892.2625137257028,
-		"scrollY": 56.622196639489076,
+		"scrollX": 2794.6063342263346,
+		"scrollY": 594.2653918498237,
 		"zoom": {
-			"value": 1.3247345119771257
+			"value": 0.8735055100809972
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
