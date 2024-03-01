@@ -83,9 +83,11 @@
             "id": "2dc4c2d97cd54940",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Project/Project_Chora.excalidraw.md"
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/03_Research_Production_Environment.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -166,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/Project_Chora.excalidraw.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/03_Research_Production_Environment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/Project_Chora.excalidraw.md",
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/03_Research_Production_Environment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/Project_Chora.excalidraw.md"
+                "file": "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/03_Research_Production_Environment.md"
               }
             }
           },
@@ -249,6 +251,10 @@
   },
   "active": "2dc4c2d97cd54940",
   "lastOpenFiles": [
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/02_Deployment_of_Pipelines.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/01_Model_Deployment.md",
+    "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/00_Overview_of_Model_Deployment.md",
+    "Project/Project_Chora.excalidraw.md",
     "Attached file/image/Pasted Image 20240226225216_112.png",
     "Attached file/image/Pasted Image 20240226225214_256.png",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/03_WebUi_Setting.md",
@@ -276,9 +282,6 @@
     "000_총류/005 프로그래밍/Leetcode/133_Clone_Graph.md",
     "000_총류/005 프로그래밍/Leetcode/118_Pascal's_Triangle.md",
     "000_총류/005 프로그래밍/Leetcode/58_Length_of_Last_Word.md",
-    "000_총류/005 프로그래밍/Leetcode/28_Find_the_Index_of_the_First_Occurrence_in_a_String.md",
-    "000_총류/005 프로그래밍/Leetcode/20_Valid_Parentheses.md",
-    "000_총류/005 프로그래밍/Leetcode/171_Excel_Sheet_Column_Number.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
     "Attached file/image/Pasted image 20240205213636.png",
     "Attached file/image/Pasted image 20240201205503.png",
@@ -288,7 +291,6 @@
     "Attached file/image/Pasted image 20240128231731.png",
     "Attached file/image/Pasted image 20240128231656.png",
     "000_총류/005 프로그래밍/Coding_Ex",
-    "Attached file/image/Pasted image 20240128230826.png",
     "무제 파일 1.canvas",
     "Attached file/image/Murphy.pdf",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
