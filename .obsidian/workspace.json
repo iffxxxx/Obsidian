@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/Genz/01_7C-UP.md",
+                "file": "Study/디스텔/00_강의자료.md",
                 "mode": "source",
                 "source": false
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/Genz/01_7C-UP.md",
+                "file": "Study/디스텔/00_강의자료.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/Genz/01_7C-UP.md",
+                "file": "Study/디스텔/00_강의자료.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/Genz/01_7C-UP.md"
+                "file": "Study/디스텔/00_강의자료.md"
               }
             }
           },
@@ -251,9 +251,12 @@
   },
   "active": "2dc4c2d97cd54940",
   "lastOpenFiles": [
+    "Attached file/image/DigitalStorytelling2024.pdf",
+    "Study/Genz/01_7C-UP.md",
+    "Study/디스텔/00_강의자료.md",
+    "Study/디스텔",
     "Attached file/image/Gen Z의 미래역량과 ‘7C-Up’- 1주차 이경화 교수.pdf",
     "Study/디지털 콘텐츠 기획/특강 3.md",
-    "Study/Genz/01_7C-UP.md",
     "Study/Genz",
     "Study/Multimedia theory/Entropy.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Recommender_Systems/00_Recommender_Systems.md",
@@ -282,7 +285,6 @@
     "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",
     "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
     "000_총류/005 프로그래밍/Coding_Interview/07_Object-Oriented_Design.md",
-    "000_총류/005 프로그래밍/Coding_Interview/06_Math_and_Logic_Puzzles.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
     "Attached file/image/Pasted image 20240205213636.png",
     "Attached file/image/Pasted image 20240201205503.png",
@@ -299,8 +301,6 @@
     "Excalidraw/Scripts",
     "Attached file/font/나눔손글씨 다행체.ttf",
     "Attached file/font",
-    "Attached file/새 폴더",
-    "Attached file/image/[존 번연] 천로역정.pdf",
     "000_총류/060 일반 학회, 단체, 협회, 기관/무제 파일.canvas",
     "무제 파일.canvas",
     "300_사회과학/무제 파일.canvas"
