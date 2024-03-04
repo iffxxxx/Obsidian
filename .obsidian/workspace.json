@@ -83,11 +83,9 @@
             "id": "2dc4c2d97cd54940",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Study/디스텔/00_강의자료.md",
-                "mode": "source",
-                "source": false
+                "file": "Project/Project_Chora.excalidraw.md"
               }
             }
           },
@@ -168,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/디스텔/00_강의자료.md",
+                "file": "Project/Project_Chora.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/디스텔/00_강의자료.md",
+                "file": "Project/Project_Chora.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/디스텔/00_강의자료.md"
+                "file": "Project/Project_Chora.excalidraw.md"
               }
             }
           },
@@ -251,9 +249,9 @@
   },
   "active": "2dc4c2d97cd54940",
   "lastOpenFiles": [
+    "Study/디스텔/00_강의자료.md",
     "Attached file/image/DigitalStorytelling2024.pdf",
     "Study/Genz/01_7C-UP.md",
-    "Study/디스텔/00_강의자료.md",
     "Study/디스텔",
     "Attached file/image/Gen Z의 미래역량과 ‘7C-Up’- 1주차 이경화 교수.pdf",
     "Study/디지털 콘텐츠 기획/특강 3.md",
@@ -300,7 +298,6 @@
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
     "Attached file/font/나눔손글씨 다행체.ttf",
-    "Attached file/font",
     "000_총류/060 일반 학회, 단체, 협회, 기관/무제 파일.canvas",
     "무제 파일.canvas",
     "300_사회과학/무제 파일.canvas"
