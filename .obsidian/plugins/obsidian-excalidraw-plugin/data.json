@@ -63,8 +63,8 @@
   "experimentalFileType": false,
   "experimentalFileTag": "✏️",
   "experimentalLivePreview": true,
-  "experimentalEnableFourthFont": true,
-  "experimantalFourthFont": "Attached file/font/나눔손글씨 다행체.ttf",
+  "experimentalEnableFourthFont": false,
+  "experimantalFourthFont": "Virgil",
   "fieldSuggester": true,
   "compatibilityMode": false,
   "drawingOpenCount": 0,
@@ -73,332 +73,7 @@
     "type": "excalidrawlib",
     "version": 2,
     "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.18",
-    "libraryItems": [
-      {
-        "id": "SkM750dXgQyFuoUra_i4e",
-        "status": "unpublished",
-        "elements": [
-          {
-            "type": "rectangle",
-            "version": 3107,
-            "versionNonce": 1227411053,
-            "isDeleted": false,
-            "id": "Q6zErHlFbWQg0NCJcLwpq",
-            "fillStyle": "hachure",
-            "strokeWidth": 4,
-            "strokeStyle": "solid",
-            "roughness": 0,
-            "opacity": 100,
-            "angle": 0,
-            "x": -2054.331423910252,
-            "y": 1364.9031602529508,
-            "strokeColor": "#000000",
-            "backgroundColor": "transparent",
-            "width": 577.6000366210938,
-            "height": 572,
-            "seed": 1232267747,
-            "groupIds": [
-              "1F9QKe7UV2erSs3MPQ4WM"
-            ],
-            "frameId": null,
-            "roundness": {
-              "type": 3
-            },
-            "boundElements": [
-              {
-                "id": "k-RJEMkxhROcPERLTZItb",
-                "type": "arrow"
-              },
-              {
-                "id": "nLRUh-OftKEybrydAZ5yj",
-                "type": "arrow"
-              }
-            ],
-            "updated": 1705854323867,
-            "link": null,
-            "locked": false
-          },
-          {
-            "type": "text",
-            "version": 306,
-            "versionNonce": 80135427,
-            "isDeleted": false,
-            "id": "efOBj3h2",
-            "fillStyle": "solid",
-            "strokeWidth": 4,
-            "strokeStyle": "solid",
-            "roughness": 0,
-            "opacity": 100,
-            "angle": 0,
-            "x": -2022.531324219497,
-            "y": 1437.4607045681728,
-            "strokeColor": "#e03131",
-            "backgroundColor": "#a5d8ff",
-            "width": 440.63580322265625,
-            "height": 33.6,
-            "seed": 1944171907,
-            "groupIds": [
-              "1F9QKe7UV2erSs3MPQ4WM"
-            ],
-            "frameId": null,
-            "roundness": null,
-            "boundElements": [],
-            "updated": 1705854315611,
-            "link": null,
-            "locked": false,
-            "fontSize": 28,
-            "fontFamily": 4,
-            "text": "CNN 기반 모델은 인접한 피쳐를 학습하는 편향성",
-            "rawText": "CNN 기반 모델은 인접한 피쳐를 학습하는 편향성",
-            "textAlign": "left",
-            "verticalAlign": "top",
-            "containerId": null,
-            "originalText": "CNN 기반 모델은 인접한 피쳐를 학습하는 편향성",
-            "lineHeight": 1.2,
-            "baseline": 26
-          },
-          {
-            "type": "text",
-            "version": 297,
-            "versionNonce": 1246571683,
-            "isDeleted": false,
-            "id": "bvOtmy6F",
-            "fillStyle": "solid",
-            "strokeWidth": 4,
-            "strokeStyle": "solid",
-            "roughness": 0,
-            "opacity": 100,
-            "angle": 0,
-            "x": -2021.1979908861636,
-            "y": 1497.660704568173,
-            "strokeColor": "#1e1e1e",
-            "backgroundColor": "#a5d8ff",
-            "width": 541.2398071289062,
-            "height": 67.2,
-            "seed": 1773538595,
-            "groupIds": [
-              "1F9QKe7UV2erSs3MPQ4WM"
-            ],
-            "frameId": null,
-            "roundness": null,
-            "boundElements": [],
-            "updated": 1705854315611,
-            "link": null,
-            "locked": false,
-            "fontSize": 28,
-            "fontFamily": 4,
-            "text": "이미지 처리에 특화된 구조로 이미지 데이터 내에서\n근접한 픽셀 간의 패턴 및 공간적인 관계를 학습하는데 강점",
-            "rawText": "이미지 처리에 특화된 구조로 이미지 데이터 내에서\n근접한 픽셀 간의 패턴 및 공간적인 관계를 학습하는데 강점",
-            "textAlign": "left",
-            "verticalAlign": "top",
-            "containerId": null,
-            "originalText": "이미지 처리에 특화된 구조로 이미지 데이터 내에서\n근접한 픽셀 간의 패턴 및 공간적인 관계를 학습하는데 강점",
-            "lineHeight": 1.2,
-            "baseline": 60
-          },
-          {
-            "type": "text",
-            "version": 364,
-            "versionNonce": 1306894403,
-            "isDeleted": false,
-            "id": "C3LVEl0z",
-            "fillStyle": "solid",
-            "strokeWidth": 4,
-            "strokeStyle": "solid",
-            "roughness": 0,
-            "opacity": 100,
-            "angle": 0,
-            "x": -2020.5158518073881,
-            "y": 1625.5273508897876,
-            "strokeColor": "#e03131",
-            "backgroundColor": "#a5d8ff",
-            "width": 463.7358093261719,
-            "height": 33.6,
-            "seed": 1046376643,
-            "groupIds": [
-              "1F9QKe7UV2erSs3MPQ4WM"
-            ],
-            "frameId": null,
-            "roundness": null,
-            "boundElements": [],
-            "updated": 1705854315611,
-            "link": null,
-            "locked": false,
-            "fontSize": 28,
-            "fontFamily": 4,
-            "text": "RNN 기반 모델은 연속성이 있어 클릭 데이터에 적합",
-            "rawText": "RNN 기반 모델은 연속성이 있어 클릭 데이터에 적합",
-            "textAlign": "left",
-            "verticalAlign": "top",
-            "containerId": null,
-            "originalText": "RNN 기반 모델은 연속성이 있어 클릭 데이터에 적합",
-            "lineHeight": 1.2,
-            "baseline": 26
-          },
-          {
-            "type": "text",
-            "version": 600,
-            "versionNonce": 426680291,
-            "isDeleted": false,
-            "id": "6Y8njjCN",
-            "fillStyle": "solid",
-            "strokeWidth": 4,
-            "strokeStyle": "solid",
-            "roughness": 0,
-            "opacity": 100,
-            "angle": 0,
-            "x": -2024.2223506714836,
-            "y": 1675.6190546755029,
-            "strokeColor": "#1e1e1e",
-            "backgroundColor": "#a5d8ff",
-            "width": 525.391845703125,
-            "height": 100.80000000000001,
-            "seed": 326721635,
-            "groupIds": [
-              "1F9QKe7UV2erSs3MPQ4WM"
-            ],
-            "frameId": null,
-            "roundness": null,
-            "boundElements": [],
-            "updated": 1705854315611,
-            "link": null,
-            "locked": false,
-            "fontSize": 28,
-            "fontFamily": 4,
-            "text": "순차적인 데이터를 처리하는데 강점\n이전 시간 단계의 출력이 현재 시간의 입력으로 사용되기에\n시퀸스 데이터의 연속성을 잘 학습할 수 있다.",
-            "rawText": "순차적인 데이터를 처리하는데 강점\n이전 시간 단계의 출력이 현재 시간의 입력으로 사용되기에\n시퀸스 데이터의 연속성을 잘 학습할 수 있다.",
-            "textAlign": "left",
-            "verticalAlign": "top",
-            "containerId": null,
-            "originalText": "순차적인 데이터를 처리하는데 강점\n이전 시간 단계의 출력이 현재 시간의 입력으로 사용되기에\n시퀸스 데이터의 연속성을 잘 학습할 수 있다.",
-            "lineHeight": 1.2,
-            "baseline": 93
-          }
-        ],
-        "created": 1705854332114
-      },
-      {
-        "id": "IIsYyAwS_t1F0Sr8HpQUu",
-        "status": "unpublished",
-        "elements": [
-          {
-            "type": "rectangle",
-            "version": 2734,
-            "versionNonce": 2065275629,
-            "isDeleted": false,
-            "id": "irIGDMpyJWGyB_jajDFb6",
-            "fillStyle": "cross-hatch",
-            "strokeWidth": 4,
-            "strokeStyle": "solid",
-            "roughness": 0,
-            "opacity": 100,
-            "angle": 0,
-            "x": -1105.8915365843484,
-            "y": 535.5499370231765,
-            "strokeColor": "#000000",
-            "backgroundColor": "#a5d8ff",
-            "width": 577.6000366210938,
-            "height": 572,
-            "seed": 1722715789,
-            "groupIds": [
-              "2yMuDS6TxMpxiiUs3ooWC"
-            ],
-            "frameId": null,
-            "roundness": {
-              "type": 3
-            },
-            "boundElements": [
-              {
-                "id": "nLRUh-OftKEybrydAZ5yj",
-                "type": "arrow"
-              }
-            ],
-            "updated": 1705853374836,
-            "link": null,
-            "locked": false
-          },
-          {
-            "type": "text",
-            "version": 300,
-            "versionNonce": 1180180451,
-            "isDeleted": false,
-            "id": "vhgUMQ32",
-            "fillStyle": "solid",
-            "strokeWidth": 4,
-            "strokeStyle": "solid",
-            "roughness": 0,
-            "opacity": 100,
-            "angle": 0,
-            "x": -1083.2482166305724,
-            "y": 580.6168484600254,
-            "strokeColor": "#e03131",
-            "backgroundColor": "#a5d8ff",
-            "width": 101.37596130371094,
-            "height": 43.199999999999996,
-            "seed": 1817654509,
-            "groupIds": [
-              "2yMuDS6TxMpxiiUs3ooWC"
-            ],
-            "frameId": null,
-            "roundness": null,
-            "boundElements": [],
-            "updated": 1705853373908,
-            "link": null,
-            "locked": false,
-            "fontSize": 36,
-            "fontFamily": 4,
-            "text": "논문 제목",
-            "rawText": "논문 제목",
-            "textAlign": "left",
-            "verticalAlign": "top",
-            "containerId": null,
-            "originalText": "논문 제목",
-            "lineHeight": 1.2,
-            "baseline": 33
-          },
-          {
-            "type": "text",
-            "version": 246,
-            "versionNonce": 1253059459,
-            "isDeleted": false,
-            "id": "lMUCL69X",
-            "fillStyle": "solid",
-            "strokeWidth": 4,
-            "strokeStyle": "solid",
-            "roughness": 0,
-            "opacity": 100,
-            "angle": 0,
-            "x": -1078.4250855752355,
-            "y": 945.8167928988272,
-            "strokeColor": "#1e1e1e",
-            "backgroundColor": "#a5d8ff",
-            "width": 101.41195678710938,
-            "height": 43.199999999999996,
-            "seed": 1457262413,
-            "groupIds": [
-              "2yMuDS6TxMpxiiUs3ooWC"
-            ],
-            "frameId": null,
-            "roundness": null,
-            "boundElements": [],
-            "updated": 1705853373908,
-            "link": null,
-            "locked": false,
-            "fontSize": 36,
-            "fontFamily": 4,
-            "text": "논문 설명",
-            "rawText": "논문 설명",
-            "textAlign": "left",
-            "verticalAlign": "top",
-            "containerId": null,
-            "originalText": "논문 설명",
-            "lineHeight": 1.2,
-            "baseline": 33
-          }
-        ],
-        "created": 1705853385848
-      }
-    ]
+    "libraryItems": []
   },
   "imageElementNotice": true,
   "mdSVGwidth": 500,
@@ -407,69 +82,8 @@
   "mdFontColor": "Black",
   "mdBorderColor": "Black",
   "mdCSS": "",
-  "scriptEngineSettings": {
-    "Downloaded/Deconstruct selected elements into new drawing": {
-      "Templates": {
-        "value": "",
-        "description": "Comma-separated list of template filepaths"
-      }
-    },
-    "Downloaded/Text to Sticky Notes": {
-      "Border color": {
-        "value": "black",
-        "description": "Any legal HTML color (#000000, rgb, color-name, etc.). Set to 'transparent' for transparent color."
-      },
-      "Background color": {
-        "value": "gold",
-        "description": "Background color of the sticky note. Set to 'transparent' for transparent color."
-      },
-      "Background fill style": {
-        "value": "solid",
-        "description": "Fill style of the sticky note",
-        "valueset": [
-          "hachure",
-          "cross-hatch",
-          "solid"
-        ]
-      },
-      "Max sticky note width": {
-        "value": "600",
-        "description": "Maximum width of new sticky note. If text is longer, it will be wrapped",
-        "valueset": [
-          "400",
-          "600",
-          "800",
-          "1000",
-          "1200",
-          "1400",
-          "2000"
-        ]
-      },
-      "Sticky note width": {
-        "value": "100",
-        "description": "Preferred width of the sticky note. Set to 0 if unset."
-      },
-      "Sticky note height": {
-        "value": "120",
-        "description": "Preferred height of the sticky note. Set to 0 if unset."
-      },
-      "Rows per column": {
-        "value": "3",
-        "description": "If multiple text elements are converted to sticky notes in one step, how many rows before a next column is created. Only effective if fixed width & height are given. 0 for unset."
-      },
-      "Gap": {
-        "value": "10",
-        "description": "Gap between rows and columns"
-      }
-    },
-    "Downloaded/Normalize Selected Arrows": {
-      "Gap": {
-        "value": 8,
-        "description": "The value of the gap between the connection line and the element, which must be greater than 0. If you want the connector to be next to the element, set it to 1."
-      }
-    }
-  },
-  "defaultTrayMode": false,
+  "scriptEngineSettings": {},
+  "defaultTrayMode": true,
   "previousRelease": "2.0.18",
   "showReleaseNotes": true,
   "showNewVersionNotification": true,
@@ -484,13 +98,13 @@
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
       "fillStyle": "hachure",
-      "strokeWidth": 0.5,
+      "strokeWidth": 0,
       "roughness": 0,
       "penOptions": {
         "highlighter": false,
         "constantPressure": false,
         "hasOutline": false,
-        "outlineWidth": 0,
+        "outlineWidth": 1,
         "options": {
           "thinning": 0.6,
           "smoothing": 0.5,
@@ -701,44 +315,13 @@
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
       "fillStyle": "hachure",
-      "strokeWidth": 0.5,
-      "roughness": 0,
-      "penOptions": {
-        "highlighter": false,
-        "constantPressure": true,
-        "hasOutline": false,
-        "outlineWidth": 0,
-        "options": {
-          "thinning": 0.1,
-          "smoothing": 0.5,
-          "streamline": 0.5,
-          "easing": "easeOutSine",
-          "start": {
-            "cap": true,
-            "taper": 0,
-            "easing": "linear"
-          },
-          "end": {
-            "cap": true,
-            "taper": 0,
-            "easing": "linear"
-          }
-        }
-      }
-    },
-    {
-      "type": "default",
-      "freedrawOnly": false,
-      "strokeColor": "#000000",
-      "backgroundColor": "transparent",
-      "fillStyle": "hachure",
       "strokeWidth": 0,
       "roughness": 0,
       "penOptions": {
         "highlighter": false,
         "constantPressure": false,
         "hasOutline": false,
-        "outlineWidth": 0,
+        "outlineWidth": 1,
         "options": {
           "thinning": 0.6,
           "smoothing": 0.5,
@@ -769,9 +352,40 @@
         "highlighter": false,
         "constantPressure": false,
         "hasOutline": false,
-        "outlineWidth": 0,
+        "outlineWidth": 1,
         "options": {
-          "thinning": 0.1,
+          "thinning": 0.6,
+          "smoothing": 0.5,
+          "streamline": 0.5,
+          "easing": "easeOutSine",
+          "start": {
+            "cap": true,
+            "taper": 0,
+            "easing": "linear"
+          },
+          "end": {
+            "cap": true,
+            "taper": 0,
+            "easing": "linear"
+          }
+        }
+      }
+    },
+    {
+      "type": "default",
+      "freedrawOnly": false,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 0,
+      "roughness": 0,
+      "penOptions": {
+        "highlighter": false,
+        "constantPressure": false,
+        "hasOutline": false,
+        "outlineWidth": 1,
+        "options": {
+          "thinning": 0.6,
           "smoothing": 0.5,
           "streamline": 0.5,
           "easing": "easeOutSine",
@@ -789,7 +403,7 @@
       }
     }
   ],
-  "numberOfCustomPens": 10,
+  "numberOfCustomPens": 0,
   "pdfScale": 4,
   "pdfBorderBox": true,
   "pdfGapSize": 20,
