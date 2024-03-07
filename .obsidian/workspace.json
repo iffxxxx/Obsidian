@@ -80,22 +80,14 @@
             }
           },
           {
-            "id": "2dc4c2d97cd54940",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Project/Project_Chora.excalidraw.md"
-              }
-            }
-          },
-          {
             "id": "205289902aedbec4",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction.excalidraw.md"
+                "file": "Study/친족법/01_가족과_친족.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -166,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/Project_Chora.excalidraw.md",
+                "file": "Study/친족법/01_가족과_친족.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/Project_Chora.excalidraw.md",
+                "file": "Study/친족법/01_가족과_친족.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/Project_Chora.excalidraw.md"
+                "file": "Study/친족법/01_가족과_친족.md"
               }
             }
           },
@@ -247,8 +239,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2dc4c2d97cd54940",
+  "active": "205289902aedbec4",
   "lastOpenFiles": [
+    "Study/친족법",
+    "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction.excalidraw.md",
+    "Study/친족법/01_가족과_친족.md",
+    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md",
+    "Project/Project_Chora.excalidraw.md",
     "Study/디스텔/01_서양미술사01.md",
     "Study/디스텔/00_강의자료.md",
     "Attached file/image/DigitalStorytelling2024.pdf",
@@ -264,7 +261,6 @@
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/02_Deployment_of_Pipelines.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/01_Model_Deployment.md",
     "000_총류/004_컴퓨터과학/004_Machine_Learning/004_Deployment_of_Machine_Learning_Model/00_Overview_of_Model_Deployment/00_Overview_of_Model_Deployment.md",
-    "Project/Project_Chora.excalidraw.md",
     "Attached file/image/Pasted Image 20240226225216_112.png",
     "Attached file/image/Pasted Image 20240226225214_256.png",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_1/03_WebUi_Setting.md",
@@ -277,13 +273,9 @@
     "000_총류/005 프로그래밍/Leetcode/21_Merge_Two_Sorted_Lists.md",
     "000_총류/005 프로그래밍/Leetcode/13_Roman_to_Integer.md",
     "000_총류/005 프로그래밍/Leetcode/9_Palindrome_Number.md",
-    "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/004_Generative_AI.md",
     "Attached file/image/Pasted image 20240224203316.png",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Deep_Learning.md",
     "000_총류/004_컴퓨터과학/004_Deep_Learning/004_Stable_Diffusion/Part_2",
-    "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",
-    "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
-    "000_총류/005 프로그래밍/Coding_Interview/07_Object-Oriented_Design.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
     "Attached file/image/Pasted image 20240205213636.png",
     "Attached file/image/Pasted image 20240201205503.png",
