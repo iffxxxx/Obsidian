@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book.md",
+                "file": "Study/디스텔/01_서양미술사01.md",
                 "mode": "source",
                 "source": false
               }
@@ -198,7 +198,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f6878ac96d36097f",
@@ -214,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Book.md",
+                "file": "Study/디스텔/01_서양미술사01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Book.md",
+                "file": "Study/디스텔/01_서양미술사01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Book.md"
+                "file": "Study/디스텔/01_서양미술사01.md"
               }
             }
           },
@@ -297,12 +298,17 @@
   },
   "active": "233081bf92a5daee",
   "lastOpenFiles": [
+    "Attached file/image/Pasted image 20240308145437.png",
+    "Attached file/image/Pasted image 20240308145334.png",
+    "Attached file/image/Pasted image 20240308145332.png",
+    "Study/하이테크 마케팅/01_.md",
+    "Study/디스텔/01_서양미술사01.md",
+    "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md",
+    "Book.md",
     "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
     "000_총류/005 프로그래밍/Coding_Interview/07_Object-Oriented_Design.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction.excalidraw.md",
-    "Study/디스텔/01_서양미술사01.md",
     "Study/디스텔/00_강의자료.md",
-    "Study/하이테크 마케팅/01_.md",
     "Study/친족법/01_가족과_친족.md",
     "000_총류/005 프로그래밍/Coding_Interview/10_.md",
     "000_총류/005 프로그래밍/Coding_Interview/09.0_Sync_vs._Async.md",
@@ -314,7 +320,6 @@
     "Project/Project_Chora.excalidraw.md",
     "Attached file/image/Pasted image 20240307141036.png",
     "Attached file/image/Pasted image 20240307140721.png",
-    "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md",
     "Study/친족법",
     "Attached file/image/Pasted image 20240307134758.png",
     "500_기술과학/550 기계공학/567_Multimedia/09_Final_Project.md",
@@ -326,8 +331,6 @@
     "500_기술과학/550 기계공학/567_Multimedia/02_Image_Compression.md",
     "500_기술과학/550 기계공학/567_Multimedia/01_Audio_Compression.md",
     "500_기술과학/500 기술 과학.md",
-    "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
-    "규칙.md",
     "Study/디스텔",
     "Study/Genz",
     "Attached file/image/Pasted image 20240224203316.png",
@@ -338,8 +341,6 @@
     "Attached file/image/Pasted image 20240205213636.png",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
     "Attached file/image/Pasted image 20240201205503.png",
-    "Attached file/image/Pasted image 20240201205457.png",
-    "Attached file/image/Pasted image 20240201205134.png",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
     "000_총류/005 프로그래밍/Coding_Ex",
     "무제 파일 1.canvas",
