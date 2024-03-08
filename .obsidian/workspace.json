@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Study/하이테크 마케팅/01_.md",
                 "mode": "source",
                 "source": false
               }
@@ -216,7 +216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Study/하이테크 마케팅/01_.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,7 +233,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Study/하이테크 마케팅/01_.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -256,7 +256,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Study/하이테크 마케팅/01_.md"
               }
             }
           },
@@ -299,14 +299,18 @@
   },
   "active": "233081bf92a5daee",
   "lastOpenFiles": [
-    "Study/디스텔/00_강의자료.md",
-    "conflict-files-obsidian-git.md",
+    "Study/친족법/01_가족과_친족.md",
+    "Study/하이테크 마케팅/01_.md",
+    "Study/하이테크 마케팅",
     "Study/디스텔/01_서양미술사01.md",
+    "000_총류/005 프로그래밍/Coding_Interview/09.0_Sync_vs._Async.md",
+    "000_총류/005 프로그래밍/Coding_Interview/10_.md",
+    "conflict-files-obsidian-git.md",
+    "Study/디스텔/00_강의자료.md",
     "500_기술과학/550 기계공학/567_Multimedia/03_Video_Compression.md",
     "500_기술과학/550 기계공학/567_Multimedia/00_Multimedia.md",
     "500_기술과학/550 기계공학/550 기계공학.md",
     "Project/Project_Chora.excalidraw.md",
-    "Study/친족법/01_가족과_친족.md",
     "Attached file/image/Pasted image 20240307141036.png",
     "Attached file/image/Pasted image 20240307140721.png",
     "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md",
@@ -331,11 +335,8 @@
     "Attached file/image/Pasted Image 20240226225214_256.png",
     "Attached file/image/Gen Z의 미래역량과 ‘7C-Up’- 1주차 이경화 교수.pdf",
     "Attached file/image/DigitalStorytelling2024.pdf",
-    "000_총류/005 프로그래밍/Coding_Interview/10_.md",
-    "000_총류/005 프로그래밍/Coding_Interview/09.0_Sync_vs._Async.md",
     "000_총류/005 프로그래밍/Coding_Interview/07_Object-Oriented_Design.md",
     "000_총류/005 프로그래밍/Coding_Interview/03_Stack_and_Queue.md",
-    "000_총류/005 프로그래밍/Coding_Interview/01_Arrays_and_Strings.md",
     "Attached file/image/Pasted image 20240205213636.png",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
     "Attached file/image/Pasted image 20240201205503.png",
@@ -348,7 +349,6 @@
     "000_총류/004_컴퓨터과학/004_Machine_Learning/Probabilistic Machine Learning/Probabilistic_Machine_Learning.canvas",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
-    "Attached file/font/나눔손글씨 다행체.ttf",
     "000_총류/060 일반 학회, 단체, 협회, 기관/무제 파일.canvas",
     "무제 파일.canvas",
     "300_사회과학/무제 파일.canvas"
