@@ -202,7 +202,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f6878ac96d36097f",
@@ -301,6 +302,7 @@
   },
   "active": "547afc6b5b4f96f0",
   "lastOpenFiles": [
+    "Attached file/image/Pasted image 20240308160550.png",
     "Study/디스텔/01_Story and Media.md",
     "Study/디스텔/02_Story_of_Art.md",
     "Attached file/image/Pasted image 20240308152451.png",
@@ -336,7 +338,6 @@
     "500_기술과학/550 기계공학/567_Multimedia/04_Internet_Protocol.md",
     "500_기술과학/550 기계공학/567_Multimedia/02_Image_Compression.md",
     "500_기술과학/550 기계공학/567_Multimedia/01_Audio_Compression.md",
-    "500_기술과학/500 기술 과학.md",
     "Study/디스텔",
     "Study/Genz",
     "Attached file/image/Pasted image 20240224203316.png",
