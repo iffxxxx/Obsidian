@@ -3,5 +3,6 @@
   "cssTheme": "Things",
   "baseFontSize": 15,
   "showViewHeader": true,
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "translucency": false
 }

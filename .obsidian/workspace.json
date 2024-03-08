@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "500_기술과학/550 기계공학/567_Multimedia/08_Speech_Signal_Analysis.md",
+                "file": "Study/디스텔/01_서양미술사01.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,14 +137,6 @@
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "205289902aedbec4",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ],
@@ -198,8 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f6878ac96d36097f",
@@ -298,17 +289,18 @@
   },
   "active": "233081bf92a5daee",
   "lastOpenFiles": [
+    "Study/디스텔/01_서양미술사01.md",
+    "500_기술과학/550 기계공학/567_Multimedia/08_Speech_Signal_Analysis.md",
+    "Study/디스텔/00_강의자료.md",
     "Attached file/image/Pasted image 20240308145437.png",
     "Attached file/image/Pasted image 20240308145334.png",
     "Attached file/image/Pasted image 20240308145332.png",
     "Study/하이테크 마케팅/01_.md",
-    "Study/디스텔/01_서양미술사01.md",
     "Excalidraw/Drawing 2024-01-19 16.38.39.excalidraw.md",
     "Book.md",
     "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
     "000_총류/005 프로그래밍/Coding_Interview/07_Object-Oriented_Design.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction.excalidraw.md",
-    "Study/디스텔/00_강의자료.md",
     "Study/친족법/01_가족과_친족.md",
     "000_총류/005 프로그래밍/Coding_Interview/10_.md",
     "000_총류/005 프로그래밍/Coding_Interview/09.0_Sync_vs._Async.md",
@@ -323,7 +315,6 @@
     "Study/친족법",
     "Attached file/image/Pasted image 20240307134758.png",
     "500_기술과학/550 기계공학/567_Multimedia/09_Final_Project.md",
-    "500_기술과학/550 기계공학/567_Multimedia/08_Speech_Signal_Analysis.md",
     "500_기술과학/550 기계공학/567_Multimedia/07_Image_Analysis.md",
     "500_기술과학/550 기계공학/567_Multimedia/06_MatLab.md",
     "500_기술과학/550 기계공학/567_Multimedia/05_Test.md",
@@ -340,7 +331,6 @@
     "Attached file/image/DigitalStorytelling2024.pdf",
     "Attached file/image/Pasted image 20240205213636.png",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
-    "Attached file/image/Pasted image 20240201205503.png",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Moblile_ALOHA.canvas",
     "000_총류/005 프로그래밍/Coding_Ex",
     "무제 파일 1.canvas",
