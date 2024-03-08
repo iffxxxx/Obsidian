@@ -1,8 +1,0 @@
-{
-	"nodes":[
-		{"id":"6ba261fcd3ee0373","x":-787,"y":-180,"width":747,"height":617,"type":"link","url":"https://mobile-aloha.github.io/"}
-	],
-	"edges":[
-		{"id":"aa8a6ac37cdd2f1c","fromNode":"6ba261fcd3ee0373","fromSide":"right","toNode":"78a2bf0ffe6b46ef","toSide":"left"}
-	]
-}
