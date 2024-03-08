@@ -14,5 +14,6 @@
   "things-style@@h5-size": "1.2em",
   "things-style@@h6-size": "1em",
   "things-style@@h4-color": "#B8D6F3",
-  "things-style@@code-color-d": "#555E68"
+  "things-style@@code-color-d": "#555E68",
+  "things-style@@text-highlight-bg-d": "#D99694"
 }
