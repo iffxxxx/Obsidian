@@ -424,7 +424,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.18",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.23",
 	"elements": [
 		{
 			"type": "rectangle",
@@ -660,7 +660,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": -320.05572960696554,
 			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
-			"width": 62.671875,
+			"width": 52.079986572265625,
 			"height": 33.6,
 			"seed": 897572704,
 			"groupIds": [],
@@ -679,7 +679,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "ZBnbuoHoKJLjN2pLtabZh",
 			"originalText": "CTR?",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "arrow",
@@ -754,7 +754,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": -1186.0782261939553,
 			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
-			"width": 156.65625,
+			"width": 105.4439697265625,
 			"height": 43.199999999999996,
 			"seed": 804024160,
 			"groupIds": [],
@@ -773,7 +773,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "I-9PL8fW6hvKsli_bTsN-",
 			"originalText": "학습 요소",
 			"lineHeight": 1.2,
-			"baseline": 36
+			"baseline": 33
 		},
 		{
 			"type": "rectangle",
@@ -848,7 +848,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "Related Studies",
 			"lineHeight": 1.2,
-			"baseline": 34
+			"baseline": 33
 		},
 		{
 			"type": "text",
@@ -959,8 +959,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "frame",
-			"version": 748,
-			"versionNonce": 1434669582,
+			"version": 749,
+			"versionNonce": 694044728,
 			"isDeleted": false,
 			"id": "HEJ25XmHBNYjcTvpBbY1J",
 			"fillStyle": "solid",
@@ -989,14 +989,14 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1706587325706,
+			"updated": 1709875803914,
 			"link": null,
 			"locked": false,
 			"customData": {
 				"frameColor": {
 					"stroke": "#2B2B2B",
 					"fill": "#525252",
-					"nameColor": "#6B6B6B"
+					"nameColor": "#858585"
 				}
 			},
 			"name": null
@@ -1149,7 +1149,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 857.8453081984788,
 			"strokeColor": "#e03131",
 			"backgroundColor": "#a5d8ff",
-			"width": 62.125,
+			"width": 46.05998229980469,
 			"height": 33.6,
 			"seed": 440402499,
 			"groupIds": [],
@@ -1168,12 +1168,12 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "p-zllBP0pFRlpNKvPDwoj",
 			"originalText": "단점:",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "frame",
-			"version": 1521,
-			"versionNonce": 2089374034,
+			"version": 1522,
+			"versionNonce": 1473806648,
 			"isDeleted": false,
 			"id": "RS4ehBEVEp216OCwhPj18",
 			"fillStyle": "solid",
@@ -1198,14 +1198,14 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1706587325706,
+			"updated": 1709875803914,
 			"link": null,
 			"locked": false,
 			"customData": {
 				"frameColor": {
 					"stroke": "#2B2B2B",
 					"fill": "#525252",
-					"nameColor": "#6B6B6B"
+					"nameColor": "#858585"
 				}
 			},
 			"name": null
@@ -1283,7 +1283,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 53.0903699973244,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 112,
+			"width": 83.57998657226562,
 			"height": 33.6,
 			"seed": 31626912,
 			"groupIds": [],
@@ -1302,7 +1302,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "-FkThbfgCU29iAl7HPxrv",
 			"originalText": "해결방안",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "arrow",
@@ -1377,7 +1377,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": -2043.45199389132,
 			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
-			"width": 127.96875,
+			"width": 90.38395690917969,
 			"height": 33.6,
 			"seed": 346712749,
 			"groupIds": [],
@@ -1396,7 +1396,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "-2j90jjP8ljRqBCwnqMQD",
 			"originalText": "문제 정의:",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "arrow",
@@ -1471,7 +1471,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": -289.7793753520163,
 			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
-			"width": 118.125,
+			"width": 81.98396301269531,
 			"height": 33.6,
 			"seed": 2034702285,
 			"groupIds": [],
@@ -1490,7 +1490,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "6sT5k8WgllKwZCSpIWlqa",
 			"originalText": "문제정의:",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "rectangle",
@@ -1645,7 +1645,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": -850.4574339064184,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 68.455078125,
+			"width": 51.57598876953125,
 			"height": 33.6,
 			"seed": 1571748717,
 			"groupIds": [],
@@ -1664,7 +1664,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "EpJDI1EiCl_2O1tafyulJ",
 			"originalText": "Why?",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "text",
@@ -1705,8 +1705,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "frame",
-			"version": 480,
-			"versionNonce": 69512146,
+			"version": 481,
+			"versionNonce": 212048440,
 			"isDeleted": false,
 			"id": "AJvZPsGCOkLncTrNKPzSx",
 			"fillStyle": "solid",
@@ -1726,14 +1726,14 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706587325707,
+			"updated": 1709875803914,
 			"link": null,
 			"locked": false,
 			"customData": {
 				"frameColor": {
 					"stroke": "#2B2B2B",
 					"fill": "#525252",
-					"nameColor": "#6B6B6B"
+					"nameColor": "#858585"
 				}
 			},
 			"name": null
@@ -1890,7 +1890,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 815.0725456121411,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "#a5d8ff",
-			"width": 154.46484375,
+			"width": 114.37995910644531,
 			"height": 33.6,
 			"seed": 101000035,
 			"groupIds": [],
@@ -1909,12 +1909,12 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "5kGwZHFLTUbDIfTVehCVt",
 			"originalText": "CNN과 같이",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "frame",
-			"version": 1076,
-			"versionNonce": 385906382,
+			"version": 1077,
+			"versionNonce": 178492216,
 			"isDeleted": false,
 			"id": "VzkAOlYFXQlBboCKm9Kzr",
 			"fillStyle": "solid",
@@ -1934,14 +1934,14 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706587325707,
+			"updated": 1709875803914,
 			"link": null,
 			"locked": false,
 			"customData": {
 				"frameColor": {
 					"stroke": "#2B2B2B",
 					"fill": "#525252",
-					"nameColor": "#6B6B6B"
+					"nameColor": "#858585"
 				}
 			},
 			"name": null
@@ -2019,7 +2019,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "A Convolutional Click Prediction Model",
 			"lineHeight": 1.2,
-			"baseline": 34
+			"baseline": 33
 		},
 		{
 			"type": "embeddable",
@@ -2089,7 +2089,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "2015년 - 145회 인용",
 			"lineHeight": 1.2,
-			"baseline": 34
+			"baseline": 33
 		},
 		{
 			"type": "arrow",
@@ -2164,7 +2164,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 1211.3741691066457,
 			"strokeColor": "#e03131",
 			"backgroundColor": "#a5d8ff",
-			"width": 72,
+			"width": 53.675994873046875,
 			"height": 43.199999999999996,
 			"seed": 810167053,
 			"groupIds": [],
@@ -2183,12 +2183,12 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "kEgk5WAtvWtPBPIjFJXDp",
 			"originalText": "단점",
 			"lineHeight": 1.2,
-			"baseline": 36
+			"baseline": 33
 		},
 		{
 			"type": "frame",
-			"version": 217,
-			"versionNonce": 253371986,
+			"version": 218,
+			"versionNonce": 406613048,
 			"isDeleted": false,
 			"id": "C5GCRCbtj5DsP8OwngzmS",
 			"fillStyle": "solid",
@@ -2208,14 +2208,14 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706587325707,
+			"updated": 1709875803914,
 			"link": null,
 			"locked": false,
 			"customData": {
 				"frameColor": {
 					"stroke": "#2B2B2B",
 					"fill": "#525252",
-					"nameColor": "#6B6B6B"
+					"nameColor": "#858585"
 				}
 			},
 			"name": null
@@ -2293,7 +2293,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 1601.212852054876,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "#a5d8ff",
-			"width": 156.775390625,
+			"width": 113.87596130371094,
 			"height": 33.6,
 			"seed": 2099187107,
 			"groupIds": [],
@@ -2312,7 +2312,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "k-RJEMkxhROcPERLTZItb",
 			"originalText": "DNN과 같이",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "arrow",
@@ -2387,7 +2387,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 1338.632956774874,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "#b2f2bb",
-			"width": 246.134765625,
+			"width": 220.55587768554688,
 			"height": 33.6,
 			"seed": 1371456387,
 			"groupIds": [],
@@ -2406,7 +2406,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "nLRUh-OftKEybrydAZ5yj",
 			"originalText": "feature interaction?",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "arrow",
@@ -2481,7 +2481,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 2030.9380812455186,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#ffc9c9",
-			"width": 118.125,
+			"width": 87.89198303222656,
 			"height": 33.6,
 			"seed": 676869379,
 			"groupIds": [],
@@ -2500,7 +2500,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "40HrDZzFRrM4nXpOFDuo3",
 			"originalText": "해결방안:",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "rectangle",
@@ -2584,8 +2584,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "frame",
-			"version": 455,
-			"versionNonce": 1998735566,
+			"version": 456,
+			"versionNonce": 257041720,
 			"isDeleted": false,
 			"id": "nMSmPjcQW0NJVApyAAqTo",
 			"fillStyle": "solid",
@@ -2605,14 +2605,14 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706587325707,
+			"updated": 1709875803914,
 			"link": null,
 			"locked": false,
 			"customData": {
 				"frameColor": {
 					"stroke": "#2B2B2B",
 					"fill": "#525252",
-					"nameColor": "#6B6B6B"
+					"nameColor": "#858585"
 				}
 			},
 			"name": null
@@ -2690,7 +2690,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 2075.8501414048824,
 			"strokeColor": "#e03131",
 			"backgroundColor": "#e7f5ff",
-			"width": 62.125,
+			"width": 46.05998229980469,
 			"height": 33.6,
 			"seed": 1341221086,
 			"groupIds": [],
@@ -2709,7 +2709,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "hbrAYgWudQPDud6cVyiwq",
 			"originalText": "단점:",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "arrow",
@@ -2788,7 +2788,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 2430.0621566106643,
 			"strokeColor": "#e03131",
 			"backgroundColor": "#a5d8ff",
-			"width": 72,
+			"width": 53.675994873046875,
 			"height": 43.199999999999996,
 			"seed": 1808203875,
 			"groupIds": [],
@@ -2807,7 +2807,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "iXGTn-gR3FBR-dx6GrPq5",
 			"originalText": "단점",
 			"lineHeight": 1.2,
-			"baseline": 36
+			"baseline": 33
 		},
 		{
 			"type": "image",
@@ -2844,8 +2844,8 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		},
 		{
 			"type": "frame",
-			"version": 890,
-			"versionNonce": 1446798,
+			"version": 891,
+			"versionNonce": 1833483832,
 			"isDeleted": false,
 			"id": "0D2toMuhV6qy2w5Blvi6C",
 			"fillStyle": "solid",
@@ -2865,14 +2865,14 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706587325707,
+			"updated": 1709875803914,
 			"link": null,
 			"locked": false,
 			"customData": {
 				"frameColor": {
 					"stroke": "#2B2B2B",
 					"fill": "#525252",
-					"nameColor": "#6B6B6B"
+					"nameColor": "#858585"
 				}
 			},
 			"name": null
@@ -3343,7 +3343,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 1204.2169262332598,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#e7f5ff",
-			"width": 118.125,
+			"width": 87.89198303222656,
 			"height": 33.6,
 			"seed": 841873965,
 			"groupIds": [],
@@ -3362,7 +3362,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "wQ8CYLuKT4M-27GeEwBTk",
 			"originalText": "해결방안:",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "rectangle",
@@ -3589,7 +3589,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 1124.6793830946797,
 			"strokeColor": "#e03131",
 			"backgroundColor": "#e7f5ff",
-			"width": 56,
+			"width": 41.74799601236979,
 			"height": 33.599999999999994,
 			"seed": 352974878,
 			"groupIds": [],
@@ -3608,7 +3608,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "dxTWNGQaZiwgH836sUuIL",
 			"originalText": "단점",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "rectangle",
@@ -4223,7 +4223,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 1997.4900292017342,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#e7f5ff",
-			"width": 118.125,
+			"width": 83.91596984863281,
 			"height": 33.6,
 			"seed": 686339010,
 			"groupIds": [],
@@ -4242,7 +4242,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "lBnJAxkb-XFleQwwJnSeI",
 			"originalText": "추가설명:",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "rectangle",
@@ -4448,7 +4448,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "임베딩을 통해 얻은 벡터는 일반적으로 저차원의 공간에 \n위치하게 됩니다. 예를 들어, 성별을 나타내는 피처를 2차원의 \n벡터로 임베딩할 경우, 남성과 여성은 각각 다른 2차원 \n벡터에 매핑됩니다. 이러한 저차원 특성 공간에서는 피처 간의\n 상호작용을 표현하기가 한계가 있습니다.",
 			"lineHeight": 1.2,
-			"baseline": 160
+			"baseline": 161
 		},
 		{
 			"type": "arrow",
@@ -4523,7 +4523,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 2755.5441280910463,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#e7f5ff",
-			"width": 62.125,
+			"width": 44.49198913574219,
 			"height": 33.6,
 			"seed": 858369282,
 			"groupIds": [],
@@ -4542,7 +4542,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "47LnubIzpnR2tGBL0OHHH",
 			"originalText": "예시:",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "rectangle",
@@ -4813,7 +4813,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 1623.3478836414204,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "#a5d8ff",
-			"width": 252,
+			"width": 183.2598876953125,
 			"height": 33.6,
 			"seed": 872803038,
 			"groupIds": [],
@@ -4832,7 +4832,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "kGcBufpeNOALPbBQRugYX",
 			"originalText": "linear(wide) + Deep",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "rectangle",
@@ -4971,7 +4971,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "일반적인 regression은 종종 One-hot vector를 사용하여 \n학습합니다. Memorization은 기존의 특성들을 사용하여 새로운 \n특성을 만들어 학습하는 것을 의미합니다. 일반적으로 \n간단하게 Memorization은 동시출현(co-occurrence)빈도를 \n표현하는 Cross-product로 생성이 가능합니다.",
 			"lineHeight": 1.2,
-			"baseline": 160
+			"baseline": 161
 		},
 		{
 			"type": "text",
@@ -5129,7 +5129,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 2059.7038943537877,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "#a5d8ff",
-			"width": 143.390625,
+			"width": 102.92796325683594,
 			"height": 33.6,
 			"seed": 911526146,
 			"groupIds": [],
@@ -5148,7 +5148,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "183-VcNu2YeNEPUHgHqF9",
 			"originalText": "해결방안 1:",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "text",
@@ -5473,7 +5473,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 2355.96803386244,
 			"strokeColor": "#e03131",
 			"backgroundColor": "#a5d8ff",
-			"width": 347.375,
+			"width": 258.21588134765625,
 			"height": 67.2,
 			"seed": 1081643842,
 			"groupIds": [],
@@ -5492,7 +5492,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "WOXx1AX-uzoeCJHtu_Q8l",
 			"originalText": "등장하지 않은 조합에 대한 \n설명력이 떨어짐",
 			"lineHeight": 1.2,
-			"baseline": 62
+			"baseline": 60
 		},
 		{
 			"type": "arrow",
@@ -5567,7 +5567,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 2062.288312290792,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "#a5d8ff",
-			"width": 143.390625,
+			"width": 108.30397033691406,
 			"height": 33.6,
 			"seed": 1567462530,
 			"groupIds": [],
@@ -5586,7 +5586,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "eSzSzP_hi_HBn7joshpsk",
 			"originalText": "해결방안 2:",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "text",
@@ -5769,7 +5769,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 2340.8865463759557,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#1e1e1e",
-			"width": 181.26171875,
+			"width": 146.97193908691406,
 			"height": 33.6,
 			"seed": 272354498,
 			"groupIds": [],
@@ -5788,7 +5788,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "iM_hYrewAdl9zwYNb3NTS",
 			"originalText": "Dense Vector?",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "arrow",
@@ -5863,7 +5863,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 2489.1876824997275,
 			"strokeColor": "#e03131",
 			"backgroundColor": "#a5d8ff",
-			"width": 375.375,
+			"width": 269.89190673828125,
 			"height": 67.2,
 			"seed": 858463902,
 			"groupIds": [],
@@ -5882,7 +5882,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "yYxUXjdoLPM5ciT4v4Vr2",
 			"originalText": "실제로 존재할 수 없는 관계를\n과도하게 일반화 가능성",
 			"lineHeight": 1.2,
-			"baseline": 62
+			"baseline": 60
 		},
 		{
 			"type": "arrow",
@@ -5957,7 +5957,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 2655.0273135317716,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "#1e1e1e",
-			"width": 140,
+			"width": 92.42794799804688,
 			"height": 33.6,
 			"seed": 186266078,
 			"groupIds": [],
@@ -5976,7 +5976,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "jUvUBOKHI3PZ32Y9aYzsz",
 			"originalText": "상호보완적",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "rectangle",
@@ -6140,7 +6140,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 2870.702392631413,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#FFC47C",
-			"width": 177.84375,
+			"width": 129.44393920898438,
 			"height": 33.6,
 			"seed": 47779714,
 			"groupIds": [],
@@ -6159,7 +6159,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "vGEnG3A29KDJSw3MDvw8N",
 			"originalText": "일반적인 패턴",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "arrow",
@@ -6234,7 +6234,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 2870.702365141711,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#FFC47C",
-			"width": 149.84375,
+			"width": 108.27595520019531,
 			"height": 33.6,
 			"seed": 1680238238,
 			"groupIds": [],
@@ -6253,7 +6253,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "gWHSX1w9v1q1KW0WzgI-Z",
 			"originalText": "복잡한 패턴",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "arrow",
@@ -6328,7 +6328,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 3422.506055412354,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#FFC47C",
-			"width": 318.0625,
+			"width": 242.0598907470703,
 			"height": 33.6,
 			"seed": 350255938,
 			"groupIds": [],
@@ -6347,7 +6347,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "ZUGsu1uttJXtd1ICHWM82",
 			"originalText": "Generalized linear model",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "text",
@@ -6384,7 +6384,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "Wide는 memorization을 담당",
 			"lineHeight": 1.2,
-			"baseline": 26
+			"baseline": 27
 		},
 		{
 			"type": "text",
@@ -6426,7 +6426,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "feature set x는 개별적인 raw 특성과 cross-product\ntransformation으로 생성된 새로운 특성을 함께 포함",
 			"lineHeight": 1.2,
-			"baseline": 60
+			"baseline": 61
 		},
 		{
 			"type": "image",
@@ -6552,7 +6552,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "모델의 파라미터",
 			"lineHeight": 1.2,
-			"baseline": 26
+			"baseline": 27
 		},
 		{
 			"type": "arrow",
@@ -6698,7 +6698,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "bias",
 			"lineHeight": 1.2,
-			"baseline": 26
+			"baseline": 27
 		},
 		{
 			"type": "arrow",
@@ -6792,7 +6792,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "feature vector에 대한 예측값 ",
 			"lineHeight": 1.2,
-			"baseline": 26
+			"baseline": 27
 		},
 		{
 			"type": "image",
@@ -7577,7 +7577,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 3404.241185119277,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 190.75,
+			"width": 154.92391967773438,
 			"height": 67.2,
 			"seed": 1832195074,
 			"groupIds": [],
@@ -7596,7 +7596,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "uHW02R3JaT2krHCxngp28",
 			"originalText": "feed-forward neural network",
 			"lineHeight": 1.2,
-			"baseline": 62
+			"baseline": 60
 		},
 		{
 			"type": "rectangle",
@@ -8095,7 +8095,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 4269.470589069178,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#1e1e1e",
-			"width": 204.1484375,
+			"width": 179.5639190673828,
 			"height": 67.2,
 			"seed": 984175362,
 			"groupIds": [],
@@ -8114,7 +8114,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "M4RQ5SEjsTcIeB7i78hat",
 			"originalText": "Joint Training of\nWide & Deep",
 			"lineHeight": 1.2,
-			"baseline": 62
+			"baseline": 60
 		},
 		{
 			"type": "rectangle",
@@ -8481,7 +8481,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 6092.165760330521,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#1e1e1e",
-			"width": 181.466796875,
+			"width": 137.6759490966797,
 			"height": 67.2,
 			"seed": 2132187998,
 			"groupIds": [],
@@ -8500,7 +8500,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "HxRY02gXwbyB5mu4TZb02",
 			"originalText": "Optimizer:\nFTRL 알고리즘",
 			"lineHeight": 1.2,
-			"baseline": 62
+			"baseline": 60
 		},
 		{
 			"type": "arrow",
@@ -8579,7 +8579,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 6115.074501414683,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#1e1e1e",
-			"width": 131.701171875,
+			"width": 95.84393310546875,
 			"height": 67.2,
 			"seed": 1551055874,
 			"groupIds": [],
@@ -8598,7 +8598,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "vmMC5EFaAMr0xaX7ouTJu",
 			"originalText": "Optimizer:\nAdaGrad",
 			"lineHeight": 1.2,
-			"baseline": 62
+			"baseline": 60
 		},
 		{
 			"type": "rectangle",
@@ -9452,7 +9452,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 6678.631813706652,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
-			"width": 101.3359375,
+			"width": 79.93994140625,
 			"height": 33.6,
 			"seed": 1188724382,
 			"groupIds": [],
@@ -9471,7 +9471,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "KjxRoS6zgYfGXUY0AVq7H",
 			"originalText": "Result 1",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "rectangle",
@@ -9929,7 +9929,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 6687.622951169608,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
-			"width": 101.3359375,
+			"width": 85.31594848632812,
 			"height": 33.6,
 			"seed": 1982426178,
 			"groupIds": [],
@@ -9948,7 +9948,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "u2nK_pGUJ4TRoO493X1PP",
 			"originalText": "Result 2",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "image",
@@ -10089,7 +10089,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 1636.6753533383323,
 			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
-			"width": 437.171875,
+			"width": 338.5478515625,
 			"height": 33.6,
 			"seed": 1211275806,
 			"groupIds": [],
@@ -10108,7 +10108,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "-JIMYy7wJ97oOXAnTbkgR",
 			"originalText": "전문화된 feature engineering 필요",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "rectangle",
@@ -10305,7 +10305,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "Implicit feature",
 			"lineHeight": 1.2,
-			"baseline": 34
+			"baseline": 33
 		},
 		{
 			"type": "text",
@@ -10344,7 +10344,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "식사시간(시간)에 음식 배달 앱(앱 종류)을 자주 다운로드\n앱 종류와 시간 사이의 order-2 Interaction이 \nCTR의 신호\n\n남자(성별) 아이들(나이)이 슈팅게임 어플(앱 종류)을 선호\n성별, 나이, 앱 종류 사이의 order-3 Interaction이\nCTR의 신호\n\n위의 예시들은 누구나 납득할만한 Interaction이며,\n전문가를 고용하여 모델링이 가능",
 			"lineHeight": 1.2,
-			"baseline": 328
+			"baseline": 329
 		},
 		{
 			"type": "text",
@@ -10462,7 +10462,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "CTR",
 			"lineHeight": 1.2,
-			"baseline": 34
+			"baseline": 33
 		},
 		{
 			"type": "text",
@@ -10618,7 +10618,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "CTR",
 			"lineHeight": 1.2,
-			"baseline": 34
+			"baseline": 33
 		},
 		{
 			"type": "text",
@@ -10845,7 +10845,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": null,
 			"originalText": "DEEPFM",
 			"lineHeight": 1.2,
-			"baseline": 34
+			"baseline": 33
 		},
 		{
 			"type": "embeddable",
@@ -11042,7 +11042,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"y": 3602.0402746858567,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#FF7C7C",
-			"width": 205.84375,
+			"width": 136.83595275878906,
 			"height": 33.6,
 			"seed": 624882971,
 			"groupIds": [],
@@ -11061,7 +11061,7 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 			"containerId": "JOGUA6Q0oPDx8B_oGxGCW",
 			"originalText": "입력데이터 구축",
 			"lineHeight": 1.2,
-			"baseline": 28
+			"baseline": 26
 		},
 		{
 			"type": "embeddable",
@@ -11216,10 +11216,10 @@ c88d85034e7df18e8aff59741d8258c97bf86827: [[Pasted Image 20240125235140_523.png]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 4105.73329062751,
-		"scrollY": 1148.8124410896226,
+		"scrollX": 1316.9747398092077,
+		"scrollY": -1987.6915162875198,
 		"zoom": {
-			"value": 0.1
+			"value": 0.837297275364399
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
