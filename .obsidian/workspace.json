@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/디스텔/01_서양미술사01.md",
+                "file": "Book.md",
                 "mode": "source",
                 "source": false
               }
@@ -198,8 +198,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f6878ac96d36097f",
@@ -215,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/디스텔/01_서양미술사01.md",
+                "file": "Book.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/디스텔/01_서양미술사01.md",
+                "file": "Book.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/디스텔/01_서양미술사01.md"
+                "file": "Book.md"
               }
             }
           },
@@ -298,9 +297,11 @@
   },
   "active": "233081bf92a5daee",
   "lastOpenFiles": [
-    "Study/디스텔/00_강의자료.md",
-    "Study/디스텔/01_서양미술사01.md",
+    "000_총류/005 프로그래밍/Coding_Interview/05_Bit Manipulation.md",
+    "000_총류/005 프로그래밍/Coding_Interview/07_Object-Oriented_Design.md",
     "000_총류/060 일반 학회, 단체, 협회, 기관/CTR_Prediction.excalidraw.md",
+    "Study/디스텔/01_서양미술사01.md",
+    "Study/디스텔/00_강의자료.md",
     "Study/하이테크 마케팅/01_.md",
     "Study/친족법/01_가족과_친족.md",
     "000_총류/005 프로그래밍/Coding_Interview/10_.md",
@@ -328,14 +329,12 @@
     "000_총류/005 프로그래밍/Coding_Interview/09_Sysem_Design_and_Scalability.md",
     "규칙.md",
     "Study/디스텔",
-    "Study/Genz/01_7C-UP.md",
     "Study/Genz",
     "Attached file/image/Pasted image 20240224203316.png",
     "Attached file/image/Pasted Image 20240226225216_112.png",
     "Attached file/image/Pasted Image 20240226225214_256.png",
     "Attached file/image/Gen Z의 미래역량과 ‘7C-Up’- 1주차 이경화 교수.pdf",
     "Attached file/image/DigitalStorytelling2024.pdf",
-    "000_총류/005 프로그래밍/Coding_Interview/07_Object-Oriented_Design.md",
     "Attached file/image/Pasted image 20240205213636.png",
     "000_총류/060 일반 학회, 단체, 협회, 기관/Gaussian_Splatting.canvas",
     "Attached file/image/Pasted image 20240201205503.png",
